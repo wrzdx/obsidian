@@ -177,4 +177,5 @@ $$p = \begin{bmatrix}
 -\frac{8}{3}+ \frac{8}{3}t \\ \frac{11}{3}- \frac{14}{3}t \\ -1 + 2t
 \end{bmatrix}$$
 The direction $q= \begin{bmatrix}- 4 \\ 7 \\ -3\end{bmatrix}$:
-$$p \cdot q =
+$$3p \cdot q = 32-32t+77-98t+3-6t=0$$
+$$112=136t$$

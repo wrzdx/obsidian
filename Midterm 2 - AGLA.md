@@ -150,26 +150,24 @@ Now, we can find canonical equation of line via two points:
 $$\frac{x- \frac{2}{3}}{\frac{4}{3}} = \frac{y-\frac{1}{3}}{-\frac{7}{3}}=z$$
 We can also define the vector connecting points $(2,-2,1)$ and $(1,1,-1)$, let it be $p=\begin{bmatrix}1 \\ -3 \\ 2\end{bmatrix}$.
 
-Let us find direction vector of our line by denominators of canonical equation, and since it is just direction vector we can muliply it by some scalar: $q = 3 \cdot \begin{bmatrix} \frac{4}{3} \\ -\frac{4}{3} \\ 1\end{bmatrix} = \begin{bmatrix}4 \\ -4 \\ 3\end{bmatrix}$
+Let us find direction vector of our line by denominators of canonical equation, and since it is just direction vector we can muliply it by some scalar: $q = 3 \cdot \begin{bmatrix} \frac{4}{3} \\ -\frac{7}{3} \\ 1\end{bmatrix} = \begin{bmatrix}4 \\ -7 \\ 3\end{bmatrix}$
 So, we can define distance between point and line from area:
 
-$$S =|p \times q| = \left|\begin{bmatrix}
-0 \\ 2 \\ -1 
-\end{bmatrix} \times \begin{bmatrix}
--4 \\ 7 \\ -3
+$$S =|p \times q| = \left|\begin{bmatrix}1 \\ -3 \\ 2\end{bmatrix} \times \begin{bmatrix}
+4 \\ -7 \\ 3
 \end{bmatrix}\right| = \left|\begin{bmatrix}
-1 \\ 4 \\ 8
-\end{bmatrix}\right| = \sqrt{1+16+64} = \sqrt{81}$$
-$$d = \frac{S}{|q|}=\frac{\sqrt{81}}{\sqrt{16+49+9}} = \frac{9}{\sqrt{74}} = \frac{9\sqrt{74}}{74}$$
-**Answer:** $\frac{9\sqrt{74}}{74}$.
+5 \\ 5 \\ 5
+\end{bmatrix}\right| = \sqrt{75} = 5\sqrt{3}$$
+$$d = \frac{S}{|q|}=\frac{5\sqrt{3}}{\sqrt{16+49+9}} = \frac{5\sqrt{3}}{\sqrt{74}} = \frac{5\sqrt{222}}{74}$$
+**Answer:** $\frac{5\sqrt{222}}{74}$.
 
 **Second Solution:**
 
 Let the vector orthogonal to line and contain given point be $p$.
 The coordinates of the point in line:
-$$\begin{cases}x= \frac{11}{3}-\frac{8}{3}t \\
-y = - \frac{8}{3}+ \frac{14}{3}t \\
-z= -2t\end{cases}$$
+$$\begin{cases}x= \frac{2}{3}+\frac{4}{3}t \\
+y = \frac{1}{3}- \frac{7}{3}t \\
+z= t\end{cases}$$
 Then, 
 $$p = \begin{bmatrix}
 1- \frac{11}{3}+ \frac{8}{3}t \\ 1 + \frac{8}{3} - \frac{14}{3}t \\ -1+2t

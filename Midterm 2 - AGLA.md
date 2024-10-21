@@ -136,19 +136,19 @@ x+y = 1 \\
 x = \frac{2}{3} \\
 y=\frac{1}{3}
 \end{cases}$$
-Let $z=-2$:
+Let $z=1$:
 $$\begin{cases}
-2x-y = 0 \\
-x+y = 3
+x+y = 0 \\
+2x-y =6
 \end{cases} \begin{cases}
-x=1 \\
-y=2
+x = 2 \\
+y=-2
 \end{cases}$$
 Now, we can find canonical equation of line via two points:
 ![](Straight%20line%20in%202D%20plane%20and%203D%20space.%20Equations%20of%20a%20line%20in%20plane..md#^522015)
 
-$$\frac{x- \frac{11}{3}}{-\frac{8}{3}} = \frac{y+\frac{8}{3}}{\frac{14}{3}}=\frac{z}{-2}$$
-We can also define the vector connecting points $(1,2,-2)$ and $(1,1,-1)$, let it be $p=\begin{bmatrix}0 \\ 2 \\ -1\end{bmatrix}$.
+$$\frac{x- \frac{2}{3}}{\frac{4}{3}} = \frac{y-\frac{1}{3}}{-\frac{4}{3}}=z$$
+We can also define the vector connecting points $(2,-2,1)$ and $(1,1,-1)$, let it be $p=\begin{bmatrix}1 \\ -3 \\ -1\end{bmatrix}$.
 
 Let us find direction vector of our line by denominators of canonical equation, and since it is just direction vector we can muliply it by some scalar: $q = \frac{3}{2} \cdot \begin{bmatrix}- \frac{8}{3} \\ \frac{14}{3} \\ -2\end{bmatrix} = \begin{bmatrix}-4 \\ 7 \\ -3\end{bmatrix}$
 So, we can define distance between point and line from area:

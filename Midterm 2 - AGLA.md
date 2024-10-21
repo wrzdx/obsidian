@@ -170,13 +170,13 @@ y = \frac{1}{3}- \frac{7}{3}t \\
 z= t\end{cases}$$
 Then, 
 $$p = \begin{bmatrix}
-1- \frac{11}{3}+ \frac{8}{3}t \\ 1 + \frac{8}{3} - \frac{14}{3}t \\ -1+2t
+1- \frac{2}{3}-\frac{4}{3}t \\ 1 - \frac{1}{3} + \frac{7}{3}t \\ -1-t
 \end{bmatrix} = \begin{bmatrix}
--\frac{8}{3}+ \frac{8}{3}t \\ \frac{11}{3}- \frac{14}{3}t \\ -1 + 2t
+\frac{1}{3}- \frac{4}{3}t \\ \frac{2}{3}+ \frac{7}{3}t \\ -1 -t
 \end{bmatrix}$$
-The direction $q= \begin{bmatrix}- 4 \\ 7 \\ -3\end{bmatrix}$:
-$$3p \cdot q = 32-32t+77-98t+3-6t=0$$
-$$112=136t \Rightarrow t = \frac{14}{17}$$
+The direction $q= \begin{bmatrix} 4 \\ -7 \\ 3\end{bmatrix}$:
+$$3p \cdot q = 4-16t-14-49t-9-9t=0$$
+$$-19=74t \Rightarrow t = -\frac{19}{74}$$
 $$|p| = \left|\begin{bmatrix}
-\frac{25}{17} \\ \frac{20}{17} \\ - \frac{28}{17}
+\frac{1}{3}- 38/ \\ \frac{20}{17} \\ - \frac{28}{17}
 \end{bmatrix}\right| = \frac{3\sqrt{201}}{17}$$

@@ -178,4 +178,7 @@ $$p = \begin{bmatrix}
 \end{bmatrix}$$
 The direction $q= \begin{bmatrix}- 4 \\ 7 \\ -3\end{bmatrix}$:
 $$3p \cdot q = 32-32t+77-98t+3-6t=0$$
-$$112=136t$$
+$$112=136t \Rightarrow t = \frac{14}{17}$$
+$$|p| = \left|\begin{bmatrix}
+\frac{25}{17} \\ \frac{20}{17} \\ - \frac{28}{17}
+\end{bmatrix}\right| = \frac{3\sqrt{201}}{17}$$

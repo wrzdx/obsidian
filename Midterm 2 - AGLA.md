@@ -178,5 +178,7 @@ The direction $q= \begin{bmatrix} 4 \\ -7 \\ 3\end{bmatrix}$:
 $$3p \cdot q = 4-16t-14-49t-9-9t=0$$
 $$-19=74t \Rightarrow t = -\frac{19}{74}$$
 $$|p| = \left|\begin{bmatrix}
-\frac{1}{3}- 38/ \\ \frac{20}{17} \\ - \frac{28}{17}
-\end{bmatrix}\right| = \frac{3\sqrt{201}}{17}$$
+\frac{1}{3}+ \frac{38}{111} \\ \frac{2}{3}- \frac{119}{222}\\ - 1 + \frac{19}{74}
+\end{bmatrix}\right| = \left|\begin{bmatrix}
+\frac{25}{37} \\ - \frac{15}{74} \\ \frac{55}{74}
+\end{bmatrix}\right| = \sqrt{625+225/}$$

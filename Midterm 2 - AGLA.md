@@ -172,5 +172,9 @@ y = - \frac{8}{3}+ \frac{14}{3}t \\
 z= -2t\end{cases}$$
 Then, 
 $$p = \begin{bmatrix}
-1-
+1- \frac{11}{3}+ \frac{8}{3}t \\ 1 + \frac{8}{3} - \frac{14}{3}t \\ -1+2t
+\end{bmatrix} = \begin{bmatrix}
+-\frac{8}{3}+ \frac{8}{3}t \\ \frac{11}{3}- \frac{14}{3}t \\ -1 + 2t
 \end{bmatrix}$$
+The direction $q= \begin{bmatrix}- 4 \\ 7 \\ -3\end{bmatrix}$:
+$$p \cdot q =

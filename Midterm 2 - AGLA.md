@@ -178,8 +178,8 @@ The direction $q= \begin{bmatrix} 4 \\ -7 \\ 3\end{bmatrix}$:
 $$3p \cdot q = 4-16t-14-49t-9-9t=0$$
 $$-19=74t \Rightarrow t = -\frac{19}{74}$$
 $$|p| = \left|\begin{bmatrix}
-\frac{1}{3}+ \frac{38}{111} \\ \frac{2}{3}- \frac{119}{222}\\ - 1 + \frac{19}{74}
+\frac{1}{3}+ \frac{38}{111} \\ \frac{2}{3}- \frac{133}{222}\\ - 1 + \frac{19}{74}
 \end{bmatrix}\right| = \left|\begin{bmatrix}
-\frac{25}{37} \\ - \frac{15}{74} \\ \frac{55}{74}
-\end{bmatrix}\right| = \frac{\sqrt{625+ \frac{225}{4} + \frac{3025}{4}}}{37} = \frac{\sqrt{2500+3250}}{74} = \frac{5\sqrt{100+130}}{74}$$
+\frac{25}{37} \\  \frac{5}{74} \\ -\frac{55}{74}
+\end{bmatrix}\right| = \frac{\sqrt{625+ \frac{25}{4} + \frac{3025}{4}}}{37} = \frac{\sqrt{2500+3250}}{74} = \frac{5\sqrt{100+130}}{74}$$
 $|p| = \frac{5\sqrt{230}}{74}$

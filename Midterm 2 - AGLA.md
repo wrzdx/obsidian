@@ -188,7 +188,9 @@ $|p| = \frac{5\sqrt{222}}{74}$
 ---
 ## Two vertices of a triangle are $(6,-1)$ and $(-2,5)$. If the orthocenter (intersection of altitudes) of the triangle is at $(1,2)$, find the coordinates of the third vertex:
 
-Let our vertices be $P(1,20,\ A(6,-1),\ B(-2,5)$ and $C(x,y)$. Then, 
-- $AB = (-8,6)$
+Let our vertices be $P(1,2),\ A(6,-1),\ B(-2,5)$ and $C(x,y)$. Then, 
+- $BP = (3,-3)$
+- $AP = (-5,3)$
 - $BC=(x+2,y-5)$
 - $AC(x-6,y+1)$
+We know that $BP$ and the altitude from $B$ to $AC$ lies on one line,so we can conclude that vector $\overline{BP}$, and the same for $AP$ and the altitude from $A$ to $BC$.

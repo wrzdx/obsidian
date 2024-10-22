@@ -206,3 +206,9 @@ x = -23 \\
 y = -30
 \end{cases}$$
 **Answer:** **(-23,-30)**.
+
+---
+## In a regular tetrahedron $ABCD$, find the coordinates of the point $M$ in the basis $\{A,AD,AB,AC\}$, if the point $M$ has coordinates $(\frac{1}{3},\frac{1}{3},\frac{1}{3})$ in the basis $\{D,DA,DB,DC\}$.
+
+In new basis 
+Just try to express the vector $DM$ given the data:

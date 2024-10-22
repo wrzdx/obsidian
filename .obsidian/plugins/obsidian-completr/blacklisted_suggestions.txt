@@ -9,3 +9,9 @@ Nancy
 nanometer
 NAND
 aBC
+AbC
+Abc
+ABC
+ABCD
+aBcPg
+ABCFDE

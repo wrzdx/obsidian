@@ -221,12 +221,12 @@ Let us first express the old basis in terms of new basis:
 We know
 $$\begin{cases}
 DM = \frac{1}{3}DA + \frac{1}{3}DB + \frac{1}{3}DC\\
-AM -AD=   DM
+DM = AM - AD
 \end{cases}$$
 We get
-$$DM = \frac{1}{3}AD + \frac{1}{3}AB + \frac{1}{3}AC - DA$$
+$$AM = \frac{1}{3}DA + \frac{1}{3}DB + \frac{1}{3}DC + AD$$
 Substitute
-$$DM = -\frac{1}{3}DA + \frac{1}{3}DB - \frac{1}{3}DA + \frac{1}{3}DC - \frac{1}{3}DA - DA$$
-$$DM = -2DA + \frac{1}{3}DB + \frac{1}{3}DC$$
+$$AM = -\frac{1}{3}AD + \frac{1}{3}AB - \frac{1}{3}AD + \frac{1}{3}AC - \frac{1}{3}AD - AD$$
+$$AM = -2AD + \frac{1}{3}AB + \frac{1}{3}AC$$
 Thus, 
 $$DM = (-2, \frac{1}{3},\frac{1}{3})$$

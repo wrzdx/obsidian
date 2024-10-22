@@ -212,10 +212,18 @@ y = -30
 
 In the new basis $M$ we have the same coordinates as vector $DM$, so we should just try to express given the data the vector $DM$ via new basis.
 
-Let 
+Let us first express the old basis in terms of new basis:
+
+- $AD = -DA$
+- $AB = DB - DA$
+- $AC = DC - DA$
+
+We know
 $$\begin{cases}
 AM = \frac{1}{3}AD + \frac{1}{3}AB + \frac{1}{3}AC\\
 AM = DA + DM
 \end{cases}$$
+We get
 $$DM = \frac{1}{3}AD + \frac{1}{3}AB + \frac{1}{3}AC - DA$$
-
+Substitute
+$$DM = -\frac{1}{3}AD + \frac{1}{3}DB - \frac{1}{3}DA + \frac{1}{3}DC - \frac{1}{3}$$

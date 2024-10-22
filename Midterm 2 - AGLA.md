@@ -186,4 +186,5 @@ $$$$\frac{\sqrt{625+ \frac{25}{4} + \frac{3025}{4}}}{37} = \frac{\sqrt{2500+3050
 $|p| = \frac{5\sqrt{222}}{74}$
 
 ---
-Two vertices of a triangle are $(6,-1)$ and $(-2,5)$. If the orthocenter
+## Two vertices of a triangle are $(6,-1)$ and $(-2,5)$. If the orthocenter (intersection of altitudes) of the triangle is at $(1,2)$, find the coordinates of the third vertex:
+

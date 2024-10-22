@@ -210,18 +210,18 @@ y = -30
 ---
 ## In a regular tetrahedron $ABCD$, find the coordinates of the point $M$ in the basis $\{A,AD,AB,AC\}$, if the point $M$ has coordinates $(\frac{1}{3},\frac{1}{3},\frac{1}{3})$ in the basis $\{D,DA,DB,DC\}$.
 
-In the new basis $M$ we have the same coordinates as vector $AM$, so we should just try to express given the data the vector $DM$ via new basis.
+In the new basis $M$ we have the same coordinates as vector $AM$, so we should just try to express given the data the vector $AM$ via new basis.
 
 Let us first express the old basis in terms of new basis:
 
-- $DA$
-- $AB = DB - DA$
-- $AC = DC - DA$
+- $DA = -AD$
+- $DB = AB - AD$
+- $DC = AC - AD$
 
 We know
 $$\begin{cases}
-AM = \frac{1}{3}AD + \frac{1}{3}AB + \frac{1}{3}AC\\
-AM = DA + DM
+DM = \frac{1}{3}DA + \frac{1}{3}DB + \frac{1}{3}DC\\
+AM -AD=   DM
 \end{cases}$$
 We get
 $$DM = \frac{1}{3}AD + \frac{1}{3}AB + \frac{1}{3}AC - DA$$

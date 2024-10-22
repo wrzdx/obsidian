@@ -193,4 +193,15 @@ Let our vertices be $P(1,2),\ A(6,-1),\ B(-2,5)$ and $C(x,y)$. Then,
 - $AP = (-5,3)$
 - $BC=(x+2,y-5)$
 - $AC(x-6,y+1)$
-We know that $BP$ and the altitude from $B$ to $AC$ lies on one line,so we can conclude that vector $\overline{BP}$, and the same for $AP$ and the altitude from $A$ to $BC$.
+We know that $BP$ and the altitude from $B$ to $AC$ lies on one line,so we can conclude that vector $BP$ is orthogonal to vector $AC$, and the same for $AP$ and the altitude from $A$ to $BC$.
+Hence,
+$$\begin{cases}
+BP \cdot AC = 0 \\
+AP \cdot BC = 0
+\end{cases} \begin{cases}
+3x-18-3y-3 = 0 \\
+-5x -10 +3y-15 = 0
+\end{cases} \begin{cases}
+x = -23 \\
+y = -30
+\end{cases}$$

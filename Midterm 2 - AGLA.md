@@ -226,7 +226,7 @@ DM = AM - AD
 We get
 $$AM = \frac{1}{3}DA + \frac{1}{3}DB + \frac{1}{3}DC + AD$$
 Substitute
-$$AM = -\frac{1}{3}AD + \frac{1}{3}AB - \frac{1}{3}AD + \frac{1}{3}AC - \frac{1}{3}AD - AD$$
-$$AM = -2AD + \frac{1}{3}AB + \frac{1}{3}AC$$
+$$AM = -\frac{1}{3}AD + \frac{1}{3}AB - \frac{1}{3}AD + \frac{1}{3}AC - \frac{1}{3}AD + AD$$
+$$AM =  \frac{1}{3}AB + \frac{1}{3}AC$$
 Thus, 
-$$DM = (-2, \frac{1}{3},\frac{1}{3})$$
+$$AM = (0, \frac{1}{3},\frac{1}{3})$$

@@ -205,3 +205,4 @@ AP \cdot BC = 0
 x = -23 \\
 y = -30
 \end{cases}$$
+**Answer:** **(-23,-30)**.

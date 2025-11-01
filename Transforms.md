@@ -14,8 +14,8 @@
 
 - **3d *transforms*: `rotate3d`, `scale3d`, `translate3d`, `matrix3d`, `perspective`**
 
-- **3d *transforms* works when you declared `perspective` and it’s important to declared it first (leftmost)**
-	`perspective` – make object to render as it was from specific distance on *z*-axis
+- **3d *transforms* начинают работать когда объявлен `perspective` and и важно объявлять его первым (самым левым)**
+	`perspective` – заставляет объект рендерится как если бы он был на определенном расстоянии на *z* оси. Как будто бы объявляем размер задней части 3d объекта, сами мы  
 
 - ***transform* может использовать GPU ускорение рендеринга**
 	Важно когда мы сочетаем *transform* с *transition*

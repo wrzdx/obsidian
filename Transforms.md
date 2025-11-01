@@ -8,4 +8,8 @@
 
 - ***transforms* читаются справа на лево и накладываются относительно origin**
 	origin – типа то что учитывает макет, там где оно было изначально
-		
+	[пример](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform#examples	)
+
+- **3d *transforms*: `rotate`, `scale`, `translate`, `perspective`**
+
+- 

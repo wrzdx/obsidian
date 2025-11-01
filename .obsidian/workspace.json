@@ -141,7 +141,7 @@
       {
         "id": "762a57a3118be348",
         "type": "tabs",
-        "dimension": 68.20388349514563,
+        "dimension": 53.883495145631066,
         "children": [
           {
             "id": "58dfc85ffeb72816",
@@ -179,24 +179,13 @@
               "icon": "lucide-git-fork",
               "title": "Граф Transforms"
             }
-          },
-          {
-            "id": "c792659ddb6aebad",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8230a8f50f8d4fd9",
         "type": "tabs",
-        "dimension": 31.79611650485437,
+        "dimension": 46.116504854368934,
         "children": [
           {
             "id": "e7a551ce9606235a",
@@ -235,15 +224,16 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "e544832d6ccfee55",
+  "active": "c763575cb748721e",
   "lastOpenFiles": [
+    "Lecture 3.md",
+    "Transforms.md",
     "Library/Pasted image 20251101150714.png",
     "Почему стоит ввести записи.md",
     "motivation letter.md",
     "Motivation Letter for 1519 scholarship..md",
     "Motivation.md",
     "Текст для профориентационной беседы.md",
-    "Transforms.md",
     "Advanced HTML and CSS.md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
     "Меню от ChatGPT.md",
@@ -256,7 +246,6 @@
     "Library/149632-noch-anime-atmosfera-vselennaya-kosmos-3840x2160.jpg",
     "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY- 2.png",
     "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY- 1.png",
-    "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY-.png",
     "The first Semester.md",
     "Algorithms to solve DE.md",
     "CV 1519.md",

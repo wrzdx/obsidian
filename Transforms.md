@@ -1,5 +1,5 @@
 - ***transform* не изменяет *document flow*:**
-	При его использовании не пересчитывается весь макет, а изменяется лишь видимая часть, а именно composite stage в [pixel pipeline](https://web.dev/articles/rendering-performance#the_pixel_pipeline). Поэтому он подходит для анимаций больше чем ручной способ с помощью js.  
+	При его использовании не пересчитывается весь макет, а изменяется лишь видимая часть, а именно в последней composite stage в [pixel pipeline](https://web.dev/articles/rendering-performance#the_pixel_pipeline). Поэтому он подходит для анимаций больше чем ручной способ с помощью изменения макета с js.  
 	
 	[Список триггеров css свойств](https://web.archive.org/web/20220727225220/https://csstriggers.com/)
 

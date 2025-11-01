@@ -1,6 +1,61 @@
 {
   "is_obsidian_vault": true,
+  "smart_blocks": {
+    "embed_blocks": true,
+    "min_chars": 200,
+    "embed_model_key": "None",
+    "embed_model": {
+      "None": {}
+    }
+  },
+  "smart_sources": {
+    "single_file_data_path": ".smart-env/smart_sources.json",
+    "min_chars": 200,
+    "embed_model": {
+      "adapter": "transformers",
+      "transformers": {
+        "legacy_transformers": false,
+        "model_key": "TaylorAI/bge-micro-v2"
+      },
+      "TaylorAI/bge-micro-v2": {}
+    },
+    "excluded_headings": "",
+    "file_exclusions": "Untitled",
+    "folder_exclusions": "smart-chats",
+    "embed_model_key": "TaylorAI/bge-micro-v2"
+  },
+  "ribbon_icons": {
+    "connections": true,
+    "random_note": false
+  },
+  "smart_view_filter": {
+    "render_markdown": true,
+    "show_full_path": false,
+    "exclude_blocks_from_source_connections": false,
+    "exclude_frontmatter_blocks": true,
+    "expanded_view": false
+  },
+  "language": "en",
   "new_user": false,
+  "re_import_wait_time": 13,
+  "smart_chat_threads": {
+    "chat_model": {
+      "adapter": "ollama",
+      "ollama": {}
+    },
+    "active_thread_key": "",
+    "system_prompt": "",
+    "detect_self_referential": true,
+    "review_context": true,
+    "stream": true,
+    "language": "en",
+    "modifier_key_to_send": "shift",
+    "use_tool_calls": true
+  },
+  "smart_notices": {
+    "muted": {}
+  },
+  "version": "2.1.101",
   "chat_folder": "smart chat",
   "smart_sources_embed_model": "TaylorAI/bge-micro-v2",
   "smart_blocks_embed_model": "None",
@@ -20,28 +75,11 @@
     "lookup": true
   },
   "api_key": "",
-  "excluded_headings": "",
-  "file_exclusions": "Untitled",
-  "folder_exclusions": "smart-chats",
   "show_full_path": false,
   "expanded_view": true,
-  "language": "en",
   "log_render": false,
   "log_render_files": false,
   "recently_sent_retry_notice": false,
-  "version": "2.1.101",
-  "smart_sources": {
-    "embed_model_key": "TaylorAI/bge-micro-v2",
-    "embed_model": {
-      "TaylorAI/bge-micro-v2": {}
-    }
-  },
-  "smart_blocks": {
-    "embed_model_key": "None",
-    "embed_model": {
-      "None": {}
-    }
-  },
   "smart_chats_folder": "smart-chats",
   "muted_notices": {
     "embedding_progress": true,

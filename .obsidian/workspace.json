@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Введение в курс. Описательная статистика. Разбор задач..md",
+                "file": "Transforms.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -172,15 +172,26 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.0000000000000007,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф Введение в курс. Описательная статистика. Разбор задач."
+              "title": "Граф Transforms"
+            }
+          },
+          {
+            "id": "c792659ddb6aebad",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8230a8f50f8d4fd9",
@@ -193,21 +204,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Введение в курс. Описательная статистика. Разбор задач..md",
+                "file": "Transforms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Введение в курс. Описательная статистика. Разбор задач."
+              "title": "Структура Transforms"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,10 +229,13 @@
       "templates:Вставить шаблон": true,
       "command-palette:Открыть палитру команд": true,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "e544832d6ccfee55",
+  "active": "c792659ddb6aebad",
   "lastOpenFiles": [
     "Advanced HTML and CSS.md",
     "Введение в курс. Описательная статистика. Разбор задач..md",

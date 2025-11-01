@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Definition and properties:
 - A *natural number* is a measure of the quantity of (indivisible) objects.
 - Let $\mathbb{N}$ is the set that satisfies the following two properties:

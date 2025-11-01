@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Material:
 - [Lecture](2024_AGLA1_Lecture_1.pdf)
 # Body:
@@ -55,8 +59,12 @@
   \end{bmatrix}$$
 ## Linear dependency / independency. Basis.
 ### Lemma: 
-- For the linear dependency of the vectors $\vec{a_1},\vec{a_2},...\vec{a_n}$ It's sufficient and necessary to have one of them as a linear combination of the others.
-**Proof:**
+
+^54060e
+
+- For the linear dependency of the vectors $\vec{a_1},\vec{a_2},...\vec{a_n}$ It's sufficient and necessary to have one of them as a linear combination of the others. ^288eaa
+
+**Proof:** ^513663
 1. **Necessity:** Let $\vec{a_{1}},...,\ \vec{a_{n}}$ - linearly dependent $\Rightarrow \exists$ the set of scalars $\lambda_{1},...,\lambda_{n}$ not equal to 0 simultaneously such that: $$\sum^{n}_{i=1}d_{i}\vec{a}_{i}=0\Leftrightarrow\lambda_{1}\vec{a}_{1}+\ ...\ + \lambda_{n}\vec{a}_{n}=0$$$$\vec{a}_{1}+\frac{\lambda_{2}}{\lambda_{1}} \vec{a}_{2}+\ ...\ +\frac{\lambda_{n}}{\lambda_{n}} \vec{a}_{n} = 0 \Rightarrow \vec{a}_{1}=\sum^{n}_{k=2}(-\frac{\lambda_{k}}{\lambda_{1}}\vec{a}_{k})\ \blacksquare$$
  >Есть ли один из векторов можно представить суммой остальных, то мы можем получить нулевой вектор без тривиального случая. Значит, эти вектора линейно зависимы.
 2. **Sufficiency:** Let $\vec{a}_{1}= \sum^{n}_{i=2}\lambda_{i}\vec{a}_{i}$ then $(-1)\vec{a}_{1} + \lambda_{2}\vec{a}_{2} +\ ...\ + \lambda_{n}\vec{a}_{n}=0$, $|-1| + |\lambda_{2}| +\ ...\ + |\lambda_{n}|>0$ - This is a non-trivial case $\rightarrow$ $\vec{a}_{1}+\ ... \ \vec{a}_{n}$ is linearly dependent.

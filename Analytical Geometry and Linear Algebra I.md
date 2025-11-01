@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 **Description:**
 - Lecturer: *Vladimir Ivanov*
 - Telegram: *@nomemm*
@@ -9,9 +13,10 @@
 **Sections:**
 - [Vector Algebra](Vector%20Algebra.md)
 - [Line and Plane](Line%20and%20Plane.md)
-- [Quadratic Curves and Surfaces](Quadratic%20Curves%20and%20Surfaces.md)
 
 **Tests and Exams:**
 
 - [Midterm 1 - AGLA](Midterm%201%20-%20AGLA.md)
 - [Midterm 2 - AGLA](Midterm%202%20-%20AGLA.md)
+- [Pre-Final AGLA 2024](Pre-Final%20AGLA%202024.md)
+

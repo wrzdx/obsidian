@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Material: 
 - [Lecture](https://moodle.innopolis.university/pluginfile.php/210565/mod_resource/content/1/2024%20ItP%2002%20Introduction%20Pub.pdf)
 # Body:

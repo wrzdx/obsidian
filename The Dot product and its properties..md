@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Material: 
 - [Аналитическая Геометрия и Линейная Алгебра](Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf)
 - [Slides](2024_AGLA1_Lecture_1.pdf)
@@ -6,6 +10,9 @@
 >$a*b = |a||b|\cos\theta$, where $\theta$ is the angle between $a$ and $b$.
   ![Photo|500](Pasted%20image%2020240903223757.png)
   [Proof](The%20Dot%20product%20and%20its%20properties..md#^666f08)
+
+^b7a556
+
   
   >[!abstract] Scalar projection of vector $a$ on vector $b$ 
   **A scalar:** $a_{b}=\|a\|\cos \theta$

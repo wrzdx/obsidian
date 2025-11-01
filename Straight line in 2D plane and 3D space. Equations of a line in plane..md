@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Review:
 ---
 >[!abstract] Locus

@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Theory:
 
 ## 1. Definition, simple proofs:

@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Material:
 - [Lecture and Tutorial](https://moodle.innopolis.university/mod/resource/view.php?id=115147)
 - [Lab](https://moodle.innopolis.university/mod/resource/view.php?id=115135)

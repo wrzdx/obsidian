@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # General Equation of a Plane:
 
 >[!abstract] In a rectangular Cartesian coordinate system
@@ -9,6 +13,8 @@
 
 >[!important] We get *the general equation* of the plane:
 >$$A(x-x_{1}) + B(y-y_{1}) + C(z-z_{1}) = 0$$
+
+^0261bf
 
 ---
 # Vector form:

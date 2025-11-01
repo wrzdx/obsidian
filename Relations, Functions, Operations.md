@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Definition:
 - Relation (or predicate) on a set $X$ is some subset $Y$ of $X$.
 - Examples:

@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Basic elements:
 
 > [!abstract] Naive definition

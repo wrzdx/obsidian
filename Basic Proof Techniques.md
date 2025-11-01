@@ -1,3 +1,8 @@
+---
+tags:
+  - 1stYear
+---
+
 # Theorems:
 >[!abstract] Theorem $A\to B$ 
 >$A$ is called a *sufficient condition* for $B$,

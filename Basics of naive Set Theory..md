@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Naive Set Theory postulates existence of:
 - the empty set and enumerable sets, an infinite set,
 - maps (functions from a set in a set) and power-sets (the sets of all subsets of a set),

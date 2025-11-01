@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 **Description:**
 - Lecture: *Nikolay Shilov*
 - Email: n.shilov@innopolis.ru
@@ -8,10 +12,11 @@
 	- *Indefinite and definite integral*
 ---
 **Sections:**
-- [Introduction](Introduction.md)
+- [Introduction to Mathan](Introduction%20to%20Mathan.md)
 - [Theory of limits and continuity](Theory%20of%20limits%20and%20continuity.md)
-- [Differentiation, derivatives, and differential](Differentiation,%20derivatives,%20and%20differential.md)
-- [Indefinite and definite integral](Indefinite%20and%20definite%20integral.md)
+
 ---
 # Tests and Exams:
 - [Midterm 1 - MathAn](Midterm%201%20-%20MathAn.md)
+- [Oral Pol - 2](Oral%20Pol.md)
+- [Oral Por - Final](Oral%20Por%20-%20Final.md)

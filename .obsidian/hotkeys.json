@@ -34,7 +34,14 @@
       "key": "H"
     }
   ],
-  "file-explorer:new-file": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
   "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
@@ -172,6 +179,17 @@
         "Shift"
       ],
       "key": "H"
+    }
+  ],
+  "obsidian-completr:completr-bypass-tab-key": [],
+  "obsidian-completr:completr-bypass-enter-key": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-excalidraw-plugin:fullscreen": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
     }
   ]
 }

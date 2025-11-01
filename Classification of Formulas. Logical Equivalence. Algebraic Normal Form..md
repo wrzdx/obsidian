@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Classification of Formulas:
 - Definition of a (Math Logic) formula:
 	- Any proposition is a formula.

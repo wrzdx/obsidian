@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "280bd7e4a157e82f",
+        "id": "e2523f6bb7ef98f3",
         "type": "tabs",
         "children": [
           {
-            "id": "27367e9fae4622f3",
+            "id": "540d9d8962a5e1b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Midterm 2 - AGLA.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Midterm 2 - AGLA"
-            }
-          },
-          {
-            "id": "f7917cee2a9c77f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Midterm 1 - AGLA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Midterm 1 - AGLA"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -54,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -66,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +67,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
@@ -106,21 +91,19 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Midterm 2 - AGLA.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Midterm 2 - AGLA"
+              "title": "Обратные ссылки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -132,20 +115,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Midterm 2 - AGLA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Midterm 2 - AGLA"
+              "title": "Исходящие ссылки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -162,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Plane in 3D space. Equations..md",
+                "file": "Введение в курс. Описательная статистика. Разбор задач..md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +171,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф Plane in 3D space. Equations."
+              "title": "Граф Введение в курс. Описательная статистика. Разбор задач."
             }
           }
         ]
@@ -206,10 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Plane in 3D space. Equations..md"
+                "file": "Введение в курс. Описательная статистика. Разбор задач..md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Plane in 3D space. Equations."
+              "title": "Структура Введение в курс. Описательная статистика. Разбор задач."
             }
           }
         ]
@@ -221,65 +205,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": true,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": true,
       "templates:Вставить шаблон": true,
       "command-palette:Открыть палитру команд": true,
-      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27367e9fae4622f3",
+  "active": "540d9d8962a5e1b0",
   "lastOpenFiles": [
-    "Midterm 1 - AGLA.md",
-    "Midterm 2 - AGLA.md",
-    "Straight line in 2D plane and 3D space. Equations of a line in plane..md",
-    "Introduction. Vector Spaces. Linear Independence. Basis..md",
-    "Analytical Geometry and Linear Algebra I.md",
-    "Change of Basis. Matrix Inverses..md",
-    "Vector Algebra.md",
-    "Line and Plane.md",
-    "Library/Pasted image 20241020183134.png",
-    "Library/Pasted image 20241020175902.png",
-    "Library/Pasted image 20241020141649.png",
-    "Library/Pasted image 20241020141012.png",
-    "Plane in 3D space. Equations..md",
-    "Library/Pasted image 20241019170533.png",
-    "Library/Pasted image 20241019161641.png",
-    "Library/Pasted image 20241019161325.png",
-    "Library/Pasted image 20241019154250.png",
-    "Library/Pasted image 20241017140250.png",
-    "Library/Pasted image 20241017114740.png",
-    "Innopolis 1st year - Fall Semester.md",
-    "Innopolis University.md",
-    "Home/The Beginning.md",
-    "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
-    "Library/Math/Konev eng.pdf",
-    "Matrix Operations and Vector Cross Product..md",
-    "The Dot product and its properties..md",
-    "Midterm 1 - MathAn.md",
+    "Введение в курс. Описательная статистика. Разбор задач..md",
+    "Меню от ChatGPT.md",
+    "Текст для профориентационной беседы.md",
+    "Library/wallpaperflare.com_wallpaper.jpg",
+    "Library/rLInRjim4Dtr5OGcDxQ6h88Xe33WJWcCkaCx1Gnrbed8P4AUZ0Xj_xsyeys8XfkbG81E8jyTtxiZdqxrqdlnHHv0_2o4g1wjT6qjZiVr1Xq1ochZ0m0AhLkUFjfWqr0KGHxUedul7RGFp-YMtqA0K-OUfSFPfv1aTKk0R5kApamGhOL7fqst4A-r2AmBCV9taku6aqx_BWh51Qz.png",
+    "Library/Pasted image 20240908221344.png",
+    "Library/lckBnikLr0k.jpg",
+    "Library/IMG_7115 (1).jpeg",
+    "Library/448680_The image must be in panorama format with an aspec_xl-1024-v1-0.png",
+    "Library/149632-noch-anime-atmosfera-vselennaya-kosmos-3840x2160.jpg",
+    "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY- 2.png",
+    "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY- 1.png",
+    "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY-.png",
+    "Почему стоит ввести записи.md",
+    "Advanced HTML and CSS.md",
+    "The first Semester.md",
+    "Transforms.md",
+    "Motivation Letter for 1519 scholarship..md",
+    "Algorithms to solve DE.md",
+    "CV 1519.md",
+    "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",
+    "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
+    "Theory of limits and continuity.md",
+    "Theory of sequences and their limits..md",
     "Mathematical Analysis I.md",
+    "Probability and Statistics. Week 2.md",
+    "Excalidraw/Drawing 2025-09-03 15.30.16.excalidraw.md",
+    "Straight line in 2D plane and 3D space. Equations of a line in plane..md",
+    "Midterm 1 - AGLA.md",
+    "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
+    "Introduction. Vector Spaces. Linear Independence. Basis..md",
+    "Vector Algebra.md",
+    "Analytical Geometry and Linear Algebra I.md",
+    "Innopolis 1st year - Fall Semester.md",
+    "Excalidraw",
+    "Probability ans Statistics.md",
+    "Logic and Discrete Mathematics.md",
+    "Innopolis 2st year - Fall Semester.md",
+    "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
+    "Без названия",
+    "Latex",
+    "Без названия.canvas",
+    "Library/Math/Konev eng.pdf",
     "Library/Math/Linear Algebra and Applications.pdf",
     "Library/Math/Analytical Geometry_ 2D and 3D - P. R. Vittal.pdf",
-    "Real functions and their limits at a point..md",
-    "Theory of limits and continuity.md",
-    "Basic Proof Techniques.md",
-    "Basic of Logic.md",
-    "Naive Set Theory.md",
-    "Logic and Discrete Mathematics.md",
-    "Theory of sequences and their limits..md",
-    "Number Systems. Axiomatic approaches..md",
-    "Basics of naive Set Theory..md",
-    "Introduction.md",
     "Library/Math/V.A.Zorich-Kniga-I-10-izdanie-Corr.pdf",
     "Library/English/American_English_File_2_-_Student_39_s_Book.pdf",
-    "Library/2024_AGLA1_Lecture_4.pdf",
-    "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
-    "smart-chats",
-    "Library/Programming/C Programming Language.pdf",
-    "Без названия.canvas",
     "Без названия 4.canvas",
     "Без названия 3.canvas",
     "Без названия 2.canvas",

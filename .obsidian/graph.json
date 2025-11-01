@@ -1,12 +1,27 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#1stYear  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#2ndYear  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1,
@@ -17,6 +32,6 @@
   "repelStrength": 13.5454814814815,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.3737799122547976,
+  "scale": 0.40457075441907814,
   "close": true
 }

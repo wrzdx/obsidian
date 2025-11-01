@@ -4,8 +4,10 @@
   "baseFontSize": 22,
   "enabledCssSnippets": [
     "dashboard",
-    "dashboard-ReadLineLength"
+    "dashboard-ReadLineLength",
+    "image-no-dark"
   ],
   "showViewHeader": true,
-  "accentColor": "#cf4a57"
+  "accentColor": "#cf4a57",
+  "showRibbon": false
 }

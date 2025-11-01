@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 **Code 1:**
 ```C
 #include <stdio.h>

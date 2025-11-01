@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 - **Hierarchy of memories**
   ![|360](Pasted%20image%2020240906175529.png) ^e2843f
 - **Design simplification via abstraction use (a CPU example)**

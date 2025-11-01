@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Sequences and their limits:
 
 - A (real) sequences is a total function $(x_{n})_{n\in N}:\ \mathbb{N}\rightarrow\mathbb{R}$ usually presented as $x_{0}, x_{1},x_{2},...$
@@ -120,6 +124,8 @@
 >	- if $(x_{n})_{n\in \mathbb{N}},$ and $(z_{n})_{n\in \mathbb{N}}$ converge and have joint limit 
 >	- and for all $n\in \mathbb{N}$ holds $x_{n}\leq y_{n} \leq z_{n}$
 >- then $(y_{n})_{n\in \mathbb{N}}$ converges to the same limit as both $(x_{n})_{n\in \mathbb{N}},$ and $(z_{n})_{n\in \mathbb{N}}$.
+
+^a1615c
 
 ---
 # Real number $e$:

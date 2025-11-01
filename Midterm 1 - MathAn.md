@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 $M$ – is a individual number that is equal to sum of the number of your birth day and number of your birth month (i.e., "day" + "month").
 # 1) What does Mathematical Analysis study? (Compare with high school algebra.) How do you understand terms “first-order theory” and “second-order theory”? Give examples of the first-, second- and (optionally) third-order statements in Mathematical Analysis.
 ---
@@ -222,7 +226,7 @@ To prove that $\sqrt{58}$ us irrational, we use a common method: the **contradic
    Multiplying both sides by $q^{2}$ gives:
    $$58q^2 =p^2 $$
    This equation states that $p^{2}$ is divisible by $58$. Therefore, $p$ must also be divisible by $58$ (because if a prime number divides $p^{2}$, it must divide $p$).
-   ---
+---
 3. Let $p = 58k$ for some integer $k$. Substituting this back into the equation gives:
    $$58q^2 = (58k)^2 = 58^2k^2$$
    Dividing both sides by $58$ gives:

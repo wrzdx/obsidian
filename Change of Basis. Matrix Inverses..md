@@ -1,3 +1,7 @@
+---
+tags:
+  - 1stYear
+---
 # Material: 
 
 - [2024_AGLA1_Lecture_4](2024_AGLA1_Lecture_4.pdf)
@@ -81,6 +85,8 @@ x \\ y
 > - $AA^{-1}= A^{-1}A = I$
 > **Example:**
 > ![](Pasted%20image%2020240923105422.png)
+
+^935ff3
 
 > [!abstract] Left inverse
 > Consider an $m\times n$ matrix $A$ and $n\times m$ matrix $B$. 

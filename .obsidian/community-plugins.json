@@ -1,15 +1,13 @@
 [
-  "better-fn",
   "obsidian-completr",
-  "dataview",
   "obsidian-emoji-toolbar",
   "obsidian-footnotes",
-  "obsidian-git",
-  "homepage",
   "obsidian-minimal-settings",
   "note-refactor-obsidian",
-  "obsidian-better-internal-link-inserter",
   "quick-latex",
-  "templater-obsidian",
-  "obsidian-find-and-replace-in-selection"
+  "obsidian-find-and-replace-in-selection",
+  "obsidian-excalidraw-plugin",
+  "multi-column-markdown",
+  "obsidian-smart-typography",
+  "obsidian-git"
 ]

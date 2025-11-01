@@ -16,3 +16,6 @@
 
 - **3d *transforms* works when you declared `perspective` and it’s important to declared it first (leftmost)**
 	`perspective` – make object to render as it was from specific distance on *z*-axis
+
+- ***transform* может использовать GPU ускорение рендеринга**
+	Важно когда мы сочетаем *transform* с *transition*

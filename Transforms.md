@@ -12,4 +12,5 @@
 
 - **3d *transforms*: `rotate`, `scale`, `translate`, `perspective`**
 
+- **3d *transforms* works when you declared `perspective` and it’s important to declared it first (leftmost)**
 - 

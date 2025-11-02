@@ -3189,6 +3189,7 @@ DJD
 DrßN
 DJuO
 DuEQK
+Dragotta
 Lecturer
 Link
 Line
@@ -29237,6 +29238,7 @@ AGiJ
 AYiD
 AHB
 ACCAB
+Andrea
 and
 algebra
 any
@@ -32203,6 +32205,7 @@ asA
 aGQJI
 aIC
 ajaz
+adds
 Plane
 Problem
 Prove
@@ -47004,6 +47007,7 @@ pIZ
 poapA
 pDq
 pxSUN
+perspective
 Read
 Relations
 RY
@@ -53019,6 +53023,7 @@ oCHaj
 okob
 oUOP
 oPxo
+opacity
 lecture
 lineynaya
 linear
@@ -58764,6 +58769,7 @@ ghK
 gsJu
 gSM
 gJM
+grid
 Umnov
 Uniqueness
 Uf
@@ -71894,6 +71900,9 @@ iEg
 ifZ
 iNf
 inline
+isolation
+isolate
+incredible
 For
 Functions
 Frolov
@@ -74969,6 +74978,7 @@ FkOJ
 FoM
 FaR
 FaUJ
+Figma
 vectors
 vector
 variable
@@ -80403,6 +80413,7 @@ fVSb
 fpFW
 fsESvz
 fKz
+flex
 scalars
 sufficient
 settings
@@ -83424,6 +83435,9 @@ sAO
 stml
 sZZL
 svT
+stacking
+sticky
+super
 exist
 excalidraw
 everything
@@ -92715,6 +92729,8 @@ cdg
 cUS
 cJWh
 cWSJ
+clip
+contexts
 Necessity
 Nikolay
 Natural
@@ -101269,6 +101285,9 @@ bKIH
 bjY
 bRe
 button
+blend
+browser
+bunch
 EXCALIDRAW
 Excalidraw
 Elements

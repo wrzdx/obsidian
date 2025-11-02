@@ -36,14 +36,16 @@ div {
   position: relative; /* может быть и absolute */
   z-index: 1;
 }
-
-.some-element {
-  opacity: 0.5; /* любое значение меньше 1 */
-}
-
-.some-element {
-  position: fixed; /* или sticky */
-}
+/*
+- Setting `opacity` to a value less than `1`
+- Setting `position` to `fixed` or `sticky` (No z-index needed for these values!)
+- Applying a `mix-blend-mode` other than `normal`
+- Adding a `z-index` to a child inside a `display: flex` or `display: grid` container
+- Using `transform`, `filter`, `clip-path`, or `perspective`
+- Using `will-change` with a value like `opacity` or `transform`
+- Explicitly creating a context with `isolation: isolate` 
+- and others ...
+*/
 ```
 
 - ***stacking context* это не про родитель/ребенок отношения**

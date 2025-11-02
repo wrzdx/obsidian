@@ -2,4 +2,5 @@
 	Пример:
 	`{css} transition: background-color 1s ease-out 0.25s;`
 
-- 
+- **стараться использовать `opacity` или `transition` для производительности**
+	

@@ -147,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -243,8 +244,8 @@
   "active": "cbbd564cfbafcdce",
   "lastOpenFiles": [
     "Transforms.md",
-    "Advanced HTML and CSS.md",
     "Transitions.md",
+    "Advanced HTML and CSS.md",
     "Lecture 3.md",
     "Library/Pasted image 20251101150714.png",
     "Почему стоит ввести записи.md",

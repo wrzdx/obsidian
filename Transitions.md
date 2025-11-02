@@ -57,3 +57,19 @@ div {
 - **Можно заранее сказать браузеру создать объект на другом слое чтобы все другие слои пропустили некоторые стадии отрисовки страницы. Для этого используют `will-change`. Однако надо измерять performance.**  
 
 - ***easy-out* – для появления, *easy-in* – для ухода, *easy-in-out* – для циклических анимаций, *easy* – значение по-умолчанию. https://easingwizard.com/, https://easings.net/**
+```css
+.btn {
+  /* ease-out */
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  /* ease-in */
+  transition-timing-function: cubic-bezier(0.75, 0, 1, 1);
+
+  /* ease-in-out */
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  /* ease */
+  transition-timing-function: cubic-bezier(0.44, 0.21, 0, 1);
+}
+```
+

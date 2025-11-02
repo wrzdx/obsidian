@@ -51,3 +51,6 @@ div {
 - ***stacking context* это не про родитель/ребенок отношения (ребенок может быть наравне с дядей), однако его изменение сказывается на всех потомках**
 
 - **Используем `isolation: isolate` для того чтобы сделать изолированную компоненту которая не будет конфликтовать с внешним миров**
+
+- **Инструменты для отслеживания и отладки *z-index*’a “Andrea Dragotta created an _incredible_ browser extension that adds a bunch of super-important information about z-index and stacking contexts. It’s available for [Chrome](https://chrome.google.com/webstore/detail/css-stacking-context-insp/apjeljpachdcjkgnamgppgfkmddadcki) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/css-stacking-context-inspector/)” и “[3D view](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/3d-view/)”**
+- 

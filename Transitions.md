@@ -55,3 +55,5 @@ div {
 - **Инструменты для отслеживания и отладки *z-index*’a “Andrea Dragotta created an _incredible_ browser extension that adds a bunch of super-important information about z-index and stacking contexts. It’s available for [Chrome](https://chrome.google.com/webstore/detail/css-stacking-context-insp/apjeljpachdcjkgnamgppgfkmddadcki) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/css-stacking-context-inspector/)” и “[3D view](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/3d-view/)”**
 
 - **Можно заранее сказать браузеру создать объект на другом слое чтобы все другие слои пропустили некоторые стадии отрисовки страницы. Для этого используют `will-change`. Однако надо измерять performance.**  
+
+- ***easy-out* – для появления, *easy-in* – для ухода, *easy-in-out – д***

@@ -31,9 +31,20 @@ div {
 
 - ***stacking context* это как группа объектов в *Figma*, а *z-index* это позиция в группе, у самих *stacking context*’ов тоже есть свой *z-index***
 ```css
-/* Одним из популярных способ создать контекстный стэк */
+/* Способы создания контекстных стеков */
 .some-element {
-  position: relative;
+  position: relative; /* может быть и absolute */
   z-index: 1;
 }
+
+.some-element {
+  opacity: 0.5; /* любое значение меньше 1 */
+}
+
+.some-element {
+  position: fixed; /* или sticky */
+}
 ```
+
+- ***stacking context* это не про родитель/ребенок отношения**
+- 

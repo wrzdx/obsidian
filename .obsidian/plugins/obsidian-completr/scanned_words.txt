@@ -14942,6 +14942,7 @@ TWD
 TnN
 TFiZ
 TXXX
+Transitions
 nomemm
 need
 necessary
@@ -20469,6 +20470,7 @@ tvr
 tIlN
 tvEO
 tqNdZ
+tips
 Course
 Curves
 Continuation
@@ -71891,6 +71893,7 @@ imia
 iEg
 ifZ
 iNf
+inline
 For
 Functions
 Frolov
@@ -89500,6 +89503,7 @@ hkr
 hBR
 htj
 htW
+hints
 combination
 can
 command
@@ -101264,6 +101268,7 @@ bVHR
 bKIH
 bjY
 bRe
+button
 EXCALIDRAW
 Excalidraw
 Elements

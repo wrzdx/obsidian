@@ -27,10 +27,3 @@
 	- `scale` с измененным *origin* можно создать эффект element "growing out of" another one
 	- `rotate` + `translate` - эффект обращения
 	
-
-
-
-
-
-
-

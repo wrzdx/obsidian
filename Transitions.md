@@ -77,4 +77,48 @@ div {
 
 - *Delay* можно использовать, допустим для dropdown menus или подобных динамических элементов которые должны не сразу же исчезать
 
-- 
+- В ситуациях когда эффект тригера тушит тригер, мы должны отделить их друг от друга, чтобы допустим родитель запускал тригер, однако эффект был у ребенка
+```css
+<button class="btn">
+  <span class="background">
+    Hello World
+  </span>
+</button>
+
+<style>
+  .background {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  
+  .btn:hover .background {
+    transition: transform 150ms;
+    transform: translateY(-10px);
+  }
+  
+  /* Toggle me on for a clue! */
+  .btn {
+     outline: auto;
+  }
+  .btn {
+  width: 100px;
+  height: 100px;
+  border: none;
+  background: transparent;
+  padding: 0px;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: slateblue;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+}
+</style>
+```

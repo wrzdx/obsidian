@@ -24,3 +24,6 @@
 	`translate` - можно использовать для *close button*
 	`scale` - можно использовать для эффекта выключения старого телевизора
 	`skew` - можно использовать для создания немного искаженного фона [Stripe](https://stripe.com/)
+	- Чтобы искажения не сказывались на потомках можно для них обратные трансформации делать “[Create Diagonal Layouts Like It's 2020](https://9elements.com/blog/pure-css-diagonal-layouts/)”
+		- `scale` с измененным *origin* можно создать эффект как что
+	

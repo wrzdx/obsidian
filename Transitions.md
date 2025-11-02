@@ -29,4 +29,11 @@ div {
 
 - **Используем `transitionend`,  `transitionrun`,  `transitionstart` события чтобы узнать то переход закончен, началось до задержки, началось после задержки соответственно.**
 
-- ***stacking context* это группа объектов в *Figma*, а *z-index* это позиция в группе, у самих**
+- ***stacking context* это как группа объектов в *Figma*, а *z-index* это позиция в группе, у самих *stacking context*’ов тоже есть свой *z-index***
+```css
+/* Одним из популярных способ создать контекстный стэк */
+.some-element {
+  position: relative;
+  z-index: 1;
+}
+```

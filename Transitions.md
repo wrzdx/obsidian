@@ -19,3 +19,7 @@ div {
   transition-duration: 3s, 5s, 2s, 1s; /* последние два значения отбрасываются */
 }
 ```
+
+- **Дискретные значения как `display` или `content-visibility` переключаются после половины анимации**
+	Однако, для `display: none` or `content-visibility: hidden` переход осуществляется так чтобы во время анимации элемент был виден, но для этого надо установить  [`transition-behavior: allow-discrete`](https://developer.mozilla.org/en
+  

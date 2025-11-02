@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,12 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced HTML and CSS.md",
+                "file": "Transitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Advanced HTML and CSS"
+              "title": "Исходящие ссылки из Transitions"
             }
           }
         ]
@@ -255,11 +255,11 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "c372455e51c8c9cb",
+  "active": "cbbd564cfbafcdce",
   "lastOpenFiles": [
+    "Advanced HTML and CSS.md",
     "Transforms.md",
     "Transitions.md",
-    "Advanced HTML and CSS.md",
     "Lecture 3.md",
     "Library/Pasted image 20251101150714.png",
     "Почему стоит ввести записи.md",

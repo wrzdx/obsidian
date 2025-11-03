@@ -9,5 +9,7 @@
   ],
   "showViewHeader": true,
   "accentColor": "#cf4a57",
-  "showRibbon": false
+  "showRibbon": false,
+  "monospaceFontFamily": "",
+  "textFontFamily": "Inter"
 }

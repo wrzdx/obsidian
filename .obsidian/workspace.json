@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 341.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -212,6 +213,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,

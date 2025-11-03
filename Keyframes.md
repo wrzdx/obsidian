@@ -8,9 +8,11 @@
   - `animation-duration` – продолжительность
   - `animation-fill-mode` – настраивает как стили должны накладываться: `none` стили анимации накладываются после задержки и снимаются как только завершается анимация, `forwards` почти также, но стили в конце не снимаются, `backwards` стили снимаются в конце, однако накладываются перед задержкой, `both` их комбинация.
   - `animation-iteration-count` – количество итераций, может быть вещественным числом или `infinite`
-  - `animation-name` – принимает название `@keyframe`
-  - `animation-play-state` – по умолчанию `running`, однако если изменить на `paused` то остановиться в том же состоянии в котором был.
-  - `animation-timeline` – делает анимацию в зависимости от определенного прогресса, допустим скроллинга или допустим прогресса видимости элемента
-  - `animation-timing-function` – обычная функция времени как у *transition*
-  - `@keyframes duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name` – порядок объявления
-- Если есть более одного 
+  - `{css}animation-name` – принимает название `@keyframe`
+  - `{css}animation-play-state` – по умолчанию `running`, однако если изменить на `paused` то остановиться в том же состоянии в котором был.
+  - `{css}animation-timeline` – делает анимацию в зависимости от определенного прогресса, допустим скроллинга или допустим прогресса видимости элемента
+  - `{css}animation-timing-function` – обычная функция времени как у *transition*
+  - `{css}@keyframes /* duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name */` – порядок объявления
+- **Если есть более одного `@keyframe` с одинаковым названием, то последний только последний останется, без наложений других `@keyframe`**
+- **Если внутри `@keyframe` проценты повторяются, то значению накладываются**
+- Объявления с флагом `{css}!important` игнорируются 

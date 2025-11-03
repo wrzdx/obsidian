@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced HTML and CSS.md",
+                "file": "Transforms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Advanced HTML and CSS"
+              "title": "Transforms"
             }
           },
           {
@@ -243,10 +243,10 @@
   },
   "active": "ad7a390b7cfa52d5",
   "lastOpenFiles": [
+    "Transforms.md",
     "Advanced HTML and CSS.md",
     "Keyframes.md",
     "Transitions.md",
-    "Transforms.md",
     "Lecture 3.md",
     "Library/Pasted image 20251101150714.png",
     "Почему стоит ввести записи.md",

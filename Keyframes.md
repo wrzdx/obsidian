@@ -12,3 +12,5 @@
   - `animation-play-state` – по умолчанию `running`, однако если изменить на `paused` то остановиться в том же состоянии в котором был.
   - `animation-timeline` – делает анимацию в зависимости от определенного прогресса, допустим скроллинга или допустим прогресса видимости элемента
   - `animation-timing-function` – обычная функция времени как у *transition*
+  - `@keyframes duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name` – порядок объявления
+- 

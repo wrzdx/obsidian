@@ -25,28 +25,10 @@
             "id": "643f6c906d75a64b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "bff59593b6450ec8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced HTML and CSS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Advanced HTML and CSS"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -124,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction"
+              "title": "Backlinks"
             }
           }
         ],
@@ -150,19 +131,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Introduction"
+              "title": "Outgoing links"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 240.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -257,11 +237,11 @@
   },
   "active": "643f6c906d75a64b",
   "lastOpenFiles": [
+    "Introduction.md",
     "Library/Pasted image 20251103204359.png",
     "Library/Pasted image 20251103204355.png",
     "Library/Pasted image 20251103202749.png",
     "Modern Operating Systems.md",
-    "Introduction.md",
     "Keyframes.md",
     "Advanced HTML and CSS.md",
     "Transforms.md",
@@ -281,7 +261,6 @@
     "Library/lckBnikLr0k.jpg",
     "Library/IMG_7115 (1).jpeg",
     "Library/448680_The image must be in panorama format with an aspec_xl-1024-v1-0.png",
-    "Library/149632-noch-anime-atmosfera-vselennaya-kosmos-3840x2160.jpg",
     "The first Semester.md",
     "Algorithms to solve DE.md",
     "CV 1519.md",

@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Keyframes.md",
+                "file": "Modern Operating Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Keyframes"
+              "title": "Modern Operating Systems"
+            }
+          },
+          {
+            "id": "643f6c906d75a64b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "bff59593b6450ec8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced HTML and CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Advanced HTML and CSS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Keyframes.md",
+                "file": "Introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Keyframes"
+              "title": "Backlinks for Introduction"
             }
           }
         ],
@@ -121,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Keyframes.md",
+                "file": "Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Keyframes"
+              "title": "Outgoing links from Introduction"
             }
           }
         ]
@@ -227,12 +256,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "ad7a390b7cfa52d5",
+  "active": "643f6c906d75a64b",
   "lastOpenFiles": [
-    "Transforms.md",
+    "Modern Operating Systems.md",
+    "Introduction.md",
     "Keyframes.md",
-    "Transitions.md",
     "Advanced HTML and CSS.md",
+    "Transforms.md",
+    "Transitions.md",
     "Lecture 3.md",
     "Library/Pasted image 20251101150714.png",
     "Почему стоит ввести записи.md",
@@ -264,8 +295,6 @@
     "Straight line in 2D plane and 3D space. Equations of a line in plane..md",
     "Midterm 1 - AGLA.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
-    "Introduction. Vector Spaces. Linear Independence. Basis..md",
-    "Vector Algebra.md",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
     "Без названия",

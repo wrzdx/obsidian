@@ -11,3 +11,7 @@
 Поэтому ОС в основном работает именно в **kernal mode**.
 ![500](Pasted%20image%2020251103202749.png)
 
+## Операционная система как расширенная машина
+
+**Архитектура (Architecture)** – instruction set, memory organization, I/O, and bus struc-
+ture.

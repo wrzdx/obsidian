@@ -13,4 +13,4 @@
   - `animation-timeline` – делает анимацию в зависимости от определенного прогресса, допустим скроллинга или допустим прогресса видимости элемента
   - `animation-timing-function` – обычная функция времени как у *transition*
   - `@keyframes duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name` – порядок объявления
-- 
+- Если есть более одного 

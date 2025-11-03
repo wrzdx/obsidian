@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Keyframes"
             }
+          },
+          {
+            "id": "9d6d9bf274f54d66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transitions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transitions"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Keyframes.md",
+                "file": "Transitions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Keyframes"
+              "title": "Обратные ссылки для Transitions"
             }
           }
         ],
@@ -136,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Keyframes.md",
+                "file": "Transitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Keyframes"
+              "title": "Исходящие ссылки из Transitions"
             }
           }
         ]
@@ -242,11 +256,11 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "ad7a390b7cfa52d5",
+  "active": "9d6d9bf274f54d66",
   "lastOpenFiles": [
     "Transforms.md",
-    "Advanced HTML and CSS.md",
     "Keyframes.md",
+    "Advanced HTML and CSS.md",
     "Transitions.md",
     "Lecture 3.md",
     "Library/Pasted image 20251101150714.png",

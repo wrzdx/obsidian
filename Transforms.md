@@ -5,25 +5,25 @@
 
 - ***transform* можно применить к большинству элементов кроме inline:**
 
-- **2d *transforms*: `rotate`, `scale`, `skew`, `translate`, `matrix`**
+- **2d *transforms*: `{css}rotate`, `{css}scale`, `{css}skew`, `{css}translate`, `{css}matrix`**
 
 - ***transforms* читаются справа на лево и накладываются относительно origin**
 	origin – типа то что учитывает макет, там где оно было изначально
 	[пример](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform#examples	)
 
-- **3d *transforms*: `rotate3d`, `scale3d`, `translate3d`, `matrix3d`, `perspective`**
+- **3d *transforms*: `{css}rotate3d`, `{css}scale3d`, `{css}translate3d`, `{css}matrix3d`, `{css}perspective`**
 
-- **3d *transforms* начинают работать когда объявлен `perspective` and и важно объявлять его первым (самым левым)**
+- **3d *transforms* начинают работать когда объявлен `{css}perspective` and и важно объявлять его первым (самым левым)**
 	`perspective` – заставляет объект рендерится как если бы он был на определенном расстоянии на *z* оси. Аналогия, представьте как если мы перед вами была полка, чем дальше вы от полки тем меньше видишь внутренние боковые стенки, однако чем ближе те лучше ты видишь их.
 
 - ***transform* может использовать GPU ускорение рендеринга**
 	Важно когда мы сочетаем *transform* с *transition*
 
 - **tips / hints:**
-	`translate` - можно использовать для *close button*
-	`scale` - можно использовать для эффекта выключения старого телевизора
-	`skew` - можно использовать для создания немного искаженного фона [Stripe](https://stripe.com/)
+	`{css}translate` - можно использовать для *close button*
+	`{css}scale` - можно использовать для эффекта выключения старого телевизора
+	`{css}skew` - можно использовать для создания немного искаженного фона [Stripe](https://stripe.com/)
 	- Чтобы искажения не сказывались на потомках можно для них обратные трансформации делать “[Create Diagonal Layouts Like It's 2020](https://9elements.com/blog/pure-css-diagonal-layouts/)”
-	- `scale` с измененным *origin* можно создать эффект element "growing out of" another one
-	- `rotate` + `translate` - эффект обращения
+	- `{css}scale` с измененным *origin* можно создать эффект element "growing out of" another one
+	- `{css}rotate` + `{css}translate` - эффект обращения
 	

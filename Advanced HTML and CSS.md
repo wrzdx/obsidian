@@ -6,6 +6,11 @@
 - [Keyframes](Keyframes.md)
 ****
 
+**Accessibility:**
+- Пока что скипну, потому вернусь
+- - -
+
+**Responsive Design:**
 
 
 # Почему я прохожу этот курс:

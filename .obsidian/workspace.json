@@ -108,7 +108,8 @@
               "title": "Обратные ссылки для Advanced HTML and CSS"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -132,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -228,10 +228,10 @@
   },
   "active": "1d59281978e8cd42",
   "lastOpenFiles": [
-    "Без названия.base",
-    "Transforms.md",
-    "Advanced HTML and CSS.md",
     "Keyframes.md",
+    "Advanced HTML and CSS.md",
+    "Transforms.md",
+    "Без названия.base",
     "conflict-files-obsidian-git.md",
     "Modern Operating Systems.md",
     "Library/Pasted image 20251103204359.png",

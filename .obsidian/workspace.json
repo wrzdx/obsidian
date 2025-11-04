@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Keyframes"
             }
+          },
+          {
+            "id": "1a1b5d8e595e5793",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Keyframes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Keyframes"
+            }
+          },
+          {
+            "id": "42ea33c02356b01c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Keyframes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Keyframes"
+              "title": "Обратные ссылки для conflict-files-obsidian-git"
             }
           }
         ],
@@ -121,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Keyframes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Keyframes"
+              "title": "Исходящие ссылки из conflict-files-obsidian-git"
             }
           }
         ]
@@ -226,10 +255,16 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "ad7a390b7cfa52d5",
+  "active": "42ea33c02356b01c",
   "lastOpenFiles": [
-    "Transforms.md",
     "Keyframes.md",
+    "conflict-files-obsidian-git.md",
+    "Modern Operating Systems.md",
+    "Library/Pasted image 20251103204359.png",
+    "Library/Pasted image 20251103204355.png",
+    "Library/Pasted image 20251103202749.png",
+    "Introduction.md",
+    "Transforms.md",
     "Transitions.md",
     "Advanced HTML and CSS.md",
     "Lecture 3.md",
@@ -247,9 +282,6 @@
     "Library/lckBnikLr0k.jpg",
     "Library/IMG_7115 (1).jpeg",
     "Library/448680_The image must be in panorama format with an aspec_xl-1024-v1-0.png",
-    "Library/149632-noch-anime-atmosfera-vselennaya-kosmos-3840x2160.jpg",
-    "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY- 2.png",
-    "Library/fLRDRjim3BxxARHSvgQn7y0mVCew51lQeYrwBLIPZOKvaYSfxR8sxpxAlxAj9WMMGsBnvoC_acBynHIm1LALb8iWg2ZxHJT05clGV2F83JK6bD0ByXOG_721nsVAqE8IdwYHAhtFEgtzd0luOyApuSprMWe8pnBo96Kvo3TW7cYvgpNtorf-gBydWHwuvXZ63V5YHU45Bs69pY- 1.png",
     "The first Semester.md",
     "Algorithms to solve DE.md",
     "CV 1519.md",
@@ -261,10 +293,7 @@
     "Probability and Statistics. Week 2.md",
     "Excalidraw/Drawing 2025-09-03 15.30.16.excalidraw.md",
     "Straight line in 2D plane and 3D space. Equations of a line in plane..md",
-    "Midterm 1 - AGLA.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
-    "Introduction. Vector Spaces. Linear Independence. Basis..md",
-    "Vector Algebra.md",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
     "Без названия",

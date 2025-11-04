@@ -1,15 +1,12 @@
 [
   "obsidian-completr",
-  "obsidian-emoji-toolbar",
   "obsidian-footnotes",
-  "obsidian-minimal-settings",
   "note-refactor-obsidian",
   "quick-latex",
   "obsidian-find-and-replace-in-selection",
-  "obsidian-excalidraw-plugin",
-  "multi-column-markdown",
-  "obsidian-smart-typography",
   "obsidian-git",
-  "smart-connections",
-  "code-styler"
+  "code-styler",
+  "obsidian-style-settings",
+  "multi-column-markdown",
+  "obsidian-smart-typography"
 ]

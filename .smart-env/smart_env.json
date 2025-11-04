@@ -42,7 +42,10 @@
   "smart_chat_threads": {
     "chat_model": {
       "adapter": "ollama",
-      "ollama": {}
+      "ollama": {
+        "model_key": "undefined",
+        "host": "http://localhost:11434"
+      }
     },
     "active_thread_key": "",
     "system_prompt": "",

@@ -1,14 +1,5 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "baseFontSize": 22,
-  "enabledCssSnippets": [
-    "dashboard",
-    "dashboard-ReadLineLength",
-    "image-no-dark"
-  ],
-  "showViewHeader": true,
-  "accentColor": "#cf4a57",
-  "showRibbon": false,
-  "textFontFamily": "Alef"
+  "baseFontSize": 20,
+  "cssTheme": "Blue Topaz",
+  "accentColor": "#c83937"
 }

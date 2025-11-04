@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Advanced HTML and CSS"
             }
+          },
+          {
+            "id": "9ac88a3cd6c3616c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Natural Responsiveness.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Natural Responsiveness"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced HTML and CSS.md",
+                "file": "Natural Responsiveness.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Advanced HTML and CSS"
+              "title": "Обратные ссылки для Natural Responsiveness"
             }
           }
         ],
@@ -121,19 +136,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced HTML and CSS.md",
+                "file": "Natural Responsiveness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Advanced HTML and CSS"
+              "title": "Исходящие ссылки из Natural Responsiveness"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -226,10 +242,11 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "d77b815415f35754",
+  "active": "9ac88a3cd6c3616c",
   "lastOpenFiles": [
-    "Introduction to Responsive Design.md",
     "Advanced HTML and CSS.md",
+    "Natural Responsiveness.md",
+    "Introduction to Responsive Design.md",
     "Introduction.md",
     "Modern Operating Systems.md",
     "Keyframes.md",
@@ -264,7 +281,6 @@
     "Theory of sequences and their limits..md",
     "Mathematical Analysis I.md",
     "Probability and Statistics. Week 2.md",
-    "Excalidraw/Drawing 2025-09-03 15.30.16.excalidraw.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",

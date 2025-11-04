@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ccaf635dfbe4998",
+        "id": "80340eac6a3016b0",
         "type": "tabs",
         "children": [
           {
-            "id": "ad7a390b7cfa52d5",
+            "id": "1d59281978e8cd42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -108,8 +108,7 @@
               "title": "Обратные ссылки для Advanced HTML and CSS"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -133,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -226,8 +226,11 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "ad7a390b7cfa52d5",
+  "active": "1d59281978e8cd42",
   "lastOpenFiles": [
+    "Без названия.base",
+    "Transforms.md",
+    "Advanced HTML and CSS.md",
     "Keyframes.md",
     "conflict-files-obsidian-git.md",
     "Modern Operating Systems.md",
@@ -235,9 +238,7 @@
     "Library/Pasted image 20251103204355.png",
     "Library/Pasted image 20251103202749.png",
     "Introduction.md",
-    "Transforms.md",
     "Transitions.md",
-    "Advanced HTML and CSS.md",
     "Lecture 3.md",
     "Library/Pasted image 20251101150714.png",
     "Почему стоит ввести записи.md",
@@ -263,7 +264,6 @@
     "Mathematical Analysis I.md",
     "Probability and Statistics. Week 2.md",
     "Excalidraw/Drawing 2025-09-03 15.30.16.excalidraw.md",
-    "Straight line in 2D plane and 3D space. Equations of a line in plane..md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
@@ -274,7 +274,6 @@
     "Library/Math/Linear Algebra and Applications.pdf",
     "Library/Math/Analytical Geometry_ 2D and 3D - P. R. Vittal.pdf",
     "Library/Math/V.A.Zorich-Kniga-I-10-izdanie-Corr.pdf",
-    "Library/English/American_English_File_2_-_Student_39_s_Book.pdf",
     "Без названия 4.canvas",
     "Без названия 3.canvas",
     "Без названия 2.canvas",

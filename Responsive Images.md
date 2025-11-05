@@ -10,6 +10,7 @@
 
 - `object-fit` – как `background-size`, но работает для `img` тегов.
   Значения могут быть `fill` (по умолчанию), `contain`, `cover`, `none`, `scale-down`.
+- `object-postition` – как `background-position`.
 
 # Адаптивное изменение изображения
 
@@ -98,4 +99,7 @@
 </picture>
 ```
 
+## Autogeneration, CSS responsive Images 
 
+- Существуют инструменты для автоматической генерации адаптивных изображения.
+- 

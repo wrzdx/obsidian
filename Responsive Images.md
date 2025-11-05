@@ -17,4 +17,20 @@
 
 - Проблема загрузки одного изображения с разными разрешениями в зависимости от размера экрана устройства называется **resolution switching problem**.
 
+## Resolution Switching: Different sizes
 
+Стандартный `img` позволяет толко указывать браузеру на истноник изображения:
+```css
+<img src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy" />
+``` 
+
+Однако мы можем использовать два атрибута – `srcset` и `sizes` – для предоставления дополнительных источников и подсказок для правильного выбора между ними. 
+```css
+<img
+  srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+  sizes="(width <= 600px) 480px,
+         800px"
+  src="elva-fairy-800w.jpg"
+  alt="Elva dressed as a fairy" />
+```
+ 

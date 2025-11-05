@@ -12193,6 +12193,7 @@ IcKj
 IcT
 IIYB
 ICGCY
+Images
 Telegram
 Theorem
 Text
@@ -29246,7 +29247,6 @@ AHB
 ACCAB
 Andrea
 Animation
-Accessibility
 and
 algebra
 any
@@ -32214,7 +32214,6 @@ aGQJI
 aIC
 ajaz
 adds
-appearance
 Plane
 Problem
 Prove
@@ -50197,7 +50196,6 @@ RMP
 RRg
 RaaD
 Responsive
-Responsiveness
 of
 one
 others
@@ -135615,7 +135613,6 @@ HSg
 HRWt
 HZU
 HuQo
-HEAD
 XKo
 Xg
 XWo

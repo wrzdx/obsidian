@@ -26390,6 +26390,7 @@ SSD
 Solid
 Switching
 Same
+Safari
 Algebra
 AGLA
 Assignments
@@ -29249,6 +29250,7 @@ AHB
 ACCAB
 Andrea
 Animation
+Auto
 and
 algebra
 any
@@ -55842,6 +55844,7 @@ lFe
 lSd
 lmy
 leftmost
+lazy
 geometria
 gN
 gQ
@@ -80434,6 +80437,7 @@ fsESvz
 fKz
 flex
 flash
+fallback
 scalars
 sufficient
 settings
@@ -83459,6 +83463,7 @@ stacking
 sticky
 super
 struc
+stuff
 exist
 excalidraw
 everything
@@ -117174,6 +117179,7 @@ wVa
 wIB
 wTx
 woJH
+webp
 under
 up
 unclear
@@ -123275,6 +123281,7 @@ render
 react
 resolution
 resolutions
+responsive
 Zorich
 ZM
 ZB

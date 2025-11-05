@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Что такое ОС.md",
+                "file": "Обзор компьютерного оборудования.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Что такое ОС"
+              "title": "Backlinks for Обзор компьютерного оборудования"
             }
           }
         ],
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Что такое ОС.md",
+                "file": "Обзор компьютерного оборудования.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Что такое ОС"
+              "title": "Outgoing links from Обзор компьютерного оборудования"
             }
           }
         ]
@@ -252,15 +252,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "f7eed0d5eed8ab25",
+  "active": "133f0db98a107554",
   "lastOpenFiles": [
+    "История операционных систем.md",
+    "Что такое ОС.md",
     "Обзор компьютерного оборудования.md",
     "Library/Pasted image 20251105215951.png",
     "Library/Pasted image 20251105215522.png",
     "Library/Pasted image 20251105213645.png",
-    "История операционных систем.md",
     "Introduction.md",
-    "Что такое ОС.md",
     "Library/Pasted image 20251105193311.png",
     "CV 1519.md",
     "Library/Pasted image 20251105165911.png",

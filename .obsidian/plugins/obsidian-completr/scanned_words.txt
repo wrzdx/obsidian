@@ -26408,6 +26408,8 @@ Sharing
 Service
 Scale
 Symbian
+Status
+Superscalar
 Algebra
 AGLA
 Assignments
@@ -92791,6 +92793,7 @@ cWSJ
 clip
 contexts
 cloud
+counter
 Necessity
 Nikolay
 Natural

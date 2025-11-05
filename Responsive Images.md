@@ -89,4 +89,13 @@
 
 - Можно использовать для персонализации сайта для каждого пользователя – темный режим, использование статичных изображений вместо гифок и тд.
 
-- Можно использовать для *fallback*’ов современных форматов, например *webp*.
+- Можно использовать для *fallback*’ов современных форматов, например *webp* не поддерживает *Safari* но оно поддреживает *jpg 2000*:
+```html
+<picture>
+  <source srcset="/images/cereal-box.webp" type="image/webp" />
+  <source srcset="/images/cereal-box.jp2" type="image/jp2" />
+  <img src="/images/cereal-box.jxr" type="image/vnd.ms-photo" />
+</picture>
+```
+
+

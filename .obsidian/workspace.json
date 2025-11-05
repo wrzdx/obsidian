@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Обзор компьютерного оборудования.md",
+                "file": "Что такое ОС.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Обзор компьютерного оборудования"
+              "title": "Backlinks for Что такое ОС"
             }
           }
         ],
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Обзор компьютерного оборудования.md",
+                "file": "Что такое ОС.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Обзор компьютерного оборудования"
+              "title": "Outgoing links from Что такое ОС"
             }
           }
         ]
@@ -252,13 +252,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "133f0db98a107554",
+  "active": "f7eed0d5eed8ab25",
   "lastOpenFiles": [
+    "Обзор компьютерного оборудования.md",
+    "Library/Pasted image 20251105215951.png",
     "Library/Pasted image 20251105215522.png",
     "Library/Pasted image 20251105213645.png",
     "История операционных систем.md",
     "Introduction.md",
-    "Обзор компьютерного оборудования.md",
     "Что такое ОС.md",
     "Library/Pasted image 20251105193311.png",
     "CV 1519.md",
@@ -285,8 +286,6 @@
     "Текст для профориентационной беседы.md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
     "Меню от ChatGPT.md",
-    "Library/wallpaperflare.com_wallpaper.jpg",
-    "Library/rLInRjim4Dtr5OGcDxQ6h88Xe33WJWcCkaCx1Gnrbed8P4AUZ0Xj_xsyeys8XfkbG81E8jyTtxiZdqxrqdlnHHv0_2o4g1wjT6qjZiVr1Xq1ochZ0m0AhLkUFjfWqr0KGHxUedul7RGFp-YMtqA0K-OUfSFPfv1aTKk0R5kApamGhOL7fqst4A-r2AmBCV9taku6aqx_BWh51Qz.png",
     "The first Semester.md",
     "Algorithms to solve DE.md",
     "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",

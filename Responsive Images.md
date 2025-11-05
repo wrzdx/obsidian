@@ -56,4 +56,15 @@
 Здесь мы не указываем `sizes` так как браузер сам будет выбирать в зависимости от разрешения экрана пользователя, указывается сколько *device pixels* приходится на один *css pixel* в `srcset`.
 
 
-## 
+## Art direction
+
+Для реализации логики, когда для разных размеров экрана используем разные изображения, мы используем `picture` тег.
+```css
+<picture>
+  <source media="(width < 800px)" srcset="elva-480w-close-portrait.jpg" />
+  <source media="(width >= 800px)" srcset="elva-800w.jpg" />
+  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+</picture>
+```
+
+`picture` элемент является оберткой для нескольких `source` элементов, которые предоставляют источники для разных изображений, и в конце `img` элемента для обратной совместимости.  

@@ -99,7 +99,7 @@
 </picture>
 ```
 
-## Autogeneration, CSS responsive Images and other important stuff
+## Auto-generation, CSS responsive Images and other important stuff
 
 - Существуют инструменты для автоматической генерации адаптивных изображения.
 - Для создания адаптивных изображений с css, можно использовать медиа запросы

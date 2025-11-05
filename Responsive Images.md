@@ -4,7 +4,8 @@
 
 # background-size, background-position and object-fit
 
-- `background-size` + `background-position` предоставляют довольно много контроля над отображением изображения. Работают они на элементах у которых есть *background image*. 
-  Значения для `background-size` – `cover`, `contain`, одно значение для ширины, если два то второе для высоты.
-  Значению для `background-position` – `center`
-- 
+- `background-size` + `background-position` предоставляют довольно много контроля над отображением изображения. Работают они на элементах у которых есть *background image* (для `img` тегов не работает). 
+  Значения для `background-size` – `cover`, `contain`, `auto`, одно значение для ширины, если два то второе для высоты.
+  Значения для `background-position` – `center`
+
+- `object-fit` – как предыдущая связка, но работает для `img` тегов.

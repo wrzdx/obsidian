@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "2452e89d71640c79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "История операционных систем.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "История операционных систем"
+            }
+          },
+          {
             "id": "f7eed0d5eed8ab25",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Что такое ОС"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Responsive Images.md",
+                "file": "История операционных систем.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Responsive Images"
+              "title": "Backlinks for История операционных систем"
             }
           }
         ],
@@ -135,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Responsive Images.md",
+                "file": "История операционных систем.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Responsive Images"
+              "title": "Outgoing links from История операционных систем"
             }
           }
         ]
@@ -237,10 +252,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "eeafd54d5f3aee86",
+  "active": "2452e89d71640c79",
   "lastOpenFiles": [
-    "Что такое ОС.md",
     "Introduction.md",
+    "История операционных систем.md",
+    "Что такое ОС.md",
     "Modern Operating Systems.md",
     "Без названия.base",
     "Responsive Images.md",
@@ -275,7 +291,6 @@
     "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
     "Theory of limits and continuity.md",
     "Theory of sequences and their limits..md",
-    "Mathematical Analysis I.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",

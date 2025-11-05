@@ -10,3 +10,5 @@
 
 - `object-fit` – как `background-size`, но работает для `img` тегов.
   Значения могут быть `fill` (по умолчанию), `contain`, `cover`, `none`, `scale-down`.
+
+# Адпитавное изменение изображения

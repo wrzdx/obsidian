@@ -99,7 +99,11 @@
 </picture>
 ```
 
-## Autogeneration, CSS responsive Images 
+## Autogeneration, CSS responsive Images and other important stuff
 
 - Существуют инструменты для автоматической генерации адаптивных изображения.
-- 
+- Для создания адаптивных изображений с css, можно использовать медиа запросы
+- Сжимать изображения для легкости 
+- Использовать CDN сервисы
+- Использовать *`Cache-Control` header* для кеширования
+- Использовать *lazy loading*

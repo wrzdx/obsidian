@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "133f0db98a107554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Обзор компьютерного оборудования.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Обзор компьютерного оборудования"
+            }
+          },
+          {
             "id": "f7eed0d5eed8ab25",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Что такое ОС"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "История операционных систем.md",
+                "file": "Обзор компьютерного оборудования.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for История операционных систем"
+              "title": "Backlinks for Обзор компьютерного оборудования"
             }
           }
         ],
@@ -135,20 +150,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "История операционных систем.md",
+                "file": "Обзор компьютерного оборудования.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from История операционных систем"
+              "title": "Outgoing links from Обзор компьютерного оборудования"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -237,15 +251,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "eeafd54d5f3aee86",
+  "active": "133f0db98a107554",
   "lastOpenFiles": [
-    "Library/Pasted image 20251105193311.png",
-    "Introduction.md",
-    "CV 1519.md",
     "История операционных систем.md",
+    "Introduction.md",
+    "Обзор компьютерного оборудования.md",
+    "Что такое ОС.md",
+    "Library/Pasted image 20251105193311.png",
+    "CV 1519.md",
     "Library/Pasted image 20251105165911.png",
     "Library/Pasted image 20251105165312.png",
-    "Что такое ОС.md",
     "Modern Operating Systems.md",
     "Без названия.base",
     "Responsive Images.md",
@@ -270,7 +285,6 @@
     "Library/wallpaperflare.com_wallpaper.jpg",
     "Library/rLInRjim4Dtr5OGcDxQ6h88Xe33WJWcCkaCx1Gnrbed8P4AUZ0Xj_xsyeys8XfkbG81E8jyTtxiZdqxrqdlnHHv0_2o4g1wjT6qjZiVr1Xq1ochZ0m0AhLkUFjfWqr0KGHxUedul7RGFp-YMtqA0K-OUfSFPfv1aTKk0R5kApamGhOL7fqst4A-r2AmBCV9taku6aqx_BWh51Qz.png",
     "Library/Pasted image 20240908221344.png",
-    "Library/lckBnikLr0k.jpg",
     "The first Semester.md",
     "Algorithms to solve DE.md",
     "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",

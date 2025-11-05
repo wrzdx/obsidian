@@ -3192,6 +3192,10 @@ DuEQK
 Dragotta
 Delay
 Drives
+DOS
+Disk
+Distributed
+Digital
 Lecturer
 Link
 Line
@@ -5819,6 +5823,8 @@ LXBJ
 LeB
 LCYy
 LqWoTd
+Labs
+Large
 Vladimir
 Vector
 VIEW
@@ -12194,6 +12200,9 @@ IcT
 IIYB
 ICGCY
 Images
+Information
+IEEE
+Integration
 Telegram
 Theorem
 Text
@@ -14947,6 +14956,7 @@ TnN
 TFiZ
 TXXX
 Transitions
+Timesharing
 nomemm
 need
 necessary
@@ -23428,6 +23438,8 @@ CIUQ
 CHL
 CIYNr
 Comeau
+CTSS
+Compatible
 Sections
 Surfaces
 Spaces
@@ -26391,6 +26403,11 @@ Solid
 Switching
 Same
 Safari
+Simultaneous
+Sharing
+Service
+Scale
+Symbian
 Algebra
 AGLA
 Assignments
@@ -29252,6 +29269,8 @@ Andrea
 Animation
 Auto
 Assembler
+Assistant
+Android
 and
 algebra
 any
@@ -34937,6 +34956,9 @@ PNgK
 PZBR
 PWf
 PERN
+Peripheral
+POSIX
+Personal
 Quadratic
 Qn
 QL
@@ -40469,6 +40491,7 @@ BTHZ
 BGh
 Bud
 BTgcrM
+Bell
 Material
 MORE
 Mathematical
@@ -44015,6 +44038,9 @@ MEtqKO
 MongoDB
 Multiplexing
 Monitor
+MULTICS
+MULTiplexed
+MINIX
 pdf
 previous
 prove
@@ -47027,6 +47053,7 @@ pxSUN
 perspective
 pixels
 pixel
+partition
 Read
 Relations
 RY
@@ -61939,6 +61966,7 @@ Uuvu
 UIOP
 UJWR
 UPfu
+UNIX
 Watch
 We
 What
@@ -83467,6 +83495,7 @@ sticky
 super
 struc
 stuff
+spooling
 exist
 excalidraw
 everything
@@ -92761,6 +92790,7 @@ cJWh
 cWSJ
 clip
 contexts
+cloud
 Necessity
 Nikolay
 Natural
@@ -95445,6 +95475,7 @@ NTYw
 Nfz
 NznA
 Network
+NOKIA
 Given
 Graphs
 Gg
@@ -98630,6 +98661,8 @@ GGW
 GKW
 Gxg
 GraphQL
+GUI
+Gnome
 basis
 be
 bd

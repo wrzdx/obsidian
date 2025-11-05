@@ -11,10 +11,14 @@
             "id": "eeafd54d5f3aee86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
             }
           }
         ]
@@ -221,13 +225,13 @@
   },
   "active": "eeafd54d5f3aee86",
   "lastOpenFiles": [
+    "Modern Operating Systems.md",
     "Без названия.base",
     "Responsive Images.md",
     "Advanced HTML and CSS.md",
     "Natural Responsiveness.md",
     "Introduction to Responsive Design.md",
     "Introduction.md",
-    "Modern Operating Systems.md",
     "Library/Pasted image 20251103204359.png",
     "Library/Pasted image 20251103204355.png",
     "Library/Pasted image 20251103202749.png",

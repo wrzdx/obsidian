@@ -26388,6 +26388,8 @@ SgY
 Supervisor
 SSD
 Solid
+Switching
+Same
 Algebra
 AGLA
 Assignments
@@ -44009,6 +44011,7 @@ MBR
 MEtqKO
 MongoDB
 Multiplexing
+Monitor
 pdf
 previous
 prove
@@ -47019,6 +47022,8 @@ poapA
 pDq
 pxSUN
 perspective
+pixels
+pixel
 Read
 Relations
 RY
@@ -50196,6 +50201,7 @@ RMP
 RRg
 RaaD
 Responsive
+Resolution
 of
 one
 others
@@ -95430,6 +95436,7 @@ NwT
 NTYw
 Nfz
 NznA
+Network
 Given
 Graphs
 Gg
@@ -123266,6 +123273,8 @@ rbB
 replaced
 render
 react
+resolution
+resolutions
 Zorich
 ZM
 ZB

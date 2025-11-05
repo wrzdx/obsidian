@@ -45,4 +45,15 @@
 
 ### Same size, different resolutions
 
-Для low-resolution экранов, картинка будет загружаться с 
+Для low-resolution экранов, картинка будет загружаться с низким качеством и соответственно с легким весом, в то время как для high-resolution экранов с высоким качеством и более тяжелым весом.
+```css
+<img
+  srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+  src="elva-fairy-640w.jpg"
+  alt="Elva dressed as a fairy" />
+```
+
+Здесь мы не указываем `sizes` так как браузер сам будет выбирать в зависимости от разрешения экрана пользователя, указывается сколько *device pixels* приходится на один *css pixel* в `srcset`.
+
+
+## 

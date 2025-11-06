@@ -40,18 +40,22 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 
 **Example 1:**
 *A\* with radius = 1*
-After *(2, 0)* keep ring putting on, so failed on *(0, 7)*
+After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)*
 
 ![600](Pasted%20image%2020251106080309.png)
 
 *A\* with radius = 2*
-Everything is okay, because agent knows more info about environment.
+Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch the ring further.
 
 ![600](Pasted%20image%2020251106080342.png)
 
 **Example 2:**
 *A\* with radius = 1*
-After *1, 7* keep ring putting on, so failed on *12, 5*
-![500](Pasted%20image%2020251031031615.png)
+After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)*
+
+![600](Pasted%20image%2020251106082133.png)
+
 *A\* with radius = 2*
+Everything is okay, because agent knows *(0, 6)* is safe, and he can switch the ring further.
+
 ![500](Pasted%20image%2020251031031647.png)

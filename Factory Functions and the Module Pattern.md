@@ -17,4 +17,25 @@ function createUser (name) {
 // we don't need a new keyword
 ```
 
-Фабрики еще хороши для приватных полей, к ним никак не получится извне 
+Фабрики еще хороши для **приватных полей**, к ним никак не получится извне обратиться.
+
+У фабрик тоже есть наследование:
+```javascript
+function createPlayer (name, level) {
+  const { getReputation, giveReputation } = createUser(name);
+
+  const increaseLevel = () => level++;
+  return { name, getReputation, giveReputation, increaseLevel };
+}
+```
+
+```javascript
+function createPlayer (name, level) {
+  const user = createUser(name);
+
+  const increaseLevel = () => level++;
+  return Object.assign({}, user, { increaseLevel });
+}
+```
+
+Фабрики раньше, когда не было *IIFE*, использовались как модули, все внутренную логику скрывали предостваляя только чистый интерфейс. 

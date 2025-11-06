@@ -49,8 +49,7 @@
               "title": "Webpack"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSON.md",
+                "file": "JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JSON"
+              "title": "Backlinks for JavaScript"
             }
           }
         ],
@@ -150,12 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSON.md",
+                "file": "JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from JSON"
+              "title": "Outgoing links from JavaScript"
             }
           }
         ]
@@ -252,8 +251,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "a36e13c45e67e915",
+  "active": "fb20a8f908d09987",
   "lastOpenFiles": [
+    "Linting.md",
     "JavaScript.md",
     "JSON.md",
     "Webpack.md",
@@ -292,7 +292,6 @@
     "Transforms.md",
     "Transitions.md",
     "Lecture 3.md",
-    "Почему стоит ввести записи.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",

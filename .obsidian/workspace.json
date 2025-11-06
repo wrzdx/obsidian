@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced HTML and CSS.md",
+                "file": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Advanced HTML and CSS"
+              "title": "Обратные ссылки для Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings."
             }
           }
         ],
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced HTML and CSS.md",
+                "file": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Advanced HTML and CSS"
+              "title": "Исходящие ссылки из Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings."
             }
           }
         ]

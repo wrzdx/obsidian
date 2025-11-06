@@ -40,28 +40,37 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 
 **Example 1:**
 
---- start-multi-column: ID_y1y8
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-
+--- start-multi-column: ExampleRegion1  
+```column-settings  
+number of columns: 2  
+border: disabled
+shadow: off
 ```
+
 *A\* with radius = 1*
 After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)*
+
+--- end-column ---
+
+*A\* with radius = 2*
+Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch the ring further.
+
+--- end-multi-column
+
+
+
 
 
 ![500](Pasted%20image%2020251106080309.png)
 
 
---- column-break ---
 
-*A\* with radius = 2*
-Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch the ring further.
+
 
 ![500](Pasted%20image%2020251106080342.png)
 
 
---- end-multi-column
+
 
 
 

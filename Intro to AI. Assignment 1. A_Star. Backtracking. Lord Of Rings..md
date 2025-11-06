@@ -8,6 +8,7 @@ The **A* algorithm** employs a heuristic approach using priority queues to navig
 
 Both algorithms incorporate the same ring-switching mechanism that prevents entering hazardous areas and restricts ring toggling in life-threatening situations. This safety protocol ensures the agent never moves into danger zones or performs unsafe ring operations regardless of the pathfinding strategy employed.
 
+
 # Statistical Analysis
 
 Based on 1000 randomly generated test maps:
@@ -21,12 +22,7 @@ Based on 1000 randomly generated test maps:
 | Backtracking | 2      | 1000 | 0      | 100.0%   | 1.334s    | 1.367s      | 0.352s   |
 
 **Key Findings:** Backtracking achieves slightly higher success rate (97.8% vs 95.3%) for radius 1 but is significantly slower, taking approximately 5.6 times longer than A*. Both algorithms achieve perfect success with radius 2, though backtracking remains considerably slower. The consistent low standard deviation in A*'s execution time indicates more predictable performance compared to backtracking's higher variability.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 # PEAS Description for Actor Agent
 **Performance Measure:** Successful navigation to goal, minimization of execution time, avoidance of hazardous zones, efficient ring switching decisions.
 
@@ -41,8 +37,8 @@ The analysis revealed several maps where both algorithms failed with radius 1, p
 
 An interesting outcome worth highlighting is that while backtracking demonstrated marginally better success rates for challenging radius-1 configurations, its computational expense makes it impractical for time-sensitive applications. The perfect performance of both algorithms with radius 2 suggests that increased perception range significantly mitigates navigation challenges in this environment.
 
-## Maps:
 
+## Maps:
 **Example 1:**
 > [!col]
 > *A\* with radius = 1*
@@ -52,12 +48,6 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 > *A\* with radius = 2*
 > Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch   the ring further.
 > ![400](Pasted%20image%2020251106080342.png)
-> 
-
-<br>
-<br>
-<br>
-<br>
 
 
 **Example 2:**
@@ -65,9 +55,9 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 > [!col]
 > *A\* with radius = 1*
 > After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)* <br>
-> ![400](Pasted%20image%2020251106082133.png)
+> ![450](Pasted%20image%2020251106082133.png)
 >
 > *A\* with radius = 2*
 > Everything is okay, because agent knows 
 > *(0, 6)* is safe, and he can switch the ring further.
-> ![400](Pasted%20image%2020251106082612.png)
+> ![450](Pasted%20image%2020251106082612.png)

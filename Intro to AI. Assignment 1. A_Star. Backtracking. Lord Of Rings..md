@@ -63,5 +63,3 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 > *(0, 6)* is safe, and he can switch the ring further.
 > ![450](Pasted%20image%2020251106082612.png)
 
-
-

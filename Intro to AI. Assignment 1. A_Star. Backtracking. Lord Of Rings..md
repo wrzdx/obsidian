@@ -49,11 +49,17 @@ shadow: off
 
 *A\* with radius = 1*
 After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)*
+<br>
+
+![500](Pasted%20image%2020251106080309.png)
 
 --- end-column ---
 
 *A\* with radius = 2*
 Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch the ring further.
+
+![500](Pasted%20image%2020251106080342.png)
+
 
 --- end-multi-column
 
@@ -61,13 +67,11 @@ Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he ca
 
 
 
-![500](Pasted%20image%2020251106080309.png)
 
 
 
 
 
-![500](Pasted%20image%2020251106080342.png)
 
 
 

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "57e2b10c14e61662",

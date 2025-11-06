@@ -40,10 +40,14 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 
 **Example 1:**
 *A\* with radius = 1*
-After *0, 3* keep ring putting on, so failed on *7, 12*
-![500](Pasted%20image%2020251031031244.png)
+After *(2, 0)* keep ring putting on, so failed on *(0, 7)*
+
+![600](Pasted%20image%2020251106080309.png)
+
 *A\* with radius = 2*
-![500](Pasted%20image%2020251031031516.png)
+Everything is okay, because agent knows more info about environment.
+
+![600](Pasted%20image%2020251106080342.png)
 
 **Example 2:**
 *A\* with radius = 1*

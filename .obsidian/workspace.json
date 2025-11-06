@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a9d121d95c5799d1",
+        "id": "80340eac6a3016b0",
         "type": "tabs",
         "children": [
           {
-            "id": "eeafd54d5f3aee86",
+            "id": "d77b815415f35754",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "История операционных систем.md",
+                "file": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "История операционных систем"
-            }
-          },
-          {
-            "id": "133f0db98a107554",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Обзор компьютерного оборудования.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Обзор компьютерного оборудования"
-            }
-          },
-          {
-            "id": "f7eed0d5eed8ab25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Что такое ОС.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Что такое ОС"
+              "title": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings."
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Обзор компьютерного оборудования.md",
+                "file": "Advanced HTML and CSS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Обзор компьютерного оборудования"
+              "title": "Обратные ссылки для Advanced HTML and CSS"
             }
           }
         ],
@@ -150,19 +121,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Обзор компьютерного оборудования.md",
+                "file": "Advanced HTML and CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Обзор компьютерного оборудования"
+              "title": "Исходящие ссылки из Advanced HTML and CSS"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
+    "width": 322.5,
     "collapsed": true
   },
   "right": {
@@ -242,42 +213,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": true,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": true,
+      "templates:Вставить шаблон": true,
+      "command-palette:Открыть палитру команд": true,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "133f0db98a107554",
+  "active": "d77b815415f35754",
   "lastOpenFiles": [
+    "Library/Pasted image 20251106080342.png",
+    "Library/Pasted image 20251106080309.png",
+    "Advanced HTML and CSS.md",
+    "Что такое ОС.md",
+    "Обзор компьютерного оборудования.md",
+    "История операционных систем.md",
+    "Responsive Images.md",
     "Library/Pasted image 20251106005632.png",
     "Library/Pasted image 20251105225832.png",
     "Library/Pasted image 20251105225605.png",
     "Library/Pasted image 20251105225413.png",
     "Library/Pasted image 20251105224625.png",
-    "История операционных систем.md",
-    "Что такое ОС.md",
-    "Обзор компьютерного оборудования.md",
     "Library/Pasted image 20251105215951.png",
     "Library/Pasted image 20251105215522.png",
     "Library/Pasted image 20251105213645.png",
-    "Introduction.md",
     "Library/Pasted image 20251105193311.png",
-    "CV 1519.md",
-    "Library/Pasted image 20251105165911.png",
-    "Library/Pasted image 20251105165312.png",
-    "Modern Operating Systems.md",
-    "Без названия.base",
-    "Responsive Images.md",
-    "Advanced HTML and CSS.md",
     "Natural Responsiveness.md",
     "Introduction to Responsive Design.md",
+    "Introduction.md",
+    "Modern Operating Systems.md",
     "Keyframes.md",
     "Transforms.md",
+    "Без названия.base",
+    "conflict-files-obsidian-git.md",
     "Transitions.md",
     "Lecture 3.md",
     "Почему стоит ввести записи.md",
@@ -289,8 +260,8 @@
     "Меню от ChatGPT.md",
     "The first Semester.md",
     "Algorithms to solve DE.md",
+    "CV 1519.md",
     "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",
-    "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",

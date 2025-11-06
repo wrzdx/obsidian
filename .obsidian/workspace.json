@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV 1519.md",
+                "file": "Media Queries.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для CV 1519"
+              "title": "Обратные ссылки для Media Queries"
             }
           }
         ],
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV 1519.md",
+                "file": "Media Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из CV 1519"
+              "title": "Исходящие ссылки из Media Queries"
             }
           }
         ]

@@ -24,6 +24,13 @@ body {
 @media (50em >= width >= 30em) { /* … */ }
 ```
 
+Можно медиа запросы перечислят через запятую, это будет все равное что использовать `or`
+Кроме `or`, есть еще `and`, `not` и `only`.
+```css
+@media (height >= 680px), screen and (orientation: portrait) {
+  /* … */
+}
+```
 # Common breakpoints
 
 Смартфоны ≤ 500, планшеты ≤ 1000, ноуты и компы ≤ 2000

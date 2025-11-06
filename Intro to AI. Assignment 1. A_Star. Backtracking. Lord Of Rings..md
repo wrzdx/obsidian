@@ -39,23 +39,41 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 ## Maps:
 
 **Example 1:**
+
+--- start-multi-column: ID_y1y8
+```column-settings
+Number of Columns: 2
+Largest Column: standard
+
+```
 *A\* with radius = 1*
 After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)*
 
-![600](Pasted%20image%2020251106080309.png)
+
+![500](Pasted%20image%2020251106080309.png)
+
+
+--- column-break ---
 
 *A\* with radius = 2*
 Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch the ring further.
 
-![600](Pasted%20image%2020251106080342.png)
+![500](Pasted%20image%2020251106080342.png)
+
+
+--- end-multi-column
+
+
+
+
 
 **Example 2:**
 *A\* with radius = 1*
 After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)*
 
-![600](Pasted%20image%2020251106082133.png)
+![500](Pasted%20image%2020251106082133.png)
 
 *A\* with radius = 2*
 Everything is okay, because agent knows *(0, 6)* is safe, and he can switch the ring further.
 
-![500](Pasted%20image%2020251031031647.png)
+![500](Pasted%20image%2020251106082612.png)

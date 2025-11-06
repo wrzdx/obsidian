@@ -103,7 +103,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/template.html",
+      template: "./src/index.html",
     }),
   ],
   module: {
@@ -127,4 +127,134 @@ import { greeting } from "./greeting.js";
 console.log(greeting);
 ```
 
+# Loading images
 
+Изображения которые импортируются в *css* уже обрабатываются *css-loader*’ом
+
+Для изображений которые импортируются в *html* надо снова скачивать плагин
+
+```bash
+npm install --save-dev html-loader
+```
+
+В `rules` добавляем
+
+```javascript
+{
+  test: /\.html$/i,
+  loader: "html-loader",
+}
+```
+
+Для изображений которые импортируются в *js* мы должны написать правило в параметрах *webpack*
+
+В `rules` добавляем
+
+```javascript
+{
+  test: /\.(png|svg|jpg|jpeg|gif)$/i,
+  type: "asset/resource",
+}
+```
+
+Использование 
+
+```javascript
+// src/index.js
+import odinImage from "./odin.png";
+   
+const image = document.createElement("img");
+image.src = odinImage;
+   
+document.body.appendChild(image);
+```
+
+Итого наш *webpack.config.js*
+
+```javascript
+// webpack.config.js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+    }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
+};
+```
+
+# Webpack dev server
+
+Для автоматической трансляции изменений мы можем скачать плагин
+
+```bash
+npm install --save-dev webpack-dev-server
+```
+
+И обновить конфиг файл
+
+```javascript
+// webpack.config.js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  devtool: "eval-source-map",
+  devServer: {
+    watchFiles: ["./src/index.html"], // просм
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+    }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
+};
+```

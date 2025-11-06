@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "a1180a5a66f51a26",
+            "id": "67118a1c5e1011bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ES6 Modules.md",
+                "file": "Webpack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ES6 Modules"
+              "title": "Webpack"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ES6 Modules.md",
+                "file": "Webpack.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ES6 Modules"
+              "title": "Backlinks for Webpack"
             }
           }
         ],
@@ -136,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ES6 Modules.md",
+                "file": "Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ES6 Modules"
+              "title": "Outgoing links from Webpack"
             }
           }
         ]
@@ -238,9 +238,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "a1180a5a66f51a26",
+  "active": "67118a1c5e1011bf",
   "lastOpenFiles": [
     "JavaScript.md",
+    "Webpack.md",
     "ES6 Modules.md",
     "Classes.md",
     "Factory Functions and the Module Pattern.md",
@@ -278,7 +279,6 @@
     "Lecture 3.md",
     "Почему стоит ввести записи.md",
     "motivation letter.md",
-    "Motivation Letter for 1519 scholarship..md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",

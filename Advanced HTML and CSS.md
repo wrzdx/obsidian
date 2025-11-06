@@ -13,6 +13,7 @@
 **Responsive Design:**
 - [Introduction to Responsive Design](Introduction%20to%20Responsive%20Design.md)
 - [Natural Responsiveness](Natural%20Responsiveness.md)
+- [Responsive Images](Responsive%20Images.md)
 
 
 

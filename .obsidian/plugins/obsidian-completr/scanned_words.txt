@@ -3192,6 +3192,10 @@ DuEQK
 Dragotta
 Delay
 Drives
+DOS
+Disk
+Distributed
+Digital
 Lecturer
 Link
 Line
@@ -5819,6 +5823,8 @@ LXBJ
 LeB
 LCYy
 LqWoTd
+Labs
+Large
 Vladimir
 Vector
 VIEW
@@ -12193,6 +12199,10 @@ IcKj
 IcT
 IIYB
 ICGCY
+Images
+Information
+IEEE
+Integration
 Telegram
 Theorem
 Text
@@ -14946,6 +14956,7 @@ TnN
 TFiZ
 TXXX
 Transitions
+Timesharing
 nomemm
 need
 necessary
@@ -23427,6 +23438,8 @@ CIUQ
 CHL
 CIYNr
 Comeau
+CTSS
+Compatible
 Sections
 Surfaces
 Spaces
@@ -26387,6 +26400,16 @@ SgY
 Supervisor
 SSD
 Solid
+Switching
+Same
+Safari
+Simultaneous
+Sharing
+Service
+Scale
+Symbian
+Status
+Superscalar
 Algebra
 AGLA
 Assignments
@@ -29246,7 +29269,10 @@ AHB
 ACCAB
 Andrea
 Animation
-Accessibility
+Auto
+Assembler
+Assistant
+Android
 and
 algebra
 any
@@ -32214,7 +32240,6 @@ aGQJI
 aIC
 ajaz
 adds
-appearance
 Plane
 Problem
 Prove
@@ -34933,6 +34958,9 @@ PNgK
 PZBR
 PWf
 PERN
+Peripheral
+POSIX
+Personal
 Quadratic
 Qn
 QL
@@ -40465,6 +40493,7 @@ BTHZ
 BGh
 Bud
 BTgcrM
+Bell
 Material
 MORE
 Mathematical
@@ -44010,6 +44039,10 @@ MBR
 MEtqKO
 MongoDB
 Multiplexing
+Monitor
+MULTICS
+MULTiplexed
+MINIX
 pdf
 previous
 prove
@@ -47020,6 +47053,9 @@ poapA
 pDq
 pxSUN
 perspective
+pixels
+pixel
+partition
 Read
 Relations
 RY
@@ -50197,7 +50233,7 @@ RMP
 RRg
 RaaD
 Responsive
-Responsiveness
+Resolution
 of
 one
 others
@@ -55838,6 +55874,7 @@ lFe
 lSd
 lmy
 leftmost
+lazy
 geometria
 gN
 gQ
@@ -61931,6 +61968,7 @@ Uuvu
 UIOP
 UJWR
 UPfu
+UNIX
 Watch
 We
 What
@@ -74994,6 +75032,7 @@ FoM
 FaR
 FaUJ
 Figma
+Fortran
 vectors
 vector
 variable
@@ -77719,6 +77758,7 @@ vOYJ
 vSUR
 voA
 vault
+views
 for
 file
 form
@@ -80430,6 +80470,7 @@ fsESvz
 fKz
 flex
 flash
+fallback
 scalars
 sufficient
 settings
@@ -83455,6 +83496,8 @@ stacking
 sticky
 super
 struc
+stuff
+spooling
 exist
 excalidraw
 everything
@@ -92749,6 +92792,8 @@ cJWh
 cWSJ
 clip
 contexts
+cloud
+counter
 Necessity
 Nikolay
 Natural
@@ -95432,6 +95477,8 @@ NwT
 NTYw
 Nfz
 NznA
+Network
+NOKIA
 Given
 Graphs
 Gg
@@ -98617,6 +98664,8 @@ GGW
 GKW
 Gxg
 GraphQL
+GUI
+Gnome
 basis
 be
 bd
@@ -111137,6 +111186,7 @@ mhe
 mlZU
 mSiq
 menus
+mainframes
 You
 YC
 YR
@@ -117169,6 +117219,7 @@ wVa
 wIB
 wTx
 woJH
+webp
 under
 up
 unclear
@@ -123268,6 +123319,9 @@ rbB
 replaced
 render
 react
+resolution
+resolutions
+responsive
 Zorich
 ZM
 ZB
@@ -135615,7 +135669,6 @@ HSg
 HRWt
 HZU
 HuQo
-HEAD
 XKo
 Xg
 XWo

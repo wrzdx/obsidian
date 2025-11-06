@@ -195,5 +195,14 @@
   "hotkeysplus-obsidian:toggle-block-quote": [],
   "hotkeysplus-obsidian:toggle-bullet-number": [],
   "hotkeysplus-obsidian:toggle-embed": [],
-  "hotkeysplus-obsidian:better-toggle-todo": []
+  "hotkeysplus-obsidian:better-toggle-todo": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
 }

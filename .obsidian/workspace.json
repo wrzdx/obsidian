@@ -194,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transforms.md",
+                "file": "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Transforms"
+              "title": "Структура Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings."
             }
           }
         ]
@@ -219,7 +219,8 @@
       "daily-notes:Сегодняшняя заметка": true,
       "templates:Вставить шаблон": true,
       "command-palette:Открыть палитру команд": true,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "d77b815415f35754",

@@ -39,12 +39,15 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 ## Maps:
 
 **Example 1:**
-
-| *A\* with radius = 1*                                                                                                               | *A\* with radius = 2*                                                                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)*<br><br><br>![500](Pasted%20image%2020251106080309.png)<br> | Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch   the ring further.<br><br>![500](Pasted%20image%2020251106080342.png)<br><br> |
-|                                                                                                                                     |                                                                                                                                                                         |
-
+> [!col]
+> *A\* with radius = 1*
+> After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)* <br>
+> ![500](Pasted%20image%2020251106080309.png)
+>
+> *A\* with radius = 2*
+> Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch   the ring further.
+> ![500](Pasted%20image%2020251106080342.png)
+> 
 
 
 **Example 2:**

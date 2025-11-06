@@ -2,12 +2,13 @@
   "obsidian-completr",
   "obsidian-emoji-toolbar",
   "obsidian-footnotes",
-  "note-refactor-obsidian",
   "quick-latex",
   "obsidian-find-and-replace-in-selection",
   "obsidian-smart-typography",
   "obsidian-git",
   "code-styler",
   "obsidian-style-settings",
-  "obsidian-columns"
+  "obsidian-columns",
+  "note-refactor-obsidian",
+  "hotkeysplus-obsidian"
 ]

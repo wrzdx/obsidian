@@ -26,6 +26,7 @@ Based on 1000 randomly generated test maps:
 # PEAS Description for Actor Agent
 **Performance Measure:** Successful navigation to goal, minimization of execution time, avoidance of hazardous zones, efficient ring switching decisions.
 
+
 **Environment:** Grid-based world with dynamic obstacles, ring-dependent zone accessibility, limited switching permissions, and time-sensitive constraints.
 
 **Actuators:** Movement in four directions (up, down, left, right), ring mode toggling capability, path selection decision-making.
@@ -54,7 +55,7 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 
 > [!col]
 > *A\* with radius = 1*
-> After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)* <br>
+> After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)*
 > ![450](Pasted%20image%2020251106082133.png)
 >
 > *A\* with radius = 2*

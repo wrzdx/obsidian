@@ -6,21 +6,28 @@
 - [Webpack](Webpack.md)
 - [JSON](JSON.md)
 - OOP Principles
+---
 
 **JavaScript in the Real World:**
 - Linting 
 - Form Validation
+---
 
 **Asynchronous JavaScript and APIs:**
+
+---
 
 **Intermediate Git:**
 - A Deeper Look at Git 
 - Working with Remotes 
 - Using Git in the Real world
+---
 
 **Testing JavaScript:**
 - Testing Basics 
-- 
+- More Testing 
+---
+
 **Other stuff:**
 - for … in and for … of 
 - script defer

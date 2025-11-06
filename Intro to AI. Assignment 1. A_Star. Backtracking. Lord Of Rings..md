@@ -8,6 +8,7 @@ The **A* algorithm** employs a heuristic approach using priority queues to navig
 
 Both algorithms incorporate the same ring-switching mechanism that prevents entering hazardous areas and restricts ring toggling in life-threatening situations. This safety protocol ensures the agent never moves into danger zones or performs unsafe ring operations regardless of the pathfinding strategy employed.
 
+
 # Statistical Analysis
 
 Based on 1000 randomly generated test maps:
@@ -25,6 +26,7 @@ Based on 1000 randomly generated test maps:
 # PEAS Description for Actor Agent
 **Performance Measure:** Successful navigation to goal, minimization of execution time, avoidance of hazardous zones, efficient ring switching decisions.
 
+
 **Environment:** Grid-based world with dynamic obstacles, ring-dependent zone accessibility, limited switching permissions, and time-sensitive constraints.
 
 **Actuators:** Movement in four directions (up, down, left, right), ring mode toggling capability, path selection decision-making.
@@ -36,18 +38,28 @@ The analysis revealed several maps where both algorithms failed with radius 1, p
 
 An interesting outcome worth highlighting is that while backtracking demonstrated marginally better success rates for challenging radius-1 configurations, its computational expense makes it impractical for time-sensitive applications. The perfect performance of both algorithms with radius 2 suggests that increased perception range significantly mitigates navigation challenges in this environment.
 
-## Maps:
 
+## Maps:
 **Example 1:**
-*A\* with radius = 1*
-After *0, 3* keep ring putting on, so failed on *7, 12*
-![500](Pasted%20image%2020251031031244.png)
-*A\* with radius = 2*
-![500](Pasted%20image%2020251031031516.png)
+> [!col]
+> *A\* with radius = 1*
+> After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)* <br>
+> ![400](Pasted%20image%2020251106080309.png)
+>
+> *A\* with radius = 2*
+> Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch   the ring further.
+> ![400](Pasted%20image%2020251106080342.png)
+
 
 **Example 2:**
-*A\* with radius = 1*
-After *1, 7* keep ring putting on, so failed on *12, 5*
-![500](Pasted%20image%2020251031031615.png)
-*A\* with radius = 2*
-![500](Pasted%20image%2020251031031647.png)
+
+> [!col]
+> *A\* with radius = 1*
+> After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)*
+> ![450](Pasted%20image%2020251106082133.png)
+>
+> *A\* with radius = 2*
+> Everything is okay, because agent knows 
+> *(0, 6)* is safe, and he can switch the ring further.
+> ![450](Pasted%20image%2020251106082612.png)
+

@@ -3192,10 +3192,6 @@ DuEQK
 Dragotta
 Delay
 Drives
-DOS
-Disk
-Distributed
-Digital
 Lecturer
 Link
 Line
@@ -5823,8 +5819,6 @@ LXBJ
 LeB
 LCYy
 LqWoTd
-Labs
-Large
 Vladimir
 Vector
 VIEW
@@ -12200,9 +12194,6 @@ IcT
 IIYB
 ICGCY
 Images
-Information
-IEEE
-Integration
 Telegram
 Theorem
 Text
@@ -14956,7 +14947,6 @@ TnN
 TFiZ
 TXXX
 Transitions
-Timesharing
 nomemm
 need
 necessary
@@ -23441,9 +23431,6 @@ CIUQ
 CHL
 CIYNr
 Comeau
-CTSS
-Compatible
-Context
 Sections
 Surfaces
 Spaces
@@ -26404,17 +26391,6 @@ SgY
 Supervisor
 SSD
 Solid
-Switching
-Same
-Safari
-Simultaneous
-Sharing
-Service
-Scale
-Symbian
-Status
-Superscalar
-SSDs
 Algebra
 AGLA
 Assignments
@@ -29274,10 +29250,7 @@ AHB
 ACCAB
 Andrea
 Animation
-Auto
-Assembler
-Assistant
-Android
+Accessibility
 and
 algebra
 any
@@ -32245,6 +32218,7 @@ aGQJI
 aIC
 ajaz
 adds
+appearance
 Plane
 Problem
 Prove
@@ -34963,10 +34937,6 @@ PNgK
 PZBR
 PWf
 PERN
-Peripheral
-POSIX
-Personal
-Persistent
 Quadratic
 Qn
 QL
@@ -37767,6 +37737,7 @@ QYY
 QWAQ
 QEQU
 QTD
+Queries
 Basis
 Body
 Basic
@@ -40499,8 +40470,6 @@ BTHZ
 BGh
 Bud
 BTgcrM
-Bell
-BIOS
 Material
 MORE
 Mathematical
@@ -44046,11 +44015,7 @@ MBR
 MEtqKO
 MongoDB
 Multiplexing
-Monitor
-MULTICS
-MULTiplexed
-MINIX
-Management
+Media
 pdf
 previous
 prove
@@ -47061,9 +47026,6 @@ poapA
 pDq
 pxSUN
 perspective
-pixels
-pixel
-partition
 Read
 Relations
 RY
@@ -50241,8 +50203,7 @@ RMP
 RRg
 RaaD
 Responsive
-Resolution
-ROM
+Responsiveness
 of
 one
 others
@@ -53083,6 +53044,7 @@ okob
 oUOP
 oPxo
 opacity
+okay
 lecture
 lineynaya
 linear
@@ -55883,8 +55845,6 @@ lFe
 lSd
 lmy
 leftmost
-lazy
-loader
 geometria
 gN
 gQ
@@ -61978,8 +61938,6 @@ Uuvu
 UIOP
 UJWR
 UPfu
-UNIX
-Units
 Watch
 We
 What
@@ -75043,8 +75001,6 @@ FoM
 FaR
 FaUJ
 Figma
-Fortran
-Flash
 vectors
 vector
 variable
@@ -80483,7 +80439,7 @@ fsESvz
 fKz
 flex
 flash
-fallback
+flexlible
 scalars
 sufficient
 settings
@@ -83509,8 +83465,6 @@ stacking
 sticky
 super
 struc
-stuff
-spooling
 switch
 exist
 excalidraw
@@ -92807,9 +92761,6 @@ cJWh
 cWSJ
 clip
 contexts
-cloud
-counter
-core
 Necessity
 Nikolay
 Natural
@@ -95493,9 +95444,6 @@ NwT
 NTYw
 Nfz
 NznA
-Network
-NOKIA
-Nonvolatile
 Given
 Graphs
 Gg
@@ -98681,8 +98629,6 @@ GGW
 GKW
 Gxg
 GraphQL
-GUI
-Gnome
 basis
 be
 bd
@@ -104560,9 +104506,7 @@ EevO
 EmHH
 EWqrm
 EPQ
-EEPROM
-Electrically
-Erasable
+Everything
 OPTIONS
 Operations
 Obtain
@@ -111208,8 +111152,6 @@ mhe
 mlZU
 mSiq
 menus
-mainframes
-multithreading
 You
 YC
 YR
@@ -117242,7 +117184,6 @@ wVa
 wIB
 wTx
 woJH
-webp
 under
 up
 unclear
@@ -123342,9 +123283,6 @@ rbB
 replaced
 render
 react
-resolution
-resolutions
-responsive
 Zorich
 ZM
 ZB
@@ -135692,7 +135630,7 @@ HSg
 HRWt
 HZU
 HuQo
-HDDs
+HEAD
 XKo
 Xg
 XWo
@@ -148029,7 +147967,7 @@ kHs
 kTGI
 keyframe
 kernal
-kernel
+knows
 yn
 yhR
 yg

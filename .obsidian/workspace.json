@@ -34,19 +34,9 @@
               "icon": "lucide-file",
               "title": "Media Queries"
             }
-          },
-          {
-            "id": "8e97ace9b7886882",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Media Queries.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Media Queries"
             }
           }
         ],
@@ -145,11 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Media Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из Media Queries"
             }
           }
         ]
@@ -174,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Media Queries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +194,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф"
+              "title": "Граф Media Queries"
             }
           }
         ]
@@ -217,19 +210,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Media Queries.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура Media Queries"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,7 +239,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8e97ace9b7886882",
+  "active": "832f159622cc7268",
   "lastOpenFiles": [
     "Media Queries.md",
     "Algorithms to solve DE.md",

@@ -231,9 +231,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
-  devtool: "eval-source-map",
+  devtool: "eval-source-map", // Для корректного отображения различных сообщений и нашего кода в devtools, так как webpack комкует весь код и чтобы мы не увидили какой-нибудь хэш
   devServer: {
-    watchFiles: ["./src/index.html"], // просм
+    watchFiles: ["./src/index.html"], // просматриваемый файл
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -258,3 +258,33 @@ module.exports = {
   },
 };
 ```
+
+Команда для запуска
+
+```bash
+npx webpack serve
+```
+
+# Deploy
+
+```bash
+git add dist -f && git commit -m "Deployment commit"
+git subtree push --prefix dist origin gh-pages
+git checkout main
+```
+
+# npm scripts
+
+Можно использовать свои кастомные скрипты, объявив их в *package.json*
+
+```json
+"scripts": {
+	"build": "webpack --config webpack.prod.js", // Разделение конфигов, будет
+	"dev": "webpack serve --config webpack.dev.js", // Освещено далее
+	"deploy": "git subtree push --prefix dist origin gh-pages"
+},
+```
+
+# Webpack modes
+
+Короче

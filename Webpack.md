@@ -287,4 +287,64 @@ git checkout main
 
 # Webpack modes
 
-Короче
+Короче, можно разделить конфиги для продакшена и для разработки.
+Делается это с помощью плагина *webpack merge*
+```bash
+npm install --save-dev webpack-merge
+```
+
+Общая часть конфигов может быть такой *webpack.common.js*
+
+```js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+	entry: "./src/index.js",
+	output: {
+		filename: "main.js",
+		path: path.resolve(__dirname, "dist"),
+		clean: true,
+	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: "./src/index.html",
+		}),
+	],
+	module: {
+		rules: [
+			{
+				test: /\.css$/i,
+				use: ["style-loader", "css-loader"],
+			},
+		],
+	},
+};
+```
+
+Конфиг для разработки *webpack.dev.js*
+
+```js
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common.js');
+
+module.exports = merge(common, {
+	mode: 'development',
+	devtool: "eval-source-map",
+	devServer: {
+		watchFiles: ["./src/index.html"],
+	},
+});
+```
+
+Конфиг для разработки *webpack.prod.js*
+
+```js
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common.js');
+
+module.exports = merge(common, {
+	mode: 'production',
+	devtool: 'source-map',
+});
+```

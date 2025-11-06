@@ -4,6 +4,7 @@
 - [Classes](Classes.md)
 - [ES6 Modules](ES6%20Modules.md)
 - [Webpack](Webpack.md)
+- [JSON](JSON.md)
 
 
 **Other stuff:**

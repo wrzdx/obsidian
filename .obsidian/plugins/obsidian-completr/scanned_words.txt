@@ -17769,6 +17769,7 @@ nzc
 nOXZO
 nmT
 nMLD
+nonvolatile
 to
 the
 topics
@@ -20485,6 +20486,8 @@ tIlN
 tvEO
 tqNdZ
 tips
+trap
+track
 Course
 Curves
 Continuation
@@ -23440,6 +23443,7 @@ CIYNr
 Comeau
 CTSS
 Compatible
+Context
 Sections
 Surfaces
 Spaces
@@ -26410,6 +26414,7 @@ Scale
 Symbian
 Status
 Superscalar
+SSDs
 Algebra
 AGLA
 Assignments
@@ -34961,6 +34966,7 @@ PERN
 Peripheral
 POSIX
 Personal
+Persistent
 Quadratic
 Qn
 QL
@@ -40494,6 +40500,7 @@ BGh
 Bud
 BTgcrM
 Bell
+BIOS
 Material
 MORE
 Mathematical
@@ -44043,6 +44050,7 @@ Monitor
 MULTICS
 MULTiplexed
 MINIX
+Management
 pdf
 previous
 prove
@@ -50234,6 +50242,7 @@ RRg
 RaaD
 Responsive
 Resolution
+ROM
 of
 one
 others
@@ -55875,6 +55884,7 @@ lSd
 lmy
 leftmost
 lazy
+loader
 geometria
 gN
 gQ
@@ -61969,6 +61979,7 @@ UIOP
 UJWR
 UPfu
 UNIX
+Units
 Watch
 We
 What
@@ -75033,6 +75044,7 @@ FaR
 FaUJ
 Figma
 Fortran
+Flash
 vectors
 vector
 variable
@@ -77759,6 +77771,7 @@ vSUR
 voA
 vault
 views
+virtual
 for
 file
 form
@@ -83498,6 +83511,7 @@ super
 struc
 stuff
 spooling
+switch
 exist
 excalidraw
 everything
@@ -89579,6 +89593,7 @@ hBR
 htj
 htW
 hints
+hyperthreading
 combination
 can
 command
@@ -92794,6 +92809,7 @@ clip
 contexts
 cloud
 counter
+core
 Necessity
 Nikolay
 Natural
@@ -95479,6 +95495,7 @@ Nfz
 NznA
 Network
 NOKIA
+Nonvolatile
 Given
 Graphs
 Gg
@@ -101356,6 +101373,8 @@ button
 blend
 browser
 bunch
+bootstrap
+bootstrapping
 EXCALIDRAW
 Excalidraw
 Elements
@@ -104541,6 +104560,9 @@ EevO
 EmHH
 EWqrm
 EPQ
+EEPROM
+Electrically
+Erasable
 OPTIONS
 Operations
 Obtain
@@ -111187,6 +111209,7 @@ mlZU
 mSiq
 menus
 mainframes
+multithreading
 You
 YC
 YR
@@ -135669,6 +135692,7 @@ HSg
 HRWt
 HZU
 HuQo
+HDDs
 XKo
 Xg
 XWo
@@ -148005,6 +148029,7 @@ kHs
 kTGI
 keyframe
 kernal
+kernel
 yn
 yhR
 yg

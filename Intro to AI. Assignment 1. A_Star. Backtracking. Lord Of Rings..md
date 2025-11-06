@@ -21,7 +21,12 @@ Based on 1000 randomly generated test maps:
 | Backtracking | 2      | 1000 | 0      | 100.0%   | 1.334s    | 1.367s      | 0.352s   |
 
 **Key Findings:** Backtracking achieves slightly higher success rate (97.8% vs 95.3%) for radius 1 but is significantly slower, taking approximately 5.6 times longer than A*. Both algorithms achieve perfect success with radius 2, though backtracking remains considerably slower. The consistent low standard deviation in A*'s execution time indicates more predictable performance compared to backtracking's higher variability.
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 # PEAS Description for Actor Agent
 **Performance Measure:** Successful navigation to goal, minimization of execution time, avoidance of hazardous zones, efficient ring switching decisions.
 
@@ -42,21 +47,27 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 > [!col]
 > *A\* with radius = 1*
 > After *(2, 0)* (or *(0, 2)*) keep ring putting on, so failed on *(0, 7)* <br>
-> ![500](Pasted%20image%2020251106080309.png)
+> ![400](Pasted%20image%2020251106080309.png)
 >
 > *A\* with radius = 2*
 > Everything is okay, because agent knows *(3, 0)* and *(0, 3)* is safe, and he can switch   the ring further.
-> ![500](Pasted%20image%2020251106080342.png)
+> ![400](Pasted%20image%2020251106080342.png)
 > 
+
+<br>
+<br>
+<br>
+<br>
 
 
 **Example 2:**
-*A\* with radius = 1*
-After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)*
 
-![500](Pasted%20image%2020251106082133.png)
-
-*A\* with radius = 2*
-Everything is okay, because agent knows *(0, 6)* is safe, and he can switch the ring further.
-
-![500](Pasted%20image%2020251106082612.png)
+> [!col]
+> *A\* with radius = 1*
+> After *(0, 5)* continues not to wear the ring, so failed on *(0, 11)* <br>
+> ![400](Pasted%20image%2020251106082133.png)
+>
+> *A\* with radius = 2*
+> Everything is okay, because agent knows 
+> *(0, 6)* is safe, and he can switch the ring further.
+> ![400](Pasted%20image%2020251106082612.png)

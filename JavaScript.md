@@ -2,3 +2,9 @@
 - [Objects and Object Constructors](Objects%20and%20Object%20Constructors.md)
 - [Factory Functions and the Module Pattern](Factory%20Functions%20and%20the%20Module%20Pattern.md) 
 - [Classes](Classes.md)
+- [ES6 Modules](ES6%20Modules.md)
+
+
+**Other stuff:**
+- for … in and for … of 
+- script defer

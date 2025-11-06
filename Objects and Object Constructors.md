@@ -1,4 +1,4 @@
-# Basi
+# Basics
 
 Пример объекта:
 
@@ -31,3 +31,45 @@ myObject[variable]; // this is equivalent to myObject['property'] and returns 'V
 ```
 
 # Object constructors
+Пример конструктора:
+
+```javascript
+function Player(name, marker) {
+  this.name = name;
+  this.marker = marker;
+}
+```
+
+Использование:
+
+```javascript
+const player = new Player('steve', 'X');
+console.log(player.name); // 'steve'
+```
+
+Для проверки правильного использования конструкора добавляют в нее следующее условие:
+
+```javascript
+function Player(name, marker) {
+  if (!new.target) {
+    throw Error("You must use the 'new' operator to call the constructor");
+  }
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name)
+  };
+}
+```
+
+# The prototype
+
+У всех объектов в JS есть прототип. Прототип это еще один объект от которого наследуется настоящий объект. У настоящего объекта есть все методы и поля его прототипа.
+
+```javascript
+Object.getPrototypeOf(player1) === Player.prototype; // returns true
+Object.getPrototypeOf(player2) === Player.prototype; // returns true
+```
+
+## Prototypal inheritance
+

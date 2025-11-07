@@ -1,6 +1,6 @@
 **Modules:**
 - [JavaScript](JavaScript.md)
-- [Advanced HTML and CSS](Advanced%20HTML%20and%20CSS.md)
+- [HTML and CSS](HTML%20and%20CSS.md)
 
 # Почему я прохожу этот курс:
 

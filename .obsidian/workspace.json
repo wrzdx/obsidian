@@ -124,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -148,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -166,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Transforms.md",
+                "file": "Зоопарк операционных систем.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +193,17 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф Transforms"
+              "title": "Graph of Зоопарк операционных систем"
+            }
+          },
+          {
+            "id": "f1f1eae7233b11ee",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           },
           {
@@ -221,21 +230,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Обзор компьютерного оборудования.md",
+                "file": "Зоопарк операционных систем.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Обзор компьютерного оборудования"
+              "title": "Outline of Зоопарк операционных систем"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,13 +254,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "53d4a5c1e211a254",
+  "active": "f1f1eae7233b11ee",
   "lastOpenFiles": [
-    "Introduction.md",
+    "Theory of sequences and their limits..md",
+    "The Dot product and its properties..md",
+    "Pre-Final AGLA 2024.md",
+    "Introduction. Vector Spaces. Linear Independence. Basis..md",
+    "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
+    "Vector Algebra.md",
+    "Analytical Geometry and Linear Algebra I.md",
+    "Innopolis 1st year - Fall Semester.md",
+    "Introduction to Programming.md",
+    "The first Semester.md",
     "Зоопарк операционных систем.md",
+    "Introduction.md",
     "Обзор компьютерного оборудования.md",
     "Library/Pasted image 20251107133412.png",
     "Library/Pasted image 20251105213645.png",
@@ -271,10 +292,6 @@
     "Factory Functions and the Module Pattern.md",
     "Objects and Object Constructors.md",
     "Что такое ОС.md",
-    "Media Queries.md",
-    "История операционных систем.md",
-    "templates/break page.md",
-    "templates/break line.md",
     "templates",
     "Library/Pasted image 20251106082612.png",
     "Library/Pasted image 20251106082133.png",
@@ -284,13 +301,7 @@
     "Library/Pasted image 20251106080342.png",
     "Library/Pasted image 20251106080309.png",
     "Library/EvgeniiKhovalyg.pdf",
-    "CV 1519.md",
     "Без названия.base",
-    "Responsive Images.md",
-    "Natural Responsiveness.md",
-    "Introduction to Responsive Design.md",
-    "Keyframes.md",
-    "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
     "Без названия",

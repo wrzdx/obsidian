@@ -20512,6 +20512,7 @@ tEXtSoftware
 tApMM
 tttXYY
 tQQQ
+timesharing
 Course
 Curves
 Continuation
@@ -26446,6 +26447,8 @@ SSDs
 Stuff
 Selectors
 SATA
+Solaris
+Server
 Algebra
 AGLA
 Assignments
@@ -75131,6 +75134,7 @@ Flash
 FVV
 Fbb
 FHOOGhh
+FreeBSD
 vectors
 vector
 variable
@@ -101481,6 +101485,7 @@ bootstrapping
 breakpoints
 bZTT
 busy
+batch
 EXCALIDRAW
 Excalidraw
 Elements

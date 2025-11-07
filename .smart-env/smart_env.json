@@ -58,7 +58,10 @@
   },
   "smart_notices": {
     "muted": {
-      "done_import": true
+      "done_import": true,
+      "done_initial_scan": true,
+      "import_progress": true,
+      "Failed_to_load_embed_model": true
     }
   },
   "version": "2.1.101",

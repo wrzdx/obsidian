@@ -3197,6 +3197,7 @@ Disk
 Distributed
 Digital
 Deeper
+Deploy
 Lecturer
 Link
 Line
@@ -5827,6 +5828,7 @@ LqWoTd
 Labs
 Large
 Linting
+Loading
 Vladimir
 Vector
 VIEW
@@ -17775,6 +17777,7 @@ nOXZO
 nmT
 nMLD
 nonvolatile
+npm
 to
 the
 topics
@@ -23451,6 +23454,7 @@ Compatible
 Context
 Constructors
 Closure
+CommonJS
 Sections
 Surfaces
 Spaces
@@ -47078,6 +47082,7 @@ perspective
 pixels
 pixel
 partition
+package
 Read
 Relations
 RY
@@ -68131,6 +68136,7 @@ dYPP
 declared
 dropdown
 defer
+dist
 independency
 in
 info
@@ -71985,6 +71991,7 @@ inline
 isolation
 isolate
 incredible
+images
 For
 Functions
 Frolov
@@ -83531,6 +83538,8 @@ stuff
 spooling
 switch
 script
+server
+scripts
 exist
 excalidraw
 everything
@@ -92831,6 +92840,7 @@ cloud
 counter
 core
 const
+config
 Necessity
 Nikolay
 Natural
@@ -111236,6 +111246,8 @@ menus
 mainframes
 multithreading
 margin
+modes
+merge
 You
 YC
 YR
@@ -117270,6 +117282,7 @@ wIB
 wTx
 woJH
 webp
+webpack
 under
 up
 unclear
@@ -135721,6 +135734,8 @@ HRWt
 HZU
 HuQo
 HDDs
+Handling
+HtmlWebpackPlugin
 XKo
 Xg
 XWo

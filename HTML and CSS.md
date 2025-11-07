@@ -1,5 +1,13 @@
 # Темы:
 
+## Intermediate
+**Concepts:** 
+- Emmet
+- [Advanced Selectors](Advanced%20Selectors.md)
+- Forms
+---
+
+## Advanced
 **Animations:**
 - [Transforms](Transforms.md)
 - [Transitions](Transitions.md)
@@ -17,7 +25,3 @@
 - [Media Queries](Media%20Queries.md)
 ---
 
-**Other Stuff**
-- Emmet
-- Advanced Selectors
-- Forms

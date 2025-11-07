@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -217,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,16 +230,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": true
+      "bases:Create new base": false
     }
   },
   "active": "4fba9f743c428e42",
   "lastOpenFiles": [
-    "История операционных систем.md",
+    "Advanced Selectors.md",
     "Зоопарк операционных систем.md",
+    "История операционных систем.md",
     "Introduction.md",
     "Что такое ОС.md",
     "Modern Operating Systems.md",
@@ -256,7 +256,6 @@
     "Library/Pasted image 20251105213645.png",
     "Library/Pasted image 20251107132850.png",
     "HTML and CSS.md",
-    "Advanced Selectors.md",
     "Transforms.md",
     "The Odin Project.md",
     "Webpack.md",

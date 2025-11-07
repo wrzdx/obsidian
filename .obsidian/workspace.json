@@ -11,10 +11,14 @@
             "id": "4fba9f743c428e42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Обзор компьютерного оборудования.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Обзор компьютерного оборудования"
             }
           }
         ]
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Обзор компьютерного оборудования.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Обзор компьютерного оборудования"
             }
           }
         ],
@@ -116,11 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Обзор компьютерного оборудования.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Обзор компьютерного оборудования"
             }
           }
         ]
@@ -229,13 +235,13 @@
   },
   "active": "4fba9f743c428e42",
   "lastOpenFiles": [
+    "Introduction.md",
+    "Modern Operating Systems.md",
     "HTML and CSS.md",
     "Advanced Selectors.md",
     "Transforms.md",
     "The Odin Project.md",
     "Обзор компьютерного оборудования.md",
-    "Introduction.md",
-    "Modern Operating Systems.md",
     "Webpack.md",
     "JavaScript.md",
     "JSON.md",

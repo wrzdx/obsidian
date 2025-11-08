@@ -26450,6 +26450,7 @@ Selectors
 SATA
 Solaris
 Server
+SIGALRM
 Algebra
 AGLA
 Assignments
@@ -35014,6 +35015,8 @@ Personal
 Persistent
 PJDDDJ
 PTTd
+Process
+PCB
 Quadratic
 Qn
 QL
@@ -47126,6 +47129,7 @@ pixel
 partition
 package
 port
+pipes
 Read
 Relations
 RY
@@ -62056,6 +62060,8 @@ Ubb
 ULY
 UXw
 UCm
+Unix
+UID
 Watch
 We
 What
@@ -72055,6 +72061,7 @@ iTXtCreation
 ijjb
 interrupts
 interrupt
+interprocess
 For
 Functions
 Frolov
@@ -83613,6 +83620,7 @@ sBIT
 screenshot
 syxx
 sibling
+superuser
 exist
 excalidraw
 everything
@@ -89698,6 +89706,7 @@ hyperthreading
 hover
 hjjb
 handler
+heap
 combination
 can
 command

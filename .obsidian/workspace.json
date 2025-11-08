@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Webpack.md",
+                "file": "Transforms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Webpack"
+              "title": "Transforms"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Концепции операционных систем.md",
+                "file": "Transforms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,11 +120,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Концепции операционных систем"
+              "title": "Backlinks for Transforms"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -136,20 +136,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transitions.md",
+                "file": "Transforms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Transitions"
+              "title": "Outgoing links from Transforms"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -250,13 +249,15 @@
   },
   "active": "6352f4dce1b29389",
   "lastOpenFiles": [
+    "HTML and CSS.md",
+    "Keyframes.md",
+    "Introduction.md",
+    "Webpack.md",
     "Transitions.md",
     "Advanced Selectors.md",
     "Pseudo-classes.md",
-    "HTML and CSS.md",
     "Концепции операционных систем.md",
     "Library/Pasted image 20251108011050.png",
-    "Introduction.md",
     "Зоопарк операционных систем.md",
     "История операционных систем.md",
     "Что такое ОС.md",
@@ -277,10 +278,8 @@
     "Library/Pasted image 20251107132850.png",
     "Transforms.md",
     "The Odin Project.md",
-    "Webpack.md",
     "JavaScript.md",
     "JSON.md",
-    "Linting.md",
     "templates",
     "Library/Pasted image 20251106082612.png",
     "Library/Pasted image 20251106082133.png",

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transitions.md",
+                "file": "Webpack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transitions"
+              "title": "Webpack"
             }
           }
         ],
@@ -250,6 +250,7 @@
   },
   "active": "6352f4dce1b29389",
   "lastOpenFiles": [
+    "Transitions.md",
     "Advanced Selectors.md",
     "Pseudo-classes.md",
     "HTML and CSS.md",
@@ -280,7 +281,6 @@
     "JavaScript.md",
     "JSON.md",
     "Linting.md",
-    "ES6 Modules.md",
     "templates",
     "Library/Pasted image 20251106082612.png",
     "Library/Pasted image 20251106082133.png",

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Transitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Media Queries"
+              "title": "Transitions"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Transitions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Media Queries"
+              "title": "Backlinks for Transitions"
             }
           }
         ],
@@ -136,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Transitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Media Queries"
+              "title": "Outgoing links from Transitions"
             }
           }
         ]
@@ -249,10 +249,10 @@
   },
   "active": "6352f4dce1b29389",
   "lastOpenFiles": [
+    "Media Queries.md",
     "Концепции операционных систем.md",
     "Introduction.md",
     "Modern Operating Systems.md",
-    "Media Queries.md",
     "Transforms.md",
     "HTML and CSS.md",
     "Keyframes.md",

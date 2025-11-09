@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Концепции операционных систем.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Media Queries"
+              "title": "Концепции операционных систем"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Концепции операционных систем.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Media Queries"
+              "title": "Backlinks for Концепции операционных систем"
             }
           }
         ],
@@ -136,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Концепции операционных систем.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Media Queries"
+              "title": "Outgoing links from Концепции операционных систем"
             }
           }
         ]
@@ -249,10 +249,12 @@
   },
   "active": "6352f4dce1b29389",
   "lastOpenFiles": [
+    "Introduction.md",
+    "Modern Operating Systems.md",
+    "Media Queries.md",
     "Transforms.md",
     "HTML and CSS.md",
     "Keyframes.md",
-    "Introduction.md",
     "Webpack.md",
     "Transitions.md",
     "Advanced Selectors.md",
@@ -262,7 +264,6 @@
     "Зоопарк операционных систем.md",
     "История операционных систем.md",
     "Что такое ОС.md",
-    "Modern Operating Systems.md",
     "Theory of sequences and their limits..md",
     "The Dot product and its properties..md",
     "Pre-Final AGLA 2024.md",
@@ -279,7 +280,6 @@
     "Library/Pasted image 20251107132850.png",
     "The Odin Project.md",
     "JavaScript.md",
-    "JSON.md",
     "templates",
     "Library/Pasted image 20251106082612.png",
     "Library/Pasted image 20251106082133.png",

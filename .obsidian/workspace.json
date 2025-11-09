@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transforms.md",
+                "file": "Media Queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transforms"
+              "title": "Media Queries"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transforms.md",
+                "file": "Media Queries.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Transforms"
+              "title": "Backlinks for Media Queries"
             }
           }
         ],
@@ -136,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transforms.md",
+                "file": "Media Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Transforms"
+              "title": "Outgoing links from Media Queries"
             }
           }
         ]
@@ -249,6 +249,7 @@
   },
   "active": "6352f4dce1b29389",
   "lastOpenFiles": [
+    "Transforms.md",
     "HTML and CSS.md",
     "Keyframes.md",
     "Introduction.md",
@@ -276,7 +277,6 @@
     "Library/Pasted image 20251107133412.png",
     "Library/Pasted image 20251105213645.png",
     "Library/Pasted image 20251107132850.png",
-    "Transforms.md",
     "The Odin Project.md",
     "JavaScript.md",
     "JSON.md",

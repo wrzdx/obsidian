@@ -16,6 +16,7 @@
 **Asynchronous JavaScript and APIs:**
 - [Asynchronous Code](Asynchronous%20Code.md)
 - [Working with APIs](Working%20with%20APIs.md)
+- [Async and Await](Async%20and%20Await.md)
 ---
 
 **Intermediate Git:**

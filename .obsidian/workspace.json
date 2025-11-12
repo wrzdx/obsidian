@@ -13,54 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript.md",
+                "file": "Концепции операционных систем.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript"
-            }
-          },
-          {
-            "id": "adf651e051763cff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Async and Await.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Async and Await"
-            }
-          },
-          {
-            "id": "230d8ac68e0a566d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Working with APIs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Working with APIs"
-            }
-          },
-          {
-            "id": "b7371f1cc2d78583",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asynchronous Code.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Asynchronous Code"
+              "title": "Концепции операционных систем"
             }
           }
         ]
@@ -137,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript.md",
+                "file": "Концепции операционных систем.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JavaScript"
+              "title": "Backlinks for Концепции операционных систем"
             }
           }
         ],
@@ -163,20 +121,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript.md",
+                "file": "Концепции операционных систем.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from JavaScript"
+              "title": "Outgoing links from Концепции операционных систем"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -277,26 +234,27 @@
   },
   "active": "6352f4dce1b29389",
   "lastOpenFiles": [
+    "Introduction.md",
+    "Зоопарк операционных систем.md",
+    "Концепции операционных систем.md",
+    "Обзор компьютерного оборудования.md",
+    "История операционных систем.md",
+    "Что такое ОС.md",
+    "Modern Operating Systems.md",
+    "JavaScript.md",
     "Async and Await.md",
     "Working with APIs.md",
-    "JavaScript.md",
     "Asynchronous Code.md",
     "The Odin Project.md",
     "HTML and CSS.md",
     "Transitions.md",
-    "Introduction.md",
     "Media Queries.md",
-    "Концепции операционных систем.md",
-    "Modern Operating Systems.md",
     "Transforms.md",
     "Keyframes.md",
     "Webpack.md",
     "Advanced Selectors.md",
     "Pseudo-classes.md",
     "Library/Pasted image 20251108011050.png",
-    "Зоопарк операционных систем.md",
-    "История операционных систем.md",
-    "Что такое ОС.md",
     "Theory of sequences and their limits..md",
     "The Dot product and its properties..md",
     "Pre-Final AGLA 2024.md",
@@ -304,7 +262,6 @@
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Vector Algebra.md",
     "Analytical Geometry and Linear Algebra I.md",
-    "Innopolis 1st year - Fall Semester.md",
     "Library/Pasted image 20251107133412.png",
     "Library/Pasted image 20251105213645.png",
     "Library/Pasted image 20251107132850.png",

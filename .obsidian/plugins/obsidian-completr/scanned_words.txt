@@ -8683,6 +8683,8 @@ VJBg
 Validation
 VPP
 VkX
+VxWorks
+Virtual
 Ivanov
 Introduction
 Independence
@@ -12216,6 +12218,8 @@ IEEE
 Integration
 Intermediate
 Interrupt
+Interconnect
+Industry
 Telegram
 Theorem
 Text
@@ -23475,6 +23479,8 @@ CommonJS
 CDDD
 Child
 Callbacks
+Component
+Card
 Sections
 Surfaces
 Spaces
@@ -26452,6 +26458,7 @@ SATA
 Solaris
 Server
 SIGALRM
+Soft
 Algebra
 AGLA
 Assignments
@@ -35024,6 +35031,13 @@ Process
 PCB
 POST
 Promise
+PCI
+PCIe
+Partition
+Portable
+Palm
+Pilot
+PocketPC
 Quadratic
 Qn
 QL
@@ -40563,6 +40577,9 @@ BIOS
 BeksO
 Buses
 Blob
+Bus
+Booting
+Boot
 Material
 MORE
 Mathematical
@@ -44122,6 +44139,8 @@ MMMa
 MDDDD
 MBBB
 Mekk
+Master
+Manager
 pdf
 previous
 prove
@@ -50324,6 +50343,8 @@ RSSq
 RDDDDj
 REXw
 RSSs
+Record
+RTOS
 of
 one
 others
@@ -62070,6 +62091,9 @@ UXw
 UCm
 Unix
 UID
+USB
+UEFI
+Unified
 Watch
 We
 What
@@ -75153,6 +75177,8 @@ Fbb
 FHOOGhh
 FreeBSD
 FormData
+Firmware
+FreeRTOS
 vectors
 vector
 variable
@@ -86762,6 +86788,7 @@ eoM
 eZUb
 emz
 easing
+eCos
 have
 hQ
 hfRF
@@ -98818,6 +98845,7 @@ GraphQL
 GUI
 Gnome
 GET
+GUID
 basis
 be
 bd
@@ -101515,6 +101543,7 @@ bZTT
 busy
 batch
 body
+bootloader
 EXCALIDRAW
 Excalidraw
 Elements
@@ -104706,6 +104735,8 @@ Erasable
 Emmet
 Edd
 EDDh
+EFI
+Executable
 OPTIONS
 Operations
 Obtain
@@ -111363,6 +111394,7 @@ merge
 mmmt
 macOS
 multipart
+motherboard
 You
 YC
 YR
@@ -123505,6 +123537,7 @@ resolutions
 responsive
 rejected
 reject
+reset
 Zorich
 ZM
 ZB
@@ -126892,6 +126925,7 @@ Zjdz
 Zooming
 ZKRR
 Znnn
+Zephyr
 Kniga
 KP
 KMJ
@@ -156752,6 +156786,7 @@ Jye
 Josh
 JJJRZ
 Jrrr
+JCVM
 öz
 ös
 öf

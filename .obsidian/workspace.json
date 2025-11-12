@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stacking",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",

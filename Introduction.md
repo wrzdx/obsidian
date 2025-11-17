@@ -97,7 +97,7 @@ A trap is caused by the program and is synchronous with it. If the program is ru
 
 18. Is there any reason why you might want to mount a file system on a nonempty directory? If so, what is it?
 
-Mounting a Þle system makes any Þles already in the mount-point directory inaccessible, so mount points are normally empty. Howev er, a system administrator might want to copy some of the most important Þles normally located in the mounted directory to the mount point so they could be found in their normal path in an emergency when the mounted device was being repaired.
+Mounting a fiile system makes any files already in the mount-point directory inaccessible, so mount points are normally empty. Howev er, a system administrator might want to copy some of the most important files normally located in the mounted directory to the mount point so they could be found in their normal path in an emergency when the mounted device was being repaired.
 
 19. What is the purpose of a system call in an operating system?
 
@@ -105,24 +105,39 @@ A system call allows a user process to access and execute operating system funct
 
 20. Give one reason why mounting file systems is a better design option than prefixing path names with a drive name or number. Explain why file systems are almost always mounted on empty directories.
 
-PreÞxing path names with a drive name or number makes the Þle system de-
-
-vice dependent. If the directory on which a new Þle system is mounted con-
-
-tained any Þles or subdirectories, those Þles or subdirectories would not be accessible while the administrator tries to Þnd the backup tape.
+Prefixing path names with a drive name or number makes the file system device dependent. If the directory on which a new file system is mounted contained any files or subdirectories, those files or subdirectories would not be accessible while the administrator tries to find the backup tape.
 
 21. For each of the following system calls, give a condition that causes it to fail: open, close, and lseek.
+
+Open can fail if the file given does not exist or there is a protection error. Close can fail if the file descriptor does not refer to a valid open file. Lseek can fail if the file descriptor is invalid or the new file position is negative.
+
 22. What type of multiplexing (time, space, or both) can be used for sharing the following resources: CPU, memory, SSD/disk, network card, printer, keyboard, and display?
+
+Time multiplexing: CPU, network card, printer, keyboard.
+Space multiplexing: memory, disk.
+Both: display
+
 23. Can the 
     `{C} count = write(fd, buffer, nbytes);` 
     call return any value in count other than nbytes? If so, why?
+
+If the call fails, for example because fd is incorrect, it can return <1. It can also fail because the disk is full and it is not possible to write the number of bytes requested. On a correct termination, it always returns nbytes.
+
 24. A file whose file descriptor is fd contains the following sequence of bytes: 2, 7, 1, 8, 2, 8, 1, 8, 2, 8, 4. The following system calls are made: 
     `{C}lseek(fd, 3, SEEK SET);` 
     `{c}read(fd, &buffer, 4);`
     where the lseek call makes a seek to byte 3 of the file. What does buffer contain after the read has completed?
 
+It contains the bytes: 8, 2, 8, 1.
 
 25. Suppose that a 10-MB file is stored on a disk on the same track (track 50) in consecutive sectors. The disk arm is currently situated over track number 100. How long will it take to retrieve this file from the disk? Assume that it takes about 1 msec to move the arm from one cylinder to the next and about 5 msec for the sector where the beginning of the file is stored to rotate under the head. Also, assume that reading occurs at a rate of 100 MB/s.
+
+Time to retrieve the ϐile =
+1 * 50 ms (Time to move the arm over track 50)
++ 5 ms (Time for the ϐirst sector to rotate under the head)
++ 10/200 * 1000 ms (Read 10 MB)
+= 105 ms
+
 26. What is the essential difference between a block special file and a character special file?
 27. In the example given in Fig. 1-17, the library procedure is called read and the system call itself is called read. Is it essential that both of these have the same name? If not, which one is more important?
 28. The client-server model is popular in distributed systems. Can it also be used in a single-computer system?

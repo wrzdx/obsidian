@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "track",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -292,7 +291,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a9adc6e631a449b7",
+  "active": "d0989b295985b2c1",
   "lastOpenFiles": [
     "Мир согласно С.md",
     "Library/Pasted image 20251118004145.png",

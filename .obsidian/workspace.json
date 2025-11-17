@@ -6,6 +6,7 @@
       {
         "id": "de18a146202029dc",
         "type": "tabs",
+        "dimension": 48.698884758364315,
         "children": [
           {
             "id": "6352f4dce1b29389",
@@ -51,6 +52,25 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "c367b0b70632fe10",
+        "type": "tabs",
+        "dimension": 51.301115241635685,
+        "children": [
+          {
+            "id": "e0e1e1c5355a0e58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Непрерывные случайные векторы pdf.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Непрерывные случайные векторы pdf"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +93,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -137,8 +157,7 @@
               "title": "Backlinks for Концепции операционных систем"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -162,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -220,7 +240,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8230a8f50f8d4fd9",
@@ -233,13 +254,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Концепции операционных систем.md",
+                "file": "Непрерывные случайные векторы..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Концепции операционных систем"
+              "title": "Outline of Непрерывные случайные векторы."
             }
           }
         ]
@@ -263,8 +284,9 @@
   },
   "active": "bc1e3087ed848e82",
   "lastOpenFiles": [
-    "Probstat.md",
+    "Непрерывные случайные векторы pdf.pdf",
     "Непрерывные случайные векторы..md",
+    "Probstat.md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
     "Без названия.base",
     "Концепции операционных систем.md",
@@ -290,7 +312,6 @@
     "Library/Pasted image 20251108011050.png",
     "Theory of sequences and their limits..md",
     "The Dot product and its properties..md",
-    "Pre-Final AGLA 2024.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Library/Pasted image 20251107133412.png",
     "Library/Pasted image 20251105213645.png",
@@ -309,7 +330,6 @@
     "Latex",
     "Без названия.canvas",
     "Library/Math/Konev eng.pdf",
-    "Library/Math/Linear Algebra and Applications.pdf",
     "Без названия 4.canvas",
     "Без названия 3.canvas",
     "Без названия 2.canvas",

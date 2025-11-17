@@ -6,7 +6,7 @@
       {
         "id": "de18a146202029dc",
         "type": "tabs",
-        "dimension": 48.698884758364315,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "6352f4dce1b29389",
@@ -52,25 +52,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "c367b0b70632fe10",
-        "type": "tabs",
-        "dimension": 51.301115241635685,
-        "children": [
-          {
-            "id": "e0e1e1c5355a0e58",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Непрерывные случайные векторы pdf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Непрерывные случайные векторы pdf"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

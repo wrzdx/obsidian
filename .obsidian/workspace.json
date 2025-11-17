@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Мир согласно С.md",
+                "file": "Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Мир согласно С"
+              "title": "Introduction"
             }
           },
           {
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Мир согласно С.md",
+                "file": "Introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Мир согласно С"
+              "title": "Backlinks for Introduction"
             }
           }
         ],
@@ -178,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Мир согласно С.md",
+                "file": "Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Мир согласно С"
+              "title": "Outgoing links from Introduction"
             }
           }
         ]
@@ -247,9 +247,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "e0d80e26c3516a9c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8230a8f50f8d4fd9",
@@ -287,15 +297,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a9adc6e631a449b7",
+  "active": "e0d80e26c3516a9c",
   "lastOpenFiles": [
+    "Мир согласно С.md",
     "Library/Pasted image 20251118004145.png",
     "Library/Pasted image 20251118004110.png",
     "Introduction.md",
-    "Мир согласно С.md",
     "Структура ОС.md",
     "Library/Pasted image 20251118002510.png",
     "Library/Pasted image 20251118002437.png",
@@ -307,7 +318,6 @@
     "Концепции операционных систем.md",
     "Library/Pasted image 20251117210400.png",
     "Library/Pasted image 20251117203751.png",
-    "Library/Pasted image 20251117200153.png",
     "Modern Operating Systems.md",
     "Непрерывные случайные векторы..md",
     "Введение в курс. Описательная статистика. Разбор задач..md",

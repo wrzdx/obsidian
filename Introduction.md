@@ -8,14 +8,26 @@
 - [Мир согласно С](Мир%20согласно%20С.md)
 
 PROBLEMS
-1. What are the two main functions of an operating system?:::dfdfdsf
+1. What are the two main functions of an operating system?
+   An operating system must provide the users with an extended machine, and it must manage the I/O devices and other system resources. To some extent, these are different functions.
+
 2. What is multiprogramming?
-3. In Sec. 1.4, nine different types of operating systems are described. Give a list of pos-
-sible applications for each of these systems (at least one for each of the operating sys-
-tems types).
-4. To use cache memory, main memory is divided into cache lines, typically 32 or 64
-bytes long. An entire cache line is cached at once. What is the advantage of caching an
-entire line instead of a single byte or word at a time?
+   Multiprogramming is the technique of keeping **multiple processes in memory at the same time** and switching the CPU among them. The main goal is to **maximize CPU utilization** by ensuring the CPU is never idle while some process is waiting for I/O operations to complete.
+
+3. In Sec. 1.4, nine different types of operating systems are described. Give a list of possible applications for each of these systems (at least one for each of the operating systems types).
+   • Mainframe operating system: Sales reporting for a chain of stores.
+   • Server operating system: Speech-to-text conversion service for intelligent assistant Alice.
+   • Multiprocessor operating system: Video editing and rendering.
+   • Personal computer operating system: Word processing application.
+   • Handheld computer operating system: PDA (Personal Digital Assistant) that can be held in your hand during operation.
+   • Embedded operating system: Programming a DVD recorder for recording TV.
+   • Sensor-node operating system: Glean information about enemy movements on battleϐields.
+   • Real-time operating system: Air trafϐic control system.
+   • Smart-card operating system: Electronic payment
+
+4. To use cache memory, main memory is divided into cache lines, typically 32 or 64 bytes long. An entire cache line is cached at once. What is the advantage of caching an entire line instead of a single byte or word at a time?
+   Empirical evidence shows that memory access exhibits the principle of locality of reference, where if one location is read then the probability of accessing nearby locations next is very high, particularly the following memory locations. So, by caching an entire cache line, the probability of a cache hit next is increased. Also, modern hardware can do a block transfer of 32 or 64 bytes into a cache line much faster than reading the same data as individual words
+
 5. What is spooling? Do you think that advanced personal computers will have spooling
 as a standard feature in the future?
 6. On early computers, every byte of data read or written was handled by the CPU (i.e.,

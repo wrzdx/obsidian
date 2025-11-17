@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -247,19 +248,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "e0d80e26c3516a9c",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "8230a8f50f8d4fd9",
@@ -301,7 +292,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e0d80e26c3516a9c",
+  "active": "a9adc6e631a449b7",
   "lastOpenFiles": [
     "Мир согласно С.md",
     "Library/Pasted image 20251118004145.png",

@@ -26459,6 +26459,7 @@ Solaris
 Server
 SIGALRM
 Soft
+Swapping
 Algebra
 AGLA
 Assignments

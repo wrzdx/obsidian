@@ -152,22 +152,43 @@ As far as program logic is concerned, it does not matter whether a call to a lib
 
 30. Figure 1-23 shows that a number of UNIX system calls have no Win32 API equivalents. For each of the calls listed as having no Win32 equivalent, what are the consequences for a programmer of converting a UNIX program to run under Windows?
 
-Link: a Win32 program cannot refer to a file by an alternative name or see it in more than one directory. Also, attempting to create a link is a convenient way to test for and create a lock on a file. 
+`Link`: a Win32 program cannot refer to a file by an alternative name or see it in more than one directory. Also, attempting to create a link is a convenient way to test for and create a lock on a file. 
 
-Mount and umount: a Windows program cannot make assumptions about standard path names because on systems with multiple disk drives the drive-name part of the path may be different.
+`Mount` and `umount`: a Windows program cannot make assumptions about standard path names because on systems with multiple disk drives the drive-name part of the path may be different.
 
-Chmod: Windows uses access control lists.
+`Chmod`: Windows uses access control lists.
 
-Kill: Windows programmers cannot kill a misbehaving program that is not cooperating
+`Kill`: Windows programmers cannot kill a misbehaving program that is not cooperating
 
 31. A portable operating system is one that can be ported from one system architecture to another without any modification. Explain why it is infeasible to build an operating system that is completely portable. Describe two high-level layers that you will have in designing an operating system that is highly portable.
+
+Every system architecture has its own set of instructions that it can execute. Thus a Pentium cannot execute SPARC programs and a SPARC cannot execute Pentium programs. Also, different architectures differ in bus architecture used (such as VME, ISA, PCI, MCA, SBus, etc.) as well as the word size of the CPU (usually 32 or 64 bit). Because of these differences in hardware, it is not feasible to build an operating system that is completely portable. A highly portable operating system will consist of two high-level layers machine-dependent layer and a machine-independent layer. The machine-dependent layer addresses the specifics of the hardware and must be implemented separately for every architecture. This layer provides a uniform interface on which the machine-independent layer is built. The machine-independent layer has to be implemented only once. To be highly portable, the size of the machine-dependent layer must be kept as small as possible.
+
 32. Explain how separation of policy and mechanism aids in building microkernel-based operating systems.
+
+Separation of policy and mechanism allows OS designers to implement a small number of basic primitives in the kernel. These primitives are simplified, because they are not dependent of any specific policy. They can then be used to implement more complex mechanisms and policies at the user level.
+
 33. Virtual machines have become very popular for a variety of reasons. Nevertheless, they have some downsides. Name one.
+
+The virtualization layer introduces increased memory usage and processor overhead as well as increased performance overhead.
+
 34. Here are some questions for practicing unit conversions: 
     (a) How long is a microyear in seconds?
 	(b) Micrometers are often called microns. How long is a gigamicron?
 	(c) How many bytes are there in a 1-TB memory?
 	(d) The mass of the earth is 6000 yottagrams. What is that in grams?
+
+The conversions are straightforward:
+
+(a) A micro year is $10^6$×365 ×24 ×3600 =31. 536 sec.
+(b) 1000 m or 1 km.
+(c) There are 240 bytes, which is 112,5899,906,842,624 bytes.
+(d) It is 6 ×1024 kg.
+
 35. Write a shell that is similar to Fig. 1-19 but contains enough code that it actually works so you can test it. You might also add some features such as redirection of input and output, pipes, and background jobs.
+
+
+
 36. If you have a personal UNIX-like system (Linux, MINIX 3, FreeBSD, etc.) available that you can safely crash and reboot, write a shell script that attempts to create an unlimited number of child processes and observe what happens. Before running the experiment, type sync to the shell to flush the file system buffers to disk to avoid ruining the file system. You can also do the experiment safely in a virtual machine. Note: Do not try this on a shared system without first getting permission from the system administrator. The consequences will be instantly obvious so you are likely to be caught and sanctions may follow.
+
 37. Examine and try to interpret the contents of a UNIX-like or Windows directory with a tool like the UNIX od program. (Hint: How you do this will depend upon what the OS allows. One trick that may work is to create a directory on a USB stick with one operating system and then read the raw device data using a different operating system that allows such access.)

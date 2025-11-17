@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -278,6 +279,7 @@
   },
   "active": "8f410b07794e9bb6",
   "lastOpenFiles": [
+    "Library/Pasted image 20251117231922.png",
     "Introduction.md",
     "Структура ОС.md",
     "Системные вызовы.md",
@@ -310,7 +312,6 @@
     "Advanced Selectors.md",
     "Pseudo-classes.md",
     "Library/Pasted image 20251108011050.png",
-    "Theory of sequences and their limits..md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "Library/Pasted image 20251107133412.png",
     "Library/Pasted image 20251105213645.png",

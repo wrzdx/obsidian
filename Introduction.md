@@ -82,22 +82,34 @@ MB/sec, calculate the average time it will take to read 100 KB from one sector.
 
 Number of heads = 255 GB / (65,536 $\times$ 255 $\times$ 512) B = 32
 Number of platters = 32/2 = 16
-The time for a read operation to complete is seek time + rotational latency + transfer time. The seek time is 11 ms, the rotational latency is 7 ms and the transfer time is 4 ms, so the average transfer takes 22 ms.
+The time for a read operation to complete is seek time + rotational latency + transfer time. The seek time is 11 ms, the rotational latency is 7 ms and the transfer time is 1 ms, so the average transfer takes 19 ms.
 
 12. Consider a system that has two CPUs, each CPU having two threads (hyperthreading).
 Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20
 msec, respectively. How long will it take to complete the execution of these programs?
 Assume that all three programs are 100% CPU bound, do not block during execution,
 and do not change CPUs once assigned.
+
+It may take 20, 25 or 30 msec to complete the execution of these programs depending on how the operating system schedules them. If P0 and P1 are scheduled on the same CPU and P2 is scheduled on the other CPU, it will take 20 msec. If P0 and P2 are scheduled on the same CPU and P1 is scheduled on the other CPU, it will take 25 msec. If P1 and P2 are scheduled on the same CPU and P0 is scheduled on the other CPU, it will take 30 msec. If all three are on the same CPU, it will take 35 msec.
+
 13. List some differences between personal computer operating systems and mainframe
 operating systems.
+
+Personal computer systems are always interactive, often with only a single user. Mainframe systems nearly always emphasize batch or timesharing with many users. Protection is much more of an issue on mainframe systems, as is efficient use of all resources.
+
 14. A computer has a pipeline with four stages. Each stage takes the same time to do its
 work, namely, 1 nsec. How many instructions per second can this machine execute?
+
+Every nanosecond one instruction emerges from the pipeline. This means the machine is executing 1 billion instructions per second. It does not matter at all how many stages the pipeline has. A 10-stage pipeline with 1 ns per stage would also execute 1 billion instructions per second. All that matters is how often a finished instruction pops out the end of the pipeline.
+
 15. Consider a computer system that has cache memory, main memory (RAM) and disk,
 and an operating system that uses virtual memory. It takes 2 nsec to access a word
 from the cache, 10 nsec to access a word from the RAM, and 10 msec to access a word
 from the disk. If the cache hit rate is 95% and main memory hit rate (after a cache
 miss) is 99%, what is the average time to access a word?
+
+0.95 × 2 nsec (word is in the cache) + 0.05 ×0.99 ×10 nsec (word is in RAM, but not in the cache)+ 0.05 ×0.01 ×10,000,000 nsec (word on disk only)= 5002.395 nsec= 5.002395µsec
+
 16. When a user program makes a system call to read or write a disk file, it provides an
 indication of which file it wants, a pointer to the data buffer, and the count. Control is
 then transferred to the operating system, which calls the appropriate driver. Suppose
@@ -105,6 +117,9 @@ that the driver starts the disk and terminates until an interrupt occurs. In the
 reading from the disk, obviously the caller will have to be blocked (because there are
 no data for it). What about the case of writing to the disk? Need the caller be blocked
 awaiting completion of the disk transfer?
+
+
+
 17. What is the key difference between a trap and an interrupt?
 18. Is there any reason why you might want to mount a file system on a nonempty direc-
 tory? If so, what is it?

@@ -132,17 +132,34 @@ It contains the bytes: 8, 2, 8, 1.
 
 25. Suppose that a 10-MB file is stored on a disk on the same track (track 50) in consecutive sectors. The disk arm is currently situated over track number 100. How long will it take to retrieve this file from the disk? Assume that it takes about 1 msec to move the arm from one cylinder to the next and about 5 msec for the sector where the beginning of the file is stored to rotate under the head. Also, assume that reading occurs at a rate of 100 MB/s.
 
-Time to retrieve the ϐile =
-1 * 50 ms (Time to move the arm over track 50)
-+ 5 ms (Time for the ϐirst sector to rotate under the head)
-+ 10/200 * 1000 ms (Read 10 MB)
-= 105 ms
+Time to retrieve the file = 1 * 50 ms (Time to move the arm over track 50) + 5 ms (Time for the first sector to rotate under the head) + 10/100 * 1000 ms (Read 10 MB) = 155 ms
 
 26. What is the essential difference between a block special file and a character special file?
+
+Block special files consist of numbered blocks, each of which can be read or written independently of all the other ones. It is possible to seek to any block and start reading or writing. This is not possible with character special files.
+
 27. In the example given in Fig. 1-17, the library procedure is called read and the system call itself is called read. Is it essential that both of these have the same name? If not, which one is more important?
+
+System calls do not really have names, other than in a documentation sense. When the library procedure read traps to the kernel, it puts the number of the system call in a register or on the stack. This number is used to index into a table. There is really no name used anywhere. On the other hand, the name of the library procedure is very important, since that is what appears in the program.
+
 28. The client-server model is popular in distributed systems. Can it also be used in a single-computer system?
+
+Yes it can, especially if the kernel is a message-passing system
+
 29. To a programmer, a system call looks like any other call to a library procedure. Is it important that a programmer know which library procedures result in system calls? Under what circumstances and why?
+
+As far as program logic is concerned, it does not matter whether a call to a library procedure results in a system call. But if performance is an issue, if a task can be accomplished without a system call the program will run faster. Every system call involves overhead time in switching from the user context to the kernel context. Furthermore, on a multiuser system, the operating system may schedule another process to run when a system call completes, further slowing the progress in real time of a calling process.
+
 30. Figure 1-23 shows that a number of UNIX system calls have no Win32 API equivalents. For each of the calls listed as having no Win32 equivalent, what are the consequences for a programmer of converting a UNIX program to run under Windows?
+
+Link: a Win32 program cannot refer to a file by an alternative name or see it in more than one directory. Also, attempting to create a link is a convenient way to test for and create a lock on a file. 
+
+Mount and umount: a Windows program cannot make assumptions about standard path names because on systems with multiple disk drives the drive-name part of the path may be different.
+
+Chmod: Windows uses access control lists.
+
+Kill: Windows programmers cannot kill a misbehaving program that is not cooperating
+
 31. A portable operating system is one that can be ported from one system architecture to another without any modification. Explain why it is infeasible to build an operating system that is completely portable. Describe two high-level layers that you will have in designing an operating system that is highly portable.
 32. Explain how separation of policy and mechanism aids in building microkernel-based operating systems.
 33. Virtual machines have become very popular for a variety of reasons. Nevertheless, they have some downsides. Name one.

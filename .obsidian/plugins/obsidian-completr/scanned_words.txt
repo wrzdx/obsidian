@@ -23552,6 +23552,7 @@ CJCDTE
 CGOU
 Cvd
 CgR
+Calls
 Sections
 Surfaces
 Spaces
@@ -26540,6 +26541,8 @@ SbITz
 Sty
 SwC
 SBXK
+Shell
+SYSCALL
 Algebra
 AGLA
 Assignments
@@ -35141,6 +35144,8 @@ PDY
 PIV
 PGT
 PtVrH
+Pipes
+PID
 Quadratic
 Qn
 QL
@@ -44278,6 +44283,10 @@ MDQs
 MlDY
 Mka
 MDO
+Multics
+Mounted
+Mapping
+Mount
 pdf
 previous
 prove
@@ -47309,6 +47318,8 @@ plG
 pDqm
 pdftk
 paulo
+pipe
+procedure
 Read
 Relations
 RY
@@ -50501,6 +50512,7 @@ RWw
 RHHU
 RXq
 RcCB
+RAX
 of
 one
 others
@@ -68439,6 +68451,7 @@ dIPt
 dFt
 djLj
 dNLz
+descriptor
 independency
 in
 info
@@ -72306,6 +72319,7 @@ iJaW
 iHx
 itext
 itextpdf
+inode
 For
 Functions
 Frolov
@@ -83914,6 +83928,8 @@ sfNr
 sCj
 skF
 sdywc
+shell
+segment
 exist
 excalidraw
 everything
@@ -87051,6 +87067,7 @@ eQy
 ejK
 endash
 eaae
+exFAT
 have
 hQ
 hfRF
@@ -90016,6 +90033,7 @@ hElrDA
 hqf
 hzVN
 hpp
+heck
 combination
 can
 command
@@ -95946,6 +95964,7 @@ NQn
 NQj
 NiBb
 NQtM
+NTFS
 Given
 Graphs
 Gg
@@ -111718,6 +111737,7 @@ motherboard
 mTMo
 mrF
 macron
+mount
 You
 YC
 YR

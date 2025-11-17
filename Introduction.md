@@ -51,10 +51,7 @@ Second-generation computers did not have the necessary hardware to protect the o
 is, they can be executed in kernel mode but not in user mode. Give a reason why these
 instructions are privileged.
 
-Access to I/O devices (e.g., a printer) is typically restricted for different users. Some users may be allowed to
-print as many pages as they like, some users may not be allowed to print at all, while some users may be limited
-to printing only a certain number of pages. These restrictions are set by system administrators based on some
-policies. Such policies need to be enforced so that user-level programs cannot interfere with them.
+Access to I/O devices (e.g., a printer) is typically restricted for different users. Some users may be allowed to print as many pages as they like, some users may not be allowed to print at all, while some users may be limited to printing only a certain number of pages. These restrictions are set by system administrators based on some policies. Such policies need to be enforced so that user-level programs cannot interfere with them.
 
 These instructions are privileged to prevent user programs from directly accessing hardware devices. This is necessary to effectively manage resources and prevent conflicts or errors that could disrupt the entire system.
 
@@ -63,17 +60,30 @@ ed to support them. How much video RAM is needed to support a 25-line × 80-row
 character monochrome text screen? How much for a 1024 × 768-pixel 24-bit color bit-
 map? What was the cost of this RAM at 1980 prices ($5/KB)? How much is it now?
 
-
+A 25 $\times$ 80 character monochrome text screen requires a 2000-byte buffer. The 1200 $\times$ 900 pixel 24-bit color bitmap requires 3,240,000 bytes. In 1980 these two options would have cost $10 and $15,820, respectively. For current prices, check on how much RAM currently costs, probably pennies per MB.
 
 9. There are several design goals in building an operating system, for example, resource
 utilization, timeliness, robustness, and so on. Give an example of two design goals that
 may contradict one another.
+
+Maximum performance (efficient use of resources) and high reliability. Optimizing for maximum speed can lead to less error checking and, as a result, reduced reliability.
+
+Consider fairness and real time. Fairness requires that each process be allocated its resources in a fair way, with no process getting more than its fair share. On the other hand, real time requires that resources be allocated based on the times when different processes must complete their execution. A real time process may get a disproportionate share of the resources.
+
 10. What is the difference between kernel and user mode? Explain how having two distinct
 modes aids in designing an operating system.
+
+Most modern CPUs provide two modes of execution: kernel mode and user mode. The CPU can execute every instruction in its instruction set and use every feature of the hardware when executing in kernel mode. However, it can execute only a subset of instructions and use only subset of features when executing in the user mode. Having two modes allows designers to run user programs in user mode and thus deny them access to critical instructions.
+
 11. A 255-GB disk has 65,536 cylinders with 255 sectors per track and 512 bytes per sec-
 tor. How many platters and heads does this disk have? Assuming an average cylinder
 seek time of 11 msec, average rotational delay of 7 msec. and reading rate of 100
 MB/sec, calculate the average time it will take to read 100 KB from one sector.
+
+Number of heads = 255 GB / (65,536 $\times$ 255 $\times$ 512) B = 32
+Number of platters = 32/2 = 16
+The time for a read operation to complete is seek time + rotational latency + transfer time. The seek time is 11 ms, the rotational latency is 7 ms and the transfer time is 4 ms, so the average transfer takes 22 ms.
+
 12. Consider a system that has two CPUs, each CPU having two threads (hyperthreading).
 Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20
 msec, respectively. How long will it take to complete the execution of these programs?

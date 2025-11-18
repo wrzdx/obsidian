@@ -232,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -332,8 +333,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "d0989b295985b2c1",
+  "active": "1a86e906eb4983d4",
   "lastOpenFiles": [
+    "Library/Pasted image 20251118202052.png",
     "Processes and Threads.md",
     "Threads.md",
     "Processes.md",
@@ -371,7 +373,6 @@
     "Transitions.md",
     "Media Queries.md",
     "Transforms.md",
-    "Keyframes.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "templates",
     "Library/EvgeniiKhovalyg.pdf",

@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "1a86e906eb4983d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Threads"
+            }
+          },
+          {
             "id": "95dae12c12a57ac9",
             "type": "leaf",
             "state": {
@@ -319,14 +333,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "95dae12c12a57ac9",
+  "active": "1a86e906eb4983d4",
   "lastOpenFiles": [
+    "Processes and Threads.md",
+    "Threads.md",
+    "Processes.md",
+    "Library/Pasted image 20251118164709.png",
     "Library/Pasted image 20251118161954.png",
     "Library/Pasted image 20251118161921.png",
-    "Processes and Threads.md",
     "Системные вызовы.md",
     "Introduction.md",
-    "Processes.md",
     "Modern Operating Systems.md",
     "Мир согласно С.md",
     "Library/Pasted image 20251118004145.png",
@@ -337,9 +353,7 @@
     "Library/Pasted image 20251117235027.png",
     "Library/Pasted image 20251117235026.png",
     "Library/Pasted image 20251117234522.png",
-    "Library/Pasted image 20251117231922.png",
     "Концепции операционных систем.md",
-    "Library/Pasted image 20251117210400.png",
     "Непрерывные случайные векторы..md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
     "Probstat.md",

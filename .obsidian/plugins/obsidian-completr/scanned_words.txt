@@ -3211,6 +3211,7 @@ Dyt
 Ddys
 DzL
 DiR
+Dispatcher
 Lecturer
 Link
 Line
@@ -5852,6 +5853,7 @@ LxnuwN
 LXt
 LIc
 LCM
+Level
 Vladimir
 Vector
 VIEW
@@ -15026,6 +15028,7 @@ TYF
 TkO
 Threads
 Termination
+Terminated
 nomemm
 need
 necessary
@@ -23564,6 +23567,7 @@ CreateFile
 CloseHandle
 CreateDirectory
 Creation
+Counter
 Sections
 Surfaces
 Spaces
@@ -26559,6 +26563,7 @@ Speech
 Smart
 SetFilePointer
 SetCurrentDirectory
+Spreadsheet
 Algebra
 AGLA
 Assignments
@@ -35171,6 +35176,8 @@ Pipes
 PID
 PROBLEMS
 Processes
+Pthreads
+Preemption
 Quadratic
 Qn
 QL
@@ -40740,6 +40747,7 @@ BuV
 Bwc
 Before
 Background
+Blocked
 Material
 MORE
 Mathematical
@@ -47365,6 +47373,7 @@ policies
 prevent
 prices
 permission
+page
 Read
 Relations
 RY
@@ -50560,6 +50569,8 @@ RcCB
 RAX
 ReadFile
 RemoveDirectory
+Running
+Ready
 of
 one
 others
@@ -65362,6 +65373,7 @@ Wcm
 WinAPI
 WaitForSingleObject
 WriteFile
+Worker
 dependency
 dependent
 document
@@ -80954,6 +80966,7 @@ fully
 flush
 follow
 fork
+faults
 scalars
 sufficient
 settings
@@ -117923,6 +117936,7 @@ word
 wait
 were
 widespread
+wrapper
 under
 up
 unclear
@@ -124051,6 +124065,7 @@ redirection
 reboot
 ruining
 raw
+robin
 Zorich
 ZM
 ZB

@@ -4,123 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "db28f1cf35b98c32",
+        "id": "ed5fabed7e50909f",
         "type": "tabs",
         "children": [
           {
-            "id": "1aab9f00027f9c22",
+            "id": "504e3f0c8c170431",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction.md",
+                "file": "Event-driven servers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "8f410b07794e9bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Системные вызовы.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Системные вызовы"
-            }
-          },
-          {
-            "id": "a9adc6e631a449b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modern Operating Systems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Modern Operating Systems"
-            }
-          },
-          {
-            "id": "2a65bc37b301e53a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processes and Threads.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Processes and Threads"
-            }
-          },
-          {
-            "id": "1a86e906eb4983d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Threads.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Threads"
-            }
-          },
-          {
-            "id": "95dae12c12a57ac9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Processes"
-            }
-          },
-          {
-            "id": "49ca505c5e1ab338",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Концепции операционных систем.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Концепции операционных систем"
-            }
-          },
-          {
-            "id": "fe6fa0022065ad8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Системные вызовы.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Системные вызовы"
+              "title": "Event-driven servers"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processes.md",
+                "file": "Event-driven servers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,11 +105,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Processes"
+              "title": "Backlinks for Event-driven servers"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -220,20 +121,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Threads.md",
+                "file": "Event-driven servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Threads"
+              "title": "Outgoing links from Event-driven servers"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -333,28 +233,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "1a86e906eb4983d4",
+  "active": "504e3f0c8c170431",
   "lastOpenFiles": [
+    "Системные вызовы.md",
+    "Концепции операционных систем.md",
+    "Processes.md",
+    "Event-driven servers.md",
+    "Processes and Threads.md",
+    "Modern Operating Systems.md",
+    "Introduction.md",
+    "Threads.md",
     "Library/Pasted image 20251118220020.png",
     "Library/Pasted image 20251118213728.png",
     "Library/Pasted image 20251118202052.png",
-    "Processes and Threads.md",
-    "Threads.md",
-    "Processes.md",
     "Library/Pasted image 20251118164709.png",
     "Library/Pasted image 20251118161954.png",
     "Library/Pasted image 20251118161921.png",
-    "Системные вызовы.md",
-    "Introduction.md",
-    "Modern Operating Systems.md",
     "Мир согласно С.md",
     "Library/Pasted image 20251118004145.png",
     "Library/Pasted image 20251118004110.png",
     "Структура ОС.md",
     "Library/Pasted image 20251118002510.png",
     "Library/Pasted image 20251118002437.png",
-    "Library/Pasted image 20251117235027.png",
-    "Концепции операционных систем.md",
     "Непрерывные случайные векторы..md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
     "Probstat.md",

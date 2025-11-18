@@ -12258,6 +12258,7 @@ IrB
 IdM
 IVK
 IqGD
+ISR
 Telegram
 Theorem
 Text
@@ -26564,6 +26565,7 @@ Smart
 SetFilePointer
 SetCurrentDirectory
 Spreadsheet
+Scheduler
 Algebra
 AGLA
 Assignments
@@ -40748,6 +40750,7 @@ Bwc
 Before
 Background
 Blocked
+Blocks
 Material
 MORE
 Mathematical
@@ -50571,6 +50574,7 @@ ReadFile
 RemoveDirectory
 Running
 Ready
+Routine
 of
 one
 others
@@ -59198,6 +59202,7 @@ gMa
 gXKI
 gained
 getting
+grep
 Umnov
 Uniqueness
 Uf
@@ -84029,6 +84034,8 @@ sync
 sanctions
 stick
 stdout
+servers
+scheduler
 exist
 excalidraw
 everything
@@ -87176,6 +87183,7 @@ early
 enforced
 enough
 execve
+entry
 have
 hQ
 hfRF
@@ -93388,6 +93396,7 @@ consequences
 caught
 contents
 chmod
+cat
 Necessity
 Nikolay
 Natural
@@ -105204,6 +105213,7 @@ Efcu
 Electronic
 Empirical
 ExitProcess
+Event
 OPTIONS
 Operations
 Obtain

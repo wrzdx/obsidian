@@ -15025,6 +15025,7 @@ TOKSUD
 TYF
 TkO
 Threads
+Termination
 nomemm
 need
 necessary
@@ -23562,6 +23563,7 @@ CreateProcess
 CreateFile
 CloseHandle
 CreateDirectory
+Creation
 Sections
 Surfaces
 Spaces
@@ -40737,6 +40739,7 @@ BPW
 BuV
 Bwc
 Before
+Background
 Material
 MORE
 Mathematical
@@ -68510,6 +68513,7 @@ devices
 disk
 disrupt
 depend
+daemons
 independency
 in
 info
@@ -75480,6 +75484,7 @@ FxGH
 Fvfv
 FFW
 FJJFAM
+Foreground
 vectors
 vector
 variable
@@ -80948,6 +80953,7 @@ finished
 fully
 flush
 follow
+fork
 scalars
 sufficient
 settings
@@ -84009,6 +84015,7 @@ safely
 sync
 sanctions
 stick
+stdout
 exist
 excalidraw
 everything
@@ -87155,6 +87162,7 @@ exhibits
 early
 enforced
 enough
+execve
 have
 hQ
 hfRF

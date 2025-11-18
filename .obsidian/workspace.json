@@ -13,26 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Synchronization and interprocess communication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processes and Threads"
-            }
-          },
-          {
-            "id": "46750bfde567dfce",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Synchronization and interprocess communication"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "virtua",
+                "query": "tag:#2ndYear",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +76,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Теги"
+              "title": "Tags"
             }
           },
           {
@@ -106,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Synchronization and interprocess communication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,11 +105,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Synchronization and interprocess communication"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -131,11 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Synchronization and interprocess communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Synchronization and interprocess communication"
             }
           }
         ]
@@ -242,15 +233,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "46750bfde567dfce",
+  "active": "504e3f0c8c170431",
   "lastOpenFiles": [
-    "Synchronization and interprocess communication.md",
     "Processes and Threads.md",
+    "Untitled.base",
+    "Modern Operating Systems.md",
+    "Innopolis 2st year - Fall Semester.md",
+    "Synchronization and interprocess communication.md",
     "Event-driven servers.md",
     "Системные вызовы.md",
     "Концепции операционных систем.md",
     "Processes.md",
-    "Modern Operating Systems.md",
     "Introduction.md",
     "Threads.md",
     "Library/Pasted image 20251118220020.png",
@@ -280,8 +273,6 @@
     "Asynchronous Code.md",
     "The Odin Project.md",
     "HTML and CSS.md",
-    "Transitions.md",
-    "Media Queries.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "templates",
     "Library/EvgeniiKhovalyg.pdf",
@@ -290,7 +281,6 @@
     "Без названия",
     "Latex",
     "Без названия.canvas",
-    "Library/Math/Konev eng.pdf",
     "Без названия 4.canvas",
     "Без названия 3.canvas",
     "Без названия 2.canvas",

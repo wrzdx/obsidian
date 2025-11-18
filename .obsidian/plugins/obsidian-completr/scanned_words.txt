@@ -26566,6 +26566,7 @@ SetFilePointer
 SetCurrentDirectory
 Spreadsheet
 Scheduler
+Synchronization
 Algebra
 AGLA
 Assignments

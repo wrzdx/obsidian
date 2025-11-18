@@ -23558,6 +23558,10 @@ CGOU
 Cvd
 CgR
 Calls
+CreateProcess
+CreateFile
+CloseHandle
+CreateDirectory
 Sections
 Surfaces
 Spaces
@@ -26551,6 +26555,8 @@ SYSCALL
 Sales
 Speech
 Smart
+SetFilePointer
+SetCurrentDirectory
 Algebra
 AGLA
 Assignments
@@ -44308,6 +44314,8 @@ Mount
 Multiprogramming
 Mainframe
 Multiprocessor
+Miscellaneous
+Model
 pdf
 previous
 prove
@@ -50547,6 +50555,8 @@ RHHU
 RXq
 RcCB
 RAX
+ReadFile
+RemoveDirectory
 of
 one
 others
@@ -65346,6 +65356,9 @@ WfA
 WQPy
 Wwl
 Wcm
+WinAPI
+WaitForSingleObject
+WriteFile
 dependency
 dependent
 document
@@ -93353,6 +93366,7 @@ crash
 consequences
 caught
 contents
+chmod
 Necessity
 Nikolay
 Natural
@@ -99248,6 +99262,8 @@ GHO
 GMp
 Glean
 GUIs
+GetFileAttributesEx
+GetLocalTime
 basis
 be
 bd
@@ -105166,6 +105182,7 @@ EwwY
 Efcu
 Electronic
 Empirical
+ExitProcess
 OPTIONS
 Operations
 Obtain
@@ -121013,6 +121030,7 @@ uwIu
 uOfG
 uGAv
 unlimited
+umount
 represented
 ru
 rows

@@ -458,3 +458,113 @@ mutex_unlock:
 *   На их основе строятся высокоуровневые библиотеки (например, **pthread_mutex** в Linux реализован через futex).
 *   Они позволяют реализовать не только мьютексы, но и условные переменные (condition variables) и другие примитивы синхронизации.
 
+Едем дальше. Таненбаум переходит к практике — библиотека **Pthreads** (стандарт POSIX Threads). Это то, с чем ты реально будешь сталкиваться в коде на C/C++ под Linux/Unix.
+
+Тут две главные сущности: **Мьютексы** и **Условные переменные**.
+
+---
+
+### Mutexes in Pthreads (Мьютексы в Pthreads)
+
+#### Основа
+Мьютекс в Pthreads — это переменная, защищающая критическую секцию.
+*   **Реализация:** В Linux часто строится поверх **futexes** (о которых говорили выше), что дает хорошую производительность.
+*   **Принцип:**
+    *   Если открыто — заходим, лочим.
+    *   Если закрыто — блокируемся (ждем).
+*   **Важный нюанс:** Эти блокировки **не обязательны (advisory)**. Система не бьет по рукам, если ты лезешь к данным без мьютекса. Ответственность за правильное использование лежит на программисте.
+
+#### Основные вызовы (API)
+![800](Pasted%20image%2020251119011926.png)
+
+1.  **`pthread_mutex_init`** / **`destroy`**: Создание и удаление.
+2.  **`pthread_mutex_lock`**: Пытается захватить лок. Если занято — **блокирует** поток (ждет).
+3.  **`pthread_mutex_trylock`**: Пытается захватить. Если занято — **возвращает ошибку**, но не блокирует. Позволяет реализовать *busy waiting* или заняться чем-то другим.
+4.  **`pthread_mutex_unlock`**: Освобождает лок. Если есть очередь ждущих, один из них просыпается.
+
+---
+
+### Condition Variables (Условные переменные)
+
+#### Зачем они нужны?
+Мьютексы хороши для защиты от одновременного доступа ("не входи, я пишу"). Но они не умеют ждать наступления логических событий ("жди, пока буфер не станет полным").
+Для этого нужны **Condition Variables**. Они почти всегда используются **в паре** с мьютексом.
+
+#### Основные вызовы (API)
+![800](Pasted%20image%2020251119012033.png)
+
+1.  **`pthread_cond_wait`**: Блокирует поток, пока не придет сигнал.
+    *   **Магия работы:** При вызове она **атомарно** разблокирует связанный мьютекс и усыпляет поток. Когда поток просыпается (получив сигнал), она снова **захватывает мьютекс** перед возвратом управления.
+2.  **`pthread_cond_signal`**: Будит **один** поток, ждущий эту переменную.
+3.  **`pthread_cond_broadcast`**: Будит **все** потоки, ждущие эту переменную (полезно, если ресурс нужен сразу толпе).
+
+#### Критическое отличие от Семафоров
+У условных переменных **нет памяти (no memory)**.
+*   Если послать `signal`, когда никто не ждет (никто не вызвал `wait`), сигнал **потеряется** навсегда.
+*   Семафоры же накапливают сигналы (значение увеличивается).
+
+---
+
+### Пример: Производитель-Потребитель на Pthreads
+Здесь Таненбаум приводит пример кода с одним буфером.
+
+```c
+#include <stdio.h>
+#include <pthread.h>
+#define MAX 1000000000 /* how many numbers to produce */
+pthread mutex t the mutex; /* used for signaling */
+pthread cond t condc, condp; /* buffer used between producer and consumer */
+int buffer = 0;
+void *producer(void *ptr) /* produce data */
+{
+	int i;
+	
+	for (i= 1; i <= MAX; i++) {
+		pthread mutex lock(&the mutex); /* get exclusive access to buffer */
+		while (buffer != 0) pthread cond wait(&condp, &the mutex);
+		buffer = i; /* put item in buffer */
+		pthread cond signal(&condc); /* wake up consumer */
+		pthread mutex unlock(&the mutex); /* release access to buffer */
+	}
+	pthread exit(0);
+}
+void *consumer(void *ptr) /* consume data */
+{
+	int i;
+	
+	for (i = 1; i <= MAX; i++) {
+		pthread mutex lock(&the mutex); /* get exclusive access to buffer */
+		while (buffer ==0 ) pthread cond wait(&condc, &the mutex);
+		buffer = 0; /* take item from buffer (not shown) and reinitialize */
+		pthread cond signal(&condp); /* wake up producer */
+		pthread mutex unlock(&the mutex); /* release access to buffer */
+	}
+	pthread exit(0);
+}
+int main(int argc, char **argv)
+{
+	pthread t pro, con;
+	pthread mutex init(&the mutex, 0);
+	pthread cond init(&condc, 0);
+	pthread cond init(&condp, 0);
+	pthread create(&con, 0, consumer, 0);
+	pthread create(&pro, 0, producer, 0);
+	pthread join(pro, 0);
+	pthread join(con, 0);
+	pthread cond destroy(&condc);
+	pthread cond destroy(&condp);
+	pthread mutex destroy(&the mutex);
+}
+```
+
+**Разбор логики (Pattern):**
+1.  Поток захватывает мьютекс (`lock`).
+2.  Проверяет условие в цикле `while`.
+    *   *Почему `while`, а не `if`?* Потому что возможны "ложные пробуждения" (spurious wakeups) или перехват ресурса другим потоком. Проснувшись, надо **всегда** перепроверять условие.
+3.  Если условие не выполнено (буфер полон/пуст) — вызывает `wait`.
+    *   В этот момент мьютекс отпускается, другой поток может работать.
+4.  Когда условие выполнено — меняет данные, шлет `signal` другому потоку.
+5.  Отпускает мьютекс (`unlock`).
+
+**Суть взаимодействия:**
+Мьютекс обеспечивает атомарность проверки переменных, а `cond_wait` позволяет эффективно спать, пока ситуация не изменится.

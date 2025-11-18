@@ -185,51 +185,40 @@
 4.  Когда Потребитель освобождает место (было $N$ -> стало $N-1$), он будит Производителя.
 
 ````c
-#define N 100
-int count = 0;
+#define N 100 /* number of slots in the buffer */
+int count = 0; /* number of items in the buffer */
 
-/* number of slots in the buffer */
-/* number of items in the buffer */
+
+
 void producer(void)
 {
 	int item;
-	while (TRUE) {
-	item = produce item( );
-	if (count == N) sleep( );
-	inser t item(item);
-	count = count + 1;
-	if (count == 1) wakeup(consumer);
+	while (TRUE) { /* repeat forever */
+		item = produce item( ); /* generate next item */
+		if (count == N) sleep( ); /* if buffer is full, go to sleep */
+		inser t item(item); /* put item in buffer */
+		count = count + 1; /* increment count of items in buffer */
+		if (count == 1) wakeup(consumer); /* was buffer empty? */
+	}
 }
-/* repeat forever */
-/* generate next item */
-/* if buffer is full, go to sleep */
-/* put item in buffer */
-/* increment count of items in buffer */
-/* was buffer empty? */
-}
+
 void consumer(void)
 {
 	int item;
-	while (TRUE) {
-	if (count == 0) sleep( );
-	item = remove item( );
-	count = count < 1;
-	if (count == N < 1) wakeup(producer);
-	consume item(item);
-}
-/* repeat forever */
-/* if buffer is empty, got to sleep */
-/* take item from buffer */
-/* decrement count of items in buffer */
-/* was buffer full? */
-/* print item */
+	while (TRUE) { /* repeat forever */
+		if (count == 0) sleep( ); /* if buffer is empty, got to sleep */
+		item = remove item( ); /* take item from buffer */
+		count = count - 1; /* decrement count of items in buffer */
+		if (count == N - 1) wakeup(producer); /* was buffer full? */
+		consume item(item); /* print item */
+	}
 }
 ````
 
 ---
 
 ### Fatal Race Condition (Фатальная гонка)
-Код на рис. 2-27 содержит критическую уязвимость из-за того, что доступ к `count` не защищен. Проблема возникает из-за **потерянного сигнала пробуждения (Lost Wakeup)**.
+Код содержит критическую уязвимость из-за того, что доступ к `count` не защищен. Проблема возникает из-за **потерянного сигнала пробуждения (Lost Wakeup)**.
 
 **Сценарий краша:**
 1.  Буфер пуст (`count = 0`).
@@ -250,3 +239,4 @@ void consumer(void)
 
 **Почему это плохое решение:**
 Работает для двух процессов, но не масштабируется. Если процессов много, одного бита не хватит. Наращивание битов — это "костыль", а не решение фундаментальной проблемы синхронизации.
+

@@ -3217,6 +3217,8 @@ Deadlock
 Describe
 Disadvantage
 Discuss
+Down
+Donation
 Lecturer
 Link
 Line
@@ -56420,6 +56422,7 @@ locks
 last
 link
 looping
+locked
 geometria
 gN
 gQ
@@ -84304,6 +84307,8 @@ schedulable
 sume
 started
 sequential
+send
+socket
 exist
 excalidraw
 everything
@@ -99595,6 +99600,7 @@ GetFileAttributesEx
 GetLocalTime
 Guaranteed
 Grace
+GrandChild
 basis
 be
 bd
@@ -124440,6 +124446,7 @@ readers
 regard
 region
 receiving
+retry
 Zorich
 ZM
 ZB
@@ -136837,6 +136844,7 @@ Handheld
 Hint
 Hoare
 Hansen
+Handoff
 XKo
 Xg
 XWo

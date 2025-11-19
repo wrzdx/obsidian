@@ -561,11 +561,7 @@ round-robin scheduling algorithm.
 - Правило: `Q` должно быть значительно больше `C`  (обычно `Q≈20..50`мс, `C<1C<1` мс)
 
 41. Measurements of a certain system have shown that the average process runs for a time
-T before blocking on I/O. A process switch requires a time S, which is effectivelyCHAP. 2
-PROBLEMS
-177
-wasted (overhead). For round-robin scheduling with quantum Q, give a formula for
-the CPU efficiency for each of the following:
+T before blocking on I/O. A process switch requires a time S, which is effectively wasted (overhead). For round-robin scheduling with quantum Q, give a formula for the CPU efficiency for each of the following:
 (a) Q = '
 (b) Q > T
 (c) S < Q < T

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processes and Threads"
+              "title": "Scheduling"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Synchronization and interprocess communication"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,14 +262,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "cc7fbb1f795f5651",
+  "active": "504e3f0c8c170431",
   "lastOpenFiles": [
+    "Scheduling.md",
     "Synchronization and interprocess communication.md",
     "Processes and Threads.md",
     "Library/Pasted image 20251119135117.png",
     "Library/Pasted image 20251119133344.png",
     "Library/Pasted image 20251119133323.png",
-    "Scheduling.md",
     "Library/Pasted image 20251119015947.png",
     "Library/Pasted image 20251119015933.png",
     "Library/Pasted image 20251119012033.png",

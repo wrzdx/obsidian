@@ -15,15 +15,52 @@ The transition from blocked to running is conceivable. Suppose that a process is
 switching in hardware, instead of having interrupts. What information would the CPU
 need? Describe how the hardware process switching might work.
 
-You could have a register containing a pointer to the current process-table entry. When I/O completed, the CPU would store the current machine state in the current process-table entry. Then it would go to the interrupt vector for the interrupting device and fetch a pointer to another process-table entry (the service procedure). This process would then be started up.
+- **Инфа:** CPU нужен регистр-указатель на структуру процесса в памяти. Эта структура должна содержать слоты для всех регистров и состояния MMU.
+    
+- **Механизм:** При срабатывании триггера CPU аппаратно сбрасывает свое состояние в память по указателю "текущего процесса", обновляет указатель на "следующий процесс", загружает состояние оттуда и продолжает работу. Без запуска кода ядра ОС.
+
 
 3. On all current computers, at least part of the interrupt handlers are written in assembly
 language. Why?
+
+Высокоуровневые языки (C/C++) не умеют работать с "сырым" состоянием процессора. Ассемблер необходим для **сохранения всех регистров** прерванного процесса и переключения указателя стека **до того**, как начнет выполняться код на высокоуровневом языке, который может эти регистры испортить
+
 4. When an interrupt or a system call transfers control to the operating system, a kernel
 stack area separate from the stack of the interrupted process is generally used. Why?
+
+Безопасность и надежность.
+
+**Пояснение:**  
+Когда происходит системный вызов или прерывание, процессор переходит в режим ядра. Если бы он продолжал использовать стек пользователя:
+
+1. **Риск краша:** Указатель стека пользователя (SP) может быть кривым (указывать на несуществующую память). Если ядро попытается туда писать — ОС упадет (Blue Screen).
+    
+2. **Безопасность:** В стеке могут храниться секретные данные ядра. Если бы они лежали в пользовательском стеке, юзер мог бы их подсмотреть или перезаписать после возврата управления.
+
 5. A computer system has enough room to hold four programs in its main memory. These
 programs are idle waiting for I/O half the time. What fraction of the CPU time is
 wasted?
+
+**Дано:**
+
+-         `n=4n=4`
+    (программы).
+-         `p=0.5p=0.5`
+    (вероятность, что программа ждет I/O, то есть 50%).
+    
+
+**Вопрос:** Какая доля времени CPU тратится впустую (Idle)?
+
+**Решение:**  
+CPU простаивает только тогда, когда **ВСЕ** 4 процесса одновременно ждут I/O.  
+Формула вероятности одновременного события:  
+
+        `Prob(CPU_Idle)=pnProb(CPU_Idle)=p^n`
+        `Prob=0.5^4=0.0625Prob=0.54=0.0625`
+      
+
+**Ответ:** **6.25%** (или 1/16) времени процессор простаивает.
+
 6. A computer has 2 GB of RAM of which the operating system occupies 256 MB. The
 processes are all 128 MB (for simplicity) and have the same characteristics. If the goal
 is 99% CPU utilization, what is the maximum I/O wait that can be tolerated?

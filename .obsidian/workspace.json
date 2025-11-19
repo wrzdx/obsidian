@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Modern Operating Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processes and Threads"
+              "title": "Modern Operating Systems"
+            }
+          },
+          {
+            "id": "4c3d7b1525ca2480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memory Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Memory Management"
             }
           },
           {
@@ -49,7 +63,8 @@
               "title": "Synchronization and interprocess communication"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Memory Management.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,11 +148,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Processes and Threads"
+              "title": "Backlinks for Memory Management"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -149,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Processes and Threads"
+              "title": "Outgoing links from Memory Management"
             }
           }
         ]
@@ -261,10 +276,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "504e3f0c8c170431",
+  "active": "4c3d7b1525ca2480",
   "lastOpenFiles": [
-    "Synchronization and interprocess communication.md",
+    "Modern Operating Systems.md",
+    "Memory Management.md",
     "Processes and Threads.md",
+    "Synchronization and interprocess communication.md",
     "Introduction.md",
     "Scheduling.md",
     "Library/Pasted image 20251119135117.png",
@@ -276,7 +293,6 @@
     "Library/Pasted image 20251119011926.png",
     "Library/Pasted image 20251118232613.png",
     "Untitled.base",
-    "Modern Operating Systems.md",
     "Innopolis 2st year - Fall Semester.md",
     "Event-driven servers.md",
     "Системные вызовы.md",

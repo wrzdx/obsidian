@@ -5854,6 +5854,7 @@ LXt
 LIc
 LCM
 Level
+Lottery
 Vladimir
 Vector
 VIEW
@@ -12259,6 +12260,7 @@ IdM
 IVK
 IqGD
 ISR
+Interactive
 Telegram
 Theorem
 Text
@@ -15030,6 +15032,8 @@ TkO
 Threads
 Termination
 Terminated
+Turnaround
+Thread
 nomemm
 need
 necessary
@@ -23569,6 +23573,10 @@ CloseHandle
 CreateDirectory
 Creation
 Counter
+Compute
+Clock
+Come
+Convoy
 Sections
 Surfaces
 Spaces
@@ -26568,6 +26576,14 @@ Spreadsheet
 Scheduler
 Synchronization
 Scheduling
+Schedule
+Served
+Shortest
+SJF
+SRTN
+Starvation
+Schedulability
+Space
 Algebra
 AGLA
 Assignments
@@ -29450,6 +29466,8 @@ AeD
 Atqg
 ASO
 Alice
+Aging
+Application
 and
 algebra
 any
@@ -35182,6 +35200,11 @@ PROBLEMS
 Processes
 Pthreads
 Preemption
+Preemptive
+Proportionality
+Predictability
+Priority
+Policy
 Quadratic
 Qn
 QL
@@ -37999,6 +38022,8 @@ Qca
 QGCAB
 QzD
 QQmC
+Quantum
+Queues
 Basis
 Body
 Basic
@@ -40753,6 +40778,8 @@ Before
 Background
 Blocked
 Blocks
+Behavior
+Batch
 Material
 MORE
 Mathematical
@@ -44332,6 +44359,9 @@ Mainframe
 Multiprocessor
 Miscellaneous
 Model
+Meeting
+Multiple
+Mechanism
 pdf
 previous
 prove
@@ -50577,6 +50607,10 @@ RemoveDirectory
 Running
 Ready
 Routine
+Response
+Remaining
+Round
+Robin
 of
 one
 others
@@ -53428,6 +53462,7 @@ oHC
 occupied
 observe
 obvious
+overhead
 lecture
 lineynaya
 linear
@@ -65381,6 +65416,7 @@ WinAPI
 WaitForSingleObject
 WriteFile
 Worker
+Whenever
 dependency
 dependent
 document
@@ -68533,6 +68569,7 @@ disk
 disrupt
 depend
 daemons
+deadlines
 independency
 in
 info
@@ -72407,6 +72444,7 @@ ields
 implications
 interfere
 instantly
+interactive
 For
 Functions
 Frolov
@@ -75504,6 +75542,7 @@ Fvfv
 FFW
 FJJFAM
 Foreground
+FCFS
 vectors
 vector
 variable
@@ -84038,6 +84077,7 @@ stick
 stdout
 servers
 scheduler
+slice
 exist
 excalidraw
 everything
@@ -93399,6 +93439,7 @@ caught
 contents
 chmod
 cat
+carriage
 Necessity
 Nikolay
 Natural
@@ -96099,6 +96140,7 @@ NQj
 NiBb
 NQtM
 NTFS
+Nonpreemptive
 Given
 Graphs
 Gg
@@ -99296,6 +99338,7 @@ Glean
 GUIs
 GetFileAttributesEx
 GetLocalTime
+Guaranteed
 basis
 be
 bd
@@ -102014,6 +102057,9 @@ bZO
 battle
 bitmap
 buffers
+bursts
+belonging
+burst
 EXCALIDRAW
 Excalidraw
 Elements
@@ -105216,6 +105262,8 @@ Electronic
 Empirical
 ExitProcess
 Event
+Effect
+Enter
 OPTIONS
 Operations
 Obtain
@@ -111888,6 +111936,7 @@ movements
 matter
 malicious
 monochrome
+moved
 You
 YC
 YR
@@ -124078,6 +124127,7 @@ reboot
 ruining
 raw
 robin
+return
 Zorich
 ZM
 ZB

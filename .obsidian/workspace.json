@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "policy",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -263,10 +263,10 @@
   },
   "active": "504e3f0c8c170431",
   "lastOpenFiles": [
-    "Introduction.md",
-    "Processes and Threads.md",
-    "Scheduling.md",
     "Synchronization and interprocess communication.md",
+    "Processes and Threads.md",
+    "Introduction.md",
+    "Scheduling.md",
     "Library/Pasted image 20251119135117.png",
     "Library/Pasted image 20251119133344.png",
     "Library/Pasted image 20251119133323.png",

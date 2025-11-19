@@ -562,15 +562,20 @@ round-robin scheduling algorithm.
 
 41. Measurements of a certain system have shown that the average process runs for a time
 T before blocking on I/O. A process switch requires a time S, which is effectively wasted (overhead). For round-robin scheduling with quantum Q, give a formula for the CPU efficiency for each of the following:
-(a) Q = '
+(a) Q = $\infty$
 (b) Q > T
 (c) S < Q < T
 (d) Q = S
 (e) Q nearly 0
-42. Five jobs are waiting to be run. Their expected run times are 9, 6, 3, 5, and X. In what
+
+**Answer:** c
+
+41. Five jobs are waiting to be run. Their expected run times are 9, 6, 3, 5, and X. In what
 order should they be run to minimize average response time? (Your answer will
 depend on X.)
-43. Five batch jobs, A through E, arrive at almost the same time. They have estimated run-
+**Answer** – SJF
+
+42. Five batch jobs, A through E, arrive at almost the same time. They have estimated run-
 ning times of 10, 6, 2, 4, and 8 minutes. Their (externally determined) priorities are 3,
 5, 2, 1, and 4, respectively, with 5 being the highest priority. For each of the following
 scheduling algorithms, determine the mean process turnaround time. Ignore process
@@ -582,55 +587,55 @@ switching overhead.
 For (a), assume that the system is multiprogrammed, and that each job gets its fair
 share of the CPU. For (b) through (d), assume that only one job at a time runs, until it
 finishes. All jobs are completely CPU bound.
-44. A process running on CTSS needs 30 quanta to complete. How many times must it be
+43. A process running on CTSS needs 30 quanta to complete. How many times must it be
 swapped in, including the very first time (before it has run at all)?
-45. Can you think of a way to save the CTSS priority system from being fooled by random
+44. Can you think of a way to save the CTSS priority system from being fooled by random
 carriage returns?
-46. Consider a real-time system with two voice calls of periodicity 5 msec each with CPU
+45. Consider a real-time system with two voice calls of periodicity 5 msec each with CPU
 time per call of 1 msec, and one video stream of periodicity 33 msec with CPU time
 per call of 11 msec. Is this system schedulable? Show how you derived your answer.
-47. For the above problem, can another video stream be added and have the system still be
+46. For the above problem, can another video stream be added and have the system still be
 schedulable?
-48. The aging algorithm with a = 1/2 is being used to predict run times. The previous four
+47. The aging algorithm with a = 1/2 is being used to predict run times. The previous four
 runs, from oldest to most recent, are 40, 20, 40, and 15 msec. What is the prediction of
 the next time?
-49. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
+48. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
 msec each. Suppose that the four events require 35, 20, 10, and x msec of CPU time,
 respectively. What is the largest value of x for which the system is schedulable?
-50. Explain why two-level scheduling is commonly used. What advantages does it have
+49. Explain why two-level scheduling is commonly used. What advantages does it have
 over single-level scheduling?
-51. A real-time system needs to handle two voice calls that each run every 5 msec and con-
+50. A real-time system needs to handle two voice calls that each run every 5 msec and con-
 sume 1 msec of CPU time per burst, plus one video at 25 frames/sec, with each frame178
 PROCESSES AND THREADS
 CHAP. 2
 requiring 20 msec of CPU time. Is this system schedulable? Please explain why or why
 not it is schedulable and how you came to that conclusion.
-52. Consider a system in which it is desired to separate policy and mechanism for the
+51. Consider a system in which it is desired to separate policy and mechanism for the
 scheduling of kernel threads. Propose a means of achieving this goal.
-53. The readers and writers problem can be formulated in several ways with regard to
+52. The readers and writers problem can be formulated in several ways with regard to
 which category of processes can be started when. Carefully describe three different
 variations of the problem, each one favoring (or not favoring) some category of proc-
 esses (e.g., readers or writers). For each variation, specify what happens when a reader
 or a writer becomes ready to access the database, and what happens when a process is
 finished.
-54. Write a shell script that produces a file of sequential numbers by reading the last num-
+53. Write a shell script that produces a file of sequential numbers by reading the last num-
 ber in the file, adding 1 to it, and then appending it to the file. Run one instance of the
 script in the background and one in the foreground, each accessing the same file. How
 long does it take before a race condition manifests itself? What is the critical region?
 Modify the script to prevent the race. (Hint: use
 ln file file.lock
 to lock the data file.)
-55. Assume that you have an operating system that provides semaphores. Implement a
+54. Assume that you have an operating system that provides semaphores. Implement a
 message system. Write the procedures for sending and receiving messages.
-56. Rewrite the program of Fig. 2-23 to handle more than two processes.
-57. Write a producer-consumer problem that uses threads and shares a common buffer.
+55. Rewrite the program of Fig. 2-23 to handle more than two processes.
+56. Write a producer-consumer problem that uses threads and shares a common buffer.
 However, do not use semaphores or any other synchronization primitives to guard the
 shared data structures. Just let each thread access them when it wants to. Use sleep and
 wakeup to handle the full and empty conditions. See how long it takes for a fatal race
 condition to occur. For example, you might have the producer print a number once in a
 while. Do not print more than one number every minute because the I/O could affect
 the race conditions.
-58. A process can be put into a round-robin queue more than once to give it a higher prior-
+57. A process can be put into a round-robin queue more than once to give it a higher prior-
 ity. Running multiple instances of a program each working on a different part of a data
 pool can have the same effect. First write a program that tests a list of numbers for pri-
 mality. Then devise a method to allow multiple instances of the program to run at once
@@ -640,7 +645,7 @@ that your results will depend upon what else your computer is doing; on a person
 computer running only instances of this program you would not expect an
 improvement, but on a system with other processes, you should be able to grab a big-
 ger share of the CPU this way.
-59. Implement a program to count the frequency of words in a text file. The text file is
+58. Implement a program to count the frequency of words in a text file. The text file is
 partitioned into N segments. Each segment is processed by a separate thread that out-
 puts the intermediate frequency count for its segment. The main process waits until all
 the threads complete; then it computes the consolidated word-frequency data based on

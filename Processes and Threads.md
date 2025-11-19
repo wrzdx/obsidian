@@ -64,10 +64,46 @@ CPU простаивает только тогда, когда **ВСЕ** 4 пр
 6. A computer has 2 GB of RAM of which the operating system occupies 256 MB. The
 processes are all 128 MB (for simplicity) and have the same characteristics. If the goal
 is 99% CPU utilization, what is the maximum I/O wait that can be tolerated?
+
+Всего процессов $\frac{2 * 10^{3} - 256}{128}= 14$.
+
+CPU_UTILIZATION = $1- p^{n}= 0.99$ 
+
+$p^{n}= 0.01 \rightarrow p \approx 0.72$
+
+**Ответ:** Процессы могут ждать I/O до **~72%** времени, и мы все равно добьемся 99% загрузки.
+
 7. Multiple jobs can run in parallel and finish faster than if they had run sequentially.
 Suppose that two jobs, each needing 10 minutes of CPU time, start simultaneously.
 How long will the last one take to complete if they run sequentially? How long if they
 run in parallel? Assume 50% I/O wait.
+
+**Дано:**
+
+- 2 задачи
+- Каждой нужно **10 минут чистого CPU**.
+- I/O Wait = 50%.
+
+**Решение:**
+
+**А) Последовательно (Sequentially):**  
+Раз I/O занимает 50%, значит процесс работает в два раза дольше, чем требует CPU.  
+Время одной задачи =  $10 мин/(1−0.5)=20$минут.  
+Две задачи подряд:    $20+20=40$ минут.
+
+**Б) Параллельно (In parallel):**  
+Тут вступает формула утилизации CPU.  
+При двух процессах (n=2 p=0.5), загрузка процессора будет:  
+        $$Util=1−0.5^2=1−0.25=0.75$$
+
+(или 75%).
+
+Это значит, что каждую минуту реального времени процессор выполняет 0.75 минуты полезной работы (для обоих процессов суммарно).  
+Общий объем работы CPU для двух задач = 10+10=20 минут.  
+Время выполнения =  $(Total CPU Work)/(Utilization Rate)=20/0.75=26.67$ минут.
+
+**Ответ:** Последовательно — **40 мин**, Параллельно — **~26.7 мин**.
+
 8. Consider a multiprogrammed system with degree of 5 (i.e., five programs in memory
 at the same time). Assume that each process spends 40% of its time waiting for I/O.
 What will be the CPU utilization?

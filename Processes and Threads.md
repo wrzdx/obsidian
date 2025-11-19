@@ -587,6 +587,11 @@ switching overhead.
 For (a), assume that the system is multiprogrammed, and that each job gets its fair
 share of the CPU. For (b) through (d), assume that only one job at a time runs, until it
 finishes. All jobs are completely CPU bound.
+a)
+q = 30/ 5 = 6
+(6 + 12 + 14 + 18 + 24 + 28 + 30)/5 = 26.4
+b)
+6 + 14 + 
 43. A process running on CTSS needs 30 quanta to complete. How many times must it be
 swapped in, including the very first time (before it has run at all)?
 44. Can you think of a way to save the CTSS priority system from being fooled by random

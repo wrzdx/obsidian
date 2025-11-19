@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -290,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Непрерывные случайные векторы..md",
+                "file": "Virtual Memory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Непрерывные случайные векторы."
+              "title": "Outline of Virtual Memory"
             }
           }
         ]

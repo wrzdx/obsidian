@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Processes and Threads"
             }
+          },
+          {
+            "id": "ca4f310eb4f70bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synchronization and interprocess communication.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Synchronization and interprocess communication"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Synchronization and interprocess communication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Processes and Threads"
+              "title": "Backlinks for Synchronization and interprocess communication"
             }
           }
         ],
@@ -136,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Synchronization and interprocess communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Processes and Threads"
+              "title": "Outgoing links from Synchronization and interprocess communication"
             }
           }
         ]
@@ -249,12 +263,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "cc7fbb1f795f5651",
+  "active": "ca4f310eb4f70bdf",
   "lastOpenFiles": [
+    "Processes and Threads.md",
+    "Library/Pasted image 20251119135117.png",
     "Library/Pasted image 20251119133344.png",
     "Library/Pasted image 20251119133323.png",
     "Scheduling.md",
-    "Processes and Threads.md",
     "Synchronization and interprocess communication.md",
     "Library/Pasted image 20251119015947.png",
     "Library/Pasted image 20251119015933.png",
@@ -272,8 +287,6 @@
     "Threads.md",
     "Library/Pasted image 20251118220020.png",
     "Library/Pasted image 20251118213728.png",
-    "Library/Pasted image 20251118202052.png",
-    "Library/Pasted image 20251118164709.png",
     "Мир согласно С.md",
     "Структура ОС.md",
     "Непрерывные случайные векторы..md",

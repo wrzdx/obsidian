@@ -3212,6 +3212,8 @@ Ddys
 DzL
 DiR
 Dispatcher
+Disabling
+Deadlock
 Lecturer
 Link
 Line
@@ -5855,6 +5857,9 @@ LIc
 LCM
 Level
 Lottery
+Lock
+Lost
+Locks
 Vladimir
 Vector
 VIEW
@@ -8717,6 +8722,9 @@ VhGky
 Vwt
 VSC
 VnD
+Variable
+Verhogen
+Variables
 Ivanov
 Introduction
 Independence
@@ -12261,6 +12269,9 @@ IVK
 IqGD
 ISR
 Interactive
+Interrupts
+Inversion
+Issues
 Telegram
 Theorem
 Text
@@ -23577,6 +23588,10 @@ Compute
 Clock
 Come
 Convoy
+Conditions
+Consumer
+Ceiling
+Copy
 Sections
 Surfaces
 Spaces
@@ -26584,6 +26599,14 @@ SRTN
 Starvation
 Schedulability
 Space
+Spooler
+Section
+Strict
+Sleep
+Semaphores
+Spin
+Slow
+Synchronized
 Algebra
 AGLA
 Assignments
@@ -29468,6 +29491,9 @@ ASO
 Alice
 Aging
 Application
+Alternation
+Ada
+Acknowledgement
 and
 algebra
 any
@@ -32455,6 +32481,8 @@ allowed
 administrators
 adopted
 administrator
+assembly
+advisory
 Plane
 Problem
 Prove
@@ -35205,6 +35233,11 @@ Proportionality
 Predictability
 Priority
 Policy
+Peterson
+Proberen
+Path
+Pathfinder
+Period
 Quadratic
 Qn
 QL
@@ -40780,6 +40813,10 @@ Blocked
 Blocks
 Behavior
 Batch
+Busy
+Brinch
+Barriers
+Barrier
 Material
 MORE
 Mathematical
@@ -44362,6 +44399,13 @@ Model
 Meeting
 Multiple
 Mechanism
+Mutual
+Mutexes
+Mutex
+Monitors
+Message
+Mailbox
+Mars
 pdf
 previous
 prove
@@ -47409,6 +47453,7 @@ prevent
 prices
 permission
 page
+pthread
 Read
 Relations
 RY
@@ -50611,6 +50656,11 @@ Response
 Remaining
 Round
 Robin
+Race
+Region
+Readers
+Rendezvous
+RCU
 of
 one
 others
@@ -56278,6 +56328,8 @@ lwu
 lowagie
 locality
 likely
+lock
+locks
 geometria
 gN
 gQ
@@ -62403,6 +62455,8 @@ Ugzp
 UDu
 UiCgbI
 USY
+Unlocked
+Unlocking
 Watch
 We
 What
@@ -65417,6 +65471,9 @@ WaitForSingleObject
 WriteFile
 Worker
 Whenever
+Waiting
+Wakeup
+Writers
 dependency
 dependent
 document
@@ -75543,6 +75600,10 @@ FFW
 FJJFAM
 Foreground
 FCFS
+Fatal
+Futexes
+Futex
+Fence
 vectors
 vector
 variable
@@ -81013,6 +81074,8 @@ flush
 follow
 fork
 faults
+futex
+futexes
 scalars
 sufficient
 settings
@@ -84078,6 +84141,10 @@ stdout
 servers
 scheduler
 slice
+spin
+sleep
+spinlock
+spurious
 exist
 excalidraw
 everything
@@ -87226,6 +87293,7 @@ enforced
 enough
 execve
 entry
+exclusion
 have
 hQ
 hfRF
@@ -93440,6 +93508,8 @@ contents
 chmod
 cat
 carriage
+clusion
+contention
 Necessity
 Nikolay
 Natural
@@ -96141,6 +96211,7 @@ NiBb
 NQtM
 NTFS
 Nonpreemptive
+NASA
 Given
 Graphs
 Gg
@@ -99339,6 +99410,7 @@ GUIs
 GetFileAttributesEx
 GetLocalTime
 Guaranteed
+Grace
 basis
 be
 bd
@@ -102060,6 +102132,8 @@ buffers
 bursts
 belonging
 burst
+buffer
+blocking
 EXCALIDRAW
 Excalidraw
 Elements
@@ -105264,6 +105338,7 @@ ExitProcess
 Event
 Effect
 Enter
+Exchange
 OPTIONS
 Operations
 Obtain
@@ -111937,6 +112012,8 @@ matter
 malicious
 monochrome
 moved
+mutual
+mutex
 You
 YC
 YR
@@ -117998,6 +118075,8 @@ wait
 were
 widespread
 wrapper
+wakeup
+wakeups
 under
 up
 unclear
@@ -124128,6 +124207,7 @@ ruining
 raw
 robin
 return
+reader
 Zorich
 ZM
 ZB
@@ -133792,6 +133872,7 @@ qpFf
 qyp
 qKY
 qIG
+queue
 HB
 HE
 HK
@@ -136520,6 +136601,8 @@ HLZr
 HGdD
 Handheld
 Hint
+Hoare
+Hansen
 XKo
 Xg
 XWo
@@ -139447,6 +139530,7 @@ XkxAMBW
 XOx
 XKTKJZ
 XETZ
+XCHG
 jE
 jx
 jf

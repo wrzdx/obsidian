@@ -304,43 +304,130 @@ run-time system getting a clock interrupt once a second. Suppose that a clock in
 occurs exactly while some thread executing in the run-time system is at the point of
 blocking or unblocking a thread. What problem might occur? Can you solve it?
 
-
+**Проблема:**  
+Планировщик (Runtime system) — это программа, которая крутит списки очередей (ready list). Если таймер прервет планировщик в момент, когда он переставляет указатели в списке (например, перемещает поток из "Running" в "Ready"), и обработчик сигнала тоже полезет в этот список...  
+**Итог:** Список будет разрушен (битые указатели). Программа упадет.  
+**Решение:**  
+Отключать прерывания (или блокировать сигналы) перед входом в код планировщика и включать обратно при выходе.
 
 22. Suppose that an operating system does not have anything like the select system call to
 see in advance if it is safe to read from a file, pipe, or device, but it does allow alarm
 clocks (timers) to be set that interrupt blocked system calls. Is it possible to implement
 in user space a threads package that will not block all threads when one thread per-
 forms a system call that may block? Explain your answer.
+
+**Ответ:** Да.  
+**Как:**  
+Перед тем как сделать блокирующий вызов (например, read), библиотека потоков ставит таймер (alarm) на короткое время.
+
+1. Если данные есть — read проходит быстро, таймер сбрасывается.
+    
+2. Если данных нет — read пытается уснуть, но **срабатывает таймер**.
+    
+3. Сигнал таймера **прерывает** системный вызов read.
+    
+4. Библиотека ловит прерывание, помечает поток как "ждущий" и переключает управление на другой поток. Позже она попробует снова.
+
 23. Does Peterson’s solution to the mutual-exclusion problem shown in Fig. 2-24 work
 when process scheduling is preemptive? How about when it is nonpreemptive?
+
+**Preemptive (Вытесняющая):**  
+**Работает.** Процесс А заходит в цикл while, его время истекает, ОС переключает на Процесс Б. Б выходит из критической секции, меняет флаг. А просыпается и заходит. Все ок.
+
+**Nonpreemptive (Невытесняющая):**  
+**Не работает (FAIL).**  
+Если Процесс А не получил доступ и вошел в цикл активного ожидания (while), он никогда не отдаст процессор. Процесс Б никогда не получит управление, чтобы сбросить флаг.  
+**Итог:** Deadlock (или вечный цикл).
+
 24. Can the priority inversion problem discussed in Sec. 2.3.4 happen with user-level
 threads? Why or why not?
+
+**Ответ:** Нет (в классическом понимании).  
+**Почему:** В User-level threads нет вытеснения по таймеру между потоками внутри процесса.  
+Если низкоприоритетный поток (L) захватил мьютекс и работает, высокоприоритетный поток (H) не может "отобрать" у него процессор, пока L сам не отдаст его (thread_yield). Планировщик уровня пользователя знает, что L держит лок, и даст ему доработать.  
+Ситуация, когда "Средний (M) вытесняет L, и поэтому H ждет вечно", невозможна, так как M не может вытеснить L без помощи планировщика.
+
 25. In Sec. 2.3.4, a situation with a high-priority process, H, and a low-priority process, L,
 was described, which led to H looping forever. Does the same problem occur if round-
 robin scheduling is used instead of priority scheduling? Discuss.
+
+**Ответ:** Нет.  
+**Почему:**  
+В Priority Scheduling процесс M (Medium) работает 100% времени, не давая L (Low) поднять голову. L не может освободить мьютекс. H (High) ждет вечно.  
+В **Round Robin** (Карусель) процесс M получит свой квант, но потом **обязательно** уступит место процессу L. L поработает свои 10мс, закончит дело, отпустит мьютекс, и H сможет войти.  
+Система будет тормозить, но **не зависнет** намертво.
+
 26. In a system with threads, is there one stack per thread or one stack per process when
 user-level threads are used? What about when kernel-level threads are used? Explain.
+
+**User-level threads:**
+
+- 1 стек на каждый поток (в пространстве пользователя). Каждому нужно хранить свои локальные переменные и историю вызовов.
+    
+
+**Kernel-level threads:**
+
+- 1 стек на каждый поток в пространстве пользователя.
+    
+- **ПЛЮС** 1 стек на каждый поток в **ядре** (Kernel stack) — для обработки системных вызовов и прерываний (см. задачу 4).
+    
+
+**Итог:** Всегда **один стек на поток** (как минимум). Стек — это суть потока.
+
 27. What is a race condition?
+
+**Гонка данных (Состязание):**  
+Ситуация, когда результат работы программы зависит от **случайного порядка выполнения** инструкций в разных процессах/потоках.  
+Если процесс А успел раньше — результат правильный. Если Б успел раньше — ошибка. Это баг.
+
 28. When a computer is being developed, it is usually first simulated by a program that
 runs one instruction at a time. Even multiprocessors are simulated strictly sequentially
 like this. Is it possible for a race condition to occur when there are no simultaneous
 events? Explain.
+
+**Вопрос:** Может ли быть гонка, если процессор всего один и выполняет инструкции строго по очереди (даже в симуляторе)?  
+**Ответ:** Да.  
+**Почему:** Гонка возникает не из-за физической одновременности (параллелизма), а из-за **непредсказуемого чередования (Interleaving)**.  
+Симулятор (или одноядерный CPU) выполняет:
+
+1. READ (Поток 1)
+    
+2. Переключение (симулированное)
+    
+3. READ (Поток 2)
+    
+4. WRITE (Поток 2)
+    
+5. Переключение
+    
+6. WRITE (Поток 1) — Ошибка! Данные Потока 2 затерты.  
+    Для логики программы это ничем не отличается от работы на 100 ядрах.
+
 29. The producer-consumer problem can be extended to a system with multiple producers
 and consumers that write (or read) to (from) one shared buffer. Assume that each pro-
 ducer and consumer runs in its own thread. Will the solution presented in Fig. 2-28,
 using semaphores, work for this system?
+
+**Вопрос:** Будет ли работать схема с рис. 2-28, если производителей и потребителей много?  
+**Ответ:** Да, будет работать идеально.  
+**Почему:**  
+Семафор mutex (бинарный) отвечает за **взаимное исключение**.  
+down(&mutex) пускает внутрь критической секции (изменения буфера) **только одного** участника в любой момент времени. Неважно, сколько их толпится снаружи — 2 или 1000. Они встанут в очередь на семафоре, и буфер останется целым.
+
 30. Consider the following solution to the mutual-exclusion problem involving two proc-
 esses P0 and P1. Assume that the variable turn is initialized to 0. Process P0’s code is
 presented below.
-/* Other code */
-while (turn != 0) { } /* Do nothing and wait. */
-Critical Section /* . . . */
-turn = 0;
-/* Other code */176
-PROCESSES AND THREADS
-CHAP. 2
+![600](Pasted%20image%2020251119135117.png)
 For process P1, replace 0 by 1 in above code. Determine if the solution meets all the
 required conditions for a correct mutual-exclusion solution.
+
+**Ответ:** Алгоритм **некорректен**.  
+**Почему:** Он нарушает условие **Прогресса** (Progress).
+
+- Алгоритм заставляет процессы строго чередоваться: 0 -> 1 -> 0 -> 1.
+    
+- Если P0 выйдет из критической секции и пойдет пить кофе (зависнет в Other code надолго), то P1 **никогда** не сможет войти, даже если критическая секция свободна. P1 будет вечно ждать, пока P0 вернется и "передаст эстафету".
+
 31. Show how counting semaphores (i.e., semaphores that can hold an arbitrary value) can
 be implemented using only binary semaphores and ordinary machine instructions.
 32. If a system has only two processes, does it make sense to use a barrier to synchronize

@@ -422,7 +422,7 @@ For process P1, replace 0 by 1 in above code. Determine if the solution meets al
 required conditions for a correct mutual-exclusion solution.
 
 **Ответ:** Алгоритм **некорректен**.  
-**Почему:** Он нарушает условие **Прогресса** (Progress).
+**Почему:** Он нарушает условие **Свобода от блокировки:** Процесс, выполняющийся вне своего критического региона, не должен блокировать любой другой процесс.**
 
 - Алгоритм заставляет процессы строго чередоваться: 0 -> 1 -> 0 -> 1.
     
@@ -430,16 +430,61 @@ required conditions for a correct mutual-exclusion solution.
 
 31. Show how counting semaphores (i.e., semaphores that can hold an arbitrary value) can
 be implemented using only binary semaphores and ordinary machine instructions.
+
+**Задача:** Как сделать считающий семафор, имея только бинарные (мьютексы)?  
+**Решение:** Нам нужны:
+
+1. int count (счетчик ресурсов).
+2. binary_sem mutex (для защиты переменной count).
+3. binary_sem delay (для усыпления потоков, изначально 0 — locked).
+
+**Алгоритм Down:**
+
+1. Захватить mutex.
+2. count--.
+3. Если count < 0:
+    - Отпустить mutex.
+    - down(&delay) (Заснуть).
+4. Иначе: отпустить mutex.
+
+**Алгоритм Up:**
+
+	1. Захватить mutex.
+	2. count++.
+	3. Если count <= 0 (значит кто-то спит):
+	    - up(&delay) (Разбудить одного).
+	4. Отпустить mutex.
+
 32. If a system has only two processes, does it make sense to use a barrier to synchronize
 them? Why or why not?
+
+**Ответ:** Да, имеет смысл.  
+**Почему:** Если эти два процесса работают в **конвейере** или итеративно (например, симуляция физики: посчитали шаг 1 -> обменялись данными -> посчитали шаг 2).  
+Барьер гарантирует, что Процесс А не начнет шаг 2, пока Процесс Б не закончил шаг 1.
+
 33. Can two threads in the same process synchronize using a kernel semaphore if the
 threads are implemented by the kernel? What if they are implemented in user space?
 Assume that no threads in any other processes have access to the semaphore. Discuss
 your answers.
+
+-  **Kernel-level threads:**
+    
+    - **Да.** Это штатный режим. Один поток уснет, ядро переключит процессор на другой поток того же процесса. Все эффективно.
+        
+-  **User-level threads:**
+    
+    - **Да, но это катастрофа.** Если user-thread вызовет системный вызов к семафору ядра и заблокируется, ядро (не зная о других потоках) заблокирует **весь процесс**. Все остальные потоки в этом процессе тоже встанут. Это работает логически, но убивает производительность.
+
 34. Suppose that we have a message-passing system using mailboxes. When sending to a
 full mailbox or trying to receive from an empty one, a process does not block. Instead,
 it gets an error code back. The process responds to the error code by just trying again,
 over and over, until it succeeds. Does this scheme lead to race conditions?
+
+**Ситуация:** Вместо блока (sleep) при ошибке "Full/Empty" процесс пробует снова и снова (retry).  
+**Гонка (Race Condition)?** **Нет.**  
+**Почему:** Операции send и receive в ядре атомарны. Целостность данных не нарушится.  
+**Минус:** Это **Busy Waiting**. Процесс будет жрать 100% CPU впустую, разогревая воздух, пока место не освободится.
+
 35. The CDC 6600 computers could handle up to 10 I/O processes simultaneously using
 an interesting form of round-robin scheduling called processor sharing. A process
 switch occurred after each instruction, so instruction 1 came from process 1, instruc-
@@ -447,18 +492,55 @@ tion 2 came from process 2, etc. The process switching was done by special hardw
 and the overhead was zero. If a process needed T sec to complete in the absence of
 competition, how much time would it need if processor sharing was used with n proc-
 esses?
+
+**Ситуация:** Переключение процессов после каждой инструкции. Накладных расходов нет (hardware switching).  
+**Ответ:**
+
+        `n×Tn×T`
+      
+
+.  
+**Почему:**  
+Если у нас `n` процессов, и процессор выполняет по одной инструкции каждого по кругу, то каждый процесс получает  `1/n` скорости процессора.  
+Соответственно, время выполнения увеличивается в `n` раз.
+
 36. Consider the following piece of C code:
+```c
 void main( ) {
-fork( );
-fork( );
-exit( );
+	fork( );
+	fork( );
+	exit( );
 }
+```
 How many child processes are created upon execution of this program?
+**Расчет:**
+	
+	1. Изначально: 1 процесс (Parent).
+	2. Первый fork: Появляется Child1. Всего процессов: 2.    
+	3. Второй fork: Выполняется **обоими** (Parent и Child1).
+	    - Parent рождает Child2.        
+	    - Child1 рождает GrandChild1.  
+	        **Итог:** Всего 4 процесса.  
+	        **Ответ:** Создано **3 новых** дочерних процесса (всего стало 4).
+
 37. Round-robin schedulers normally maintain a list of all runnable processes, with each
 process occurring exactly once in the list. What would happen (scheduling-wise) if a
 process occurred twice in the list? Can you think of any reason for allowing this?
+
+**Ситуация:** В списке runnable: A, B, A, C...  
+**Что будет:** Процесс А получит **два кванта времени** за один круг.  
+**Зачем:** Это примитивный способ реализовать **приоритеты**. Если А важнее Б, добавим его в список дважды — он получит в 2 раза больше CPU.
+
 38. Can a measure of whether a process is likely to be CPU bound or I/O bound be deter-
 mined by analyzing source code? How can this be determined at run time?
+
+- Сложно. Можно искать циклы с математикой (CPU) или вызовы read/write/socket (I/O), но компилятор и кэши могут все изменить.  
+**В рантайме (Run time):**
+    
+- **Легко.** Планировщик смотрит: использовал ли процесс свой квант времени целиком?
+    - Использовал весь квант и был вытеснен -> **CPU-bound**.
+    - Сам ушел в блок раньше времени -> **I/O-bound**.
+
 39. In the section ‘‘When to Schedule,’’ it was mentioned that sometimes scheduling could
 be improved if an important process could play a role in selecting the next process to
 run when it blocks. Give a situation where this could be used and explain how.

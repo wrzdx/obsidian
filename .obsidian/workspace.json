@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synchronization and interprocess communication.md",
+                "file": "Processes and Threads.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Synchronization and interprocess communication"
+              "title": "Backlinks for Processes and Threads"
             }
           }
         ],
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Synchronization and interprocess communication.md",
+                "file": "Processes and Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Synchronization and interprocess communication"
+              "title": "Outgoing links from Processes and Threads"
             }
           }
         ]
@@ -263,14 +263,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "ca4f310eb4f70bdf",
+  "active": "cc7fbb1f795f5651",
   "lastOpenFiles": [
+    "Synchronization and interprocess communication.md",
     "Processes and Threads.md",
     "Library/Pasted image 20251119135117.png",
     "Library/Pasted image 20251119133344.png",
     "Library/Pasted image 20251119133323.png",
     "Scheduling.md",
-    "Synchronization and interprocess communication.md",
     "Library/Pasted image 20251119015947.png",
     "Library/Pasted image 20251119015933.png",
     "Library/Pasted image 20251119012033.png",

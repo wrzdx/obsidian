@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2ndYear",
+                "query": "policy",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -264,9 +263,10 @@
   },
   "active": "504e3f0c8c170431",
   "lastOpenFiles": [
+    "Introduction.md",
+    "Processes and Threads.md",
     "Scheduling.md",
     "Synchronization and interprocess communication.md",
-    "Processes and Threads.md",
     "Library/Pasted image 20251119135117.png",
     "Library/Pasted image 20251119133344.png",
     "Library/Pasted image 20251119133323.png",
@@ -282,7 +282,6 @@
     "Системные вызовы.md",
     "Концепции операционных систем.md",
     "Processes.md",
-    "Introduction.md",
     "Threads.md",
     "Library/Pasted image 20251118220020.png",
     "Library/Pasted image 20251118213728.png",

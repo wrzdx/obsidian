@@ -166,41 +166,97 @@ It would be difϐicult, if not impossible, to keep the ϐile system consistent. 
 
 2. Может ли каждый процесс иметь свой собственный кэш?
 
-Теоретически — **да**, технически это реализуемо. Но это **ужасное архитектурное решение** по двум причинам:
+	Теоретически — **да**, технически это реализуемо. Но это **ужасное архитектурное решение** по двум причинам:
+	
+	1. **Трата памяти (Memory Waste):**  
+	    Если 100 клиентов запросят один и тот же популярный файл, у вас в памяти будет 100 копий этого файла (по одной в кэше каждого процесса). При общем кэше (в модели с потоками) копия была бы одна. Память сервера закончится моментально.
+	    
+	2. **Проблема когерентности (Consistency/Coherence):**  
+	    Если Процесс А **изменит** файл в своем кэше, Процесс Б об этом не узнает и продолжит отдавать клиентам старую версию из своего кэша. Синхронизировать множество независимых кэшей через IPC (Inter-Process Communication) — это очень сложно и медленно.
 
-1. **Трата памяти (Memory Waste):**  
-    Если 100 клиентов запросят один и тот же популярный файл, у вас в памяти будет 100 копий этого файла (по одной в кэше каждого процесса). При общем кэше (в модели с потоками) копия была бы одна. Память сервера закончится моментально.
-    
-2. **Проблема когерентности (Consistency/Coherence):**  
-    Если Процесс А **изменит** файл в своем кэше, Процесс Б об этом не узнает и продолжит отдавать клиентам старую версию из своего кэша. Синхронизировать множество независимых кэшей через IPC (Inter-Process Communication) — это очень сложно и медленно.
 
-
-3. In Fig. 2-8, a multithreaded Web server is shown. If the only way to read from a file is
+12. In Fig. 2-8, a multithreaded Web server is shown. If the only way to read from a file is
 the normal blocking read system call, do you think user-level threads or kernel-level
 threads are being used for the Web server? Why?
 
+**Ответ:** **Kernel-level (Потоки ядра).**
 
+**Почему:**
 
-4. In the text, we described a multithreaded Web server, showing why it is better than a
+- **User-level:** Ядро видит весь процесс как один поток. Если один user-level поток вызовет блокирующий read, ядро заблокирует **весь процесс целиком**. Сервер "зависнет" и не сможет обслуживать других клиентов, пока диск не отдаст данные. Это убивает смысл многопоточности.
+    
+- **Kernel-level:** Ядро видит каждый поток отдельно. Если один поток заблокируется на read, ядро переключит CPU на другой поток этого же процесса. Сервер продолжит работать.
+
+13. In the text, we described a multithreaded Web server, showing why it is better than a
 single-threaded server and a finite-state machine server. Are there any circumstances in
 which a single-threaded server might be better? Give an example.
-5. In Fig. 2-11 the register set is listed as a per-thread rather than a per-process item.
+
+**Ответ:** **Да.**  
+**Сценарий:**
+
+1. **Нет блокирующего I/O (или его очень мало):** Все данные уже в кэше (в RAM).
+    
+2. **Работа ограничена CPU (CPU-bound) и очень короткая.**
+    
+
+**Пример:** Простой **Redis** (он однопоточный) или кэширующий DNS-сервер.  
+Если сервер просто читает из памяти и отдает в сеть, многопоточность только навредит из-за накладных расходов на переключение контекста и синхронизацию (мьютексы). Один поток, работающий на 100% CPU без переключений, будет быстрее.
+
+14. In Fig. 2-11 the register set is listed as a per-thread rather than a per-process item.
 Why? After all, the machine has only one set of registers.
-6. Why would a thread ever voluntarily give up the CPU by calling thread yield? After
+
+**Ответ:** Потому что каждый поток выполняет **свой код** (или разное место одного кода).
+- Когда планировщик останавливает Поток А и запускает Поток Б, он должен **сохранить** состояние Потока А, чтобы потом продолжить с того же места.
+    
+- Состояние — это и есть значения регистров: **Instruction Pointer (PC)** (где я?), **Stack Pointer** (где мои переменные?) и регистры данных.
+    
+- Поэтому у каждого потока в таблице потоков есть свое место для хранения "снимка" регистров.
+
+15. Why would a thread ever voluntarily give up the CPU by calling thread yield? After
 all, since there is no periodic clock interrupt, it may never get the CPU back.
-7. In this problem, you are to compare reading a file using a single-threaded file server
+
+Это **Cooperative Multitasking (Кооперативная многозадачность)**.  
+Поток вызывает yield (сдаюсь), потому что:
+
+1. Он ждет ресурс, который занят другим потоком (например, хочет войти в критическую секцию, но она залочена). Если он не уступит место, тот второй поток никогда не получит CPU, не закончит работу и не освободит ресурс. Будет **Deadlock**.
+    
+2. Просто из вежливости, если задача очень долгая, чтобы дать поработать другим (в системах без вытеснения).
+
+16. In this problem, you are to compare reading a file using a single-threaded file server
 and a multithreaded server. It takes 15 msec to get a request for work, dispatch it, and
 do the rest of the necessary processing, assuming that the data needed are in the block
 cache. If a disk operation is needed, as is the case one-third of the time, an additional
 75 msec is required, during which time the thread sleeps. How many requests/sec can
 the server handle if it is single threaded? If it is multithreaded?
-8. What is the biggest advantage of implementing threads in user space? What is the big-
+
+**Дано:**
+
+- CPU time (обработка) = 15 мс.
+- I/O time (диск) = 75 мс.
+- I/O нужен в 1/3 случаев (33%).
+
+**А) Single-threaded (Один поток):**  
+Поток делает все последовательно. Среднее время на один запрос:
+
+$$T_{req}​=15+(\frac{1}{3}​×75)=15+25=40\ мс$$
+Производительность
+$$\frac{1000\ ms }{40\ ms} = 25 \ \frac{req}{sec}$$
+
+**Б) Multithreaded (Много потоков):**  
+Пока одни потоки спят на диске (75 мс), другие используют CPU.  
+Узкое место — процессор (CPU). Мы можем обрабатывать запросы так быстро, как процессор успевает делать свою часть работы (15 мс). Диск работает "параллельно" (через DMA) и нас не тормозит (предполагаем, что дисков/каналов хватает).  
+Производительность ограничена только CPU:  
+        $$\frac{1000 мс}{15 мс} ≈ 66.67\frac{ запросов}{сек}$$
+17. What is the biggest advantage of implementing threads in user space? What is the big-
 gest disadvantage?
-9. In Fig. 2-14 the thread creations and messages printed by the threads are interleaved at
+
+
+
+18. In Fig. 2-14 the thread creations and messages printed by the threads are interleaved at
 random. Is there a way to force the order to be strictly thread 1 created, thread 1 prints
 message, thread 1 exits, thread 2 created, thread 2 prints message, thread 2 exists, and
 so on? If so, how? If not, why not?
-10. Suppose that a program has two threads, each executing the get account function,
+19. Suppose that a program has two threads, each executing the get account function,
 shown below. Identify a race condition in this code.
 int accounts[LIMIT]; int account count = 0;
 void *get account(void *tid) {
@@ -221,37 +277,37 @@ PROBLEMS
 // Deallocate memory that was allocated by getline call
 free(lineptr);
 return NULL; }
-11. In the discussion on global variables in threads, we used a procedure create global to
+20. In the discussion on global variables in threads, we used a procedure create global to
 allocate storage for a pointer to the variable, rather than the variable itself. Is this
 essential, or could the procedures work with the values themselves just as well?
-12. Consider a system in which threads are implemented entirely in user space, with the
+21. Consider a system in which threads are implemented entirely in user space, with the
 run-time system getting a clock interrupt once a second. Suppose that a clock interrupt
 occurs exactly while some thread executing in the run-time system is at the point of
 blocking or unblocking a thread. What problem might occur? Can you solve it?
-13. Suppose that an operating system does not have anything like the select system call to
+22. Suppose that an operating system does not have anything like the select system call to
 see in advance if it is safe to read from a file, pipe, or device, but it does allow alarm
 clocks (timers) to be set that interrupt blocked system calls. Is it possible to implement
 in user space a threads package that will not block all threads when one thread per-
 forms a system call that may block? Explain your answer.
-14. Does Peterson’s solution to the mutual-exclusion problem shown in Fig. 2-24 work
+23. Does Peterson’s solution to the mutual-exclusion problem shown in Fig. 2-24 work
 when process scheduling is preemptive? How about when it is nonpreemptive?
-15. Can the priority inversion problem discussed in Sec. 2.3.4 happen with user-level
+24. Can the priority inversion problem discussed in Sec. 2.3.4 happen with user-level
 threads? Why or why not?
-16. In Sec. 2.3.4, a situation with a high-priority process, H, and a low-priority process, L,
+25. In Sec. 2.3.4, a situation with a high-priority process, H, and a low-priority process, L,
 was described, which led to H looping forever. Does the same problem occur if round-
 robin scheduling is used instead of priority scheduling? Discuss.
-17. In a system with threads, is there one stack per thread or one stack per process when
+26. In a system with threads, is there one stack per thread or one stack per process when
 user-level threads are used? What about when kernel-level threads are used? Explain.
-18. What is a race condition?
-19. When a computer is being developed, it is usually first simulated by a program that
+27. What is a race condition?
+28. When a computer is being developed, it is usually first simulated by a program that
 runs one instruction at a time. Even multiprocessors are simulated strictly sequentially
 like this. Is it possible for a race condition to occur when there are no simultaneous
 events? Explain.
-20. The producer-consumer problem can be extended to a system with multiple producers
+29. The producer-consumer problem can be extended to a system with multiple producers
 and consumers that write (or read) to (from) one shared buffer. Assume that each pro-
 ducer and consumer runs in its own thread. Will the solution presented in Fig. 2-28,
 using semaphores, work for this system?
-21. Consider the following solution to the mutual-exclusion problem involving two proc-
+30. Consider the following solution to the mutual-exclusion problem involving two proc-
 esses P0 and P1. Assume that the variable turn is initialized to 0. Process P0’s code is
 presented below.
 /* Other code */
@@ -263,43 +319,43 @@ PROCESSES AND THREADS
 CHAP. 2
 For process P1, replace 0 by 1 in above code. Determine if the solution meets all the
 required conditions for a correct mutual-exclusion solution.
-22. Show how counting semaphores (i.e., semaphores that can hold an arbitrary value) can
+31. Show how counting semaphores (i.e., semaphores that can hold an arbitrary value) can
 be implemented using only binary semaphores and ordinary machine instructions.
-23. If a system has only two processes, does it make sense to use a barrier to synchronize
+32. If a system has only two processes, does it make sense to use a barrier to synchronize
 them? Why or why not?
-24. Can two threads in the same process synchronize using a kernel semaphore if the
+33. Can two threads in the same process synchronize using a kernel semaphore if the
 threads are implemented by the kernel? What if they are implemented in user space?
 Assume that no threads in any other processes have access to the semaphore. Discuss
 your answers.
-25. Suppose that we have a message-passing system using mailboxes. When sending to a
+34. Suppose that we have a message-passing system using mailboxes. When sending to a
 full mailbox or trying to receive from an empty one, a process does not block. Instead,
 it gets an error code back. The process responds to the error code by just trying again,
 over and over, until it succeeds. Does this scheme lead to race conditions?
-26. The CDC 6600 computers could handle up to 10 I/O processes simultaneously using
+35. The CDC 6600 computers could handle up to 10 I/O processes simultaneously using
 an interesting form of round-robin scheduling called processor sharing. A process
 switch occurred after each instruction, so instruction 1 came from process 1, instruc-
 tion 2 came from process 2, etc. The process switching was done by special hardware,
 and the overhead was zero. If a process needed T sec to complete in the absence of
 competition, how much time would it need if processor sharing was used with n proc-
 esses?
-27. Consider the following piece of C code:
+36. Consider the following piece of C code:
 void main( ) {
 fork( );
 fork( );
 exit( );
 }
 How many child processes are created upon execution of this program?
-28. Round-robin schedulers normally maintain a list of all runnable processes, with each
+37. Round-robin schedulers normally maintain a list of all runnable processes, with each
 process occurring exactly once in the list. What would happen (scheduling-wise) if a
 process occurred twice in the list? Can you think of any reason for allowing this?
-29. Can a measure of whether a process is likely to be CPU bound or I/O bound be deter-
+38. Can a measure of whether a process is likely to be CPU bound or I/O bound be deter-
 mined by analyzing source code? How can this be determined at run time?
-30. In the section ‘‘When to Schedule,’’ it was mentioned that sometimes scheduling could
+39. In the section ‘‘When to Schedule,’’ it was mentioned that sometimes scheduling could
 be improved if an important process could play a role in selecting the next process to
 run when it blocks. Give a situation where this could be used and explain how.
-31. Explain how time quantum value and context switching time affect each other, in a
+40. Explain how time quantum value and context switching time affect each other, in a
 round-robin scheduling algorithm.
-32. Measurements of a certain system have shown that the average process runs for a time
+41. Measurements of a certain system have shown that the average process runs for a time
 T before blocking on I/O. A process switch requires a time S, which is effectivelyCHAP. 2
 PROBLEMS
 177
@@ -310,10 +366,10 @@ the CPU efficiency for each of the following:
 (c) S < Q < T
 (d) Q = S
 (e) Q nearly 0
-33. Five jobs are waiting to be run. Their expected run times are 9, 6, 3, 5, and X. In what
+42. Five jobs are waiting to be run. Their expected run times are 9, 6, 3, 5, and X. In what
 order should they be run to minimize average response time? (Your answer will
 depend on X.)
-34. Five batch jobs, A through E, arrive at almost the same time. They have estimated run-
+43. Five batch jobs, A through E, arrive at almost the same time. They have estimated run-
 ning times of 10, 6, 2, 4, and 8 minutes. Their (externally determined) priorities are 3,
 5, 2, 1, and 4, respectively, with 5 being the highest priority. For each of the following
 scheduling algorithms, determine the mean process turnaround time. Ignore process
@@ -325,55 +381,55 @@ switching overhead.
 For (a), assume that the system is multiprogrammed, and that each job gets its fair
 share of the CPU. For (b) through (d), assume that only one job at a time runs, until it
 finishes. All jobs are completely CPU bound.
-35. A process running on CTSS needs 30 quanta to complete. How many times must it be
+44. A process running on CTSS needs 30 quanta to complete. How many times must it be
 swapped in, including the very first time (before it has run at all)?
-36. Can you think of a way to save the CTSS priority system from being fooled by random
+45. Can you think of a way to save the CTSS priority system from being fooled by random
 carriage returns?
-37. Consider a real-time system with two voice calls of periodicity 5 msec each with CPU
+46. Consider a real-time system with two voice calls of periodicity 5 msec each with CPU
 time per call of 1 msec, and one video stream of periodicity 33 msec with CPU time
 per call of 11 msec. Is this system schedulable? Show how you derived your answer.
-38. For the above problem, can another video stream be added and have the system still be
+47. For the above problem, can another video stream be added and have the system still be
 schedulable?
-39. The aging algorithm with a = 1/2 is being used to predict run times. The previous four
+48. The aging algorithm with a = 1/2 is being used to predict run times. The previous four
 runs, from oldest to most recent, are 40, 20, 40, and 15 msec. What is the prediction of
 the next time?
-40. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
+49. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
 msec each. Suppose that the four events require 35, 20, 10, and x msec of CPU time,
 respectively. What is the largest value of x for which the system is schedulable?
-41. Explain why two-level scheduling is commonly used. What advantages does it have
+50. Explain why two-level scheduling is commonly used. What advantages does it have
 over single-level scheduling?
-42. A real-time system needs to handle two voice calls that each run every 5 msec and con-
+51. A real-time system needs to handle two voice calls that each run every 5 msec and con-
 sume 1 msec of CPU time per burst, plus one video at 25 frames/sec, with each frame178
 PROCESSES AND THREADS
 CHAP. 2
 requiring 20 msec of CPU time. Is this system schedulable? Please explain why or why
 not it is schedulable and how you came to that conclusion.
-43. Consider a system in which it is desired to separate policy and mechanism for the
+52. Consider a system in which it is desired to separate policy and mechanism for the
 scheduling of kernel threads. Propose a means of achieving this goal.
-44. The readers and writers problem can be formulated in several ways with regard to
+53. The readers and writers problem can be formulated in several ways with regard to
 which category of processes can be started when. Carefully describe three different
 variations of the problem, each one favoring (or not favoring) some category of proc-
 esses (e.g., readers or writers). For each variation, specify what happens when a reader
 or a writer becomes ready to access the database, and what happens when a process is
 finished.
-45. Write a shell script that produces a file of sequential numbers by reading the last num-
+54. Write a shell script that produces a file of sequential numbers by reading the last num-
 ber in the file, adding 1 to it, and then appending it to the file. Run one instance of the
 script in the background and one in the foreground, each accessing the same file. How
 long does it take before a race condition manifests itself? What is the critical region?
 Modify the script to prevent the race. (Hint: use
 ln file file.lock
 to lock the data file.)
-46. Assume that you have an operating system that provides semaphores. Implement a
+55. Assume that you have an operating system that provides semaphores. Implement a
 message system. Write the procedures for sending and receiving messages.
-47. Rewrite the program of Fig. 2-23 to handle more than two processes.
-48. Write a producer-consumer problem that uses threads and shares a common buffer.
+56. Rewrite the program of Fig. 2-23 to handle more than two processes.
+57. Write a producer-consumer problem that uses threads and shares a common buffer.
 However, do not use semaphores or any other synchronization primitives to guard the
 shared data structures. Just let each thread access them when it wants to. Use sleep and
 wakeup to handle the full and empty conditions. See how long it takes for a fatal race
 condition to occur. For example, you might have the producer print a number once in a
 while. Do not print more than one number every minute because the I/O could affect
 the race conditions.
-49. A process can be put into a round-robin queue more than once to give it a higher prior-
+58. A process can be put into a round-robin queue more than once to give it a higher prior-
 ity. Running multiple instances of a program each working on a different part of a data
 pool can have the same effect. First write a program that tests a list of numbers for pri-
 mality. Then devise a method to allow multiple instances of the program to run at once
@@ -383,7 +439,7 @@ that your results will depend upon what else your computer is doing; on a person
 computer running only instances of this program you would not expect an
 improvement, but on a system with other processes, you should be able to grab a big-
 ger share of the CPU this way.
-50. Implement a program to count the frequency of words in a text file. The text file is
+59. Implement a program to count the frequency of words in a text file. The text file is
 partitioned into N segments. Each segment is processed by a separate thread that out-
 puts the intermediate frequency count for its segment. The main process waits until all
 the threads complete; then it computes the consolidated word-frequency data based on

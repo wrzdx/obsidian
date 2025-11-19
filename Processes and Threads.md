@@ -587,60 +587,171 @@ switching overhead.
 For (a), assume that the system is multiprogrammed, and that each job gets its fair
 share of the CPU. For (b) through (d), assume that only one job at a time runs, until it
 finishes. All jobs are completely CPU bound.
-a)
-q = 30/ 5 = 6
-(6 + 12 + 14 + 18 + 24 + 28 + 30)/5 = 26.4
-b)
-6 + 14 + 
-43. A process running on CTSS needs 30 quanta to complete. How many times must it be
+Это классическая задача на алгоритмы планирования. На экзамене такие задачи решаются составлением **диаграммы Ганта** (на бумаге рисуешь временную шкалу) или простой математикой.
+
+**Дано:**
+5 процессов, пришли одновременно ($t=0$).
+Длительность (Burst): A=10, B=6, C=2, D=4, E=8.
+Приоритет (5 макс): A=3, B=5, C=2, D=1, E=4.
+
+**Формула:**
+Turnaround Time (Оборотное время) = Время завершения - Время прибытия.
+Так как все прибыли в $t=0$, то Оборотное время = Времени завершения.
+
+---
+
+(a) Round Robin (Processor Sharing)
+*Условие говорит "fair share", что подразумевает модель "Processor Sharing", где все активные процессы делят процессор поровну. Если процессов N, каждый работает со скоростью 1/N.*
+
+1.  **0 мин:** Стартуют все 5 (A, B, C, D, E). Скорость выполнения у каждого = 1/5.
+    *   Самый короткий — C (2 мин).
+    *   Чтобы выполнить 2 мин работы на скорости 1/5, пройдет $2 \times 5 = 10$ минут реального времени.
+    *   **C завершается в 10 мин.**
+    *   Остальным тоже зачлось по 2 минуты работы.
+    *   Остаток работы: A=8, B=4, D=2, E=6.
+
+2.  **10 мин:** Осталось 4 процесса (A, B, D, E). Скорость = 1/4.
+    *   Самый короткий остаток — D (2 мин).
+    *   Время: $2 \times 4 = 8$ минут.
+    *   **D завершается в $10 + 8 = 18$ мин.**
+    *   Остальным зачлось еще по 2 минуты.
+    *   Остаток работы: A=6, B=2, E=4.
+
+3.  **18 мин:** Осталось 3 процесса (A, B, E). Скорость = 1/3.
+    *   Самый короткий остаток — B (2 мин).
+    *   Время: $2 \times 3 = 6$ минут.
+    *   **B завершается в $18 + 6 = 24$ мин.**
+    *   Остаток работы: A=4, E=2.
+
+4.  **24 мин:** Осталось 2 процесса (A, E). Скорость = 1/2.
+    *   Самый короткий остаток — E (2 мин).
+    *   Время: $2 \times 2 = 4$ минуты.
+    *   **E завершается в $24 + 4 = 28$ мин.**
+    *   Остаток работы: A=2.
+
+5.  **28 мин:** Остался 1 процесс (A). Скорость = 1 (полная).
+    *   Время: 2 минуты.
+    *   **A завершается в $28 + 2 = 30$ мин.**
+
+**Расчет среднего:**
+$(10 + 18 + 24 + 28 + 30) / 5 = 110 / 5 = \mathbf{22}$ **минуты**.
+
+---
+
+(b) Priority Scheduling
+*Порядок: от высшего приоритета к низшему (5 -> 1). Порядок: B, E, A, C, D.*
+
+1.  **B** (приоритет 5): 0 + 6 = 6. Завершение: **6**.
+2.  **E** (приоритет 4): 6 + 8 = 14. Завершение: **14**.
+3.  **A** (приоритет 3): 14 + 10 = 24. Завершение: **24**.
+4.  **C** (приоритет 2): 24 + 2 = 26. Завершение: **26**.
+5.  **D** (приоритет 1): 26 + 4 = 30. Завершение: **30**.
+
+**Расчет среднего:**
+$(6 + 14 + 24 + 26 + 30) / 5 = 100 / 5 = \mathbf{20}$ **минут**.
+
+---
+
+(c) First-Come, First-Served (FCFS)
+*Порядок как в условии: A, B, C, D, E.*
+
+1.  **A**: 0 + 10 = 10. Завершение: **10**.
+2.  **B**: 10 + 6 = 16. Завершение: **16**.
+3.  **C**: 16 + 2 = 18. Завершение: **18**.
+4.  **D**: 18 + 4 = 22. Завершение: **22**.
+5.  **E**: 22 + 8 = 30. Завершение: **30**.
+
+**Расчет среднего:**
+$(10 + 16 + 18 + 22 + 30) / 5 = 96 / 5 = \mathbf{19.2}$ **минуты**.
+
+---
+
+(d) Shortest Job First (SJF)
+*Порядок: от самого короткого к длинному (C, D, B, E, A).*
+
+1.  **C** (2 мин): 0 + 2 = 2. Завершение: **2**.
+2.  **D** (4 мин): 2 + 4 = 6. Завершение: **6**.
+3.  **B** (6 мин): 6 + 6 = 12. Завершение: **12**.
+4.  **E** (8 мин): 12 + 8 = 20. Завершение: **20**.
+5.  **A** (10 мин): 20 + 10 = 30. Завершение: **30**.
+
+**Расчет среднего:**
+$(2 + 6 + 12 + 20 + 30) / 5 = 70 / 5 = \mathbf{14}$ **минут**.
+
+*(Как и ожидалось, SJF дает наилучший результат).*
+
+
+42. A process running on CTSS needs 30 quanta to complete. How many times must it be
 swapped in, including the very first time (before it has run at all)?
-44. Can you think of a way to save the CTSS priority system from being fooled by random
+
+1 + 2  + 4 + 8 + 16 = 31 – 5 
+
+43. Can you think of a way to save the CTSS priority system from being fooled by random
 carriage returns?
-45. Consider a real-time system with two voice calls of periodicity 5 msec each with CPU
+**Проблема:** Пользователи обманывают систему: программа делает тяжелые вычисления, а в конце кванта жмет "Enter" (имитация I/O), чтобы система подумала, что это интерактивный процесс, и повысила приоритет.  
+**Решение:**  
+Планировщик должен смотреть не на факт прерывания ввода-вывода, а на **время использования кванта**.
+
+- Если процесс использовал весь квант (или почти весь, например >90%) и только потом ушел в I/O — считаем его **CPU-bound** и понижаем приоритет (или не повышаем).
+    
+- Повышать приоритет только тем, кто реально быстро отдает процессор.
+
+44. Consider a real-time system with two voice calls of periodicity 5 msec each with CPU
 time per call of 1 msec, and one video stream of periodicity 33 msec with CPU time
 per call of 11 msec. Is this system schedulable? Show how you derived your answer.
-46. For the above problem, can another video stream be added and have the system still be
+
+$\sum \frac{C_{i}}{P_{i}}< 1$ – условие планиеруемости в realtime systems
+
+$\frac{1}{5}  + \frac{1}{5} + \frac{11}{33} = 0.73 < 1$
+
+45. For the above problem, can another video stream be added and have the system still be
 schedulable?
-47. The aging algorithm with a = 1/2 is being used to predict run times. The previous four
+
+$0.73 + \frac{11}{33} = 1.06 > 1$ – unschedulable
+
+46. The aging algorithm with a = 1/2 is being used to predict run times. The previous four
 runs, from oldest to most recent, are 40, 20, 40, and 15 msec. What is the prediction of
 the next time?
-48. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
+
+
+
+47. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
 msec each. Suppose that the four events require 35, 20, 10, and x msec of CPU time,
 respectively. What is the largest value of x for which the system is schedulable?
-49. Explain why two-level scheduling is commonly used. What advantages does it have
+48. Explain why two-level scheduling is commonly used. What advantages does it have
 over single-level scheduling?
-50. A real-time system needs to handle two voice calls that each run every 5 msec and con-
+49. A real-time system needs to handle two voice calls that each run every 5 msec and con-
 sume 1 msec of CPU time per burst, plus one video at 25 frames/sec, with each frame178
 PROCESSES AND THREADS
 CHAP. 2
 requiring 20 msec of CPU time. Is this system schedulable? Please explain why or why
 not it is schedulable and how you came to that conclusion.
-51. Consider a system in which it is desired to separate policy and mechanism for the
+50. Consider a system in which it is desired to separate policy and mechanism for the
 scheduling of kernel threads. Propose a means of achieving this goal.
-52. The readers and writers problem can be formulated in several ways with regard to
+51. The readers and writers problem can be formulated in several ways with regard to
 which category of processes can be started when. Carefully describe three different
 variations of the problem, each one favoring (or not favoring) some category of proc-
 esses (e.g., readers or writers). For each variation, specify what happens when a reader
 or a writer becomes ready to access the database, and what happens when a process is
 finished.
-53. Write a shell script that produces a file of sequential numbers by reading the last num-
+52. Write a shell script that produces a file of sequential numbers by reading the last num-
 ber in the file, adding 1 to it, and then appending it to the file. Run one instance of the
 script in the background and one in the foreground, each accessing the same file. How
 long does it take before a race condition manifests itself? What is the critical region?
 Modify the script to prevent the race. (Hint: use
 ln file file.lock
 to lock the data file.)
-54. Assume that you have an operating system that provides semaphores. Implement a
+53. Assume that you have an operating system that provides semaphores. Implement a
 message system. Write the procedures for sending and receiving messages.
-55. Rewrite the program of Fig. 2-23 to handle more than two processes.
-56. Write a producer-consumer problem that uses threads and shares a common buffer.
+54. Rewrite the program of Fig. 2-23 to handle more than two processes.
+55. Write a producer-consumer problem that uses threads and shares a common buffer.
 However, do not use semaphores or any other synchronization primitives to guard the
 shared data structures. Just let each thread access them when it wants to. Use sleep and
 wakeup to handle the full and empty conditions. See how long it takes for a fatal race
 condition to occur. For example, you might have the producer print a number once in a
 while. Do not print more than one number every minute because the I/O could affect
 the race conditions.
-57. A process can be put into a round-robin queue more than once to give it a higher prior-
+56. A process can be put into a round-robin queue more than once to give it a higher prior-
 ity. Running multiple instances of a program each working on a different part of a data
 pool can have the same effect. First write a program that tests a list of numbers for pri-
 mality. Then devise a method to allow multiple instances of the program to run at once
@@ -650,7 +761,7 @@ that your results will depend upon what else your computer is doing; on a person
 computer running only instances of this program you would not expect an
 improvement, but on a system with other processes, you should be able to grab a big-
 ger share of the CPU this way.
-58. Implement a program to count the frequency of words in a text file. The text file is
+57. Implement a program to count the frequency of words in a text file. The text file is
 partitioned into N segments. Each segment is processed by a separate thread that out-
 puts the intermediate frequency count for its segment. The main process waits until all
 the threads complete; then it computes the consolidated word-frequency data based on

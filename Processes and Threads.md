@@ -535,8 +535,8 @@ process occurred twice in the list? Can you think of any reason for allowing thi
 mined by analyzing source code? How can this be determined at run time?
 
 - Сложно. Можно искать циклы с математикой (CPU) или вызовы read/write/socket (I/O), но компилятор и кэши могут все изменить.  
+
 **В рантайме (Run time):**
-    
 - **Легко.** Планировщик смотрит: использовал ли процесс свой квант времени целиком?
     - Использовал весь квант и был вытеснен -> **CPU-bound**.
     - Сам ушел в блок раньше времени -> **I/O-bound**.
@@ -544,8 +544,22 @@ mined by analyzing source code? How can this be determined at run time?
 39. In the section ‘‘When to Schedule,’’ it was mentioned that sometimes scheduling could
 be improved if an important process could play a role in selecting the next process to
 run when it blocks. Give a situation where this could be used and explain how.
+
+**Пример:** **Producer-Consumer**.  
+Когда Потребитель ждет данных (блокируется), он точно знает, что разблокировать его может только Производитель.  
+Имеет смысл сказать планировщику: "Я сплю, передай управление Производителю, чтобы он быстрее дал мне данные". Это называется **Priority Donation** (Передача приоритета) или **Handoff**.
+
 40. Explain how time quantum value and context switching time affect each other, in a
 round-robin scheduling algorithm.
+
+**Ответ:** Это баланс между **КПД** и **Отзывчивостью**.  
+Пусть `Q` — квант, `C` — время переключения.
+
+- Накладные расходы (потери) = `C/(Q+C)​`.
+- Если `Q` большое -> Потери малы (эффективно), но система "лагает" (плохой отклик).
+- Если `Q` маленькое -> Отклик мгновенный, но процессор тратит кучу времени на переключения (низкий КПД).
+- Правило: `Q` должно быть значительно больше `C`  (обычно `Q≈20..50`мс, `C<1C<1` мс)
+
 41. Measurements of a certain system have shown that the average process runs for a time
 T before blocking on I/O. A process switch requires a time S, which is effectivelyCHAP. 2
 PROBLEMS

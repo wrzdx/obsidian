@@ -250,40 +250,62 @@ $$\frac{1000\ ms }{40\ ms} = 25 \ \frac{req}{sec}$$
 17. What is the biggest advantage of implementing threads in user space? What is the big-
 gest disadvantage?
 
+**Biggest Advantage (Плюс):**  
+**Скорость переключения.** Переключение потоков делает библиотека (runtime) в пространстве пользователя. Это просто вызов функции. Не нужно делать дорогой System Call, переходить в режим ядра и сбрасывать кэши процессора. Это в 10-100 раз быстрее, чем потоки ядра.
 
+**Biggest Disadvantage (Минус):**  
+**Блокирующие системные вызовы.** Если один поток вызовет read() и заблокируется, ядро (не зная о других потоках) остановит **весь процесс**. Все остальные потоки тоже встанут, даже если они готовы работать.
 
 18. In Fig. 2-14 the thread creations and messages printed by the threads are interleaved at
 random. Is there a way to force the order to be strictly thread 1 created, thread 1 prints
 message, thread 1 exits, thread 2 created, thread 2 prints message, thread 2 exists, and
 so on? If so, how? If not, why not?
+
+**Ответ:** **Да, можно.**  
+**Как:**  
+Родительский процесс должен создавать потоки в цикле и сразу вызывать функцию ожидания завершения (**pthread_join** или аналог).
+
+	1. create(Thread 1)
+	2. join(Thread 1) -> Родитель спит, пока Т1 не закончит.
+	3. Т1 работает, принтит, делает exit.
+	4. Родитель просыпается.
+	5. create(Thread 2)...
+
 19. Suppose that a program has two threads, each executing the get account function,
 shown below. Identify a race condition in this code.
-int accounts[LIMIT]; int account count = 0;
-void *get account(void *tid) {
-char *lineptr = NULL;
-size t len = 0;
-while (account count < LIMIT)
-{
-// Read user input from terminal and store it in lineptr
-getline(&lineptr, &len, stdin);
-// Convert user input to integer
-// Assume user entered valid integer value
-int entered account = atoi(lineptr);
-accounts[account count] = entered account;
-account count++;
-}CHAP. 2
-PROBLEMS
-175
-// Deallocate memory that was allocated by getline call
-free(lineptr);
-return NULL; }
+![600](Pasted%20image%2020251119133323.png)
+![600](Pasted%20image%2020251119133344.png)
+
+**Где гонка:**  
+В строках обновления массива и инкремента индекса:
+    `accounts[account_count] = entered_account; account_count++;`
+
+**Сценарий краша:**
+	1. account_count равно 5.
+	2. **Поток А** вычисляет адрес accounts\[5\], но еще не записал данные (или записал, но не увеличил счетчик).
+	3. **Переключение контекста.**
+	4. **Поток Б** читает account_count (оно все еще 5!).
+	5. **Поток Б** пишет свои данные в accounts\[5\] (перезаписывая данные Потока А!).
+	6. **Поток Б** увеличивает account_count до 6.
+	7. **Поток А** просыпается и тоже увеличивает account_count до 7.  
+	    **Итог:** Данные А потеряны, в массиве дырка или неверные данные.
+
+
 20. In the discussion on global variables in threads, we used a procedure create global to
 allocate storage for a pointer to the variable, rather than the variable itself. Is this
 essential, or could the procedures work with the values themselves just as well?
+
+**Ответ:** Потому что библиотека не знает **размер** данных пользователя.  
+Если бы она хранила значения, ей нужно было бы знать: "Вы храните int (4 байта) или огромную структуру (1000 байт)?".  
+Храня указатели (void \*), библиотека всегда работает с фиксированным размером (4 или 8 байт), а выделением памяти под саму структуру занимается программист. Это делает библиотеку универсальной.
+
 21. Consider a system in which threads are implemented entirely in user space, with the
 run-time system getting a clock interrupt once a second. Suppose that a clock interrupt
 occurs exactly while some thread executing in the run-time system is at the point of
 blocking or unblocking a thread. What problem might occur? Can you solve it?
+
+
+
 22. Suppose that an operating system does not have anything like the select system call to
 see in advance if it is safe to read from a file, pipe, or device, but it does allow alarm
 clocks (timers) to be set that interrupt blocked system calls. Is it possible to implement

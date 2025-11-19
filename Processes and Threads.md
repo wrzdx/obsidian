@@ -713,45 +713,75 @@ $0.73 + \frac{11}{33} = 1.06 > 1$ – unschedulable
 runs, from oldest to most recent, are 40, 20, 40, and 15 msec. What is the prediction of
 the next time?
 
+$$Prediction_{new} = a \cdot actual + (1-a)Prediction_{old}$$
+Нужно пройтись по цепочке. Предположим, что самое первое предсказание (для первого запуска) было равно первому результату (40), или просто посчитаем рекурсивно.
+
+1. **Run 1:** 40 мс. (Предсказание было, допустим, 40).
+2. **Run 2:** 20 мс.  
+    Предсказание для него было `40`.  
+    Предсказание для следующего:`0.5⋅20+0.5⋅40=10+20=30.
+    
+3. **Run 3:** 40 мс.  
+    Предсказание для него было: `30`
+    Предсказание для следующего: `0.5⋅40+0.5⋅30=20+15=350.5⋅40+0.5⋅30=20+15=35`
+4. **Run 4:** 15 мс.  
+    Предсказание для него было: `35`.  
+    Предсказание для следующего: `0.5⋅15+0.5⋅35=7.5+17.5=250.5⋅15+0.5⋅35=7.5+17.5=25`
+
+**Ответ:** Следующее предсказанное время = **25 msec**.
 
 
 47. A soft real-time system has four periodic events with periods of 50, 100, 200, and 250
 msec each. Suppose that the four events require 35, 20, 10, and x msec of CPU time,
 respectively. What is the largest value of x for which the system is schedulable?
+
+$\frac{35}{50} + \frac{20}{100} + \frac{10}{200} + \frac{x}{250} = 0.95 + \frac{x}{250} \leq 1 \Rightarrow x= 12.5$
 48. Explain why two-level scheduling is commonly used. What advantages does it have
 over single-level scheduling?
-49. A real-time system needs to handle two voice calls that each run every 5 msec and con-
-sume 1 msec of CPU time per burst, plus one video at 25 frames/sec, with each frame178
-PROCESSES AND THREADS
-CHAP. 2
-requiring 20 msec of CPU time. Is this system schedulable? Please explain why or why
+**В чем суть:**
+
+-  **High-level scheduler (Memory scheduler):** Решает, какие процессы держать в оперативной памяти, а какие выгрузить на диск (Swap). Запускается редко.
+    
+- . **Low-level scheduler (CPU scheduler):** Решает, какой из процессов в памяти запустить на процессоре. Запускается часто.
+
+**Зачем нужно (Преимущества):**  
+Если пустить все процессы в память сразу, начнется **Thrashing** (постоянная подкачка страниц, диск умрет).  
+Двухуровневая схема позволяет держать в RAM ровно столько процессов, чтобы CPU был занят, но память не переполнялась. Это эффективнее для управления памятью.
+
+48. A real-time system needs to handle two voice calls that each run every 5 msec and con-
+sume 1 msec of CPU time per burst, plus one video at 25 frames/sec, with each frame requiring 20 msec of CPU time. Is this system schedulable? Please explain why or why
 not it is schedulable and how you came to that conclusion.
-50. Consider a system in which it is desired to separate policy and mechanism for the
+
+
+0.2+0.2+0.5=0.9 ≤ 1
+
+
+49. Consider a system in which it is desired to separate policy and mechanism for the
 scheduling of kernel threads. Propose a means of achieving this goal.
-51. The readers and writers problem can be formulated in several ways with regard to
+50. The readers and writers problem can be formulated in several ways with regard to
 which category of processes can be started when. Carefully describe three different
 variations of the problem, each one favoring (or not favoring) some category of proc-
 esses (e.g., readers or writers). For each variation, specify what happens when a reader
 or a writer becomes ready to access the database, and what happens when a process is
 finished.
-52. Write a shell script that produces a file of sequential numbers by reading the last num-
+51. Write a shell script that produces a file of sequential numbers by reading the last num-
 ber in the file, adding 1 to it, and then appending it to the file. Run one instance of the
 script in the background and one in the foreground, each accessing the same file. How
 long does it take before a race condition manifests itself? What is the critical region?
 Modify the script to prevent the race. (Hint: use
 ln file file.lock
 to lock the data file.)
-53. Assume that you have an operating system that provides semaphores. Implement a
+52. Assume that you have an operating system that provides semaphores. Implement a
 message system. Write the procedures for sending and receiving messages.
-54. Rewrite the program of Fig. 2-23 to handle more than two processes.
-55. Write a producer-consumer problem that uses threads and shares a common buffer.
+53. Rewrite the program of Fig. 2-23 to handle more than two processes.
+54. Write a producer-consumer problem that uses threads and shares a common buffer.
 However, do not use semaphores or any other synchronization primitives to guard the
 shared data structures. Just let each thread access them when it wants to. Use sleep and
 wakeup to handle the full and empty conditions. See how long it takes for a fatal race
 condition to occur. For example, you might have the producer print a number once in a
 while. Do not print more than one number every minute because the I/O could affect
 the race conditions.
-56. A process can be put into a round-robin queue more than once to give it a higher prior-
+55. A process can be put into a round-robin queue more than once to give it a higher prior-
 ity. Running multiple instances of a program each working on a different part of a data
 pool can have the same effect. First write a program that tests a list of numbers for pri-
 mality. Then devise a method to allow multiple instances of the program to run at once
@@ -761,7 +791,7 @@ that your results will depend upon what else your computer is doing; on a person
 computer running only instances of this program you would not expect an
 improvement, but on a system with other processes, you should be able to grab a big-
 ger share of the CPU this way.
-57. Implement a program to count the frequency of words in a text file. The text file is
+56. Implement a program to count the frequency of words in a text file. The text file is
 partitioned into N segments. Each segment is processed by a separate thread that out-
 puts the intermediate frequency count for its segment. The main process waits until all
 the threads complete; then it computes the consolidated word-frequency data based on

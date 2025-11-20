@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processes and Threads"
+              "title": "Scheduling"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Scheduling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Processes and Threads"
+              "title": "Backlinks for Scheduling"
             }
           }
         ],
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Processes and Threads"
+              "title": "Outgoing links from Scheduling"
             }
           }
         ]
@@ -205,21 +205,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Scheduling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Processes and Threads"
+              "title": "Outline of Scheduling"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,9 +234,9 @@
   },
   "active": "504e3f0c8c170431",
   "lastOpenFiles": [
+    "Processes and Threads.md",
     "Modern Operating Systems.md",
     "Memory Management.md",
-    "Processes and Threads.md",
     "Introduction.md",
     "Virtual Memory.md",
     "A Memory Abstraction Address Spaces (Адресные пространства).md",

@@ -851,3 +851,6 @@ puts the intermediate frequency count for its segment. The main process waits un
 the threads complete; then it computes the consolidated word-frequency data based on
 the individual threads’ output.
 
+4 gb ram , 512 mb, 256mb, 99
+
+4

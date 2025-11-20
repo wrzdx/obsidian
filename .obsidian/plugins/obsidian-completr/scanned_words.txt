@@ -23649,6 +23649,7 @@ Chance
 Cleaning
 Checkerboarding
 COW
+Coincidence
 Sections
 Surfaces
 Spaces
@@ -26679,6 +26680,7 @@ Segments
 Security
 Shui
 Spectre
+SRAM
 Algebra
 AGLA
 Assignments
@@ -29574,6 +29576,7 @@ Absent
 Assembly
 Attacks
 ASLR
+Automatic
 and
 algebra
 any
@@ -32579,6 +32582,10 @@ almost
 aging
 advantages
 appending
+accident
+allocated
+alternating
+arise
 Plane
 Problem
 Prove
@@ -38165,6 +38172,7 @@ QQmC
 Quantum
 Queues
 Quick
+Question
 Basis
 Body
 Basic
@@ -40934,6 +40942,7 @@ Buffer
 Backup
 Backing
 Bottleneck
+Bitmap
 Material
 MORE
 Mathematical
@@ -44537,6 +44546,7 @@ Multilevel
 Mapped
 Mach
 Meltdown
+Misses
 pdf
 previous
 prove
@@ -47609,6 +47619,8 @@ pool
 partitioned
 puts
 paging
+programmers
+paged
 Read
 Relations
 RY
@@ -53683,6 +53695,7 @@ occupies
 obsolete
 occurred
 oldest
+overlay
 lecture
 lineynaya
 linear
@@ -56504,6 +56517,7 @@ last
 link
 looping
 locked
+linked
 geometria
 gN
 gQ
@@ -65661,6 +65675,7 @@ WRITE
 Worst
 Writer
 WSClock
+Would
 dependency
 dependent
 document
@@ -68825,6 +68840,8 @@ ducer
 deter
 determined
 devise
+difficulties
+decimal
 independency
 in
 info
@@ -84406,6 +84423,7 @@ sequential
 send
 socket
 summary
+successive
 exist
 excalidraw
 everything
@@ -90535,6 +90553,8 @@ handled
 handlers
 had
 help
+holes
+hole
 combination
 can
 command
@@ -93797,6 +93817,8 @@ competition
 completely
 category
 consolidated
+compiler
+cause
 Necessity
 Nikolay
 Natural
@@ -99701,6 +99723,7 @@ Guaranteed
 Grace
 GrandChild
 Growing
+Graph
 basis
 be
 bd
@@ -102428,6 +102451,7 @@ blocked
 bottleneck
 biggest
 barrier
+best
 EXCALIDRAW
 Excalidraw
 Elements
@@ -108713,6 +108737,7 @@ Only
 Overlays
 Optimal
 Optane
+Offset
 menu
 more
 mA
@@ -112333,6 +112358,8 @@ minimize
 manifests
 minute
 mality
+managers
+miss
 You
 YC
 YR
@@ -118403,6 +118430,7 @@ writers
 writer
 working
 waits
+worst
 under
 up
 unclear
@@ -124555,6 +124583,8 @@ region
 receiving
 retry
 realtime
+repeat
+repeated
 Zorich
 ZM
 ZB
@@ -136956,6 +136986,7 @@ Hoare
 Hansen
 Handoff
 Huge
+Hits
 XKo
 Xg
 XWo

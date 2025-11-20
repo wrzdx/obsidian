@@ -3226,6 +3226,9 @@ Deduplication
 Directories
 Delete
 Descriptors
+Disaster
+Dumping
+Duplicate
 Lecturer
 Link
 Line
@@ -12302,6 +12305,8 @@ Itanium
 Internal
 Independent
 Involvement
+Indirect
+Indexed
 Telegram
 Theorem
 Text
@@ -15083,6 +15088,8 @@ TLB
 Trade
 Trap
 Timestamps
+Track
+Transfer
 nomemm
 need
 necessary
@@ -20656,6 +20663,7 @@ themselves
 timers
 turnaround
 tests
+trade
 Course
 Curves
 Continuation
@@ -23656,6 +23664,7 @@ COW
 Coincidence
 Case
 Close
+Contiguous
 Sections
 Surfaces
 Spaces
@@ -26690,6 +26699,8 @@ SRAM
 Sensitivity
 Sequential
 Seek
+Stupidity
+SED
 Algebra
 AGLA
 Assignments
@@ -29588,6 +29599,9 @@ ASLR
 Automatic
 ASCII
 Attributes
+Ahead
+AWS
+Aliases
 and
 algebra
 any
@@ -38185,6 +38199,7 @@ Quantum
 Queues
 Quick
 Question
+Quotas
 Basis
 Body
 Basic
@@ -40956,6 +40971,9 @@ Backing
 Bottleneck
 Bitmap
 Byte
+Backups
+Btrfs
+BitLocker
 Material
 MORE
 Mathematical
@@ -44562,6 +44580,7 @@ Meltdown
 Misses
 MacOS
 Magic
+Missing
 pdf
 previous
 prove
@@ -47636,6 +47655,7 @@ puts
 paging
 programmers
 paged
+post
 Read
 Relations
 RY
@@ -59499,6 +59519,7 @@ gest
 global
 guard
 grab
+groups
 Umnov
 Uniqueness
 Uf
@@ -72742,6 +72763,7 @@ inversion
 initialized
 instruc
 ity
+indirect
 For
 Functions
 Frolov
@@ -84439,6 +84461,10 @@ send
 socket
 summary
 successive
+strategies
+snapshots
+sparse
+seek
 exist
 excalidraw
 everything
@@ -90570,6 +90596,7 @@ had
 help
 holes
 hole
+hello
 combination
 can
 command
@@ -93835,6 +93862,8 @@ consolidated
 compiler
 cause
 convention
+counts
+contiguous
 Necessity
 Nikolay
 Natural
@@ -105678,6 +105707,8 @@ Entry
 External
 Execute
 Extensions
+Encryption
+Encrypting
 OPTIONS
 Operations
 Obtain
@@ -124603,6 +124634,10 @@ retry
 realtime
 repeat
 repeated
+record
+rewind
+ray
+resident
 Zorich
 ZM
 ZB
@@ -131349,6 +131384,7 @@ KsfrJ
 KUe
 Killer
 KPTI
+Keeping
 qt
 qL
 qY
@@ -157965,6 +158001,7 @@ JTfS
 JUQIAE
 Jzl
 JzpN
+Journaling
 öz
 ös
 öf

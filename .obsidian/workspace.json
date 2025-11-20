@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modern Operating Systems.md",
+                "file": "File Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modern Operating Systems"
+              "title": "File Systems"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File Systems.md",
+                "file": "File-System Management and Optimization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Systems"
+              "title": "File-System Management and Optimization"
             }
           },
           {
@@ -105,8 +105,7 @@
               "title": "Files (Файлы)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fsck",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -318,15 +317,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2850af0f451faef",
+  "active": "504e3f0c8c170431",
   "lastOpenFiles": [
-    "Examples of File Systems, Researches and Summary.md",
-    "File Systems.md",
+    "Modern Operating Systems.md",
     "File-System Management and Optimization.md",
+    "File Systems.md",
+    "Examples of File Systems, Researches and Summary.md",
     "File-System Implementation (Реализация Файловой Системы).md",
     "Directories (Директории).md",
     "Files (Файлы).md",
-    "Modern Operating Systems.md",
     "Processes and Threads.md",
     "Introduction.md",
     "Scheduling.md",

@@ -850,3 +850,4 @@ partitioned into N segments. Each segment is processed by a separate thread that
 puts the intermediate frequency count for its segment. The main process waits until all
 the threads complete; then it computes the consolidated word-frequency data based on
 the individual threads’ output.
+

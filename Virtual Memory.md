@@ -273,9 +273,3 @@
 *   *Минус:* Медленно (много переключений контекста Kernel <-> User).
 
 ---
-
-**Must know для экзамена:**
-1.  **Последовательность Page Fault:** (Trap -> Save state -> Find Victim -> Disk Read -> Restore Instruction).
-2.  **Pinning (Locking):** Зачем нужно при DMA/IO.
-3.  **Backing Store:** Разница между Swap Partition и Swap File.
-4.  **Instruction Restart:** Почему это больно (автоинкременты).

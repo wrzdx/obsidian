@@ -3223,6 +3223,9 @@ Dirty
 Daemon
 DLL
 Deduplication
+Directories
+Delete
+Descriptors
 Lecturer
 Link
 Line
@@ -15079,6 +15082,7 @@ Tables
 TLB
 Trade
 Trap
+Timestamps
 nomemm
 need
 necessary
@@ -23650,6 +23654,8 @@ Cleaning
 Checkerboarding
 COW
 Coincidence
+Case
+Close
 Sections
 Surfaces
 Spaces
@@ -26681,6 +26687,9 @@ Security
 Shui
 Spectre
 SRAM
+Sensitivity
+Sequential
+Seek
 Algebra
 AGLA
 Assignments
@@ -29577,6 +29586,8 @@ Assembly
 Attacks
 ASLR
 Automatic
+ASCII
+Attributes
 and
 algebra
 any
@@ -32586,6 +32597,7 @@ accident
 allocated
 alternating
 arise
+attributes
 Plane
 Problem
 Prove
@@ -40943,6 +40955,7 @@ Backup
 Backing
 Bottleneck
 Bitmap
+Byte
 Material
 MORE
 Mathematical
@@ -44547,6 +44560,8 @@ Mapped
 Mach
 Meltdown
 Misses
+MacOS
+Magic
 pdf
 previous
 prove
@@ -93819,6 +93834,7 @@ category
 consolidated
 compiler
 cause
+convention
 Necessity
 Nikolay
 Natural
@@ -96522,6 +96538,7 @@ NTFS
 Nonpreemptive
 NASA
 NVRAM
+Naming
 Given
 Graphs
 Gg
@@ -105660,6 +105677,7 @@ Exchange
 Entry
 External
 Execute
+Extensions
 OPTIONS
 Operations
 Obtain

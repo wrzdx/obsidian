@@ -36,6 +36,34 @@
             }
           },
           {
+            "id": "3b6bd2f4d570cb3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "File-System Implementation (Реализация Файловой Системы).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "File-System Implementation (Реализация Файловой Системы)"
+            }
+          },
+          {
+            "id": "9a997fcdf0459e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Directories (Директории).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Directories (Директории)"
+            }
+          },
+          {
             "id": "7097baec6ed6b193",
             "type": "leaf",
             "state": {
@@ -124,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files (Файлы).md",
+                "file": "File-System Implementation (Реализация Файловой Системы).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Files (Файлы)"
+              "title": "Backlinks for File-System Implementation (Реализация Файловой Системы)"
             }
           }
         ],
@@ -150,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files (Файлы).md",
+                "file": "File-System Implementation (Реализация Файловой Системы).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Files (Файлы)"
+              "title": "Outgoing links from File-System Implementation (Реализация Файловой Системы)"
             }
           }
         ]
@@ -234,13 +262,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Files (Файлы).md",
+                "file": "File-System Implementation (Реализация Файловой Системы).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Files (Файлы)"
+              "title": "Outline of File-System Implementation (Реализация Файловой Системы)"
             }
           }
         ]
@@ -262,9 +290,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "7097baec6ed6b193",
+  "active": "3b6bd2f4d570cb3b",
   "lastOpenFiles": [
     "File Systems.md",
+    "File-System Implementation (Реализация Файловой Системы).md",
+    "Directories (Директории).md",
     "Files (Файлы).md",
     "Modern Operating Systems.md",
     "Processes and Threads.md",
@@ -299,8 +329,6 @@
     "Threads.md",
     "Мир согласно С.md",
     "Структура ОС.md",
-    "Непрерывные случайные векторы..md",
-    "Введение в курс. Описательная статистика. Разбор задач..md",
     "Непрерывные случайные векторы pdf.pdf",
     "Без названия.base",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",

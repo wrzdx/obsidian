@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scheduling.md",
+                "file": "Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scheduling"
+              "title": "Introduction"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scheduling.md",
+                "file": "Introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,11 +105,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Scheduling"
+              "title": "Backlinks for Introduction"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scheduling.md",
+                "file": "Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Scheduling"
+              "title": "Outgoing links from Introduction"
             }
           }
         ]
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scheduling.md",
+                "file": "Introduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Scheduling"
+              "title": "Outline of Introduction"
             }
           }
         ]
@@ -232,16 +232,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "504e3f0c8c170431",
+  "active": "d0989b295985b2c1",
   "lastOpenFiles": [
-    "Processes and Threads.md",
     "Modern Operating Systems.md",
+    "Processes and Threads.md",
+    "Scheduling.md",
     "Memory Management.md",
     "Introduction.md",
     "Virtual Memory.md",
     "A Memory Abstraction Address Spaces (Адресные пространства).md",
     "Synchronization and interprocess communication.md",
-    "Scheduling.md",
     "No Memory Abstraction (Без абстракции памяти).md",
     "Implementation Issues (Проблемы реализации).md",
     "Design Issues for Paging Systems (Проблемы проектирования).md",

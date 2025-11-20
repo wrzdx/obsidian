@@ -183,7 +183,7 @@ $Offset = Address \% PageSize$ (остаток)
 
 ### 10. TLB Misses
 **Question:** Consider the following C program:
-`int X[N]; int step = M; for (int i = 0; i < N; i += step) X[i] = X[i] + 1;`
+`{c}int X[N]; int step = M; for (int i = 0; i < N; i += step) X[i] = X[i] + 1;`
 (a) If this program is run on a machine with a 4-KB page size and 64-entry TLB, what values of M and N will cause a TLB miss for every execution of the inner loop?
 (b) Would your answer in part (a) be different if the loop were repeated many times?
 

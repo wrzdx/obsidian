@@ -3220,6 +3220,9 @@ Discuss
 Down
 Donation
 Dirty
+Daemon
+DLL
+Deduplication
 Lecturer
 Link
 Line
@@ -5871,6 +5874,10 @@ Lists
 Loader
 Lookaside
 Least
+Load
+Libraries
+Linking
+Locking
 Vladimir
 Vector
 VIEW
@@ -12289,6 +12296,9 @@ Interleaving
 Ignore
 Inverted
 Itanium
+Internal
+Independent
+Involvement
 Telegram
 Theorem
 Text
@@ -15067,6 +15077,8 @@ THREADS
 Thrashing
 Tables
 TLB
+Trade
+Trap
 nomemm
 need
 necessary
@@ -23634,6 +23646,9 @@ CHAP
 Carefully
 Compaction
 Chance
+Cleaning
+Checkerboarding
+COW
 Sections
 Surfaces
 Spaces
@@ -26656,6 +26671,14 @@ Show
 Swap
 Speeding
 SPARC
+Separate
+Store
+Separation
+Segmentation
+Segments
+Security
+Shui
+Spectre
 Algebra
 AGLA
 Assignments
@@ -29548,6 +29571,9 @@ Abstraction
 Allocation
 Activations
 Absent
+Assembly
+Attacks
+ASLR
 and
 algebra
 any
@@ -35316,6 +35342,9 @@ Paging
 Physical
 Protection
 PowerPC
+Pinning
+Pinned
+Pager
 Quadratic
 Qn
 QL
@@ -40902,6 +40931,9 @@ Bitmaps
 Best
 Burst
 Buffer
+Backup
+Backing
+Bottleneck
 Material
 MORE
 Mathematical
@@ -44502,6 +44534,9 @@ Miss
 MIPS
 Memories
 Multilevel
+Mapped
+Mach
+Meltdown
 pdf
 previous
 prove
@@ -47573,6 +47608,7 @@ prior
 pool
 partitioned
 puts
+paging
 Read
 Relations
 RY
@@ -50790,6 +50826,7 @@ REG
 Referenced
 Replacement
 Recently
+Researches
 of
 one
 others
@@ -75782,6 +75819,11 @@ FIFO
 Frames
 Frame
 Frequently
+Frequency
+Fragmentation
+Faults
+Fork
+Feng
 vectors
 vector
 variable
@@ -84363,6 +84405,7 @@ started
 sequential
 send
 socket
+summary
 exist
 excalidraw
 everything
@@ -87520,6 +87563,7 @@ effectivelyCHAP
 estimated
 externally
 effect
+evict
 have
 hQ
 hfRF
@@ -96455,6 +96499,7 @@ NQtM
 NTFS
 Nonpreemptive
 NASA
+NVRAM
 Given
 Graphs
 Gg
@@ -105589,6 +105634,8 @@ Effect
 Enter
 Exchange
 Entry
+External
+Execute
 OPTIONS
 Operations
 Obtain
@@ -108665,6 +108712,7 @@ Omega
 Only
 Overlays
 Optimal
+Optane
 menu
 more
 mA
@@ -131251,6 +131299,8 @@ KaE
 KEFMt
 KsfrJ
 KUe
+Killer
+KPTI
 qt
 qL
 qY
@@ -136905,6 +136955,7 @@ Hint
 Hoare
 Hansen
 Handoff
+Huge
 XKo
 Xg
 XWo

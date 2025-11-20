@@ -1,4 +1,9 @@
 - [No Memory Abstraction (Без абстракции памяти)](No%20Memory%20Abstraction%20(Без%20абстракции%20памяти).md)
 - [A Memory Abstraction Address Spaces (Адресные пространства)](A%20Memory%20Abstraction%20Address%20Spaces%20(Адресные%20пространства).md)
 - [Virtual Memory](Virtual%20Memory.md)
+- [Page Replacement Algorithms](Page%20Replacement%20Algorithms.md)
+- [Design Issues for Paging Systems (Проблемы проектирования)](Design%20Issues%20for%20Paging%20Systems%20(Проблемы%20проектирования).md)
+- [Implementation Issues (Проблемы реализации)](Implementation%20Issues%20(Проблемы%20реализации).md)
+- [Segmentation](Segmentation.md)
+- [Researches and summary](Researches%20and%20summary.md) 
 ---

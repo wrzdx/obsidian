@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memory Management.md",
+                "file": "Processes and Threads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memory Management"
+              "title": "Processes and Threads"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memory Management.md",
+                "file": "Processes and Threads.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Memory Management"
+              "title": "Backlinks for Processes and Threads"
             }
           }
         ],
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memory Management.md",
+                "file": "Processes and Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Memory Management"
+              "title": "Outgoing links from Processes and Threads"
             }
           }
         ]
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memory Management.md",
+                "file": "Processes and Threads.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Memory Management"
+              "title": "Outline of Processes and Threads"
             }
           }
         ]
@@ -236,9 +236,9 @@
   "active": "504e3f0c8c170431",
   "lastOpenFiles": [
     "Modern Operating Systems.md",
+    "Memory Management.md",
     "Processes and Threads.md",
     "Introduction.md",
-    "Memory Management.md",
     "Virtual Memory.md",
     "A Memory Abstraction Address Spaces (Адресные пространства).md",
     "Synchronization and interprocess communication.md",

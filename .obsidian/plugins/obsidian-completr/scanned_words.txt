@@ -3219,6 +3219,7 @@ Disadvantage
 Discuss
 Down
 Donation
+Dirty
 Lecturer
 Link
 Line
@@ -5868,6 +5869,8 @@ Locks
 Linked
 Lists
 Loader
+Lookaside
+Least
 Vladimir
 Vector
 VIEW
@@ -12284,6 +12287,8 @@ Idle
 Inter
 Interleaving
 Ignore
+Inverted
+Itanium
 Telegram
 Theorem
 Text
@@ -15060,6 +15065,8 @@ Thread
 Their
 THREADS
 Thrashing
+Tables
+TLB
 nomemm
 need
 necessary
@@ -23626,6 +23633,7 @@ Cooperative
 CHAP
 Carefully
 Compaction
+Chance
 Sections
 Surfaces
 Spaces
@@ -26646,6 +26654,8 @@ Sequentially
 Shortly
 Show
 Swap
+Speeding
+SPARC
 Algebra
 AGLA
 Assignments
@@ -29537,6 +29547,7 @@ Advantage
 Abstraction
 Allocation
 Activations
+Absent
 and
 algebra
 any
@@ -35301,6 +35312,10 @@ Progress
 PROCESSES
 Propose
 Preference
+Paging
+Physical
+Protection
+PowerPC
 Quadratic
 Qn
 QL
@@ -40886,6 +40901,7 @@ Base
 Bitmaps
 Best
 Burst
+Buffer
 Material
 MORE
 Mathematical
@@ -44481,6 +44497,11 @@ Measurements
 Modify
 Managing
 MAX
+Modified
+Miss
+MIPS
+Memories
+Multilevel
 pdf
 previous
 prove
@@ -50765,6 +50786,10 @@ READ
 Rewrite
 Register
 Relocation
+REG
+Referenced
+Replacement
+Recently
 of
 one
 others
@@ -62575,6 +62600,7 @@ Unlocked
 Unlocking
 UTILIZATION
 Unfortunately
+Used
 Watch
 We
 What
@@ -65597,6 +65623,7 @@ Waste
 WRITE
 Worst
 Writer
+WSClock
 dependency
 dependent
 document
@@ -75752,6 +75779,9 @@ FAIL
 Fault
 Fair
 FIFO
+Frames
+Frame
+Frequently
 vectors
 vector
 variable
@@ -105558,6 +105588,7 @@ Event
 Effect
 Enter
 Exchange
+Entry
 OPTIONS
 Operations
 Obtain
@@ -108632,6 +108663,8 @@ OApH
 OukwKUm
 Omega
 Only
+Overlays
+Optimal
 menu
 more
 mA

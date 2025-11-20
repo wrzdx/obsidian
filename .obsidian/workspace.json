@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Modern Operating Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processes and Threads"
+              "title": "Modern Operating Systems"
+            }
+          },
+          {
+            "id": "d2850af0f451faef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "File Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "File Systems"
+            }
+          },
+          {
+            "id": "7097baec6ed6b193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Files (Файлы).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Files (Файлы)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Files (Файлы).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Processes and Threads"
+              "title": "Backlinks for Files (Файлы)"
             }
           }
         ],
@@ -121,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Files (Файлы).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Processes and Threads"
+              "title": "Outgoing links from Files (Файлы)"
             }
           }
         ]
@@ -205,20 +234,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Processes and Threads.md",
+                "file": "Files (Файлы).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Processes and Threads"
+              "title": "Outline of Files (Файлы)"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,11 +262,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "504e3f0c8c170431",
+  "active": "7097baec6ed6b193",
   "lastOpenFiles": [
+    "File Systems.md",
+    "Files (Файлы).md",
     "Modern Operating Systems.md",
-    "Introduction.md",
     "Processes and Threads.md",
+    "Introduction.md",
     "Scheduling.md",
     "Memory Management.md",
     "Virtual Memory.md",
@@ -269,10 +301,8 @@
     "Структура ОС.md",
     "Непрерывные случайные векторы..md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
-    "Probstat.md",
     "Непрерывные случайные векторы pdf.pdf",
     "Без названия.base",
-    "Зоопарк операционных систем.md",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "templates",
     "Library/EvgeniiKhovalyg.pdf",

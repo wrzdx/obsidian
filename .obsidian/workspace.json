@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Odin Project.md",
+                "file": "JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Odin Project"
+              "title": "JavaScript"
             }
           },
           {
@@ -148,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -251,7 +250,9 @@
   },
   "active": "4e55343eb1a8528d",
   "lastOpenFiles": [
+    "JavaScript.md",
     "The Odin Project.md",
+    "HTML and CSS.md",
     "React.md",
     "Directories (Директории).md",
     "Files (Файлы).md",
@@ -286,8 +287,6 @@
     "Untitled.base",
     "Innopolis 2st year - Fall Semester.md",
     "Event-driven servers.md",
-    "Системные вызовы.md",
-    "Концепции операционных систем.md",
     "Непрерывные случайные векторы pdf.pdf",
     "Без названия.base",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",

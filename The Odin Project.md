@@ -1,6 +1,7 @@
 **Modules:**
 - [JavaScript](JavaScript.md)
 - [HTML and CSS](HTML%20and%20CSS.md)
+- [React](React.md)
 
 # Почему я прохожу этот курс:
 

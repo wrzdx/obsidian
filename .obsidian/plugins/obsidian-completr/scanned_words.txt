@@ -23665,6 +23665,8 @@ Coincidence
 Case
 Close
 Contiguous
+Current
+Closedir
 Sections
 Surfaces
 Spaces
@@ -26701,6 +26703,7 @@ Sequential
 Seek
 Stupidity
 SED
+Symbolic
 Algebra
 AGLA
 Assignments
@@ -29602,6 +29605,7 @@ Attributes
 Ahead
 AWS
 Aliases
+Absolute
 and
 algebra
 any
@@ -50874,6 +50878,8 @@ Referenced
 Replacement
 Recently
 Researches
+Readdir
+Rename
 of
 one
 others
@@ -62688,6 +62694,7 @@ Unlocking
 UTILIZATION
 Unfortunately
 Used
+Unlink
 Watch
 We
 What
@@ -108787,6 +108794,7 @@ Overlays
 Optimal
 Optane
 Offset
+Opendir
 menu
 more
 mA
@@ -112409,6 +112417,7 @@ minute
 mality
 managers
 miss
+mkdir
 You
 YC
 YR
@@ -124638,6 +124647,7 @@ record
 rewind
 ray
 resident
+rmdir
 Zorich
 ZM
 ZB
@@ -137041,6 +137051,7 @@ Hansen
 Handoff
 Huge
 Hits
+Hierarchical
 XKo
 Xg
 XWo

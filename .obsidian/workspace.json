@@ -4,105 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ed5fabed7e50909f",
+        "id": "7122ec8332488dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "504e3f0c8c170431",
+            "id": "ef368e1adfc0935a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File Systems.md",
+                "file": "The Odin Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Systems"
-            }
-          },
-          {
-            "id": "d2850af0f451faef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File-System Management and Optimization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "File-System Management and Optimization"
-            }
-          },
-          {
-            "id": "ce4b0b0ea932ca61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples of File Systems, Researches and Summary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Examples of File Systems, Researches and Summary"
-            }
-          },
-          {
-            "id": "b724d58afae818b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File-System Management and Optimization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "File-System Management and Optimization"
-            }
-          },
-          {
-            "id": "3b6bd2f4d570cb3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File-System Implementation (Реализация Файловой Системы).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "File-System Implementation (Реализация Файловой Системы)"
-            }
-          },
-          {
-            "id": "9a997fcdf0459e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Directories (Директории).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Directories (Директории)"
-            }
-          },
-          {
-            "id": "7097baec6ed6b193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Files (Файлы).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Files (Файлы)"
+              "title": "The Odin Project"
             }
           }
         ]
@@ -205,19 +121,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File Systems.md",
+                "file": "The Odin Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from File Systems"
+              "title": "Outgoing links from The Odin Project"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -317,15 +234,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "d0989b295985b2c1",
+  "active": "ef368e1adfc0935a",
   "lastOpenFiles": [
-    "Modern Operating Systems.md",
-    "File-System Management and Optimization.md",
-    "File Systems.md",
-    "Examples of File Systems, Researches and Summary.md",
-    "File-System Implementation (Реализация Файловой Системы).md",
     "Directories (Директории).md",
     "Files (Файлы).md",
+    "File Systems.md",
+    "Modern Operating Systems.md",
+    "File-System Management and Optimization.md",
+    "Examples of File Systems, Researches and Summary.md",
+    "File-System Implementation (Реализация Файловой Системы).md",
     "Processes and Threads.md",
     "Introduction.md",
     "Scheduling.md",

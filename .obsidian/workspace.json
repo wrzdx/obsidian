@@ -137,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fsck",
+                "query": "i-nod",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -317,7 +317,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "504e3f0c8c170431",
+  "active": "d0989b295985b2c1",
   "lastOpenFiles": [
     "Modern Operating Systems.md",
     "File-System Management and Optimization.md",

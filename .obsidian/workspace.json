@@ -35,8 +35,7 @@
               "title": "What Is JSX"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,10 +248,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "c5434fc1b4d48616",
+  "active": "4e55343eb1a8528d",
   "lastOpenFiles": [
-    "React.md",
     "What Is JSX.md",
+    "React.md",
     "React Components.md",
     "Setting Up A React Environment.md",
     "JavaScript.md",

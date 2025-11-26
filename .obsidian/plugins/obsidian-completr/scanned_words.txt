@@ -8749,6 +8749,7 @@ VnD
 Variable
 Verhogen
 Variables
+Vite
 Ivanov
 Introduction
 Independence
@@ -15090,6 +15091,7 @@ Trap
 Timestamps
 Track
 Transfer
+Terminal
 nomemm
 need
 necessary
@@ -23667,6 +23669,7 @@ Close
 Contiguous
 Current
 Closedir
+CRA
 Sections
 Surfaces
 Spaces
@@ -35382,6 +35385,7 @@ PowerPC
 Pinning
 Pinned
 Pager
+Practices
 Quadratic
 Qn
 QL
@@ -44585,6 +44589,7 @@ Misses
 MacOS
 Magic
 Missing
+Mode
 pdf
 previous
 prove
@@ -50880,6 +50885,7 @@ Recently
 Researches
 Readdir
 Rename
+RIP
 of
 one
 others
@@ -68885,6 +68891,8 @@ determined
 devise
 difficulties
 decimal
+deprecated
+docs
 independency
 in
 info
@@ -87630,6 +87638,7 @@ estimated
 externally
 effect
 evict
+effects
 have
 hQ
 hfRF
@@ -137052,6 +137061,8 @@ Handoff
 Huge
 Hits
 Hierarchical
+HMR
+Highlights
 XKo
 Xg
 XWo

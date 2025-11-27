@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "102ca82388dc6ca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Passing Data Between Components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Passing Data Between Components"
+            }
+          },
+          {
             "id": "4c4cca0bd045310e",
             "type": "leaf",
             "state": {
@@ -63,8 +77,7 @@
               "title": "What Is JSX"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,8 +290,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "4c4cca0bd045310e",
+  "active": "4e55343eb1a8528d",
   "lastOpenFiles": [
+    "Passing Data Between Components.md",
     "React.md",
     "Keys In React.md",
     "Rendering Techniques.md",
@@ -304,7 +318,6 @@
     "Synchronization and interprocess communication.md",
     "No Memory Abstraction (Без абстракции памяти).md",
     "Implementation Issues (Проблемы реализации).md",
-    "Design Issues for Paging Systems (Проблемы проектирования).md",
     "Library/Pasted image 20251119233753.png",
     "Library/Pasted image 20251119233629.png",
     "Library/Pasted image 20251119135117.png",

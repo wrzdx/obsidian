@@ -8,3 +8,4 @@
 - [What Is JSX](What%20Is%20JSX.md)
 - [Rendering Techniques](Rendering%20Techniques.md)
 - [Keys In React](Keys%20In%20React.md)
+- [Passing Data Between Components](Passing%20Data%20Between%20Components.md)

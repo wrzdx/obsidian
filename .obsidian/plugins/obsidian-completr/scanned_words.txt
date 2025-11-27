@@ -23670,6 +23670,7 @@ Contiguous
 Current
 Closedir
 CRA
+Circuit
 Sections
 Surfaces
 Spaces
@@ -26708,6 +26709,7 @@ Stupidity
 SED
 Symbolic
 Started
+Short
 Algebra
 AGLA
 Assignments
@@ -81380,6 +81382,7 @@ frames
 favoring
 foreground
 fatal
+falsy
 scalars
 sufficient
 settings

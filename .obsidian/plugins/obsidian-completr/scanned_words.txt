@@ -26710,6 +26710,7 @@ SED
 Symbolic
 Started
 Short
+Snapshot
 Algebra
 AGLA
 Assignments
@@ -35389,6 +35390,7 @@ Pinning
 Pinned
 Pager
 Practices
+Props
 Quadratic
 Qn
 QL

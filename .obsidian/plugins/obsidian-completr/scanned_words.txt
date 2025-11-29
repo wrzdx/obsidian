@@ -3229,6 +3229,7 @@ Descriptors
 Disaster
 Dumping
 Duplicate
+Deeply
 Lecturer
 Link
 Line
@@ -12308,6 +12309,8 @@ Independent
 Involvement
 Indirect
 Indexed
+Immutability
+Immer
 Telegram
 Theorem
 Text
@@ -26712,6 +26715,7 @@ Started
 Short
 Snapshot
 States
+Spread
 Algebra
 AGLA
 Assignments
@@ -40988,6 +40992,7 @@ Byte
 Backups
 Btrfs
 BitLocker
+Batching
 Material
 MORE
 Mathematical
@@ -75900,6 +75905,7 @@ Fragmentation
 Faults
 Fork
 Feng
+Flat
 vectors
 vector
 variable

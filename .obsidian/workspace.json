@@ -105,7 +105,8 @@
               "title": "What Is JSX"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -318,8 +319,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "4e55343eb1a8528d",
+  "active": "4186bcf6a3ef752e",
   "lastOpenFiles": [
+    "Image Generator based on Evolutionary Algorithms.md",
+    "Setting Up A React Environment.md",
     "React.md",
     "More On State.md",
     "Introduction to State.md",
@@ -328,7 +331,6 @@
     "Rendering Techniques.md",
     "What Is JSX.md",
     "React Components.md",
-    "Setting Up A React Environment.md",
     "JavaScript.md",
     "The Odin Project.md",
     "HTML and CSS.md",
@@ -345,7 +347,6 @@
     "Memory Management.md",
     "Virtual Memory.md",
     "A Memory Abstraction Address Spaces (Адресные пространства).md",
-    "Synchronization and interprocess communication.md",
     "Library/Pasted image 20251119233753.png",
     "Library/Pasted image 20251119233629.png",
     "Library/Pasted image 20251119135117.png",

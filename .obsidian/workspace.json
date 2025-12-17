@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "More On State.md",
+                "file": "Почему стоит ввести записи.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "More On State"
+              "title": "Почему стоит ввести записи"
             }
           },
           {
@@ -206,20 +206,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setting Up A React Environment.md",
+                "file": "Почему стоит ввести записи.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Setting Up A React Environment"
+              "title": "Outgoing links from Почему стоит ввести записи"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -321,10 +320,10 @@
   },
   "active": "4186bcf6a3ef752e",
   "lastOpenFiles": [
+    "More On State.md",
     "Image Generator based on Evolutionary Algorithms.md",
     "Setting Up A React Environment.md",
     "React.md",
-    "More On State.md",
     "Introduction to State.md",
     "Passing Data Between Components.md",
     "Keys In React.md",

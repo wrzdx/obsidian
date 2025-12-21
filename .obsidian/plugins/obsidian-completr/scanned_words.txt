@@ -89543,6 +89543,7 @@ hBR
 htj
 htW
 hints
+hover
 combination
 can
 command
@@ -101314,6 +101315,7 @@ button
 blend
 browser
 bunch
+breakpoints
 EXCALIDRAW
 Excalidraw
 Elements
@@ -111145,6 +111147,7 @@ mhe
 mlZU
 mSiq
 menus
+margin
 You
 YC
 YR
@@ -126660,6 +126663,7 @@ Zzl
 ZRA
 ZRJ
 Zjdz
+Zooming
 Kniga
 KP
 KMJ

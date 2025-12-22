@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e582c2d580b2352f",
+        "id": "7122ec8332488dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "cdac2bcd1352be1d",
+            "id": "adda98b9e030b6b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Текст для профориентационной беседы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Media Queries"
+              "title": "Текст для профориентационной беседы"
+            }
+          },
+          {
+            "id": "1ba0ec8808972193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Любовь, чак-чак и роботы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Любовь, чак-чак и роботы"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -53,15 +68,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
-                "matchingCase": false,
+                "query": "Инн",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -76,7 +91,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Теги"
+              "title": "Tags"
             }
           },
           {
@@ -95,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media Queries.md",
+                "file": "File Systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,11 +120,10 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Media Queries"
+              "title": "Backlinks for File Systems"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -121,19 +135,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Любовь, чак-чак и роботы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Media Queries"
+              "title": "Outgoing links from Любовь, чак-чак и роботы"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -151,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CV 1519.md",
+                "file": "Концепции операционных систем.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,10 +193,21 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф CV 1519"
+              "title": "Graph of Концепции операционных систем"
+            }
+          },
+          {
+            "id": "76f39725294c44d7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8230a8f50f8d4fd9",
@@ -195,83 +220,83 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV 1519.md",
+                "file": "File Systems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура CV 1519"
+              "title": "Outline of File Systems"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Создать новую базу": false,
-      "switcher:Меню быстрого перехода": true,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": true,
-      "templates:Вставить шаблон": true,
-      "command-palette:Открыть палитру команд": true,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "cdac2bcd1352be1d",
+  "active": "1ba0ec8808972193",
   "lastOpenFiles": [
-    "Advanced HTML and CSS.md",
-    "Introduction to Responsive Design.md",
-    "CV 1519.md",
-    "Media Queries.md",
-    "Algorithms to solve DE.md",
-    "Data Structures and Algorithms.md",
-    "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
-    "Без названия.base",
-    "templates/break page.md",
-    "Library/EvgeniiKhovalyg.pdf",
-    "templates/break line.md",
-    "templates",
-    "Library/Pasted image 20251106082612.png",
-    "Library/Pasted image 20251106082133.png",
-    "Library/Pasted image 20251106082105.png",
-    "Library/Pasted image 20251106082036.png",
-    "Library/Pasted image 20251106081605.png",
-    "Library/Pasted image 20251106080342.png",
-    "Library/Pasted image 20251106080309.png",
-    "Что такое ОС.md",
-    "Обзор компьютерного оборудования.md",
-    "История операционных систем.md",
-    "Responsive Images.md",
-    "Library/Pasted image 20251106005632.png",
-    "Library/Pasted image 20251105225832.png",
-    "Library/Pasted image 20251105225605.png",
-    "Natural Responsiveness.md",
-    "Introduction.md",
-    "Modern Operating Systems.md",
-    "Keyframes.md",
-    "Transforms.md",
-    "conflict-files-obsidian-git.md",
-    "Transitions.md",
-    "Lecture 3.md",
-    "Почему стоит ввести записи.md",
-    "motivation letter.md",
-    "Motivation Letter for 1519 scholarship..md",
-    "Motivation.md",
     "Текст для профориентационной беседы.md",
+    "Любовь, чак-чак и роботы.md",
+    "Introduction to State.md",
+    "Почему стоит ввести записи.md",
+    "More On State.md",
+    "Image Generator based on Evolutionary Algorithms.md",
+    "Setting Up A React Environment.md",
+    "React.md",
+    "Passing Data Between Components.md",
+    "Keys In React.md",
+    "Rendering Techniques.md",
+    "What Is JSX.md",
+    "React Components.md",
+    "JavaScript.md",
+    "The Odin Project.md",
+    "HTML and CSS.md",
+    "Directories (Директории).md",
+    "Files (Файлы).md",
+    "File Systems.md",
+    "Modern Operating Systems.md",
+    "File-System Management and Optimization.md",
+    "Examples of File Systems, Researches and Summary.md",
+    "File-System Implementation (Реализация Файловой Системы).md",
+    "Processes and Threads.md",
+    "Introduction.md",
+    "Scheduling.md",
+    "Library/Pasted image 20251119233753.png",
+    "Library/Pasted image 20251119233629.png",
+    "Library/Pasted image 20251119135117.png",
+    "Library/Pasted image 20251119133344.png",
+    "Library/Pasted image 20251119133323.png",
+    "Library/Pasted image 20251119015947.png",
+    "Library/Pasted image 20251119015933.png",
+    "Library/Pasted image 20251119012033.png",
+    "Library/Pasted image 20251119011926.png",
+    "Library/Pasted image 20251118232613.png",
+    "Untitled.base",
+    "Непрерывные случайные векторы pdf.pdf",
+    "Без названия.base",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
+    "templates",
+    "Library/EvgeniiKhovalyg.pdf",
     "Excalidraw",
     "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
+    "Без названия",
     "Latex",
     "Без названия.canvas",
-    "Library/Math/Konev eng.pdf",
-    "Library/Math/Linear Algebra and Applications.pdf",
-    "Library/Math/Analytical Geometry_ 2D and 3D - P. R. Vittal.pdf",
     "Без названия 4.canvas",
     "Без названия 3.canvas",
     "Без названия 2.canvas",

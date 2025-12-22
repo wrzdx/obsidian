@@ -6,17 +6,32 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": true,
+  "colorGroups": [
+    {
+      "query": "tag:#1stYear  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#2ndYear  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.64072164948454,
+  "lineSizeMultiplier": 1.01432989690722,
   "collapse-forces": false,
-  "centerStrength": 0.947597482797153,
-  "repelStrength": 19.0272304887373,
+  "centerStrength": 0.248453608247423,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 104,
-  "scale": 0.3969930965338894,
+  "linkDistance": 500,
+  "scale": 0.6757621765136719,
   "close": false
 }

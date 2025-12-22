@@ -1,23 +1,7 @@
-# Темы:
-
-**Animations:**
-- [Transforms](Transforms.md)
-- [Transitions](Transitions.md)
-- [Keyframes](Keyframes.md)
-****
-
-**Accessibility:**
-- Пока что скипну, потому вернусь
-- - -
-
-**Responsive Design:**
-- [Introduction to Responsive Design](Introduction%20to%20Responsive%20Design.md)
-- [Natural Responsiveness](Natural%20Responsiveness.md)
-- [Responsive Images](Responsive%20Images.md)
-- [Media Queries](Media%20Queries.md)
-
-
-
+**Modules:**
+- [JavaScript](JavaScript.md)
+- [HTML and CSS](HTML%20and%20CSS.md)
+- [React](React.md)
 
 # Почему я прохожу этот курс:
 

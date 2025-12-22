@@ -35,7 +35,8 @@
               "title": "Любовь, чак-чак и роботы"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,19 +135,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Текст для профориентационной беседы.md",
+                "file": "Любовь, чак-чак и роботы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Текст для профориентационной беседы"
+              "title": "Outgoing links from Любовь, чак-чак и роботы"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -246,10 +248,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "c763575cb748721e",
+  "active": "1ba0ec8808972193",
   "lastOpenFiles": [
-    "Любовь, чак-чак и роботы.md",
     "Текст для профориентационной беседы.md",
+    "Любовь, чак-чак и роботы.md",
     "Introduction to State.md",
     "Почему стоит ввести записи.md",
     "More On State.md",

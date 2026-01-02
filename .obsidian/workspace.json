@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "path:mov",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Любовь, чак-чак и роботы.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,11 +105,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Media Queries"
+              "title": "Обратные ссылки для Любовь, чак-чак и роботы"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media Queries.md",
+                "file": "Любовь, чак-чак и роботы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Media Queries"
+              "title": "Исходящие ссылки из Любовь, чак-чак и роботы"
             }
           }
         ]
@@ -225,19 +225,26 @@
   },
   "active": "cdac2bcd1352be1d",
   "lastOpenFiles": [
+    "Library/IMG_7058.mov",
+    "Library/IMG_7054[1].mov",
     "Library/IMG_7054.mov",
+    "Library/IMG_0242.mov",
+    "Library/IMG_0231.mov",
+    "Library/IMG_0227.mov",
+    "Любовь, чак-чак и роботы.md",
+    "Введение в курс. Описательная статистика. Разбор задач..md",
+    "Текст для профориентационной беседы.md",
+    "Library/photo_2021-10-25_15-27-43@2x.jpg",
+    "Library/IMG_0235.mov",
+    "Library/photo_2025-12-24_11-48-34.jpg",
     "Library/photo_2025-12-24_11-48-38.jpg",
     "Library/IMG_0237.jpg",
-    "Library/IMG_0227.mov",
-    "Library/IMG_0231.mov",
     "Library/XXXL (4).webp",
     "Library/Kazan_International_Airport_Terminal_1A.jpg",
     "Library/IMG_3375 1.jpg",
     "Library/photo_2025-12-23_15-41-52.jpg",
     "Library/IMG_7153.jpg",
     "Library/photo_2025-12-23_15-09-21.jpg",
-    "Library/photo_2024-08-22_07-53-22.jpg",
-    "Library/photo_2024-08-11_19-40-01.jpg",
     "Library/IMG_4361.mp4",
     "Media Queries.md",
     "conflict-files-obsidian-git.md",
@@ -246,7 +253,6 @@
     "Непрерывные случайные векторы..md",
     "Непрерывные случайные векторы pdf.pdf",
     "Мир согласно С.md",
-    "Любовь, чак-чак и роботы.md",
     "Концепции операционных систем.md",
     "Зоопарк операционных систем.md",
     "Working with APIs.md",
@@ -264,13 +270,6 @@
     "Rendering Techniques.md",
     "React.md",
     "React Components.md",
-    "Processes.md",
-    "Processes and Threads.md",
-    "Без названия.base",
-    "Library/EvgeniiKhovalyg.pdf",
-    "templates",
-    "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
-    "Excalidraw",
     "Без названия.canvas",
     "Без названия 4.canvas",
     "Без названия 3.canvas",

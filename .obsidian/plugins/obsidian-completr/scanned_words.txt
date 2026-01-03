@@ -6430,6 +6430,12 @@ DYNW
 DpAu
 Djsj
 DyRGF
+DAbeN
+DTZt
+DnbW
+Dwjm
+DCtbT
+DZxe
 Lecturer
 Link
 Line
@@ -12444,6 +12450,7 @@ LlGZ
 LxOR
 LImp
 LWMN
+LOVe
 Vladimir
 Vector
 VIEW
@@ -18451,6 +18458,11 @@ VwXg
 VEla
 VppT
 VtztW
+VlsH
+VCBi
+Vypo
+VlYY
+VgbL
 Ivanov
 Introduction
 Independence
@@ -25124,6 +25136,11 @@ ImWw
 IbOL
 IdeQ
 IAwj
+IHCT
+IUBud
+IfXt
+IhrB
+IOFn
 Telegram
 Theorem
 Text
@@ -31211,6 +31228,7 @@ TGyl
 TBRR
 TjKH
 TGsw
+TnEm
 nomemm
 need
 necessary
@@ -56020,6 +56038,7 @@ SFsW
 SNPz
 Scom
 SkeKK
+SsRY
 Algebra
 AGLA
 Assignments
@@ -62230,6 +62249,7 @@ Aqwt
 Atltdnq
 AYuw
 AZOc
+Amppc
 and
 algebra
 any
@@ -68463,6 +68483,8 @@ ayds
 ahw
 aqXv
 ailw
+aSyM
+atj
 Plane
 Problem
 Prove
@@ -80680,6 +80702,7 @@ QKTa
 QqtdW
 QyTw
 QVLt
+QWhb
 Basis
 Body
 Basic
@@ -86608,6 +86631,7 @@ BLcT
 Brzv
 BxSV
 ByAz
+BRYQ
 Material
 MORE
 Mathematical
@@ -93192,6 +93216,8 @@ MlIi
 MvoL
 MNTm
 Mdhw
+MrQW
+MOadi
 pdf
 previous
 prove
@@ -112056,6 +112082,9 @@ oDrv
 oesqavx
 ogga
 oVtq
+oAQw
+oIBV
+oyEEe
 lecture
 lineynaya
 linear
@@ -130661,6 +130690,8 @@ Umwg
 UjuQz
 UogJ
 UlWi
+UjTtQ
+UMQGi
 Watch
 We
 What
@@ -136919,6 +136950,9 @@ Wecl
 Wfkh
 WBdX
 Wqiq
+WLlwt
+WtZv
+WlKZ
 dependency
 dependent
 document
@@ -143256,6 +143290,7 @@ dMcp
 dFYO
 dtOc
 dCnN
+dxRd
 independency
 in
 info
@@ -156376,6 +156411,8 @@ FwzWB
 FIrG
 FMkEo
 FibH
+FjIHC
+FUxK
 vectors
 vector
 variable
@@ -168491,6 +168528,7 @@ fYYj
 fXda
 fkVu
 fxSX
+fwRYm
 scalars
 sufficient
 settings
@@ -174905,6 +174943,7 @@ sVRc
 sonG
 sJMG
 sXhF
+scLd
 exist
 excalidraw
 everything
@@ -181212,6 +181251,7 @@ eabL
 eUrjtGc
 emoS
 eedU
+eUQn
 have
 hQ
 hfRF
@@ -187529,6 +187569,7 @@ hMcN
 hxgV
 hPIw
 hpzX
+hBqcIm
 combination
 can
 command
@@ -193988,6 +194029,7 @@ cilc
 cfTW
 coNF
 cqwf
+czlf
 Necessity
 Nikolay
 Natural
@@ -200029,6 +200071,7 @@ NIlw
 NXdr
 Nrdy
 NFTE
+Ncru
 Given
 Graphs
 Gg
@@ -206382,6 +206425,7 @@ GlWc
 Gone
 GZqd
 GutND
+GdlO
 basis
 be
 bd
@@ -212411,6 +212455,10 @@ bjzd
 bPTc
 btRg
 bGPG
+bbbA
+brNT
+bpAaak
+bAXbg
 EXCALIDRAW
 Excalidraw
 Elements
@@ -218802,6 +218850,8 @@ Eecz
 Enlg
 EdiM
 EIRL
+EPXI
+EnEc
 OPTIONS
 Operations
 Obtain
@@ -225075,6 +225125,7 @@ OhoW
 ODpx
 OojQ
 Ogeqaz
+OBqI
 menu
 more
 mA
@@ -231807,6 +231858,7 @@ mhOx
 mylt
 mrQOO
 mNua
+mFveZ
 You
 YC
 YR
@@ -237993,6 +238045,8 @@ YIli
 YEpy
 YXjD
 Yjvvq
+YyDn
+YxlQ
 with
 where
 way
@@ -244144,6 +244198,7 @@ wesb
 wqXZ
 wxcR
 wwqk
+wZcF
 under
 up
 unclear
@@ -256689,6 +256744,8 @@ rOcY
 rxKS
 roTn
 rliKc
+rEtX
+rweA
 Zorich
 ZM
 ZB
@@ -263187,6 +263244,8 @@ ZIgp
 ZtfP
 Zmzo
 Zkld
+ZfmY
+ZrHVvV
 Kniga
 KP
 KMJ
@@ -269671,6 +269730,8 @@ Kßg
 Kmauq
 Ksyg
 Kimk
+KMGAy
+Kcad
 qt
 qL
 qY
@@ -275909,6 +275970,7 @@ qqsr
 qRxsX
 qJft
 qwue
+qmWY
 HB
 HE
 HK
@@ -281953,6 +282015,9 @@ HUKD
 HUHU
 HoZY
 HVhO
+HCAR
+HiAFZ
+HTjh
 XKo
 Xg
 XWo
@@ -288131,6 +288196,10 @@ XpKr
 XnW
 XaCd
 XmWTK
+XJBX
+XfI
+XbsE
+XhKC
 jE
 jx
 jf
@@ -294386,6 +294455,8 @@ jwVV
 jTGB
 jEym
 jztz
+jzOI
+jZZIb
 zM
 zd
 zH
@@ -300516,6 +300587,9 @@ zTxz
 zUZO
 zLvP
 zWWw
+zGvf
+zVü
+zOYq
 kA
 kB
 kK
@@ -306961,6 +307035,7 @@ kRGe
 kXlC
 kdyc
 kWZv
+kIIDy
 yn
 yhR
 yg
@@ -313056,6 +313131,8 @@ yqch
 yTNf
 yvZG
 ybdoL
+ydYl
+yDsR
 xx
 xP
 xWY
@@ -325363,6 +325440,10 @@ JsAL
 Jnfv
 JxZ
 JcGa
+JjVd
+JiisB
+JvZKX
+JYrq
 öz
 ös
 öf

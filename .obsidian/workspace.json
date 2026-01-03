@@ -22,31 +22,18 @@
             }
           },
           {
-            "id": "062840c836f935ae",
+            "id": "cfda304900405912",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "Library/IMG_7153.jpg"
+                "file": "Library/photo_2025-12-24_11-48-34.jpg"
               },
               "icon": "lucide-image",
-              "title": "IMG_7153"
-            }
-          },
-          {
-            "id": "48f51f437bd59fe1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Library/photo_2025-12-23_15-41-52.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "photo_2025-12-23_15-41-52"
+              "title": "photo_2025-12-24_11-48-34"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,10 +234,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "062840c836f935ae",
+  "active": "cdac2bcd1352be1d",
   "lastOpenFiles": [
+    "Library/photo_2025-12-24_11-48-34.jpg",
     "Любовь, чак-чак и роботы.md",
     "Library/photo_2025-12-23_15-41-52.jpg",
+    "Library/IMG_7153.jpg",
     "Library/IMG_0237.jpg",
     "Library/IMG_3375 1.jpg",
     "Library/photo_2023-09-01_11-42-10.jpg",
@@ -264,11 +253,9 @@
     "Текст для профориентационной беседы.md",
     "Library/photo_2021-10-25_15-27-43@2x.jpg",
     "Library/IMG_0235.mov",
-    "Library/photo_2025-12-24_11-48-34.jpg",
     "Library/photo_2025-12-24_11-48-38.jpg",
     "Library/XXXL (4).webp",
     "Library/Kazan_International_Airport_Terminal_1A.jpg",
-    "Library/IMG_7153.jpg",
     "Library/IMG_4361.mp4",
     "Media Queries.md",
     "conflict-files-obsidian-git.md",

@@ -22,18 +22,19 @@
             }
           },
           {
-            "id": "cad358f64c3719b6",
+            "id": "48f51f437bd59fe1",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "Library/IMG_0237.jpg"
+                "file": "Library/photo_2025-12-23_15-41-52.jpg"
               },
               "icon": "lucide-image",
-              "title": "IMG_0237"
+              "title": "photo_2025-12-23_15-41-52"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,10 +235,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdac2bcd1352be1d",
+  "active": "48f51f437bd59fe1",
   "lastOpenFiles": [
-    "Library/IMG_0237.jpg",
     "Любовь, чак-чак и роботы.md",
+    "Library/IMG_0237.jpg",
     "Library/IMG_3375 1.jpg",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/IMG_7058.mov",

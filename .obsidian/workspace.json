@@ -11,14 +11,12 @@
             "id": "cdac2bcd1352be1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Любовь, чак-чак и роботы.md",
-                "mode": "source",
-                "source": false
+                "file": "Library/photo_2023-09-01_11-42-10.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Любовь, чак-чак и роботы"
+              "icon": "lucide-image",
+              "title": "photo_2023-09-01_11-42-10"
             }
           }
         ]
@@ -108,8 +106,7 @@
               "title": "Обратные ссылки для Любовь, чак-чак и роботы"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -121,20 +118,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Любовь, чак-чак и роботы.md",
+                "file": "Library/photo_2023-09-01_11-42-10.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Любовь, чак-чак и роботы"
+              "title": "Исходящие ссылки из photo_2023-09-01_11-42-10"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -223,15 +219,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdac2bcd1352be1d",
+  "active": "c763575cb748721e",
   "lastOpenFiles": [
+    "Любовь, чак-чак и роботы.md",
     "Library/IMG_7058.mov",
     "Library/IMG_7054[1].mov",
     "Library/IMG_7054.mov",
     "Library/IMG_0242.mov",
     "Library/IMG_0231.mov",
     "Library/IMG_0227.mov",
-    "Любовь, чак-чак и роботы.md",
     "Введение в курс. Описательная статистика. Разбор задач..md",
     "Текст для профориентационной беседы.md",
     "Library/photo_2021-10-25_15-27-43@2x.jpg",

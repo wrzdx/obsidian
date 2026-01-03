@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Любовь, чак-чак и роботы"
             }
+          },
+          {
+            "id": "cad358f64c3719b6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Library/IMG_0237.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "IMG_0237"
+            }
           }
         ]
       }
@@ -224,8 +236,9 @@
   },
   "active": "cdac2bcd1352be1d",
   "lastOpenFiles": [
-    "Library/IMG_3375 1.jpg",
+    "Library/IMG_0237.jpg",
     "Любовь, чак-чак и роботы.md",
+    "Library/IMG_3375 1.jpg",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/IMG_7058.mov",
     "Library/IMG_7054[1].mov",
@@ -239,7 +252,6 @@
     "Library/IMG_0235.mov",
     "Library/photo_2025-12-24_11-48-34.jpg",
     "Library/photo_2025-12-24_11-48-38.jpg",
-    "Library/IMG_0237.jpg",
     "Library/XXXL (4).webp",
     "Library/Kazan_International_Airport_Terminal_1A.jpg",
     "Library/photo_2025-12-23_15-41-52.jpg",

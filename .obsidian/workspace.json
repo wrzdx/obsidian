@@ -33,8 +33,7 @@
               "title": "IMG_3375 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Library/IMG_3375 1.jpg",
+                "file": "Любовь, чак-чак и роботы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из IMG_3375 1"
+              "title": "Исходящие ссылки из Любовь, чак-чак и роботы"
             }
           }
         ]
@@ -234,10 +233,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8669ab28fcb3ed1b",
+  "active": "cdac2bcd1352be1d",
   "lastOpenFiles": [
-    "Любовь, чак-чак и роботы.md",
     "Library/IMG_3375 1.jpg",
+    "Любовь, чак-чак и роботы.md",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/IMG_7058.mov",
     "Library/IMG_7054[1].mov",

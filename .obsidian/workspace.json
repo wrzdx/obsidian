@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Любовь, чак-чак и роботы"
             }
+          },
+          {
+            "id": "8669ab28fcb3ed1b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Library/IMG_3375 1.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "IMG_3375 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Любовь, чак-чак и роботы.md",
+                "file": "Library/IMG_3375 1.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Любовь, чак-чак и роботы"
+              "title": "Исходящие ссылки из IMG_3375 1"
             }
           }
         ]
@@ -221,10 +234,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdac2bcd1352be1d",
+  "active": "8669ab28fcb3ed1b",
   "lastOpenFiles": [
-    "Library/photo_2023-09-01_11-42-10.jpg",
     "Любовь, чак-чак и роботы.md",
+    "Library/IMG_3375 1.jpg",
+    "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/IMG_7058.mov",
     "Library/IMG_7054[1].mov",
     "Library/IMG_7054.mov",
@@ -240,10 +254,8 @@
     "Library/IMG_0237.jpg",
     "Library/XXXL (4).webp",
     "Library/Kazan_International_Airport_Terminal_1A.jpg",
-    "Library/IMG_3375 1.jpg",
     "Library/photo_2025-12-23_15-41-52.jpg",
     "Library/IMG_7153.jpg",
-    "Library/photo_2025-12-23_15-09-21.jpg",
     "Library/IMG_4361.mp4",
     "Media Queries.md",
     "conflict-files-obsidian-git.md",

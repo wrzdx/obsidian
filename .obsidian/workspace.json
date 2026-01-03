@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "Любовь, чак-чак и роботы"
             }
-          },
-          {
-            "id": "cfda304900405912",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Library/photo_2025-12-24_11-48-34.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "photo_2025-12-24_11-48-34"
-            }
           }
         ]
       }
@@ -237,6 +225,8 @@
   "active": "cdac2bcd1352be1d",
   "lastOpenFiles": [
     "Library/photo_2025-12-24_11-48-34.jpg",
+    "Library/photo_2025-12-23_15-09-21.jpg",
+    "Library/photo_2024-08-22_07-53-22.jpg",
     "Любовь, чак-чак и роботы.md",
     "Library/photo_2025-12-23_15-41-52.jpg",
     "Library/IMG_7153.jpg",
@@ -255,7 +245,6 @@
     "Library/IMG_0235.mov",
     "Library/photo_2025-12-24_11-48-38.jpg",
     "Library/XXXL (4).webp",
-    "Library/Kazan_International_Airport_Terminal_1A.jpg",
     "Library/IMG_4361.mp4",
     "Media Queries.md",
     "conflict-files-obsidian-git.md",

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Любовь, чак-чак и роботы"
             }
+          },
+          {
+            "id": "52730d92e9494377",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "примечания к выпуску 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,7 +235,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdac2bcd1352be1d",
+  "active": "52730d92e9494377",
   "lastOpenFiles": [
     "Library/photo_2025-12-24_11-48-34.jpg",
     "Library/photo_2025-12-23_15-09-21.jpg",

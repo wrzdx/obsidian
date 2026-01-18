@@ -13,3 +13,4 @@
 **States and effects**
 - [Introduction to State](Introduction%20to%20State.md)
 - [More On State](More%20On%20State.md)
+- [How To Deal With Side Effects](How%20To%20Deal%20With%20Side%20Effects.md)

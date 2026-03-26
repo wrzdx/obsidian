@@ -55,9 +55,9 @@ The system generates a personalized workout plan. After completing the workout, 
 - Updated Workout
 
 **Digital Twin:**
-![Digital Twin](Scene%201.png)
+![Digital Twin Description](Scene%201.png)
 
-
+![Digital Twin Schematic](Pasted%20image%2020260326190844.png)
 
 
 - - -

@@ -40,6 +40,8 @@ The system follows a human-AI interaction paradigm where the user provides input
 
 ### User Scenario
 
+![|300](Frames.png)
+
 A beginner user wants to start training at home but does not know how to structure a workout. He opens the application, inputs his goals, available equipment, and time constraints.
 
 The system generates a personalized workout plan. After completing the workout, the user provides feedback on difficulty and fatigue. Based on this feedback, the system adapts future workouts to better match the user’s condition and progress.

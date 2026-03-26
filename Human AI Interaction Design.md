@@ -38,14 +38,24 @@ These users aim to improve their fitness efficiently but require guidance and st
 
 The system follows a human-AI interaction paradigm where the user provides input, the AI generates recommendations, and continuous feedback enables iterative improvement.
 
-### User Scenario
+### Studyboarding, user flow, digital twin
 ![Studyboarding](Frames%20(3).png)
 
 A beginner user wants to start training at home but does not know how to structure a workout. He opens the application, inputs his goals, available equipment, and time constraints.
 
 The system generates a personalized workout plan. After completing the workout, the user provides feedback on difficulty and fatigue. Based on this feedback, the system adapts future workouts to better match the user’s condition and progress.
 
+**User Flow:**
+- Onboarding
+- User Input
+- AI generates workout
+- Workout Session
+- User Feedback
+- AI adapts plan
+- Updated Workout
 
+**Digital Twin:**
+![Digital Twin](Scene%201.png)
 
 
 

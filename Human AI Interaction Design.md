@@ -39,8 +39,7 @@ These users aim to improve their fitness efficiently but require guidance and st
 The system follows a human-AI interaction paradigm where the user provides input, the AI generates recommendations, and continuous feedback enables iterative improvement.
 
 ### User Scenario
-
-![|300](Frames.png)
+![Studyboarding](Frames%20(3).png)
 
 A beginner user wants to start training at home but does not know how to structure a workout. He opens the application, inputs his goals, available equipment, and time constraints.
 

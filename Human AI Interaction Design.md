@@ -38,6 +38,8 @@ These users aim to improve their fitness efficiently but require guidance and st
 
 The system follows a human-AI interaction paradigm where the user provides input, the AI generates recommendations, and continuous feedback enables iterative improvement.
 
+
+## Prototyping
 ### Studyboarding, user flow, digital twin
 ![Studyboarding](Frames%20(3).png)
 

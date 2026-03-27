@@ -1,3 +1,5 @@
+AI-powered adaptive training system
+
 ## Ideation
 
 ### Problem

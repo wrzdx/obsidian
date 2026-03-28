@@ -9,7 +9,6 @@ At the same time, research shows that users prefer personalized solutions that r
 
 This is problematic, as structured training has been shown to produce significantly better results than unstructured approaches [^2]. As a result, users may experience slower progress, reduced motivation, or ineffective training outcomes.
 
-
 ### Solution
 To address this problem, this project proposes an AI-powered adaptive training system that generates personalized workout programs based on user characteristics, goals, and context.
 
@@ -63,7 +62,69 @@ The system generates a personalized workout plan. After completing the workout, 
 
 ![Digital Twin Schematic](Pasted%20image%2020260326190844.png)
 
-Figma Prototypes: https://www.figma.com/design/JdywLfWnjtcpVzIGSKvyQh/HAID?node-id=0-1&p=f&t=ChQZbznzzI6JVRN8-0
+**Figma Prototypes:** https://www.figma.com/design/JdywLfWnjtcpVzIGSKvyQh/HAID?node-id=0-1&p=f&t=ChQZbznzzI6JVRN8-0
+
+
+## Evaluation
+
+### Evaluation Criteria
+
+> The system was evaluated based on the following criteria:
+> 
+> • Ease of use  
+> • Clarity of generated workout plans  
+> • Perceived usefulness  
+> • Trust in AI recommendations  
+> • Overall user satisfaction
+
+---
+
+### Method
+
+> The evaluation was conducted using observation and short interviews.
+> 
+> Participants were asked to interact with the prototype without guidance while their actions and reactions were observed. After completing the interaction, they were asked a few questions about their experience.
+
+---
+
+### Participants
+
+> The test involved 2–3 participants with beginner or intermediate fitness experience and no access to professional training guidance.
+
+---
+
+### Findings
+
+#### Pain Points
+
+> • Some users found the input stage slightly overwhelming due to multiple parameters  
+> • The role of AI was not always immediately clear  
+> • Users were unsure how feedback affects future workouts
+
+---
+
+#### Successes
+
+> • Users found the generated workout plans clear and easy to follow  
+> • The system reduced the need to think about training structure  
+> • The feedback feature was intuitive and quick to use
+
+---
+
+### Reflection
+
+> The evaluation revealed that while the system simplifies workout planning, users need clearer explanations of how AI works and how their feedback impacts future recommendations.
+> 
+> This indicates that transparency and guidance are important for building user trust and improving usability.
+
+---
+
+### Future Improvements
+
+> • Simplify the input process (e.g., progressive onboarding)  
+> • Provide clearer explanations of AI decisions  
+> • Show how feedback influences future plans  
+> • Improve guidance during first-time use
 
 - - -
 [^1]: [The Influence of Personalization on Consumer Satisfaction: Trends and Challenges](https://www.researchgate.net/publication/383006376_The_Influence_of_Personalization_on_Consumer_Satisfaction_Trends_and_Challenges) 

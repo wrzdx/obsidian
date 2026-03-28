@@ -63,6 +63,7 @@ The system generates a personalized workout plan. After completing the workout, 
 
 ![Digital Twin Schematic](Pasted%20image%2020260326190844.png)
 
+Figma Prototypes: https://www.figma.com/design/JdywLfWnjtcpVzIGSKvyQh/HAID?node-id=0-1&p=f&t=ChQZbznzzI6JVRN8-0
 
 - - -
 [^1]: [The Influence of Personalization on Consumer Satisfaction: Trends and Challenges](https://www.researchgate.net/publication/383006376_The_Influence_of_Personalization_on_Consumer_Satisfaction_Trends_and_Challenges) 

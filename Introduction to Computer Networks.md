@@ -1,3 +1,6 @@
+---
+model: openai@gpt-5.4
+---
 ## Point-to-Point
 The simplest network.
 
@@ -36,3 +39,7 @@ Examples:
 #### Purposes:
 
 - To schedule nodes for data sending
+- To define an exchanged data format
+- Other technical details
+
+

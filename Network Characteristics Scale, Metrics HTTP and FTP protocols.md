@@ -47,7 +47,10 @@ flexGrow=1
 ````
 
 
-## Internet: Organization Principles
+## Internet
+### Organization Principles
+![|600](Pasted%20image%2020260329153250.png)
+
 **Local or Regional Internet Service Provider (ISP)**
 - Example: Tattelecom
 - Provides an Internet connection to local communities or small regions
@@ -76,4 +79,29 @@ flexGrow=1
 	- Provide an Internet connection across a country
 	- Services:
 		- IP address allocation to local providers or end users;
-		- 
+		- domain name registration;
+		- web hosting, etc.
+	- Operate with WAN network infrastructure (the Internet “*backbone*”)
+
+**The Internet – the network of networks**
+- Interconnects the hardware infrastructure of multiple ISPs
+
+- A “*Nuts and Bolts*” view of the Internet – Its entire hardware infrastructure:
+	- Servers and Clients
+	- Routers, switches, and similar
+	- Communication links of all types
+
+- A “*Services*” view of the Internet – Data transfer facilities to network applications:
+	- Video streaming, web browsing, file distribution, and other facilities
+	- No deep understanding of the Internet organization is needed for developing simple network applications
+
+### The Internet Standards
+- **Request For Comments (RFC)** – informally is “the proposal for standards”
+	- Development proposals from interested parties
+	- Not all RFCs are standards
+
+- **Internet Engineering Task Force (IETF**) maintains technical standards (e.g. IP protocol)
+
+- **The Internet Corporation for Assigned Names and Numbers (ICANN)** allocates IP addresses around the Globe
+
+## OSI Reference Model

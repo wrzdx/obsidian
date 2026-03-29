@@ -1,6 +1,62 @@
 ---
 model: openai@gpt-5.4
 ---
+### Networks vs Human Communication Analogy
+
+#### Point-to-Point Fair Communication
+Analogy is *Friend’s talk*.
+
+**Prerequisites:**
+
+- Language understandable by both;
+- Affordable distance, loudness, and pace of speech;
+- Synchronization
+
+#### Broadcast (Centralized)
+Analogy is *Lecture*.
+
+**Prerequisites:**
+
+- Language understandable by both;
+- Affordable distance, loudness, and pace of speech;
+- Synchronization
+- More formal communication protocol
+
+#### Communication via an Intermediate Node
+Analogy are *Language Translator* and *Word Of Mouth*.
+
+**Prerequisites:**
+
+- Same as P2P
+
+**Problems:**
+
+- Delay;
+- Translation Imprecision;
+- Data Corruption/Errors
+
+
+#### Other Communication Types
+
+- Centralized with Interaction ("*taking-turn*” broadcast) – *Q&A Session*
+- Peer-to-Peer (Decentralized) – *Some gossip*
+
+#### Conclusion
+
+**Prerequisites:**
+
+- Language understandable by both;
+- Affordable distance, loudness, and pace of speech;
+- Synchronization
+- More formal communication protocol
+
+**Some communication problems:** 
+- Delays; 
+- Misunderstanding; 
+- Errors, data corruption
+
+
+
 ### Point-to-Point
 The simplest network.
 ![](Pasted%20image%2020260329060537.png)
@@ -85,7 +141,7 @@ Multiple hosts share the same channel:
 
 - Media Access control (*MAC*) address
 	- e.g. `00:1b:63:84:45:e6`
-	- Burned-in into a *[NIC](Introduction%20to%20Computer%20Networks.md#^78423f)*
+	- Burned-in into a *[NIC](Basic%20Networks%20concepts.md#^78423f)*
 - Internet Protocol (*IP*) address
 	- Assigned dynamically, change over time 
 	- IP version 4 (*IPv4*) – Lack of these addresses (e.g. `192.158.1.38`)

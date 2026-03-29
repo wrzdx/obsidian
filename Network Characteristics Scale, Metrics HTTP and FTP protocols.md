@@ -1,3 +1,4 @@
+## Networks classification
 
 | Network Criteria                           | Examples                                                                                                                                                                          |
 | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -16,8 +17,34 @@
 | Ownership   | Private        | Private or Public | Private or Public    |
 | Maintenance | Easy           | Difficult         | Very Difficult       |
 
-## Physical Network Topology
+### Physical Network Topology
 A physical interconnection layout between network nodes (routers, switches, etc.)
 
 ![](Pasted%20image%2020260329150714.png)
 
+- The most *fast* and *reliable*, but *expensive* as well – **Full Mesh**.
+
+Assumption of *bidirectional communication* channels is NOT always valid (e.g. due to admin configs)
+
+
+### Logical Topology:
+Actual data flow between nodes
+
+````col
+```col-md
+flexGrow=1
+===
+**Physical Topology:**
+![](Pasted%20image%2020260329151308.png)
+```
+
+```col-md
+flexGrow=1
+===
+**Logical Topology:**
+![](Pasted%20image%2020260329151321.png)
+```
+````
+
+
+## Internet: Organization Principles

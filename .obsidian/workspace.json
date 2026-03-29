@@ -245,7 +245,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,8 +262,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "67e3dc6d45cb9a91",
+  "active": "970b6c0816430af6",
   "lastOpenFiles": [
+    "Library/Pasted image 20260329145344.png",
+    "Library/Pasted image 20260329145340.png",
     "Basic Networks concepts.md",
     "Network Characteristics Scale, Metrics HTTP and FTP protocols.md",
     "Networks.md",
@@ -289,7 +292,6 @@
     "Library/Pasted image 20260329122735.png",
     "Library/Pasted image 20260329122503.png",
     "Library/Pasted image 20260329122423.png",
-    "Library/Pasted Image 20260329122342_856.png",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Library/Introduction to Computer Networks Physical Communication Channel.excalidraw.md",

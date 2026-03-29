@@ -6,7 +6,10 @@
 |                  |                                                                                                                                                 |
 |                  |                                                                                                                                                 |
 
-| Cryteria | **LAN** | **MAN** | **WAN** |
-| -------- | ------- | ------- | ------- |
-| ^        |         |         |         |
-|          |         |         |         |
+| Cryteria    | LAN            | MAN               | WAN                  |
+| :---------- | :------------- | :---------------- | :------------------- |
+| Technology  | Ethernet, WiFi | DQDB, ATM         | Leased Line, Dial-Up |
+| Range       | Up to 2km      | 5-50km            | Above 50km           |
+| Speed       | Very High      | Average           | Low                  |
+| Ownership   | Private        | Private or Public | Private or Public    |
+| Maintenance | Easy           | Difficult         | Very Difficult       |

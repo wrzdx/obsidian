@@ -14,6 +14,9 @@ The simplest network.
 - Error proness (bits flip)
 
 ### Network Interface Controller (NIC)
+
+^78423f
+
 ![](Pasted%20image%2020260329110056.png)
 
 **Characteristics:**
@@ -66,7 +69,7 @@ Multiple hosts share the same channel:
 ### Key Concepts Of Computer Networks
 
 #### Key Network Components:
-
+![[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw]]
 - **Hosts:** end devices exchanging data
 - **Link:** device to transmit data between adjacent nodes
 - **Router:** device to forward/route data
@@ -75,5 +78,13 @@ Multiple hosts share the same channel:
 - **Destination Host:** receives data
 - **Packet:** a block of data of a pre-defined size
 - **Network Address:** unique identifier for nodes
-	- Media Access control (*MAC*)
-	- 
+
+#### Address Types:
+
+- Media Access control (*MAC*) address
+	- e.g. `00:1b:63:84:45:e6`
+	- Burned-in into a *[NIC](Introduction%20to%20Computer%20Networks.md#^78423f)*
+- Internet Protocol (*IP*) address
+	- Assigned dynamically, change over time 
+	- IP version 4 (*IPv4*) – Lack of these addresses (e.g. `192.158.1.38`)
+	- IP version 6 (*IPv6*) – A new standard, but not widely adopted (e.g. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)

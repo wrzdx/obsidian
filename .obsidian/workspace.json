@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks.md",
+                "file": "Basic Networks concepts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Networks"
+              "title": "Basic Networks concepts"
             }
           },
           {
@@ -207,9 +207,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "67e3dc6d45cb9a91",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8230a8f50f8d4fd9",
@@ -222,21 +232,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File Systems.md",
+                "file": "Network Characteristics Scale, Metrics HTTP and FTP protocols.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of File Systems"
+              "title": "Outline of Network Characteristics Scale, Metrics HTTP and FTP protocols"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,24 +257,27 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "bases:Create new base": true,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "970b6c0816430af6",
+  "active": "67e3dc6d45cb9a91",
   "lastOpenFiles": [
+    "Basic Networks concepts.md",
+    "Network Characteristics Scale, Metrics HTTP and FTP protocols.md",
+    "Networks.md",
+    "Library/Pasted image 20260329143541.png",
+    "Library/Pasted image 20260329143357.png",
     "Socket Programming in C.md",
     "Reliable Data Transfer Routers and Switches.md",
     "TCP Congestion Control Network Layer.md",
     "DHCP and NAT Linked-State and Distance-Vector routing algorithms.md",
     "Hierarchical Routing Data Link Layer.md",
-    "Networks.md",
-    "Network Characteristics Scale, Metrics HTTP and FTP protocols.md",
     "Client-Server and Peer-to-Peer Applications Networks Calculus.md",
     "Email Suit Protocols SMTP, IMAP, POP3.md",
     "DNS Summary of Application-layer Protocols.md",
     "OSI and TCP Reference Models, Data Encapsulation.md",
     "TCP and UDP Protocols.md",
-    "Basic Networks concepts.md",
     "Library/Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw.md",
     "Library/Introduction to Computer Networks 2026-03-29 12.36.42.excalidraw.md",
     "Innopolis 2st year - Fall Semester.md",
@@ -278,8 +290,6 @@
     "Library/Pasted image 20260329122503.png",
     "Library/Pasted image 20260329122423.png",
     "Library/Pasted Image 20260329122342_856.png",
-    "Library/Pasted Image 20260329122258_840.png",
-    "Library/Pasted image 20260329114125.png",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Library/Introduction to Computer Networks Physical Communication Channel.excalidraw.md",
@@ -290,7 +300,6 @@
     "Other documents.md",
     "Projects.md",
     "Modern Operating Systems.md",
-    "File Systems.md",
     "Без названия.base",
     "Untitled.base",
     "Library/IMG_4361.mp4",

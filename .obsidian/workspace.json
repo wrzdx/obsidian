@@ -120,7 +120,8 @@
               "title": "Backlinks for conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -144,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -248,8 +248,8 @@
   },
   "active": "e2cbd46c939581bc",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Human AI Interaction Design.md",
+    "Networks.md",
+    "Informal Intro to Computer Networks.md",
     "Library/Pasted image 20260326190844.png",
     "Library/Scene 1.png",
     "Library/Digital Twin (1).png",
@@ -266,17 +266,14 @@
     "Untitled.base",
     "Library/universitet-innopolis-3e9c6a61e7-6cbbd3156779b1dcf831f16e29ffcaba.jpeg",
     "Library/pol0426-cc472c6003-c49d27d643a5b07512e1e379e5eb06d8.jpeg",
-    "Library/photo_2025-12-24_11-48-38.jpg",
     "Library/IMG_4361.mp4",
     "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",
     "References.md",
     "Projects.md",
     "Текст для профориентационной беседы.md",
     "Books and Courses.md",
-    "Networks.md",
     "Files (Файлы).md",
     "Untitled 2.base",
-    "Informal Intro to Computer Networks.md",
     "Untitled 1.base",
     "Introduction to Computer Networks.md",
     "Innopolis University.md",

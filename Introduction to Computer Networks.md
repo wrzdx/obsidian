@@ -69,7 +69,8 @@ Multiple hosts share the same channel:
 ### Key Concepts Of Computer Networks
 
 #### Key Network Components:
-![[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw]]
+[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw|800](Introduction%20to%20Computer%20Networks%202026-03-29%2012.05.47.excalidraw.md)
+![[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw|500]]
 - **Hosts:** end devices exchanging data
 - **Link:** device to transmit data between adjacent nodes
 - **Router:** device to forward/route data

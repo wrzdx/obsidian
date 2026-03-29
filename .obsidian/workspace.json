@@ -34,8 +34,7 @@
               "title": "Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Library/Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw.md",
+                "file": "Introduction to Computer Networks.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw"
+              "title": "Backlinks for Introduction to Computer Networks"
             }
           }
         ],
@@ -135,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Library/Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw.md",
+                "file": "Introduction to Computer Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw"
+              "title": "Outgoing links from Introduction to Computer Networks"
             }
           }
         ]
@@ -249,10 +248,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c4a0f1768d80e400",
+  "active": "383e6c19fb01e640",
   "lastOpenFiles": [
-    "Introduction to Computer Networks.md",
     "Library/Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw.md",
+    "Introduction to Computer Networks.md",
     "Library/Pasted image 20260329114125.png",
     "Library/Pasted image 20260329113736.png",
     "Library/Pasted image 20260329113656.png",

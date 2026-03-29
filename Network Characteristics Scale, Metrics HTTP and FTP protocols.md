@@ -48,3 +48,32 @@ flexGrow=1
 
 
 ## Internet: Organization Principles
+**Local or Regional Internet Service Provider (ISP)**
+- Example: Tattelecom
+- Provides an Internet connection to local communities or small regions
+- Services: IP address allocation, domain name registration, web hosting, etc.
+- Owns MAN or WAN networks
+
+**Content Provider Network**
+- Servers network of a content provider (e.g. Youtube.com, Google.com)
+- Numerous user requests are handled by different servers
+- Needed for handling simultaneous requests with acceptable quality (delays)
+- Can be either local or geographically distributed network
+
+**Enterprise Network**
+- Midsize or large enterprise IT infrastructure
+- Local Area Network (LAN)
+
+**Mobile Network**
+- A large-scale wireless network
+- Radio waves transmission medium
+- Multiple radio base stations over a large area
+- Mobile hosts dynamically reconnect between stations
+
+**National or Global Internet Service Providers (ISP)**
+- Some Russian national ISPs: Rostelecom, MTS, Relkom (Demos)
+	- Demos – the first ISP in Russia (1989) owning *“.su”* domain
+	- Provide an Internet connection across a country
+	- Services:
+		- IP address allocation to local providers or end users;
+		- 

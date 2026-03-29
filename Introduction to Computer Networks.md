@@ -114,6 +114,13 @@ Route data packets across a network, boost signal intensity, etc.
 - Bridges
 - Routers
   - Gateway router – at the edge of a specific (e.g. private) network
-  - (WiFi) Repeater – Expends the signal coverage area
+  - (WiFi) Repeater – Expands the signal coverage area
 ```
 ````
+
+#### Network Organization
+![|600](Pasted%20image%2020260329124311.png)
+[[Introduction to Computer Networks 2026-03-29 12.36.42.excalidraw|Excalidraw]]
+
+- **Network core:** intermediate routers and other network devices, providing communication between hosts
+- **Network edge:** Network hosts, initiating data exchange over a network

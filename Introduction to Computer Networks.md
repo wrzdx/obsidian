@@ -1,13 +1,12 @@
 ---
 model: openai@gpt-5.4
 ---
-## Point-to-Point
+### Point-to-Point
 The simplest network.
-
-### Communication channel
 ![](Pasted%20image%2020260329060537.png)
 
-#### **Characteristics:**
+### Communication channel
+**Characteristics:**
 
 - Data transfer direction (single or bi-directional)
 - Wired or wireless
@@ -47,7 +46,7 @@ Examples:
 
 Assigns time slots to nodes for sending data
 
-## Multi-Point Communication
+### Multi-Point Communication
 Multiple hosts share the same channel:
 ![|400](Pasted%20image%2020260329113736.png)
 
@@ -63,3 +62,18 @@ Multiple hosts share the same channel:
 - Packet routing algorithms
 - Network security
 - Others
+
+### Key Concepts Of Computer Networks
+
+#### Key Network Components:
+
+- **Hosts:** end devices exchanging data
+- **Link:** device to transmit data between adjacent nodes
+- **Router:** device to forward/route data
+	- Router-like devices: Switch, Bridge, Hub, WiFi Access Point, Repeater 
+- **Source Host:** sends data
+- **Destination Host:** receives data
+- **Packet:** a block of data of a pre-defined size
+- **Network Address:** unique identifier for nodes
+	- Media Access control (*MAC*)
+	- 

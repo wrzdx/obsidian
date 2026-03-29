@@ -18,18 +18,30 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "e2cbd46c939581bc",
+=======
+            "id": "7f5d5b5937445f50",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "conflict-files-obsidian-git.md",
+=======
+                "file": "References.md",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "conflict-files-obsidian-git"
+=======
+              "title": "References"
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
             }
           }
         ],
@@ -107,7 +119,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "conflict-files-obsidian-git.md",
+=======
+                "file": "References.md",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,11 +133,14 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< HEAD
               "title": "Backlinks for conflict-files-obsidian-git"
+=======
+              "title": "Backlinks for References"
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -133,12 +152,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "conflict-files-obsidian-git.md",
+=======
+                "file": "References.md",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
+<<<<<<< HEAD
               "title": "Outgoing links from conflict-files-obsidian-git"
+=======
+              "title": "Outgoing links from References"
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
             }
           }
         ]
@@ -246,11 +273,31 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
+<<<<<<< HEAD
   "active": "e2cbd46c939581bc",
   "lastOpenFiles": [
     "Introduction to Computer Networks.md",
     "Networks.md",
     "Informal Intro to Computer Networks.md",
+=======
+  "active": "7f5d5b5937445f50",
+  "lastOpenFiles": [
+    "Home/Home.md",
+    "Projects.md",
+    "Текст для профориентационной беседы.md",
+    "Books and Courses.md",
+    "Networks.md",
+    "Human AI Interaction Design.md",
+    "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",
+    "Files (Файлы).md",
+    "Untitled 2.base",
+    "Informal Intro to Computer Networks.md",
+    "Untitled 1.base",
+    "Introduction to Computer Networks.md",
+    "Innopolis University.md",
+    "Untitled.base",
+    "Без названия.base",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
     "Library/Pasted image 20260326190844.png",
     "Library/Scene 1.png",
     "Library/Digital Twin (1).png",
@@ -288,11 +335,23 @@
     "Setting Up A React Environment.md",
     "Passing Data Between Components.md",
     "Keys In React.md",
+<<<<<<< HEAD
+=======
+    "Rendering Techniques.md",
+    "What Is JSX.md",
+    "React Components.md",
+    "Library/Pasted image 20251119233753.png",
+    "Library/Pasted image 20251119233629.png",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
     "Непрерывные случайные векторы pdf.pdf",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "templates",
     "Library/EvgeniiKhovalyg.pdf",
     "Excalidraw",
+<<<<<<< HEAD
+=======
+    "Library/AGLA/2024_AGLA1_Lecture_1.pdf",
+>>>>>>> e3329c3 (vault backup: 2026-03-29 05:33:25)
     "Без названия.canvas",
     "Без названия 4.canvas",
     "Без названия 3.canvas",

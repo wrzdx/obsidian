@@ -105,3 +105,34 @@ flexGrow=1
 - **The Internet Corporation for Assigned Names and Numbers (ICANN)** allocates IP addresses around the Globe
 
 ## OSI Reference Model
+- **Open Systems Interconnection (OSI)** Layered Reference Model
+
+Analogy: OSI to Physical Letter Delivery
+
+| OSI Layer    | Paper Letter Sending Analogy                                    |
+| ------------ | --------------------------------------------------------------- |
+| Application  | Letter content                                                  |
+| Presentation | Letter content language, destination address language           |
+| Session      | Post office visit, letter type choice, signatures and payment   |
+| Transport    | Overall letter delivery process (e.g. avoidance of letter loss) |
+| Network      | Letter Delivery route                                           |
+| Data Link    | Letter transportation between adjucent points                   |
+| Physical     | Physical letter paper                                           |
+
+### Application Layer
+Protocols define:
+- Exchanged messages format
+- Communication stages e.g. welcoming, acknowledgements, closure
+- Message types, e.g. webpage request and response
+- Other
+
+| Application Layer Protocol                      | Purpose                       |
+| ----------------------------------------------- | ----------------------------- |
+| **DHCP**: Dynamic Host Configuration Protocol   | IP addresses assignment       |
+| **DNS**: Domain Name System                     | URL resolution protocol       |
+| **HTTP**: Hyper Text Transfer Protoco           | Web pages acces               |
+| **FTP**: File Transfer                          | Files download/upload (large) |
+| **SMTP**: Simple Mail Transport                 | Emails sending                |
+| **POP:** Post Office                            | Emails reading                |
+| **IMAP**: Internet Message Access               | Emails reading                |
+| **MIME**: Multipurpose Internet Mail Extensions | Email attachments support     |

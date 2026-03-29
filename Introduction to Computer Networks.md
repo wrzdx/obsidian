@@ -69,8 +69,9 @@ Multiple hosts share the same channel:
 ### Key Concepts Of Computer Networks
 
 #### Key Network Components:
-[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw|800](Introduction%20to%20Computer%20Networks%202026-03-29%2012.05.47.excalidraw.md)
-![[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw|500]]
+![](Pasted%20image%2020260329122503.png)
+[[Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw|Excalidraw]]
+
 - **Hosts:** end devices exchanging data
 - **Link:** device to transmit data between adjacent nodes
 - **Router:** device to forward/route data
@@ -89,3 +90,30 @@ Multiple hosts share the same channel:
 	- Assigned dynamically, change over time 
 	- IP version 4 (*IPv4*) – Lack of these addresses (e.g. `192.158.1.38`)
 	- IP version 6 (*IPv6*) – A new standard, but not widely adopted (e.g. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)
+
+#### Network Node Types:
+````col
+```col-md
+flexGrow=1
+===
+##### Network hosts
+
+The ones that actually communicate and at the network edge)
+
+- Source Host – Sends data
+- Destination Host – Recieves data
+```
+
+```col-md
+flexGrow=1
+===
+##### Intermediate Network Nodes
+Route data packets across a network, boost signal intensity, etc.
+
+- Switches
+- Bridges
+- Routers
+  - Gateway router – at the edge of a specific (e.g. private) network
+  - (WiFi) Repeater – Expends the signal coverage area
+```
+````

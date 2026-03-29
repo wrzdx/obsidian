@@ -21,18 +21,6 @@
               "icon": "lucide-file",
               "title": "Introduction to Computer Networks"
             }
-          },
-          {
-            "id": "c4a0f1768d80e400",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Library/Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw"
-            }
           }
         ]
       }
@@ -250,8 +238,13 @@
   },
   "active": "383e6c19fb01e640",
   "lastOpenFiles": [
+    "Library/Pasted image 20260329122735.png",
     "Library/Introduction to Computer Networks 2026-03-29 12.05.47.excalidraw.md",
     "Introduction to Computer Networks.md",
+    "Library/Pasted image 20260329122503.png",
+    "Library/Pasted image 20260329122423.png",
+    "Library/Pasted Image 20260329122342_856.png",
+    "Library/Pasted Image 20260329122258_840.png",
     "Library/Pasted image 20260329114125.png",
     "Library/Pasted image 20260329113736.png",
     "Library/Pasted image 20260329113656.png",
@@ -260,7 +253,6 @@
     "ChatGPT_MD",
     "Library/Pasted image 20260329110121.png",
     "Library/Pasted image 20260329110056.png",
-    "Library/Pasted image 20260329060537.png",
     "Library/Introduction to Computer Networks Physical Communication Channel.excalidraw.md",
     "Networks.md",
     "Innopolis 2st year - Fall Semester.md",
@@ -279,9 +271,6 @@
     "Human AI Interaction Design.md",
     "conflict-files-obsidian-git.md",
     "Informal Intro to Computer Networks.md",
-    "Library/Pasted image 20260326190844.png",
-    "Library/Scene 1.png",
-    "Library/Digital Twin (1).png",
     "Malaysia.md",
     "Home/Home.md",
     "Без названия.base",
@@ -290,7 +279,6 @@
     "Excalidraw/Drawing 2025-09-05 19.39.21.excalidraw.md",
     "References.md",
     "Текст для профориентационной беседы.md",
-    "Books and Courses.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Непрерывные случайные векторы pdf.pdf",

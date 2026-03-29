@@ -21,31 +21,8 @@
               "icon": "lucide-file",
               "title": "Introduction to Computer Networks"
             }
-          },
-          {
-            "id": "536194cb0a4f14c4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Library/Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw"
-            }
-          },
-          {
-            "id": "3ef380591dcaaffa",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Library/Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw.md",
+                "file": "Introduction to Computer Networks.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw"
+              "title": "Backlinks for Introduction to Computer Networks"
             }
           }
         ],
@@ -145,19 +122,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Library/Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw.md",
+                "file": "Introduction to Computer Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw"
+              "title": "Outgoing links from Introduction to Computer Networks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -258,10 +236,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "536194cb0a4f14c4",
+  "active": "383e6c19fb01e640",
   "lastOpenFiles": [
+    "Library/Pasted image 20260329060537.png",
     "Introduction to Computer Networks.md",
-    "Library/Introduction to Computer Networks 2026-03-29 06.03.49.excalidraw.md",
+    "Library/Introduction to Computer Networks Physical Communication Channel.excalidraw.md",
     "Networks.md",
     "Innopolis 2st year - Fall Semester.md",
     "Innopolis University.md",
@@ -300,7 +279,6 @@
     "Books and Courses.md",
     "Untitled 2.base",
     "Untitled 1.base",
-    "The Odin Project.md",
     "Непрерывные случайные векторы pdf.pdf",
     "Library/Math/Analiticheskaya_geometria_i_lineynaya_algebra_2020_Umnov.pdf",
     "templates",

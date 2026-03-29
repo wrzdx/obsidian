@@ -7,7 +7,7 @@ The simplest network.
 ### Communication channel
 ![](Pasted%20image%2020260329060537.png)
 
-#### Characteristics:
+#### **Characteristics:**
 
 - Data transfer direction (single or bi-directional)
 - Wired or wireless
@@ -17,7 +17,7 @@ The simplest network.
 ### Network Interface Controller (NIC)
 ![](Pasted%20image%2020260329110056.png)
 
-#### Characteristics:
+**Characteristics:**
 
 - To transmit (put) data into a network channel
 - To take data from a network channel
@@ -36,10 +36,30 @@ There are several basic principles for a data transfer:
 Examples:
 - HTTP, SMTP, IMAPS, VolP, etc.
 
-#### Purposes:
+**Purposes:**
 
 - To schedule nodes for data sending
 - To define an exchanged data format
 - Other technical details
 
+#### Time Division Multiplexing
+![](Pasted%20image%2020260329113449.png)
 
+Assigns time slots to nodes for sending data
+
+## Multi-Point Communication
+Multiple hosts share the same channel:
+![|400](Pasted%20image%2020260329113736.png)
+
+**Broadcast Communication:**
+![|400](Pasted%20image%2020260329114125.png)
+1) Message from one host is sent to all others
+2) Each host, when receiving a message, checks its destination address:
+	1) It reads a message, if it is destinated to it
+	2) Otherwise, it discards a message  
+
+**Problems:**
+
+- Packet routing algorithms
+- Network security
+- Others

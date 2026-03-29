@@ -124,3 +124,14 @@ Route data packets across a network, boost signal intensity, etc.
 
 - **Network core:** intermediate routers and other network devices, providing communication between hosts
 - **Network edge:** Network hosts, initiating data exchange over a network
+
+#### Routing Algorithm
+![](Pasted%20image%2020260329124612.png)
+
+- Determines end-to-end communication paths
+- Has to account network load
+
+#### Packets Switching Mechanism
+![](Pasted%20image%2020260329124707.png)
+
+- Different data packets may take different routes, for the same pair of hosts, possibly within a same session

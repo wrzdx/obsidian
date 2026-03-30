@@ -19,7 +19,29 @@ Request/Response paradigm:
 flexGrow=1
 ===
 ### FTP: large files tranfer
+![](Pasted%20image%2020260330055530.png)
 
+Connection types: 
+- Control: commands and replies; 
+- Data: file transfer
+  
+**Control Connection**
+![](Pasted%20image%2020260330055353.png)
+
+**Data download connection**
+![](Pasted%20image%2020260330055448.png)
 ```
 ````
 
+
+````col
+```col-md
+flexGrow=1
+===
+```
+````
+
+
+| Command | Action |
+| ------- | ------ |
+|         |        |

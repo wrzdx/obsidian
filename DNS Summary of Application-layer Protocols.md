@@ -40,4 +40,35 @@ flexGrow=1
 - Thus, the DNS database is organized as a *distrbuted hierarchical database*; 
 - This allows a drastic reduction of time for a DNS lookup process
 
+Correspondence of “*innopolis.university.ru.*” URL to the DNS hierarchy
+![|500](Pasted%20image%2020260330184806.png)
+
+> [!note] 
+> “.” at the end of URL addresses is typically omitted
+
+#### Root Servers (“*.*”)
+(13 in total + multiple replications)
+
+- Each Root DNS server knows the IP addresses of all registered *Top-Level Domain* (TLD) Servers;
+- Root servers have multiple *replications* 
+	- **replication** - a physical server sharing the IP address of some root server and containing its DB
+- DNS Root zone is coordinated by the *Internet Assigned Numbers Authority* (IANA) organization, the part of the ICANN
+
+#### Top-Level Domain (TLD) Servers
+**Examples:** .com .university .org .ru
+
+- A certain TLD server knows the IP addresses of the associated second-level DNS servers
+	- Note: one logical server might correspond to multiple physical servers
+- The database of the available TLD servers is maintained by IANA: https://www.iana.org/domains/root/db
+- Country-code servers (such as “.ru”) are classified as TLD servers
+
+#### Second-Level Domain (SLD or 2LD) Servers
+**Examples:** innopolis, google
+
+Authoritative DNS server:
+- Provides or knows the IP address of the final service provider
+- Owned or rented by the end organization or company
+- Can be of the second or a lower level
+
+## DNS Lookup Process
 

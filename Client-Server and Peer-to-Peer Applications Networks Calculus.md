@@ -52,3 +52,7 @@ Types of servers:
 | **Cost**            | More expensive                                                                       | Cheaper (due to absence of server)                      |
 | **Use Case**        | Other, except large files distr. and hierarchical databases | Large files distribution and distributed databases      |
 
+#### Achievable Lower Bound for a File Distribution Time: Client-Server Case
+$$\Delta t^{distr}_{CS} \geq MAX\{\frac{N*F}{U_{s}}, \frac{F}{d_{min}}\}$$
+#### Achievable Lower Bound for a File Distribution Time: Peer-to-Peer Case
+$$\frac{F}{u_{s}}$$

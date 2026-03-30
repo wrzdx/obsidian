@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks.md",
+                "file": "Mail Protocol SuitA Brief History of Electronic Mail.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Networks"
+              "title": "Mail Protocol SuitA Brief History of Electronic Mail"
             }
           },
           {
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networks.md",
+                "file": "Mail Protocol SuitA Brief History of Electronic Mail.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Networks"
+              "title": "Backlinks for Mail Protocol SuitA Brief History of Electronic Mail"
             }
           }
         ],
@@ -152,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networks.md",
+                "file": "Mail Protocol SuitA Brief History of Electronic Mail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Networks"
+              "title": "Outgoing links from Mail Protocol SuitA Brief History of Electronic Mail"
             }
           }
         ]
@@ -247,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networks.md",
+                "file": "Mail Protocol SuitA Brief History of Electronic Mail.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Networks"
+              "title": "Outline of Mail Protocol SuitA Brief History of Electronic Mail"
             }
           }
         ]
@@ -279,8 +279,11 @@
   },
   "active": "383e6c19fb01e640",
   "lastOpenFiles": [
-    "Mail Protocol SuitA Brief History of Electronic Mail.md",
+    "Library/Pasted image 20260330105316.png",
+    "Library/Pasted image 20260330105059.png",
+    "Library/Pasted image 20260330104728.png",
     "Networks.md",
+    "Mail Protocol SuitA Brief History of Electronic Mail.md",
     "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
     "Web Cookies and Caching.md",
     "Networks Calculus.md",
@@ -293,8 +296,6 @@
     "Library/Pasted image 20260330093644.png",
     "Library/Pasted image 20260330093411.png",
     "Library/Pasted image 20260330093206.png",
-    "Library/Pasted image 20260330093022.png",
-    "Library/Pasted image 20260330092053.png",
     "Network Characteristics Scale, Metrics.md",
     "Innopolis 2st year.md",
     "Regression.md",

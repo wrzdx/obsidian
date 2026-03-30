@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks.md",
+                "file": "Client-Server and Peer-to-Peer Applications Networks Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Networks"
+              "title": "Client-Server and Peer-to-Peer Applications Networks Calculus"
             }
           },
           {
@@ -52,8 +52,7 @@
               "title": "HTTP and FTP protocols"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Cookies and Caching.md",
+                "file": "Client-Server and Peer-to-Peer Applications Networks Calculus.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Web Cookies and Caching"
+              "title": "Backlinks for Client-Server and Peer-to-Peer Applications Networks Calculus"
             }
           }
         ],
@@ -153,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Cookies and Caching.md",
+                "file": "Client-Server and Peer-to-Peer Applications Networks Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Web Cookies and Caching"
+              "title": "Outgoing links from Client-Server and Peer-to-Peer Applications Networks Calculus"
             }
           }
         ]
@@ -248,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Cookies and Caching.md",
+                "file": "Client-Server and Peer-to-Peer Applications Networks Calculus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Web Cookies and Caching"
+              "title": "Outline of Client-Server and Peer-to-Peer Applications Networks Calculus"
             }
           }
         ]
@@ -278,27 +277,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0cd26bfc5c513b06",
+  "active": "383e6c19fb01e640",
   "lastOpenFiles": [
+    "Library/Pasted image 20260330092053.png",
+    "Networks.md",
+    "Web Cookies and Caching.md",
+    "Library/Pasted image 20260330091710.png",
     "Library/Pasted image 20260330084338.png",
     "Library/Pasted image 20260330084148.png",
     "Library/Pasted image 20260330084053.png",
     "Library/Pasted image 20260330083107.png",
     "Library/Pasted image 20260330082859.png",
-    "Networks.md",
-    "Web Cookies and Caching.md",
     "HTTP and FTP protocols.md",
     "Library/Pasted image 20260330055530.png",
     "Library/Pasted image 20260330055448.png",
     "Library/Pasted image 20260330055353.png",
     "Library/Pasted image 20260330054753.png",
-    "Library/Pasted image 20260330054706.png",
     "Network Characteristics Scale, Metrics.md",
     "Innopolis 2st year.md",
     "Regression.md",
     "Introduction to Machine Learning.md",
     "Foundations of Machine Learning.md",
-    "Library/Pasted image 20260329181110.png",
     "Client-Server and Peer-to-Peer Applications Networks Calculus.md",
     "Basic Networks concepts.md",
     "Socket Programming in C.md",

@@ -57,3 +57,11 @@
 | Connection State              | Closed immediately after server response                      | Remains opened until explicit client request for closure |
 | Workload distribution         | Maximized on a client, minimized on a server                  | Minimized on a client, maximized on a server             |
 | Limitation overcome           | Parallel connections for webpage objects download by browsers | Connection timeout                                       |
+
+### Web cache (or proxy Server)
+Goal: satisfy client request without involving origin server
+![|500](Pasted%20image%2020260330091710.png)
+- User sets her browser: Web accesses via cache 
+- Browser sends all HTTP requests to cache 
+- If object in cache: then cache returns object 
+- else cache requests object from origin server, then returns object to client

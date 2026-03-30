@@ -32,6 +32,28 @@ Connection types:
 ![](Pasted%20image%2020260330055448.png)
 ```
 ````
+<br>
+
+````col
+```col-md
+flexGrow=1
+===
+- Introduced at CERN by Tim Berners-Lee in 1987; 
+- The foundation of data communication for the World Wide Web; 
+- Widely used and actively maintained
+```
+```col-md
+flexGrow=1
+===
+- Extremely old (from early 70s); 
+- The fastest; 
+- Not secure by default, no built-in encryption mechanisms; 
+- Its usage decreases due to its insecurity; 
+- SSH (Secure Shell Protocol) is a secure (but slower) extension to FTP (SFTP)
+
+```
+````
+<br>
 
 ````col
 ```col-md
@@ -66,6 +88,7 @@ flexGrow=1
 
 ```
 ````
+<br>
 
 ````col
 ```col-md
@@ -96,7 +119,7 @@ flexGrow=1
 
 ```
 ````
-
+<br>
 
 ````col
 ```col-md
@@ -112,6 +135,7 @@ flexGrow=1
 Server maintains information about past client requests, the last manipulations with files, etc.
 ```
 ````
+<br>
 
 ````col
 ```col-md
@@ -134,19 +158,4 @@ flexGrow=1
 ```
 ````
 
-````col
-```col-md
-flexGrow=1
-===
-- Introduced at CERN by Tim Berners-Lee in 1987; 
-- The foundation of data communication for the World Wide Web; 
-- Widely used and actively maintained
-```
-```col-md
-flexGrow=1
-===
-
-
-```
-````
 

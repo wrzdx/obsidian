@@ -130,9 +130,9 @@ Protocols define:
 | ----------------------------------------------- | ----------------------------- |
 | **DHCP**: Dynamic Host Configuration Protocol   | IP addresses assignment       |
 | **DNS**: Domain Name System                     | URL resolution protocol       |
-| **HTTP**: Hyper Text Transfer Protoco           | Web pages acces               |
-| **FTP**: File Transfer                          | Files download/upload (large) |
-| **SMTP**: Simple Mail Transport                 | Emails sending                |
-| **POP:** Post Office                            | Emails reading                |
-| **IMAP**: Internet Message Access               | Emails reading                |
+| **HTTP**: Hyper Text Transfer Protocol          | Web pages acces               |
+| **FTP**: File Transfer Protocol                 | Files download/upload (large) |
+| **SMTP**: Simple Mail Transport Protocol        | Emails sending                |
+| **POP:** Post Office Protocol                   | Emails reading                |
+| **IMAP**: Internet Message Access Protocol      | Emails reading                |
 | **MIME**: Multipurpose Internet Mail Extensions | Email attachments support     |

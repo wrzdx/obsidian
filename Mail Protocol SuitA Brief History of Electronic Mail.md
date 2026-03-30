@@ -29,3 +29,24 @@
 | Storage requirement         | Local storage capacity is not consumed; <br>Server storage capacity is consumed instead                                                         | Local storage capacity is consumed, but No server storage capacity is consumed (for storing emails)                                  |
 | Reliability / Accessibility | Emails and attachments are not accessible, when a mail server is down; <br>An active internet connection is typically required to access emails | Emails are accessible independently of the presence of an active internet connection, or a mail server state                         |
 
+## Email Exchange
+![|700](Pasted%20image%2020260330111114.png)
+
+- Millions of email accounts exist in the same domain
+- Every email account requires a dedicated mail inbox (to store emails)
+- Multiple mail servers are required
+
+MUA = Mail User Agent 
+MSA = Mail Submission Agent 
+MTA = Mail Transfer Agent 
+MDA = Mail Delivery Agent
+
+![](Pasted%20image%2020260330111353.png)
+
+
+
+> [!note] 
+> SMTP is a handshaking protocol; 
+> it controls the delivery of a mail, or reports failure; 
+> No data encryption by default, additional mechanisms are used (like Transport Layer Security, TLS)
+

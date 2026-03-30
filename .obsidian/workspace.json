@@ -23,21 +23,6 @@
             }
           },
           {
-            "id": "9b559aa29caf1f2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networks Calculus.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Networks Calculus"
-            }
-          },
-          {
             "id": "0cd26bfc5c513b06",
             "type": "leaf",
             "state": {
@@ -67,8 +52,7 @@
               "title": "HTTP and FTP protocols"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networks Calculus.md",
+                "file": "Networks.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Networks Calculus"
+              "title": "Backlinks for Networks"
             }
           }
         ],
@@ -168,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networks Calculus.md",
+                "file": "Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Networks Calculus"
+              "title": "Outgoing links from Networks"
             }
           }
         ]
@@ -263,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networks Calculus.md",
+                "file": "Networks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Networks Calculus"
+              "title": "Outline of Networks"
             }
           }
         ]
@@ -293,14 +277,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9b559aa29caf1f2a",
+  "active": "383e6c19fb01e640",
   "lastOpenFiles": [
+    "Mail Protocol SuitA Brief History of Electronic Mail.md",
+    "Networks.md",
+    "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
+    "Web Cookies and Caching.md",
+    "Networks Calculus.md",
+    "HTTP and FTP protocols.md",
     "Library/Pasted image 20260330103134.png",
     "Library/Pasted image 20260330102756.png",
     "Library/Pasted image 20260330102754.png",
-    "Networks.md",
-    "Networks Calculus.md",
-    "Client-Server and Peer-to-Peer Applications.md",
     "Library/Pasted image 20260330100444.png",
     "Library/Pasted image 20260330093710.png",
     "Library/Pasted image 20260330093644.png",
@@ -308,9 +295,6 @@
     "Library/Pasted image 20260330093206.png",
     "Library/Pasted image 20260330093022.png",
     "Library/Pasted image 20260330092053.png",
-    "Web Cookies and Caching.md",
-    "Library/Pasted image 20260330091710.png",
-    "HTTP and FTP protocols.md",
     "Network Characteristics Scale, Metrics.md",
     "Innopolis 2st year.md",
     "Regression.md",
@@ -322,7 +306,6 @@
     "TCP Congestion Control Network Layer.md",
     "DHCP and NAT Linked-State and Distance-Vector routing algorithms.md",
     "Hierarchical Routing Data Link Layer.md",
-    "Email Suit Protocols SMTP, IMAP, POP3.md",
     "DNS Summary of Application-layer Protocols.md",
     "OSI and TCP Reference Models, Data Encapsulation.md",
     "TCP and UDP Protocols.md",

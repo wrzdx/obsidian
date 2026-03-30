@@ -53,6 +53,8 @@ Types of servers:
 | **Use Case**        | Other, except large files distr. and hierarchical databases   | Large files distribution and distributed databases      |
 
 #### Achievable Lower Bound for a File Distribution Time: Client-Server Case
+![](Pasted%20image%2020260330102756.png)
+![](Pasted%20image%2020260330103134.png)
 ![](Pasted%20image%2020260330100444.png)
 #### Achievable Lower Bound for a File Distribution Time: Peer-to-Peer Case
 $u_{s}$ – server upload speed
@@ -63,5 +65,5 @@ $u_{s}$ – server upload speed
   $$\frac{NF}{u_{s}+u_{1}+\dots+u_{N}}$$
 
  In general:
- $$\displaystyle{\Delta t^{Distr}_{CS} \geq MAX\{\frac{F}{u_{s}}, \frac{NF}{u_{s}+u_{1}+\dots+u_{N}}\}}$$
+ $$\displaystyle{\Delta t^{Distr}_{CS} \geq MAX\{\frac{F}{u_{s}},\frac{F}{d_{min}}, \frac{NF}{u_{s}+u_{1}+\dots+u_{N}}\}}$$
 

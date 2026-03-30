@@ -23768,6 +23768,8 @@ Content
 Clients
 Comments
 Configuration
+Cookies
+Caching
 Sections
 Surfaces
 Spaces

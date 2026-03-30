@@ -42,5 +42,13 @@ Types of servers:
 
 ![|800](Pasted%20image%2020260330093411.png)
 
-### Client-Server
+| **Characteristics** | **Client-Server (Centralized)**                                                      | **Peer-to-Peer (Decentralized)**                        |
+| ------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------- |
+| **Node roles**      | Nodes are divided into clients (active) and servers (passive)                        | Every node acts as a client and a server simultaneously |
+| **Usage Scale**     | Dominant (widely used) architecture                                                  | Less used                                               |
+| **Complexity**      | Simpler (centralized algorithms)                                                     | More complex (distributed algorithms)                   |
+| **Efficiency**      | Likely to decrease with the number of peers                                          | Likely to increase with the number of peers             |
+| **Stability**       | A single point of failure – a centralized server                                     | No single point of failure                              |
+| **Cost**            | More expensive                                                                       | Cheaper (due to absence of server)                      |
+| **Use Case**        | Other, except large files distr. and hierarchical databases | Large files distribution and distributed databases      |
 

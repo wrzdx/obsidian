@@ -42,17 +42,26 @@ Types of servers:
 
 ![|800](Pasted%20image%2020260330093411.png)
 
-| **Characteristics** | **Client-Server (Centralized)**                                                      | **Peer-to-Peer (Decentralized)**                        |
-| ------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| **Node roles**      | Nodes are divided into clients (active) and servers (passive)                        | Every node acts as a client and a server simultaneously |
-| **Usage Scale**     | Dominant (widely used) architecture                                                  | Less used                                               |
-| **Complexity**      | Simpler (centralized algorithms)                                                     | More complex (distributed algorithms)                   |
-| **Efficiency**      | Likely to decrease with the number of peers                                          | Likely to increase with the number of peers             |
-| **Stability**       | A single point of failure – a centralized server                                     | No single point of failure                              |
-| **Cost**            | More expensive                                                                       | Cheaper (due to absence of server)                      |
-| **Use Case**        | Other, except large files distr. and hierarchical databases | Large files distribution and distributed databases      |
+| **Characteristics** | **Client-Server (Centralized)**                               | **Peer-to-Peer (Decentralized)**                        |
+| ------------------- | ------------------------------------------------------------- | ------------------------------------------------------- |
+| **Node roles**      | Nodes are divided into clients (active) and servers (passive) | Every node acts as a client and a server simultaneously |
+| **Usage Scale**     | Dominant (widely used) architecture                           | Less used                                               |
+| **Complexity**      | Simpler (centralized algorithms)                              | More complex (distributed algorithms)                   |
+| **Efficiency**      | Likely to decrease with the number of peers                   | Likely to increase with the number of peers             |
+| **Stability**       | A single point of failure – a centralized server              | No single point of failure                              |
+| **Cost**            | More expensive                                                | Cheaper (due to absence of server)                      |
+| **Use Case**        | Other, except large files distr. and hierarchical databases   | Large files distribution and distributed databases      |
 
 #### Achievable Lower Bound for a File Distribution Time: Client-Server Case
-$$\Delta t^{distr}_{CS} \geq MAX\{\frac{N*F}{U_{s}}, \frac{F}{d_{min}}\}$$
+![](Pasted%20image%2020260330100444.png)
 #### Achievable Lower Bound for a File Distribution Time: Peer-to-Peer Case
-$$\frac{F}{u_{s}}$$
+$u_{s}$ – server upload speed
+
+- Case $u_{s} \leq (u_{s} + u_{1} + \dots + u_{N} / N)$:
+  $$\frac{F}{u_{s}}$$
+- Case $u_{s} \geq (u_{s} + u_{1} + \dots + u_{N} / N)$:
+  $$\frac{NF}{u_{s}+u_{1}+\dots+u_{N}}$$
+
+ In general:
+ $$\displaystyle{\Delta t^{Distr}_{CS} \geq MAX\{\frac{F}{u_{s}}, \frac{NF}{u_{s}+u_{1}+\dots+u_{N}}\}}$$
+

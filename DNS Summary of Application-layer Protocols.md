@@ -72,3 +72,42 @@ Authoritative DNS server:
 
 ## DNS Lookup Process
 
+**Local DNS Server**
+- Does not strictly belong to the DNS hierarchy
+- Each ISP or organization typically has one dedicated DNS
+- Local DNS acts as a proxy server: has its local cached DNS data
+- When needed (that is data is missing in cache or becomes invalid), it forwards DNS queries from local hosts into the DNS hierarchy
+![](Pasted%20image%2020260330190143.png)
+
+````col
+```col-md
+flexGrow=1
+===
+**DNS Recursive Query**
+Load is distributed across the DNS hierarchy
+![](Pasted%20image%2020260330190443.png)
+```
+```col-md
+flexGrow=1
+===
+**DNS Iterative Query**
+More load on ISP DNS Server
+![](Pasted%20image%2020260330190427.png)
+```
+````
+
+>[!note] DNS Records Time Validity
+>- IP addresses are not static (might change over time, even for well-known servers);
+>- Data in local cache or in the ISP DNS server cache can become obsolete;
+>- Periodically caches are reset and actualized;
+>- A typical frequency of updates (subject to configuration): 
+>	- ISP DNS server: 24-48 hours; 
+>	- client local cache: 24 hours
+
+## DNS Record Format
+| Name                                         | Value                                      | Record Type                  | TTL (Time to live) |
+| -------------------------------------------- | ------------------------------------------ | ---------------------------- | ------------------ |
+| Canonical Host Name<br>*mail.innopolis.ru*   | IP Address<br>*188.130.155.25*             | A (IPv4)/ AAAA (IPv6)<br>*A* | (config.)          |
+| Host Alias<br>*mail.university.Innopolis.ru* | Canonical Host Name<br>*mail.innopolis.ru* | CNAME<br>*CNAME*             | (config.)          |
+| Mail Server Alias                            | Canonical Mail Server Name                 | MX                           | (config.)          |
+| And many others                              |                                            |                              |                    |

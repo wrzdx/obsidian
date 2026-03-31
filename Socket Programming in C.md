@@ -37,9 +37,130 @@ UDP Communication
 ```
 ````
 
-## Server Side Implementation: TCP Case
-```c
-#include <sys/socket.h>
+### TCP
+#### Server Side Implementation
+```c 
 #include <netinet/in.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
 
+#define BUFFER_SIZE 1024
+
+int main(void) {
+  // Predefined constants <netinet/in.h>:
+  // PF - "Protocol Family", AF - "Address Family"
+  // Predefined constants <sys/socket.h>:
+  // STREAM - for TCP, DGRAM - for UDP
+  int serverSocket = socket(PF_INET, SOCK_STREAM, 0);
+
+  if (serverSocket == -1) {
+    perror("Failure to create socket");
+    exit(EXIT_FAILURE);
+  }
+
+  // sockaddr - predefined structure to store socket address (IP + Port + Other)
+  // IN - Internet Namespace
+  struct sockaddr_in sa;
+  memset(&sa, 0, sizeof(sa));
+
+  // Initialization
+  // htons/htonl to unify host number to network one
+  sa.sin_family = AF_INET;
+  sa.sin_port = htons(1111);
+  sa.sin_addr.s_addr = htonl(INADDR_ANY); // Accept addresses
+
+  // Bind socket and address
+  int bindCode = bind(serverSocket, (struct sockaddr *)&sa, sizeof(sa));
+  if (bindCode == -1) {
+    perror("Failure to bind socket and address");
+    exit(EXIT_FAILURE);
+  }
+
+  // Listen, client queue size is 10
+  int listenCode = listen(serverSocket, 10);
+  if (listenCode == -1) {
+    perror("Failure to listen socket");
+    exit(EXIT_FAILURE);
+  }
+
+  // Dealing with client connections in an endless loop
+  char buffer[BUFFER_SIZE];
+  for (;;) {
+    int connectionSocket = accept(serverSocket, NULL, NULL);
+    if (connectionSocket == -1) {
+      perror("Failure to accept socket");
+      exit(EXIT_FAILURE);
+    }
+
+    int recsize = recv(connectionSocket, (void *)buffer, sizeof(buffer), 0);
+
+    if (recsize < 0) {
+      perror("Failure to recieve msg");
+      exit(EXIT_FAILURE);
+    }
+
+    printf("datagram: %.*s\n", (int)recsize, buffer);
+
+    int shutdownCode = shutdown(connectionSocket, SHUT_RDWR);
+    if (shutdownCode == -1) {
+      perror("shutdown failed");
+      close(connectionSocket);
+      close(serverSocket);
+      exit(EXIT_FAILURE);
+    }
+
+    close(connectionSocket);
+  }
+
+  close(serverSocket);
+  return EXIT_SUCCESS;
+}
 ```
+
+#### Client Side Implementation
+```c
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+#define BUFFER_SIZE 1024
+
+int main(void) {
+  int clientSocket = socket(PF_INET, SOCK_STREAM, 0);
+
+  if (clientSocket == -1) {
+    perror("Failure to create socket");
+    exit(EXIT_FAILURE);
+  }
+
+  struct sockaddr_in sa;
+  memset(&sa, 0, sizeof(sa));
+  sa.sin_family = AF_INET;
+  sa.sin_port = htons(1111);
+
+  int res = inet_pton(AF_INET, "127.0.0.1", &sa.sin_addr);
+  int connectCode = connect(clientSocket, (struct sockaddr *)&sa, sizeof(sa));
+
+  if (connectCode == -1) {
+    perror("Failure to connect server");
+    exit(EXIT_FAILURE);
+  }
+
+  char msg[] = "Hello server!";
+  send(clientSocket, msg, strlen(msg), 0);
+
+  close(clientSocket);
+  return EXIT_SUCCESS;
+}
+```
+
+
+### UDP
+

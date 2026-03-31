@@ -3255,6 +3255,10 @@ Downloading
 Domino
 Downloads
 Distributes
+Department
+Defence
+DoD
+Datagram
 Lecturer
 Link
 Line
@@ -12379,6 +12383,8 @@ Identifier
 Informational
 IANA
 Iterative
+Initially
+Identification
 Telegram
 Theorem
 Text
@@ -15188,6 +15194,7 @@ Timeline
 Thunderbird
 Transfers
 TLS
+Typically
 nomemm
 need
 necessary
@@ -23827,6 +23834,8 @@ Cached
 Correspondence
 Country
 CNAME
+CDMA
+Connectionless
 Sections
 Surfaces
 Spaces
@@ -26901,6 +26910,8 @@ Stateless
 Stateful
 SuitA
 Submission
+Seven
+Statefulness
 Algebra
 AGLA
 Assignments
@@ -32864,6 +32875,9 @@ aliasing
 alias
 aiming
 accessible
+audio
+apps
+assignement
 Plane
 Problem
 Prove
@@ -35666,6 +35680,9 @@ Permanent
 Protected
 Persistency
 Periodically
+Port
+Ports
+Primary
 Quadratic
 Qn
 QL
@@ -48023,6 +48040,7 @@ peer
 peers
 preliminary
 presence
+ports
 Read
 Relations
 RY
@@ -59958,6 +59976,7 @@ guidance
 gossip
 geographically
 google
+guarantee
 Umnov
 Uniqueness
 Uf
@@ -63131,6 +63150,7 @@ Users
 Updated
 UPnIUbiR
 URLs
+Unreliable
 Watch
 We
 What
@@ -69353,6 +69373,7 @@ decreases
 distrbuted
 drastic
 dedicated
+divides
 independency
 in
 info
@@ -73259,6 +73280,8 @@ insecurity
 invalid
 internet
 inbox
+idealized
+influence
 For
 Functions
 Frolov
@@ -76380,6 +76403,7 @@ Friend
 Foundations
 Force
 Format
+FDM
 vectors
 vector
 variable
@@ -81883,6 +81907,8 @@ fastest
 friendly
 forwards
 folders
+formulation
+forwarding
 scalars
 sufficient
 settings
@@ -85006,6 +85032,9 @@ services
 secure
 supports
 senders
+subproblems
+stateful
+stateless
 exist
 excalidraw
 everything
@@ -88182,6 +88211,9 @@ except
 encryption
 encrypted
 email
+evolved
+evolution
+encrypt
 have
 hQ
 hfRF
@@ -94469,6 +94501,7 @@ connects
 controllable
 consumed
 controls
+configured
 Necessity
 Nikolay
 Natural
@@ -106355,6 +106388,8 @@ Emails
 Efficiency
 Extremely
 Establishes
+Evolved
+Either
 OPTIONS
 Operations
 Obtain
@@ -109445,6 +109480,7 @@ Office
 Optimizations
 Owned
 Outlook
+Original
 menu
 more
 mA
@@ -119158,6 +119194,7 @@ waves
 welcoming
 webpage
 west
+whenever
 under
 up
 unclear
@@ -125362,6 +125399,7 @@ rotates
 retrieving
 removed
 reports
+receival
 Zorich
 ZM
 ZB
@@ -135039,6 +135077,7 @@ quantum
 quanta
 qcZ
 queries
+query
 HB
 HE
 HK
@@ -137783,6 +137822,7 @@ Host
 Hyper
 HyperText
 HEAD
+Hypertext
 XKo
 Xg
 XWo

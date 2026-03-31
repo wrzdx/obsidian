@@ -75,9 +75,3 @@ flexGrow=1
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Application <br>Examples  | • Web page download; <br>• Large file download; <br>• Emails exchange                                                | • Real-time streaming video and audio applications; <br>• DNS query resolution                                                                  |
 | Brief <br>Characteristics | • Connection-oriented communication; <br>• Reliable, in-order delivery; <br>• Congestion control; <br>• Flow control | • Connectionless communication; <br>• Unreliable, unordered delivery; <br>• No guarantee on a successful delivery; <br>• “Best-effort” services |
-
-## Data Encapsulation
-![](Pasted%20image%2020260331063003.png)
-
-![](Pasted%20image%2020260331063037.png)
-

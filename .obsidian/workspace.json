@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP and UDP Protocols.md",
+                "file": "Networks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TCP and UDP Protocols"
+              "title": "Networks"
             }
           }
         ]
@@ -121,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCP and UDP Protocols.md",
+                "file": "Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TCP and UDP Protocols"
+              "title": "Outgoing links from Networks"
             }
           }
         ]
@@ -242,17 +242,17 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "bases:Create new base": true,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-excalidraw-plugin:New drawing": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
   "active": "383e6c19fb01e640",
   "lastOpenFiles": [
     "Networks.md",
+    "TCP and UDP Protocols.md",
     "Socket Programming in C.md",
     "Library/Pasted image 20260331081741.png",
     "Library/Pasted image 20260331081726.png",
-    "TCP and UDP Protocols.md",
     "Library/Pasted image 20260331073023.png",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Data Encapsulation.md",

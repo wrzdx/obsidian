@@ -109,8 +109,7 @@
               "title": "Backlinks for Networks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e68b3348704f47e",
@@ -134,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",

@@ -3259,6 +3259,7 @@ Department
 Defence
 DoD
 Datagram
+Demultiplexing
 Lecturer
 Link
 Line
@@ -15195,6 +15196,8 @@ Thunderbird
 Transfers
 TLS
 Typically
+Trivial
+Timeouts
 nomemm
 need
 necessary
@@ -20797,6 +20800,8 @@ thumbnail
 temporary
 translation
 typical
+topology
+transport
 Course
 Curves
 Continuation
@@ -23836,6 +23841,7 @@ Country
 CNAME
 CDMA
 Connectionless
+Collecting
 Sections
 Surfaces
 Spaces
@@ -26912,6 +26918,8 @@ SuitA
 Submission
 Seven
 Statefulness
+Sockets
+Selective
 Algebra
 AGLA
 Assignments
@@ -29834,6 +29842,10 @@ Authoritative
 AAAA
 Alias
 Accesses
+Adjacent
+Appending
+Acknowledgments
+ACKs
 and
 algebra
 any
@@ -41300,6 +41312,8 @@ Bluetooth
 Bolts
 Browser
 Berners
+Berkley
+BSD
 Material
 MORE
 Mathematical
@@ -48041,6 +48055,7 @@ peers
 preliminary
 presence
 ports
+portions
 Read
 Relations
 RY
@@ -51296,6 +51311,8 @@ Records
 Receives
 Retrieval
 Reliability
+Raw
+Repeat
 of
 one
 others
@@ -54172,6 +54189,7 @@ organized
 omitted
 outgoing
 organize
+opposite
 lecture
 lineynaya
 linear
@@ -57002,6 +57020,7 @@ layer
 layout
 links
 loaded
+libraries
 geometria
 gN
 gQ
@@ -59977,6 +59996,7 @@ gossip
 geographically
 google
 guarantee
+guarantees
 Umnov
 Uniqueness
 Uf
@@ -69374,6 +69394,8 @@ distrbuted
 drastic
 dedicated
 divides
+direct
+demultiplexing
 independency
 in
 info
@@ -73282,6 +73304,7 @@ internet
 inbox
 idealized
 influence
+illusion
 For
 Functions
 Frolov
@@ -79150,6 +79173,7 @@ variations
 visit
 videos
 validity
+varies
 for
 file
 form
@@ -85035,6 +85059,9 @@ senders
 subproblems
 stateful
 stateless
+sockets
+smalled
+segmentation
 exist
 excalidraw
 everything
@@ -94502,6 +94529,7 @@ controllable
 consumed
 controls
 configured
+checksum
 Necessity
 Nikolay
 Natural
@@ -97213,6 +97241,7 @@ Numerous
 Needed
 National
 Nuts
+NACKs
 Given
 Graphs
 Gg
@@ -109481,6 +109510,7 @@ Optimizations
 Owned
 Outlook
 Original
+OSPF
 menu
 more
 mA
@@ -113113,6 +113143,7 @@ manipulations
 mail
 mnemonic
 memorizes
+multiplexing
 You
 YC
 YR
@@ -119195,6 +119226,7 @@ welcoming
 webpage
 west
 whenever
+wire
 under
 up
 unclear
@@ -125400,6 +125432,7 @@ retrieving
 removed
 reports
 receival
+recovery
 Zorich
 ZM
 ZB
@@ -137823,6 +137856,8 @@ Hyper
 HyperText
 HEAD
 Hypertext
+Hides
+Hide
 XKo
 Xg
 XWo

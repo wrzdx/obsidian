@@ -254,16 +254,37 @@ int main(void) {
 ```
 
 ## Key Implementation Stages
+````col
+```col-md
+flexGrow=1
+===
 ### Server Side
 
-| Step | Description                                      | Function Used |
-| ---- | ------------------------------------------------ | ------------- |
-| 1    | Create a TCP or UDP socket                       | `socket(…)`   |
-| 2    | Assign a free port to socket                     | `bind(…)`     |
-| 3    | Set socket to listen mode<br>(mandatory for TCP) | `listen(…)`   |
-| 4    | Await and handle connection requests:            |               |
-| 4a   | Accept (or decline) an incoming connection       | `accept(…)`   |
-| 4b   | Receive message                                  | recv(…)       |
-| 4c   |                                                  |               |
-|      |                                                  |               |
-| 5    |                                                  |               |
+| Step | Description                                      | Function Used             |
+| ---- | ------------------------------------------------ | ------------------------- |
+| 1    | Create a TCP or UDP socket                       | `socket(…)`               |
+| 2    | Assign a free port to socket                     | `bind(…)`                 |
+| 3    | Set socket to listen mode<br>(mandatory for TCP) | `listen(…)`               |
+| 4    | Await and handle connection requests:            |                           |
+| 4a   | Accept (or decline) an incoming connection       | `accept(…)`               |
+| 4b   | Receive message                                  | `recv(…)`, `recvfrom(…)`  |
+| 4c   | Send message                                     | `send(…)`, `sendto(…)`    |
+|      | …                                                |                           |
+| 5    | Close connection                                 | `shutdown(…)`, `close(…)` |
+
+```
+```col-md
+flexGrow=1
+===
+### Client Side
+
+| Step | Description                                                 | Function Used             |
+| ---- | ----------------------------------------------------------- | ------------------------- |
+| 1    | Create a TCP or UDP socket                                  | `socket(…)`               |
+| 2    | Establish connection to a server (the port should be known) | `connect(…)`              |
+| 3    | Send an initial message (request)                           | `send(…)`, `sendto(…)`    |
+| 4    | Receive message (response) from a server                    | `recv(…)`, `recvfrom(…)`  |
+| 5    | Close connection                                            | `shutdown(…)`, `close(…)` |
+
+```
+````

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP and FTP protocols.md",
-                "mode": "preview",
+                "file": "Networks.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "HTTP and FTP protocols"
+              "title": "Networks"
             }
           },
           {
@@ -279,12 +279,14 @@
   },
   "active": "383e6c19fb01e640",
   "lastOpenFiles": [
+    "DNS Summary of Application-layer Protocols.md",
     "Networks.md",
+    "Mail Protocol Suit. A Brief History of Electronic Mail.md",
+    "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
+    "Web Cookies and Caching.md",
+    "HTTP and FTP protocols.md",
     "Basic Networks concepts.md",
     "Network Characteristics Scale, Metrics.md",
-    "HTTP and FTP protocols.md",
-    "Web Cookies and Caching.md",
-    "DNS Summary of Application-layer Protocols.md",
     "Library/Pasted image 20260330190443.png",
     "Library/Pasted image 20260330190427.png",
     "Library/Pasted image 20260330190143.png",
@@ -292,11 +294,9 @@
     "Library/Pasted image 20260330184806.png",
     "Library/Pasted image 20260330183936.png",
     "Library/Pasted image 20260330183851.png",
-    "Mail Protocol SuitA Brief History of Electronic Mail.md",
     "Library/Pasted image 20260330111353.png",
     "Library/Pasted image 20260330111114.png",
     "Library/Pasted image 20260330105316.png",
-    "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
     "Networks Calculus.md",
     "Innopolis 2st year.md",
     "Regression.md",

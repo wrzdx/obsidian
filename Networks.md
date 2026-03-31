@@ -6,7 +6,7 @@
 - [HTTP and FTP protocols](HTTP%20and%20FTP%20protocols.md)
 - [Web Cookies and Caching](Web%20Cookies%20and%20Caching.md)
 - [Client-Server and Peer-to-Peer Applications. Networks Calculus](Client-Server%20and%20Peer-to-Peer%20Applications.%20Networks%20Calculus.md)
-- [Mail Protocol SuitA Brief History of Electronic Mail](Mail%20Protocol%20SuitA%20Brief%20History%20of%20Electronic%20Mail.md)
+- [Mail Protocol Suit. A Brief History of Electronic Mail](Mail%20Protocol%20Suit.%20A%20Brief%20History%20of%20Electronic%20Mail.md)
 - [DNS Summary of Application-layer Protocols](DNS%20Summary%20of%20Application-layer%20Protocols.md)
 - [OSI and TCP Reference Models, Data Encapsulation](OSI%20and%20TCP%20Reference%20Models,%20Data%20Encapsulation.md)
 - [TCP and UDP Protocols](TCP%20and%20UDP%20Protocols.md)

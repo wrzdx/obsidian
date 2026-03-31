@@ -1,6 +1,5 @@
 A software mechanism for data exchange between local or remote processes (IPC, Inter-Process Communication service)
 
-
 | C header files used | Description                                                                                                            |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **sys/socket.h**    | Core socket function and data structures                                                                               |
@@ -11,17 +10,17 @@ A software mechanism for data exchange between local or remote processes (IPC, I
 
 >[!summary]- Core Socket Functions (from sys/socket.h)
 >
-| Function                   | Description                         |
-| -------------------------- | ----------------------------------- |
-| `socket(…)`                | To create a network socket          |
-| `bind(…)`                  | To bind a socket to a specific port |
-| `listen(…)`                | To put socket into listening mode   |
-| `connect(…)`               | To connect to server                |
-| `accept(…)`                | To accept connection from client    |
-| `send(…)`, `recv(…)`       | To exchange data in case of TCP     |
-| `sendto(…)`, `recvfrom(…)` | To exchange data in case of UDP     |
-| `shutdown(…)`              | To close TCP connection             |
-| `close(…)`                 | To close a socket                   |
+| Function                   | Description                                                                                                                 |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `socket(…)`                | To create a network socket<br>`{c} int socketFD = socket ( addressDomain, socketType, protocolCode )`                       |
+| `bind(…)`                  | To bind a socket to a specific port<br>`{c} int status = bind ( socketFD, socketAddress, addressLength )`                   |
+| `listen(…)`                | To put socket into listening mode                                                                                           |
+| `connect(…)`               | To connect to server<br>`{c} int status = connect ( socketFD, remoteSocketAddress, addressLength )`                         |
+| `accept(…)`                | To accept connection from client<br>`{c} int connectionSocketFD = accept ( socketFD, &clientSocketAddress, addressLength )` |
+| `send(…)`, `recv(…)`       | To exchange data in case of TCP                                                                                             |
+| `sendto(…)`, `recvfrom(…)` | To exchange data in case of UDP                                                                                             |
+| `shutdown(…)`              | To close TCP connection                                                                                                     |
+| `close(…)`                 | To close a socket                                                                                                           |
 
 ````col
 ```col-md
@@ -38,3 +37,4 @@ UDP Communication
 ```
 ````
 
+Server Side

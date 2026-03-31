@@ -16,3 +16,5 @@ ABCD
 aBcPg
 ABCFDE
 front-matter
+socket
+Socket

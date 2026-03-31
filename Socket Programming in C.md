@@ -38,3 +38,8 @@ UDP Communication
 ````
 
 ## Server Side Implementation: TCP Case
+```c
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+```

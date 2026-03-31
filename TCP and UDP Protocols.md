@@ -34,5 +34,26 @@ for the development of network apps by using socket libraries
 - Appending transport layer headers;
 - Segmentation: dividing messages into smalled portions
 
-**Demultiplexing**:
-- 
+**Demultiplexing** – the opposite function of multiplexing
+
+## Transport-Layer Functions
+Both **UDP** and **TCP**:
+- Logical end-to-end process communication
+- Multiplexing, demultiplexing, segmentation 
+- Trivial error check (e.g. checksum) 
+
+Only **TCP**:
+- Congestion control 
+- Data transmission/flow control
+- Reliable data transfer 
+	- Acknowledgments (ACKs and NACKs) 
+	- Timeouts 
+	- Sequence numbers
+	- Advanced error check and recovery 
+	- Other (e.g. Go-Back-N, Selective Repeat)
+
+**Missing Functions**:
+- No maximum delay guarantee
+- No real-time guarantees (a specific case of the above)
+- No allocated bandwidth guarantee
+

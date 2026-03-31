@@ -163,4 +163,107 @@ int main(void) {
 
 
 ### UDP
+#### Server Side Implementation
+```c
+#include <netinet/in.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
 
+#define BUFFER_SIZE 1024
+
+int main(void) {
+  int serverSocket = socket(PF_INET, SOCK_DGRAM, 0);
+
+  if (serverSocket == -1) {
+    perror("Failure to create socket");
+    exit(EXIT_FAILURE);
+  }
+
+  struct sockaddr_in sa;
+  socklen_t fromlen = sizeof(sa);
+  memset(&sa, 0, sizeof(sa));
+  sa.sin_family = AF_INET;
+  sa.sin_port = htons(1111);
+  sa.sin_addr.s_addr = htonl(INADDR_ANY); // Accept addresses
+
+  int bindCode = bind(serverSocket, (struct sockaddr *)&sa, sizeof(sa));
+  if (bindCode == -1) {
+    perror("Failure to bind socket and address");
+    exit(EXIT_FAILURE);
+  }
+
+  char buffer[BUFFER_SIZE];
+  for (;;) {
+    int recsize = recvfrom(serverSocket, (void *)buffer, sizeof(buffer), 0,
+                           (struct sockaddr *)&sa, &fromlen);
+
+    if (recsize < 0) {
+      perror("Failure to recieve msg");
+      exit(EXIT_FAILURE);
+    }
+
+    printf("datagram: %.*s\n", (int)recsize, buffer);
+  }
+
+  return EXIT_SUCCESS;
+}
+```
+
+#### Client Side Implementation
+```c
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+#define BUFFER_SIZE 1024
+
+int main(void) {
+  int clientSocket = socket(PF_INET, SOCK_DGRAM, 0);
+
+  if (clientSocket == -1) {
+    perror("Failure to create socket");
+    exit(EXIT_FAILURE);
+  }
+
+  struct sockaddr_in sa;
+  memset(&sa, 0, sizeof(sa));
+  sa.sin_family = AF_INET;
+  sa.sin_port = htons(1111);
+
+  int res = inet_pton(AF_INET, "127.0.0.1", &sa.sin_addr);
+  char buffer[200];
+  strcpy(buffer, "hello world!");
+  int bytes_sent = sendto(clientSocket, buffer, strlen(buffer), 0,
+                          (struct sockaddr *)&sa, sizeof(sa));
+
+  if (bytes_sent < 0) {
+    perror("Failure to send msg");
+    exit(EXIT_FAILURE);
+  }
+
+  close(clientSocket);
+  return EXIT_SUCCESS;
+}
+```
+
+## Key Implementation Stages
+### Server Side
+
+| Step | Description                                      | Function Used |
+| ---- | ------------------------------------------------ | ------------- |
+| 1    | Create a TCP or UDP socket                       | `socket(…)`   |
+| 2    | Assign a free port to socket                     | `bind(…)`     |
+| 3    | Set socket to listen mode<br>(mandatory for TCP) | `listen(…)`   |
+| 4    | Await and handle connection requests:            |               |
+| 4a   | Accept (or decline) an incoming connection       | `accept(…)`   |
+| 4b   | Receive message                                  | recv(…)       |
+| 4c   |                                                  |               |
+|      |                                                  |               |
+| 5    |                                                  |               |

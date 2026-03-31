@@ -20,7 +20,7 @@ A software mechanism for data exchange between local or remote processes (IPC, I
 | `send(…)`, `recv(…)`       | To exchange data in case of TCP                                                                                             |
 | `sendto(…)`, `recvfrom(…)` | To exchange data in case of UDP                                                                                             |
 | `shutdown(…)`              | To close TCP connection                                                                                                     |
-| `close(…)`                 | To close a socket                                                                                                           |
+| `close(…)` from `<unistd.h>`                 | To close a socket                                                                                                           |
 
 ````col
 ```col-md

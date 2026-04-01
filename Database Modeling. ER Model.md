@@ -106,6 +106,14 @@ Data is stored in B-tree indexes or linked blocks on a disk
 | **Logical Database Design**  | - Decide on the type of database system (relational, object-oriented, network, etc.)<br>- Keep the design independent of any specific DBMS                                                                 | - A complete logical schema defining tables, relationships, and constraints                                               |
 | **Implementation**           | - Build the database according to the logical schema<br>- Define storage structures, security rules, and external schemas<br>- Adapt implementation to the selected DBMS, tools, and operating environment | - A fully constructed, populated, and secure database system                                                              |
 | **Testing**, **Maintenance** |                                                                                                                                                                                                            | - Released Schema and Database                                                                                            |
+### Memory-Time Tradeoff
+We can *reduce execution time* by storing precomputed results, at the cost of increased memory usage.
+
+**Common techniques:**
+- Caching: store results of expensive operations
+- Lookup tables: precompute values instead of recalculating
+- Indexing in databases: extra structures to speed up queries
+- Memoization: store results of function calls
 
 ## Entity-Relationship Model
 ### Basic Concepts
@@ -365,3 +373,47 @@ flexGrow=1
 - An entity used in a many-to-many relationship (represents an extra table).
 - Each side from the associative entity to the original entities is 1:N.
 ![](Pasted%20image%2020260401054326.png)
+
+
+
+## Enhanced ER Model
+**Enhanced Entity–Relationship (EER)** diagrams – an extended and more expressive version of traditional ER diagrams.
+
+
+| ERD                                           | EERD                                            |
+| --------------------------------------------- | ----------------------------------------------- |
+| Models basic data structure and relationships | Models complex real-world semantics             |
+| Strong and weak entities                      | Strong, weak, and subtype/supertype hierarchies |
+| Inheritance not supported                     | Inheritance supported (ISA relationships)       |
+
+### Concepts
+![](Pasted%20image%2020260401055501.png)
+
+#### Superclass and Subclass
+- **Superclass:** A general entity that represents common properties and relationships.
+  *Vehicle (Make, Model, Year)*
+- **Subclass:** A specialized entity that extends a superclass and may add its own attributes or relationships.
+  *Car and Truck are subclasses of Vehicle*
+- **Inheritance:** Subclasses automatically inherit all attributes and relationships of the superclass.
+  It ensures that subclasses reuse the attributes and relationships of the superclass.
+#### Generalization and Specialization
+- **Generalization:** A bottom-up process in which common attributes and relationships from multiple subclasses are combined into a single superclass.
+  *Car, Truck, Motorcycle → Vehicle*
+- **Specialization:** A top-down process in which a superclass is divided into more specific subclasses based on distinct attributes or relationships.
+  *Vehicle → Car, Truck, Motorcycle*
+
+
+#### Constraints
+##### Disjoint vs Overlapping
+````col
+```col-md
+flexGrow=1
+===
+Disjoint
+```
+```col-md
+flexGrow=1
+===
+
+```
+````

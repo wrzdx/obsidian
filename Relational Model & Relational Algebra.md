@@ -103,14 +103,19 @@ flexGrow=1
 
 ### Characteristics of Relations
 - **Ordering of Tuples**
-	- A relation is a set of tuples
-	- Elements of a set have no specific order
+	- A relation is a *set* of tuples
+	- Elements of a set have *no specific order*
 - **Duplicate Values**
 	- A relation does not contain duplicate rows
-	- Each tuple must be unique
+	- Each tuple must be *unique*
 	- In practice, duplicates may appear unless explicitly removed
-- **Composite and Multivalued Attributes**
-	- 
+- **Composite & Multivalued Attributes**
+	- Each value in a tuple must be *atomic* (indivisible)
+	- Composite and multivalued attributes are *not allowed*
+- **NULL Values**
+	- NULL represents *missing* or *unknown* information
+	- It means the value is not available, not applicable, or unknown
+	- NULL is not the same as 0 or empty string
 ## Relational Algebra
 - *Relational Algebra* is a formal query language for the relational data model. 
   It provides a set of mathematical operations for retrieving data stored in relations.

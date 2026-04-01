@@ -129,7 +129,68 @@ flexGrow=1
 ```col-md
 flexGrow=1
 ===
-
+![](Pasted%20image%2020260401045703.png)
 **Relationships**
+
+- Relationships define how entities are connected to each other and describe the associations between them.
+```
+
+````
+![](Pasted%20image%2020260401045746.png)
+
+### Attributes
+| Attribute                      | Description                                                                                | Example                                  |
+| ------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| **Simple (atomic) attributes** | attributes that cannot be broken down into smaller parts                                   | ![](Pasted%20image%2020260401050015.png) |
+| **Composite attributes**       | attributes that can be divided into smaller subparts with their own meanings               | ![](Pasted%20image%2020260401050045.png) |
+| **Stored attributes**          | attributes that are physically stored in the database rather than computed from other data | ![](Pasted%20image%2020260401050201.png) |
+| **Derived attributes**         | attributes that can be derived or calculated from other attributes                         | ![](Pasted%20image%2020260401050217.png) |
+| **Multivalued attributes**     | attributes that can hold multiple values for a single entity                               | ![](Pasted%20image%2020260401050253.png) |
+| **Key attributes**             | one or more attributes that uniquely identify an entity                                    | ![](Pasted%20image%2020260401050318.png) |
+
+### Entity Types vs Entity Sets
+````col
+```col-md
+flexGrow=1
+===
+#### Entity Type
+- Entity type describes a group of entities that have similar characteristics (the same attributes). 
+- Each entity type in the database is described by its name and attributes.
+
+**Example:**
+A university has thousands of students who share the same attributes (student ID, name, date of birth), but each entity has its own specific values for those attributes.
+```
+```col-md
+flexGrow=1
+===
+#### Entity Set
+- Entity set is the collection of all entities of a particular entity type.
 ```
 ````
+
+### Entity Keys
+````col
+```col-md
+flexGrow=1
+===
+#### Superkey
+- A superkey is *any set of attributes* that can uniquely identify an entity in an entity set. It may contain extra attributes that are not necessary for uniqueness.
+
+> [!example] 
+> `STUDENT(id, email, name)`
+> **Superkeys:**
+> {id}, {email}, {id, email}, {id, name}, {email, name}, {id, email, name}
+```
+```col-md
+flexGrow=1
+===
+#### Candidate Key
+```
+```col-md
+flexGrow=1
+===
+#### Primary Key
+```
+````
+
+

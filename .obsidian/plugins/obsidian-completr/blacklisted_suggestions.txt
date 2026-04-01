@@ -18,3 +18,11 @@ ABCFDE
 front-matter
 socket
 Socket
+stu
+sTU
+sTu
+stU
+STu
+stul
+study
+stuff

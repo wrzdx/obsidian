@@ -337,3 +337,31 @@ flexGrow=1
 ```
 ````
 
+### ER Notations
+````col
+```col-md
+flexGrow=1
+===
+#### Chen's Notation
+![](Pasted%20image%2020260401051724.png)
+```
+```col-md
+flexGrow=1
+===
+#### Crow's Foot Notation
+![](Pasted%20image%2020260401053934.png)
+```
+````
+#### Naming & Layout Conventions: Chen’s Notations
+
+| Description                                                  | Example                                 |
+| ------------------------------------------------------------ | --------------------------------------- |
+| Use singular nouns to represent one instance of an entity.   | STUDENT, COURSE (not STUDENTS, COURSES) |
+| Entity and relationship names are written in UPPERCASE.      | STUDENT, ENROLLS                        |
+| Attribute names start with a capital letter.                 | StudentID, Name, Age                    |
+| Use nouns for entity types and verbs for relationship types. | PERSON (noun), WORKS_FOR (verb)         |
+| Attributes typically arise from descriptive nouns            | Salary, Address, Grade                  |
+#### Associative Entity
+- An entity used in a many-to-many relationship (represents an extra table).
+- Each side from the associative entity to the original entities is 1:N.
+![](Pasted%20image%2020260401054326.png)

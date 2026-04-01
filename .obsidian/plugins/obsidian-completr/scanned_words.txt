@@ -3269,6 +3269,7 @@ Degree
 Disjoint
 Derivation
 DateOfBirth
+DROP
 Lecturer
 Link
 Line
@@ -15227,6 +15228,9 @@ Truck
 Technicians
 Tuple
 Theta
+TRUNCATE
+TCL
+Transaction
 nomemm
 need
 necessary
@@ -23897,6 +23901,9 @@ COURSES
 Constraint
 Corresponding
 Choose
+CREATE
+Controls
+COMPANY
 Sections
 Surfaces
 Spaces
@@ -26997,6 +27004,9 @@ Solutions
 Selection
 Sprint
 Select
+Specify
+SQLcompatible
+SELECT
 Algebra
 AGLA
 Assignments
@@ -29928,6 +29938,8 @@ Accessing
 Adapt
 Attribute
 Automatically
+Allow
+ALTER
 and
 algebra
 any
@@ -32984,6 +32996,7 @@ associative
 applicationspecific
 attempt
 avoids
+authorized
 Plane
 Problem
 Prove
@@ -35797,6 +35810,7 @@ Purchased
 Phone
 Prevent
 Projection
+Productivity
 Quadratic
 Qn
 QL
@@ -45062,6 +45076,8 @@ Manufactured
 Minus
 Matches
 Merge
+Manipulation
+MERGE
 pdf
 previous
 prove
@@ -48185,6 +48201,9 @@ parents
 passed
 prerequisites
 participating
+portability
+privileges
+privilege
 Read
 Relations
 RY
@@ -51452,6 +51471,8 @@ Referential
 Retrievals
 Reject
 Rejects
+RENAME
+REVOKE
 of
 one
 others
@@ -54331,6 +54352,7 @@ organize
 opposite
 observations
 overlap
+owned
 lecture
 lineynaya
 linear
@@ -57165,6 +57187,7 @@ libraries
 locking
 lattice
 losing
+longevity
 geometria
 gN
 gQ
@@ -60142,6 +60165,7 @@ google
 guarantee
 guarantees
 guaranteed
+granted
 Umnov
 Uniqueness
 Uf
@@ -69560,6 +69584,7 @@ duplicate
 duplicates
 deletion
 domains
+dependence
 independency
 in
 info
@@ -79360,6 +79385,7 @@ varies
 verbs
 verb
 violation
+vendor
 for
 file
 form
@@ -85264,6 +85290,8 @@ subclass
 specialization
 superclasses
 setting
+standardized
+savepoint
 exist
 excalidraw
 everything
@@ -94759,6 +94787,8 @@ captured
 chooses
 combines
 crossreference
+container
+catalog
 Necessity
 Nikolay
 Natural
@@ -100683,6 +100713,7 @@ George
 Gathering
 Grade
 Generalization
+GRANT
 basis
 be
 bd
@@ -103427,6 +103458,7 @@ bob
 broad
 belongs
 business
+breaking
 EXCALIDRAW
 Excalidraw
 Elements
@@ -125711,6 +125743,8 @@ removes
 referencing
 rename
 rare
+rollback
+relevant
 Zorich
 ZM
 ZB

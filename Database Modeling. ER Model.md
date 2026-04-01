@@ -285,11 +285,55 @@ flexGrow=1
 ##### Partial Participation
 Entity may or may not participate in the relationship.
 
-
+*A student may or may not have a scholarship.*
 ```
 ```col-md
 flexGrow=1
 ===
 ##### Total Participation
+Entity must participate in the relationship.
+
+*Each scholarship must be assigned to a student.*
 ```
 ````
+````col
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401052312.png)
+
+```
+````
+
+>[!important] 
+>Participation constraints and cardinalities must be ENFORCED when implementing the database.
+
+#### Strong vs Weak Entity Types
+````col
+```col-md
+flexGrow=1
+===
+
+##### Strong entity types
+- Entity types that *have a key attribute* are called strong entity types.
+
+##### Weak entity types
+- Entity types that *do not have key attributes* of their own are called weak entity types.
+
+- Weak entities are identified with one of their attribute values in combination with another entity type (owner entity type).
+
+>[!note] 
+>- Weak entity type always has a total participation constraint with respect to its identifying relationship.
+
+##### Weak Relationships
+- A weak relationship is the identifying relationship that *links a weak entity type to its owner entity*. 
+
+- It represents the dependency of the weak entity on the owner for its identification and existence.
+```
+```col-md
+===
+![](Pasted%20image%2020260401053021.png)
+
+```
+````
+

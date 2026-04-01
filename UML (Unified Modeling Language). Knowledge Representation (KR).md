@@ -16,4 +16,35 @@ It is used to model the static structure of an object-oriented system.
 
 ![|600](Pasted%20image%2020260401073752.png)
 
-### 
+### Relationships Between Classes
+
+| Relationship                     | Description                                                                                                       | Notation                                 |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| **Association**                  | A general connection between two classes. Objects know about each other. <br>*Student — enrolls → Course*         | ![](Pasted%20image%2020260401073947.png) |
+| **Inheritance (Specialization)** | A subclass inherits attributes and methods from a superclass.<br>*Car ⟶ Vehicle*                                  | ![](Pasted%20image%2020260401074021.png) |
+| **Realization**                  | A class implements an interface. <br>*ArrayList ⟶ List*                                                           | ![](Pasted%20image%2020260401074053.png) |
+| **Dependency**                   | A class temporarily uses another class (method parameter, local variable).<br>*OrderService → PaymentService*<br> | ![](Pasted%20image%2020260401074358.png) |
+| **Aggregation**                  | Whole–part relationship where parts can exist independently.<br>*team and player*                                 | ![](Pasted%20image%2020260401074348.png) |
+| **Inheritance (Generalization)** | Whole–part relationship where parts cannot exist without the whole. <br>*house and room*                          | ![](Pasted%20image%2020260401074338.png) |
+
+### Cardinality
+![](Pasted%20image%2020260401074438.png)
+
+### UML Class Diagram vs ER Diagram
+
+| Aspect            | UML Class Diagram                            | ER Diagram (ERD)                    |
+| ----------------- | -------------------------------------------- | ----------------------------------- |
+| **Purpose**       | Models software classes and object structure | Models data and database structure  |
+| **Focus**         | Behavior + structure                         | Data and relationships only         |
+| **Main elements** | Classes, attributes, methods                 | Entities, attributes, relationships |
+| **Operations**    | Yes (methods)                                | No                                  |
+| **Typical use**   | Software design (OO systems)                 | Database design                     |
+## Knowledge Representation
+- **Goal:** develop concepts for accurately modeling some domain of knowledge by creating an *ontology* that describes the concepts of the domain and how these concepts are interrelated.
+- **Ontology:** a formal, explicit specification of the concepts in a domain and the relationships between them.
+	- What exists in this domain?  
+	- How are they related? 
+	- What rules or constraints apply?
+
+> [!example] University Ontology Example
+> Classes

@@ -210,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -324,6 +325,13 @@
   },
   "active": "8d7a7c9c69d5ead3",
   "lastOpenFiles": [
+    "Library/Pasted image 20260401074438.png",
+    "Library/Pasted image 20260401074358.png",
+    "Library/Pasted image 20260401074348.png",
+    "Library/Pasted image 20260401074338.png",
+    "Library/Pasted image 20260401074053.png",
+    "Library/Pasted image 20260401074021.png",
+    "Library/Pasted image 20260401073947.png",
     "Library/Pasted image 20260401073752.png",
     "Databases.md",
     "UML (Unified Modeling Language). Knowledge Representation (KR).md",
@@ -333,13 +341,6 @@
     "Library/Pasted image 20260401060803.png",
     "Library/Pasted image 20260401060535.png",
     "Library/Pasted image 20260401060520.png",
-    "Library/Pasted image 20260401060145.png",
-    "Library/Pasted image 20260401060132.png",
-    "Library/Pasted image 20260401055501.png",
-    "Library/Pasted image 20260401054326.png",
-    "Library/Pasted image 20260401053934.png",
-    "Library/Pasted image 20260401053021.png",
-    "Library/Pasted image 20260401052312.png",
     "Innopolis 2st year.md",
     "Distributed and Network Programming.md",
     "Networks.md",

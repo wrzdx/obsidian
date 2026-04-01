@@ -52,8 +52,7 @@
               "title": "Relational Model & Relational Algebra"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,13 +277,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "e388042d7f75076f",
+  "active": "de17f05c9b69d452",
   "lastOpenFiles": [
-    "Databases.md",
     "Introduction to SQL.md",
-    "Innopolis 2st year.md",
-    "From ERD to Relational Model.md",
     "Entity-Relationship Model.md",
+    "Databases.md",
+    "Relational Model & Relational Algebra.md",
+    "From ERD to Relational Model.md",
+    "Innopolis 2st year.md",
     "Library/Pasted image 20260401170547.png",
     "Library/Pasted image 20260401170000.png",
     "Library/Pasted image 20260401165812.png",
@@ -294,7 +294,6 @@
     "Library/Pasted image 20260401163528.png",
     "Database Modeling.md",
     "Library/Pasted image 20260401163003.png",
-    "Relational Model & Relational Algebra.md",
     "Library/Pasted image 20260401091357.png",
     "Library/Pasted image 20260401091002.png",
     "UML (Unified Modeling Language). Knowledge Representation (KR).md",

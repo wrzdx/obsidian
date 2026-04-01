@@ -175,7 +175,27 @@ flexGrow=1
 ===
 #### Superkey
 - A superkey is *any set of attributes* that can uniquely identify an entity in an entity set. It may contain extra attributes that are not necessary for uniqueness.
+```
+```col-md
+flexGrow=1
+===
+#### Candidate Key
+- A candidate key is a *minimal superkey*. It uniquely identifies an entity and contains no unnecessary attributes.
+```
+```col-md
+flexGrow=1
+===
+#### Primary Key
+- A primary key is the *candidate key chosen* by the database designer to serve as the main identifier for the entity type. There may be several candidate keys, but only one primary key.
 
+- **Composite Key** - is a primary key made up of two or more attributes.
+```
+````
+
+````col
+```col-md
+flexGrow=1
+===
 > [!example] 
 > `STUDENT(id, email, name)`
 > **Superkeys:**
@@ -184,13 +204,92 @@ flexGrow=1
 ```col-md
 flexGrow=1
 ===
-#### Candidate Key
+> [!example] 
+> `STUDENT(id, email, name)`
+> **Candidate keys:**
+> {id}, {email}
 ```
 ```col-md
 flexGrow=1
 ===
-#### Primary Key
+> [!example] 
+> `STUDENT(id, email, name)`
+> **Candidate keys:**
+> {id}, {email}
 ```
 ````
 
+### Relationships
+- A relationship describes how two entity types are *connected* in a database.
 
+#### Degree of Relationship
+- the count of entity types involved in a relationship.
+
+![|800](Pasted%20image%2020260401051439.png)
+
+- **Ternary Relationship**: Involves three entity types simultaneously
+- **N-ary Relationship:** involved more than three entity types simultaneously
+
+The function that an entity plays in a relationship is called its **role**. 
+Roles are normally explicit and not specified.
+
+#### Cardinality
+````col
+```col-md
+flexGrow=1
+===
+##### One-to-One (1:1)
+Each passport belongs to one person; each person has one passport.
+```
+```col-md
+flexGrow=1
+===
+##### One-to-Many (1:N)
+One department has many employees, but each employee is employed in only one department.
+```
+```col-md
+flexGrow=1
+===
+##### Many-to-Many (M:N)
+Students enroll in many courses; courses have many students.
+```
+````
+````col
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401051639.png)
+```
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401051711.png)
+```
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401051724.png)
+```
+````
+
+#### Participation
+>[!note] Participation constraints 
+>Participation constraints specify whether the existence of an entity depends on its being related to another entity via the relationship type. 
+>
+>*Scholarship cannot exist without being assigned to a student.*
+
+````col
+```col-md
+flexGrow=1
+===
+##### Partial Participation
+Entity may or may not participate in the relationship.
+
+
+```
+```col-md
+flexGrow=1
+===
+##### Total Participation
+```
+````

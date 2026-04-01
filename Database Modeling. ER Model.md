@@ -65,16 +65,71 @@ flexGrow=1
 ===
 ##### Conceptual Level
 - Provides a broad, *abstract view* of the data – what entities exist and how they are related
-- 
+- Represents data in a way that’s easy for users to understand
+  
+**Example:**
+A Student entity is related to a Course entity through Enrollment.
+
+**Output:** *ER Model*
+```
+```col-md
+flexGrow=1
+===
+##### Logical Level
+- Describes what data is stored in the database and how the data items are related
+- Focuses on tables, columns, relationships, and constraints
+
+**Example:**
+There is a table Students with columns StudentID, Name, and CourseID
+
+**Output:** *Database schema*
+```
+```col-md
+flexGrow=1
+===
+##### Physical Level
+- Describes how the data is actually stored in the system
+- Includes details like file organization, indexes, data blocks, and access paths
+  
+**Example:**
+Data is stored in B-tree indexes or linked blocks on a disk
+```
+````
+
+### Database Development Process
+![](Pasted%20image%2020260401044850.png)
+
+| Stage                        | Actions                                                                                                                                                                                                    | Output                                                                                                                    |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Requirements Gathering**   | - Interview database users to understand the proposed system<br>- Identify and document data and functional requirements                                                                                   | - A document describing detailed user requirements                                                                        |
+| **Data Analysis**            | - Describe data properties, relationships, and usage in detail <br>- Ensure the model fully reflects user requirements                                                                                     | - A conceptual data model representing a shared understanding between clients and developers<br>- Example: ER Diagram<br> |
+| **Logical Database Design**  | - Decide on the type of database system (relational, object-oriented, network, etc.)<br>- Keep the design independent of any specific DBMS                                                                 | - A complete logical schema defining tables, relationships, and constraints                                               |
+| **Implementation**           | - Build the database according to the logical schema<br>- Define storage structures, security rules, and external schemas<br>- Adapt implementation to the selected DBMS, tools, and operating environment | - A fully constructed, populated, and secure database system                                                              |
+| **Testing**, **Maintenance** |                                                                                                                                                                                                            | - Released Schema and Database                                                                                            |
+
+## Entity-Relationship Model
+### Basic Concepts
+````col
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401045545.png)
+**Entities**
+
+- An entity represents a *thing* or *object* in the real world.
+```
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401045633.png)
+**Attributes**
+
+- Attributes represent the properties or characteristics of entities and relationships.
 ```
 ```col-md
 flexGrow=1
 ===
 
-```
-```col-md
-flexGrow=1
-===
-
+**Relationships**
 ```
 ````

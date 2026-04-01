@@ -28,3 +28,5 @@ study
 stuff
 eeR
 eer
+Study
+Stuff

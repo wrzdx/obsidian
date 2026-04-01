@@ -47,4 +47,34 @@ It is used to model the static structure of an object-oriented system.
 	- What rules or constraints apply?
 
 > [!example] University Ontology Example
-> Classes
+> **Classes:**
+> - Student
+> - Course
+> - Professor
+> 
+> **Relations:**
+> - enrolledIn(Student, Course)
+> - teaches(Professor, Course)
+> 
+> **Attributes:**
+> - Student → hasID, name
+> - Course → hasCredits
+> 
+> **Axioms:**
+> - Every Course is taught by exactly one Professor
+> - A Student cannot teach a Course
+
+### KR vs Conceptual Modeling
+
+| Aspect                   | Knowledge Representation (KR)                         | Conceptual Modeling (CM)                                            |
+| ------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------- |
+| **Main goal**            | Represent knowledge so a machine can reason and infer | Represent a system/domain so humans can design databases & software |
+| **Origin**               | Artificial Intelligence                               | Software Engineering & Databases                                    |
+| **Focus**                | Meaning, logic, inference                             | Structure, data, system requirements                                |
+| **Level of abstraction** | Very high (semantic & logical)                        | Medium (business/system view)                                       |
+| **Typical models**       | Ontologies, semantic networks, frames, rules          | ER diagrams, UML class diagrams                                     |
+| **World assumption**     | Open World                                            | Closed World                                                        |
+| **Primary users**        | AI systems, knowledge engineers                       | System analysts, DB designers, developers                           |
+
+
+

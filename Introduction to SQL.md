@@ -46,7 +46,7 @@ flexGrow=1
 ===
 **Schema**
 - A SQL schema is a *logical container* in a database that organizes and groups related objects such as tables, views, indexes, and functions.
-```sql unwrap
+```sql 
 CREATE SCHEMA COMPANY AUTHORIZATION 'admin_user';
 ```
 *Creates a schema called COMPANY owned by the user with authorization identifier admin_user*
@@ -59,5 +59,7 @@ flexGrow=1
 - A SQL catalog is the container in a database system that holds one or more schemas.
 ````
 `````
+
+## SQL Database Definition
 
 

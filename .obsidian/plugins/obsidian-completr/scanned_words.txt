@@ -26900,7 +26900,6 @@ SMTP
 Sends
 Switches
 Suit
-Socket
 Subscriber
 Services
 Servers
@@ -85028,7 +85027,6 @@ sume
 started
 sequential
 send
-socket
 summary
 successive
 strategies

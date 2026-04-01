@@ -177,3 +177,40 @@ $$\rho_{NewRelationName(Attr1,Attr2,...)}(OldRelation)$$
 - Two relations have attributes with the same name 
 - We want clearer attribute names in the result
 ![](Pasted%20image%2020260401083710.png)
+#### Union \[ ∪ \]
+- Union combines two *union-compatible relations* into a single relation containing all tuples from both, with *duplicate tuples removed*.
+$$R \cup S$$
+**Two relations are union-compatible if**: 
+- They have the same number of attributes 
+- Corresponding attributes have the same domains (data types) 
+- Attributes appear in the same order
+
+![](Pasted%20image%2020260401090012.png)
+
+#### Cartesian Product \[ × \]
+- Cartesian product combines every tuple of one relation with every tuple of another relation
+$$R \times S$$
+- The number of rows in the resulting relation equals the number of rows in R multiplied by the number of rows in S
+![](Pasted%20image%2020260401090236.png)
+
+#### Set Difference \[ - \]
+- Set difference returns tuples that appear in one relation but not in another.
+$$R - S$$
+- Relations must be *union-compatible*.
+![](Pasted%20image%2020260401090334.png)
+
+#### Natural Join \[ ⨝ \]
+- Natural join automatically joins two relations by matching attributes that have the *same name* in both relations.
+$$R \bowtie S$$
+**How it works?** 
+- Finds all attributes with the same name in both relations 
+- Matches tuples where those attribute values are equal 
+- Removes duplicate columns from the result
+![](Pasted%20image%2020260401090536.png)
+
+#### Theta Join \[ ⨝ \]
+- Theta join combines related tuples from two relations based on a matching condition.
+$$R \Join _{condition}S$$
+![](Pasted%20image%2020260401090634.png)
+
+>[!note] 

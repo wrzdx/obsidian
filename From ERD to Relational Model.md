@@ -88,3 +88,60 @@ flexGrow=1
 ![](Pasted%20image%2020260401164851.png)
 ```
 ````
+## Step 5: Mapping M:N relationships
+````col
+```col-md
+flexGrow=1
+===
+
+- Create a new table to represent the relationship
+- Include as foreign keys the primary keys of both participating entities
+- The combination of these foreign keys forms the primary key of the new table
+- Add any relationship attributes to this new table
+- M:N relationships always become a separate table
+```
+```col-md
+===
+![](Pasted%20image%2020260401165812.png)
+```
+````
+
+## Step 6: Mapping multivalued attributes
+````col
+```col-md
+flexGrow=1
+===
+
+- Create a new table for the multivalued attribute
+- Include the primary key of the original entity as a foreign key in this table
+- The primary key of the new table is the combination of the entity key and the attribute
+- Multivalued attributes always require a separate table
+```
+```col-md
+===
+![](Pasted%20image%2020260401170000.png)
+```
+````
+
+## Step 7: Mapping N-ary relationships
+````col
+```col-md
+flexGrow=1
+===
+
+- Create a new table for the N-ary relationship
+- Include foreign keys from all three participating entities
+- The combination of those foreign keys forms the primary key
+- Add any relationship attributes
+- A ternary relationship cannot be replaced by three binary relationships without losing information
+```
+```col-md
+===
+![](Pasted%20image%2020260401170547.png)
+```
+````
+
+## Derived attributes
+- Derived attributes are not included in the schema
+- A derived attribute’s value can be calculated from other attributes (e.g., Age can be derived from DateOfBirth).
+- Including derived attributes may cause data inconsistency

@@ -121,14 +121,21 @@ flexGrow=1
 ``````col
 `````col-md
 flexGrow=2
+textAlign=center
 ===
 #### Basic Operations
 ````col
 ```col-md
 ##### Unary Operations
+- Projection [ π ] 
+- Selection [ σ ] 
+- Rename [ ρ ]
 ```
 ```col-md
 ##### Binary Operations
+- Union [ ∪ ] 
+- Cartesian Product [ × ] 
+- Set Difference / Minus [ - ]
 ```
 ````
 
@@ -137,6 +144,36 @@ flexGrow=2
 flexGrow=1
 ===
 #### Derived Operations
+- Join [ ⨝ ]
+- Division [ ÷ ]
+- Intersection [ ∩ ]
 `````
 ``````
 
+#### Projection \[ π \]
+- Projection chooses which columns (attributes) to keep in a relation. In other words, it removes unwanted attributes.
+$$\pi_{attributeList} (Relation)$$
+**Properties**:
+- Removes attributes 
+- May remove duplicate rows 
+- Keeps all tuples, unless duplicates are eliminated
+
+![](Pasted%20image%2020260401083207.png)
+
+#### Selection \[ σ \]
+- Selection chooses which rows (tuples) to keep in a relation. It applies a condition to each tuple and keeps only those that satisfy it.
+$$\sigma_{condition}(Relation)$$
+**Properties**:
+- Does not change the structure of the table 
+- Only reduces the number of rows 
+- Condition can use: = , < , > , AND, OR, NOT
+![](Pasted%20image%2020260401083348.png)
+
+#### Rename \[ ρ \]
+- The rename operation changes the name of a relation, and/or the names of its attributes without changing any data.
+$$\rho_{NewRelationName(Attr1,Attr2,...)}(OldRelation)$$
+**Rename is essential when**:
+- The same relation is used more than once in a query 
+- Two relations have attributes with the same name 
+- We want clearer attribute names in the result
+![](Pasted%20image%2020260401083710.png)

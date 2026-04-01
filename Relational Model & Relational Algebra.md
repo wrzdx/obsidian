@@ -97,6 +97,46 @@ flexGrow=1
 - **Key constraint violation**: The primary key duplicates an existing key value
 - **Referential integrity violation**: A foreign key refers to a tuple that does not exist
 
->Solutions
+>[!info] Solutions
 >- **Reject update**: Prevent the modification from being applied 
 >- **Modify foreign key values**: Modify foreign key values in referencing tuples setting them to NULL, or another valid value that references a different existing tuple
+
+## Relational Algebra
+- *Relational Algebra* is a formal query language for the relational data model. 
+  It provides a set of mathematical operations for retrieving data stored in relations.
+- A *relational algebra expression* is a sequence of relational algebra operations in which the order of operations matters.
+
+>[!note] 
+>- In Relational Algebra, each operation takes relations as input and produces a new relation as output.
+>![](Pasted%20image%2020260401081641.png)
+
+### Operations
+````col
+```col-md
+flexGrow=1
+===
+
+```
+````
+``````col
+`````col-md
+flexGrow=2
+===
+#### Basic Operations
+````col
+```col-md
+##### Unary Operations
+```
+```col-md
+##### Binary Operations
+```
+````
+
+`````
+`````col-md
+flexGrow=1
+===
+#### Derived Operations
+`````
+``````
+

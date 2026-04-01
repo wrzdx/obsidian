@@ -3267,6 +3267,7 @@ Describes
 Decide
 Degree
 Disjoint
+Derivation
 Lecturer
 Link
 Line
@@ -8812,6 +8813,7 @@ VolP
 Very
 Validity
 Vehicle
+Violations
 Ivanov
 Introduction
 Independence
@@ -12401,6 +12403,10 @@ Includes
 Interview
 Indexing
 Involves
+Implicit
+Integrity
+Insert
+INSERT
 Telegram
 Theorem
 Text
@@ -15217,6 +15223,8 @@ Tradeoff
 Total
 Truck
 Technicians
+Tuple
+Theta
 nomemm
 need
 necessary
@@ -18057,6 +18065,7 @@ notion
 normalization
 nouns
 noun
+named
 to
 the
 topics
@@ -20830,6 +20839,8 @@ towards
 thing
 thousands
 traditional
+tuple
+textAlign
 Course
 Curves
 Continuation
@@ -23880,6 +23891,8 @@ Crow
 Conventions
 COURSE
 COURSES
+Constraint
+Corresponding
 Sections
 Surfaces
 Spaces
@@ -26979,6 +26992,8 @@ Subclasses
 Specialization
 Shown
 Secretaries
+Solutions
+Selection
 Algebra
 AGLA
 Assignments
@@ -29909,6 +29924,7 @@ Aspect
 Accessing
 Adapt
 Attribute
+Automatically
 and
 algebra
 any
@@ -32962,6 +32978,8 @@ associations
 assigned
 attribute
 associative
+applicationspecific
+attempt
 Plane
 Problem
 Prove
@@ -35772,6 +35790,9 @@ Pitt
 Participation
 PERSON
 Purchased
+Phone
+Prevent
+Projection
 Quadratic
 Qn
 QL
@@ -41393,6 +41414,7 @@ Berners
 Berkley
 BSD
 Build
+Business
 Material
 MORE
 Mathematical
@@ -45033,6 +45055,8 @@ Memoization
 Multivalued
 Motorcycle
 Manufactured
+Minus
+Matches
 pdf
 previous
 prove
@@ -48153,6 +48177,8 @@ participate
 participation
 played
 parents
+passed
+prerequisites
 Read
 Relations
 RY
@@ -51416,6 +51442,10 @@ Released
 Relationship
 Roles
 Representation
+Referential
+Retrievals
+Reject
+Rejects
 of
 one
 others
@@ -60104,6 +60134,7 @@ geographically
 google
 guarantee
 guarantees
+guaranteed
 Umnov
 Uniqueness
 Uf
@@ -63279,6 +63310,8 @@ UPnIUbiR
 URLs
 Unreliable
 UPPERCASE
+Updates
+UPDATE
 Watch
 We
 What
@@ -69516,6 +69549,10 @@ detail
 developers
 department
 descriptive
+duplicate
+duplicates
+deletion
+domains
 independency
 in
 info
@@ -73437,6 +73474,8 @@ identifies
 identifying
 inherit
 inherited
+insertion
+insert
 For
 Functions
 Frolov
@@ -76561,6 +76600,8 @@ Format
 FDM
 Focuses
 Foot
+Foreign
+Finds
 vectors
 vector
 variable
@@ -79310,6 +79351,7 @@ validity
 varies
 verbs
 verb
+violation
 for
 file
 form
@@ -82072,6 +82114,7 @@ forwarding
 facts
 facing
 formats
+foreign
 scalars
 sufficient
 settings
@@ -85219,6 +85262,7 @@ superclass
 subclass
 specialization
 superclasses
+setting
 exist
 excalidraw
 everything
@@ -88405,6 +88449,8 @@ extra
 employees
 enroll
 extends
+enforce
+eliminated
 have
 hQ
 hfRF
@@ -94709,6 +94755,10 @@ chosen
 cardinalities
 constraint
 combined
+credits
+captured
+chooses
+combines
 Necessity
 Nikolay
 Natural
@@ -97421,6 +97471,7 @@ Needed
 National
 Nuts
 NACKs
+NULL
 Given
 Graphs
 Gg
@@ -103375,6 +103426,7 @@ belong
 bob
 broad
 belongs
+business
 EXCALIDRAW
 Excalidraw
 Elements
@@ -106614,6 +106666,8 @@ Enhanced
 EERD
 Employees
 Engineers
+Employee
+Explicit
 OPTIONS
 Operations
 Obtain
@@ -113346,6 +113400,10 @@ managed
 manual
 manipulated
 minimal
+modifies
+modification
+multiplied
+matching
 You
 YC
 YR
@@ -122560,6 +122618,8 @@ uploads
 understands
 uniqueness
 unnecessary
+unwanted
+unless
 represented
 ru
 rows
@@ -125644,6 +125704,10 @@ relate
 representing
 recalculating
 reuse
+referential
+removes
+referencing
+rename
 Zorich
 ZM
 ZB
@@ -132398,6 +132462,7 @@ Kanching
 Karting
 Knowledge
 Keep
+Keeps
 qt
 qL
 qY
@@ -135324,6 +135389,7 @@ quanta
 qcZ
 queries
 query
+querying
 HB
 HE
 HK
@@ -144005,6 +144071,7 @@ jSjl
 jdyx
 jobs
 join
+joins
 zM
 zd
 zH

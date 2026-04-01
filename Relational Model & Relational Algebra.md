@@ -101,6 +101,16 @@ flexGrow=1
 >- **Reject update**: Prevent the modification from being applied 
 >- **Modify foreign key values**: Modify foreign key values in referencing tuples setting them to NULL, or another valid value that references a different existing tuple
 
+### Characteristics of Relations
+- **Ordering of Tuples**
+	- A relation is a set of tuples
+	- Elements of a set have no specific order
+- **Duplicate Values**
+	- A relation does not contain duplicate rows
+	- Each tuple must be unique
+	- In practice, duplicates may appear unless explicitly removed
+- **Composite and Multivalued Attributes**
+	- 
 ## Relational Algebra
 - *Relational Algebra* is a formal query language for the relational data model. 
   It provides a set of mathematical operations for retrieving data stored in relations.

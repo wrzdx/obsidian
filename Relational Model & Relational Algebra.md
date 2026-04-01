@@ -213,4 +213,24 @@ $$R \bowtie S$$
 $$R \Join _{condition}S$$
 ![](Pasted%20image%2020260401090634.png)
 
->[!note] 
+>[!note] Derivation
+>$$R \Join _{R.Cid=S.No}S=\sigma _{R.Cid=S.No}(R \times S)$$
+
+#### Division \[ ÷ \]
+- Division is used to find tuples in one relation that are related to all tuples in another relation.
+$$R \div S$$
+![](Pasted%20image%2020260401091002.png)
+
+> [!note] Derivation
+> $$R \div S = \pi _{A}(R) - \pi_{A}((\pi_A(R)\times S) - R)$$
+
+#### Intersection \[ ∩ \]
+- Intersection operation returns only the tuples that appear in both relations
+
+$$R \cap S$$
+- Relations must be *union-compatible*.
+![](Pasted%20image%2020260401091357.png)
+
+>[!note] Derivation
+>$$R \cap S = R - (R - S)$$
+

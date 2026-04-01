@@ -409,11 +409,58 @@ flexGrow=1
 ```col-md
 flexGrow=1
 ===
-Disjoint
+**Disjoint *d***
+Subclasses are *mutually exclusive*. An entity can belong to only one subclass.
+
+*A Vehicle can be either a Car or a Truck, but not both.*
+![](Pasted%20image%2020260401060132.png)
 ```
 ```col-md
 flexGrow=1
 ===
+**Overlapping *o***
+Subclasses *can overlap*. An entity may belong to multiple subclasses.
 
+*A Part can be both a Manufactured Part and a Purchased Part at the same time.*
+![](Pasted%20image%2020260401060145.png)
 ```
 ````
+
+##### Total vs Partial Specialization
+````col
+```col-md
+flexGrow=1
+===
+**Total Specialization =**
+Every superclass entity must belong to *at least one subclass*. Shown with a double line.
+
+*A Vehicle MUST be either a Car or a Truck.*
+```
+```col-md
+flexGrow=1
+===
+**Partial Specialization -**
+Some superclass entities *may not belong to any subclass*. Shown with a single line.
+
+*Some Employees are neither Secretaries nor Technicians nor Engineers*
+```
+````
+````col
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401060535.png)
+```
+```col-md
+flexGrow=1
+===
+![](Pasted%20image%2020260401060520.png)
+```
+````
+#### Specialization Lattice
+A specialization lattice is a hierarchy in which a subclass can have *more than one superclass*, allowing shared properties to be inherited from multiple parent entity types.
+
+![|600](Pasted%20image%2020260401060803.png)
+
+#### Union Type
+A union (also called a category) is a subclass that is formed from the union of two or more superclasses that do not share the same primary key.

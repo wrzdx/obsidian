@@ -38,18 +38,63 @@
             }
           },
           {
-            "id": "c06348edc0fbb62a",
+            "id": "8d7a7c9c69d5ead3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Modeling. ER Model.md",
+                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database Modeling. ER Model"
+              "title": "UML (Unified Modeling Language). Knowledge Representation (KR)"
+            }
+          },
+          {
+            "id": "9cbb694743b12789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entity-Relationship Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Entity-Relationship Model"
+            }
+          },
+          {
+            "id": "c809f7b19024cc28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enchanced Entity-Relationship Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Enchanced Entity-Relationship Model"
+            }
+          },
+          {
+            "id": "c06348edc0fbb62a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database Modeling..md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Database Modeling."
             }
           }
         ],
@@ -127,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Modeling. ER Model.md",
+                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Modeling. ER Model"
+              "title": "Backlinks for UML (Unified Modeling Language). Knowledge Representation (KR)"
             }
           }
         ],
@@ -153,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Modeling. ER Model.md",
+                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Database Modeling. ER Model"
+              "title": "Outgoing links from UML (Unified Modeling Language). Knowledge Representation (KR)"
             }
           }
         ]
@@ -277,8 +322,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "c06348edc0fbb62a",
+  "active": "8d7a7c9c69d5ead3",
   "lastOpenFiles": [
+    "Library/Pasted image 20260401073752.png",
+    "Databases.md",
+    "UML (Unified Modeling Language). Knowledge Representation (KR).md",
+    "Database Modeling..md",
+    "Entity-Relationship Model.md",
+    "Enchanced Entity-Relationship Model.md",
     "Library/Pasted image 20260401060803.png",
     "Library/Pasted image 20260401060535.png",
     "Library/Pasted image 20260401060520.png",
@@ -289,9 +340,6 @@
     "Library/Pasted image 20260401053934.png",
     "Library/Pasted image 20260401053021.png",
     "Library/Pasted image 20260401052312.png",
-    "Library/Pasted image 20260401051724.png",
-    "Databases.md",
-    "Database Modeling. ER Model.md",
     "Innopolis 2st year.md",
     "Distributed and Network Programming.md",
     "Networks.md",
@@ -312,9 +360,6 @@
     "Introduction to Machine Learning.md",
     "Foundations of Machine Learning.md",
     "Reliable Data Transfer Routers and Switches.md",
-    "TCP Congestion Control Network Layer.md",
-    "DHCP and NAT Linked-State and Distance-Vector routing algorithms.md",
-    "Hierarchical Routing Data Link Layer.md",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

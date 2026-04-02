@@ -307,3 +307,95 @@ WHEN NOT MATCHED THEN
 
 ### Referential Integrity
 - Referential integrity is a constraint that ensures foreign key values in a dependent (child) table must match primary key values in a referenced (parent) table in 1:M relationships.
+#### Delete
+- **ON DELETE RESTRICT** – Rejects deletion if referenced rows exist
+- **ON DELETE CASCADE** – When a parent row is deleted all related child rows are automatically deleted.
+- **ON DELETE SET NULL** – When the parent row is deleted the child foreign key becomes NULL
+- **ON DELETE SET DEFAULT** – When parent row is deleted child foreign key is set to its default value.
+
+#### Update
+- **ON UPDATE RESTRICT** – Rejects update if referenced rows exist
+- **ON UPDATE CASCADE** – When the parent key is updated the child foreign key is automatically updated
+- **ON UPDATE SET NULL** – When the parent key is updated the child foreign key becomes NULL
+- **ON UPDATE SET DEFAULT** – When the parent key is updated the child foreign key is set to its default value
+
+#### Insert
+- When inserting a dependent (child) row, PostgreSQL checks the foreign key constraint. 
+- If the referenced parent does not exist the INSERT is rejected.
+- Foreign keys prevent insertion of child records that have no matching parent.
+
+## DQL - Data Query Language
+- **SELECT** is used to retrieve data from one or more tables without modifying the database. It returns a result set (virtual table) produced from stored data.
+```sql
+SELECT column_list
+FROM table_name
+[WHERE conditions]
+[ORDER BY sort_columns]
+[LIMIT n]
+[OFFSET m];
+```
+
+### SELECT - Querying Data
+Конечно, вот всё из картинки в таком же формате 👇
+
+---
+
+**Select specific columns:**
+
+```sql
+SELECT full_name, dept_id
+FROM employee;
+```
+
+**Select all columns:**
+
+```sql
+SELECT *
+FROM employee;
+```
+
+**Filtering rows:**
+
+```sql
+SELECT *
+FROM employee
+WHERE dept_id = 3;
+```
+
+**Sorting results:**
+
+```sql
+SELECT full_name, dept_id
+FROM employee
+ORDER BY dept_id ASC;
+```
+
+**Removing duplicates:**
+
+```sql
+SELECT DISTINCT dept_id
+FROM employee;
+```
+
+**Limiting rows:**
+
+```sql
+SELECT *
+FROM employee
+LIMIT 5;
+```
+
+**Limiting rows with pagination:**
+
+```sql
+SELECT *
+FROM employee
+LIMIT 5 OFFSET 10;
+```
+
+**Column aliases:**
+
+```sql
+SELECT full_name AS name, dept_id AS department
+FROM employee;
+```

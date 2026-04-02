@@ -23581,8 +23581,6 @@ CheltenhamStd
 Cheltenham
 Courier
 CourierStd
-CascadeScriptLTStd
-Cascade
 CEK
 CnObl
 ClOk

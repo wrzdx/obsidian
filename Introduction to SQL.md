@@ -207,6 +207,7 @@ TRUNCATE TABLE employee;
 ALTER TABLE employee RENAME TO staff;
 ```
 ## DML - Data Manipulation Language
+### INSERT - Inserting Data
 **Insert one row:**
 ```sql
 INSERT INTO employee (full_name, dept_id)
@@ -235,5 +236,74 @@ VALUES ('John Doe', 3)
 RETURNING emp_id, full_name;
 ```
 
->[!quote] If you omit a NOT NULL column (without a DEFAULT), the insert fails.
+>[!important] If you omit a NOT NULL column (without a DEFAULT), the insert fails.
 
+### UPDATE - Updating Data
+**Update with a condition:**
+```sql
+UPDATE employee
+SET dept_id = 2
+WHERE emp_id = 10;
+```
+
+**Update multiple columns:**
+```sql
+UPDATE employee
+SET full_name = 'John A. Smith', dept_id = 4
+WHERE emp_id = 10;
+```
+
+**Update based on another table:**
+```sql
+UPDATE employee e
+SET dept_id = d.dept_id
+FROM department d
+WHERE e.dept_id IS NULL AND d.name = 'HR';
+```
+
+**Return updated rows:**
+```sql
+UPDATE employee
+SET dept_id = 5
+WHERE dept_id = 2
+RETURNING emp_id, full_name, dept_id;
+```
+
+>[!important] Update without a condition is used ONLY if you truly want to update all rows.
+### DELETE - Deleting Data
+**Delete selected rows:**
+```sql
+DELETE FROM employee
+WHERE emp_id = 10;
+```
+**Delete based on another table:**
+```sql
+DELETE FROM employee e
+USING department d
+WHERE e.dept_id = d.dept_id AND d.name = 'Old Dep.';
+```
+**Return deleted rows:**
+```sql
+DELETE FROM employee
+WHERE dept_id = 3
+RETURNING emp_id, full_name;
+```
+
+>[!important] Without WHERE, DELETE removes all rows.
+
+### MERGE - Merging Data
+- **MERGE** - used for “synchronizing” a target table with a source dataset
+```sql
+MERGE INTO employee AS t 
+USING employee_updates AS s 
+ON t.emp_id = s.emp_id 
+WHEN MATCHED THEN 
+	UPDATE SET full_name = s.full_name, dept_id = s.dept_id 
+WHEN NOT MATCHED THEN 
+	INSERT (full_name, dept_id) VALUES (s.full_name, s.dept_id);
+```
+
+>[!tip] You can also add WHEN MATCHED THEN DELETE to remove rows based on a condition.
+
+### Referential Integrity
+- Referential integrity is a constraint that ensures foreign key values in a dependent (child) table must match primary key values in a referenced (parent) table in 1:M relationships.

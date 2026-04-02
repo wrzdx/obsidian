@@ -62,4 +62,37 @@ flexGrow=1
 
 ## SQL Database Definition
 
+`````col
+````col-md
+flexGrow=1
+===
+>[!abstract] CREATE SCHEMA
+>The CREATE SCHEMA command is used to specify a new schema by assigning it a name and defining the user who is authorized to manage the objects created within it.
+
+>[!abstract] CREATE TABLE
+>The CREATE TABLE command is used to specify a new relation by giving it a name and spacifying its attributes and initial constraints.
+
+````
+````col-md
+flexGrow=1
+===
+```sql
+-- Create Catalog
+CREATE DATABASE MY_DATABASE;
+
+-- Create schema
+CREATE SCHEMA COMPANY AUTHORIZATION admin_user;
+
+-- Create table
+CREATE TABLE COMPANY.EMPLOYEE (
+	employee_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(100) NOT NULL,
+	last_name VARCHAR(100) NOT NULL,
+	hire_date DATE NOT NULL,
+	salary NUMERIC(10, 2) CHECK (salary > 0)
+);
+```
+````
+`````
+
 

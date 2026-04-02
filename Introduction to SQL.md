@@ -336,10 +336,6 @@ FROM table_name
 ```
 
 ### SELECT - Querying Data
-Конечно, вот всё из картинки в таком же формате 👇
-
----
-
 **Select specific columns:**
 
 ```sql
@@ -399,3 +395,125 @@ LIMIT 5 OFFSET 10;
 SELECT full_name AS name, dept_id AS department
 FROM employee;
 ```
+### LIKE
+**Basic LIKE usage:**
+
+```sql
+SELECT columns
+FROM table
+WHERE column LIKE pattern;
+```
+
+**Match prefix (starts with):**
+
+```sql
+SELECT *
+FROM employee
+WHERE full_name LIKE 'Ana%';
+```
+
+**Match pattern with one character:**
+
+```sql
+SELECT *
+FROM employee
+WHERE code LIKE 'A_3';
+```
+
+**Wildcard symbols:**
+
+```text
+%  → any sequence of characters (0 or more)
+_  → exactly one character
+```
+
+**Case-insensitive match (PostgreSQL):**
+
+```sql
+SELECT *
+FROM employee
+WHERE full_name ILIKE 'ana%';
+```
+
+**Exclude pattern (NOT LIKE):**
+
+```sql
+SELECT *
+FROM employee
+WHERE full_name NOT LIKE 'Ana%';
+```
+
+### GROUP BY
+- **GROUP BY** groups rows that have the same values in specified columns and allows aggregate functions to be computed for each group.
+- It is used together with aggregate functions such as: **COUNT**, **SUM**, **AVG**, **MIN**, **MAX**
+- Every column in SELECT must be either included in GROUP BY or used inside an aggregate function.
+```sql
+SELECT dept_id, COUNT(*) AS employee_count
+FROM employee
+GROUP BY dept_id;
+```
+
+````col
+```col-md
+flexGrow=1
+===
+
+**Before:**
+
+| emp_id | full_name | dept_id | salary |
+| ------ | --------- | ------- | ------ |
+| 1      | John      | 1       | 1200   |
+| 2      | Anna      | 2       | 1500   |
+| 3      | Emily     | 2       | 2500   |
+| 4      | Thomas    | 2       | 2000   |
+| 5      | Michail   | 1       | 2000   |
+
+```
+```col-md
+flexGrow=1
+===
+**After:**
+
+| dept_id | employee |
+| ------- | -------- |
+| 1       | 2        |
+| 2       | 3        |
+
+```
+````
+
+- **HAVING** – filter groups
+```sql
+SELECT dept_id, COUNT(*)
+FROM employee GROUP BY dept_id
+HAVING COUNT(*) >= 3;;
+```
+
+````col
+```col-md
+flexGrow=1
+===
+
+**Before:**
+
+| emp_id | full_name | dept_id | salary |
+| ------ | --------- | ------- | ------ |
+| 1      | John      | 1       | 1200   |
+| 2      | Anna      | 2       | 1500   |
+| 3      | Emily     | 2       | 2500   |
+| 4      | Thomas    | 2       | 2000   |
+| 5      | Michail   | 1       | 2000   |
+
+```
+```col-md
+flexGrow=1
+===
+**After:**
+
+| dept_id | employee |
+| ------- | -------- |
+| 1       | 2        |
+| 2       | 3        |
+
+```
+````

@@ -67,8 +67,7 @@
               "title": "Relational Model & Relational Algebra"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -293,11 +292,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "e388042d7f75076f",
+  "active": "de17f05c9b69d452",
   "lastOpenFiles": [
+    "Introduction to SQL.md",
+    "Library/Pasted image 20260402052235.png",
     "Databases.md",
     "From ERD to Relational Model.md",
-    "Introduction to SQL.md",
     "Entity-Relationship Model.md",
     "Enchanced Entity-Relationship Model.md",
     "Relational Model & Relational Algebra.md",
@@ -312,7 +312,6 @@
     "Database Modeling.md",
     "Library/Pasted image 20260401163003.png",
     "Library/Pasted image 20260401091357.png",
-    "Library/Pasted image 20260401091002.png",
     "UML (Unified Modeling Language). Knowledge Representation (KR).md",
     "Distributed and Network Programming.md",
     "Networks.md",
@@ -330,7 +329,6 @@
     "Network Characteristics Scale, Metrics.md",
     "Networks Calculus.md",
     "Regression.md",
-    "Introduction to Machine Learning.md",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

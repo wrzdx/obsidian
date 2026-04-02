@@ -95,4 +95,35 @@ CREATE TABLE COMPANY.EMPLOYEE (
 ````
 `````
 
+>[!note]- PRIMARY KEY
+>```sql
+>CREATE TABLE EMPLOYEE (
+> 	id INT PRIMARY KEY,
+> 	name TEXT
+> );
+>```
+>```sql
+>CREATE TABLE EMPLOYEE (
+> 	id INT,
+> 	name TEXT,
+> 	PRIMARY KEY (id)
+> );
+>```
+>```sql
+>CREATE TABLE ENROLLMENTS ( 
+>	student_id INT, 
+>	course_id TEXT, 
+>	CONSTRAINT pk_enrollments PRIMARY KEY 
+>	(student_id, course_id) 
+>);
+>```
+>```sql
+>ALTER TABLE EMPLOYEE 
+>ADD PRIMARY KEY (id);
+>```
 
+### Constraints on Attribute Values
+
+| Constraint      | Description | Example |
+| --------------- | ----------- | ------- |
+| `{sql}NOT NULL` |             |         |

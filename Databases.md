@@ -7,3 +7,4 @@
 - [Relational Model & Relational Algebra](Relational%20Model%20&%20Relational%20Algebra.md)
 - [From ERD to Relational Model](From%20ERD%20to%20Relational%20Model.md)
 - [Introduction to SQL](Introduction%20to%20SQL.md)
+- [Advanced SQL](Advanced%20SQL.md)

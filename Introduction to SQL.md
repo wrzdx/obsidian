@@ -124,6 +124,50 @@ CREATE TABLE COMPANY.EMPLOYEE (
 
 ### Constraints on Attribute Values
 
-| Constraint      | Description | Example |
-| --------------- | ----------- | ------- |
-| `{sql}NOT NULL` |             |         |
+| Constraint | Description                                          | Example                                                                                           |
+| ---------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| NOT NULL   | attribute must contain a value                       | `{sql} full_name VARCHAR(80) NOT NULL`                                                            |
+| UNIQUE     | attribute value must be distinct                     | `{sql} email VARCHAR(120) UNIQUE`                                                                 |
+| DEFAULT    | assign automatic value when none is provided         | `{sql} quantity INT DEFAULT 1, `<br>`{sql unwrap} created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP` |
+| CHECK      | enforce logical conditions on values                 | `{sql} price NUMERIC(10, 2) CHECK (price > 0),`<br>`{sql} stock INT CHECK (stock >= 0)`           |
+| IN         | attribute value should match one of specified values | `{sql} grade VARCHAR(30) NOT NULL CHECK (role IN (1, 2, 3))`                                      |
+| DOMAIN     | constraints - reusable type with rules               | `{sql} CREATE DOMAIN positive_int AS INT CHECK (VALUE > 0);`<br>`{sql} temperature positive_int`  |
+### ALTER - Modifying Existing Tables
+
+>[!note] Add new column
+>```sql
+>ALTER TABLE employee 
+>ADD COLUMN email VARCHAR(120);
+>```
+
+>[!note] Add a constraint
+>```sql
+>ALTER TABLE employee 
+>ADD CONSTRAINT emp_email_unique UNIQUE (email);
+>```
+
+>[!note] Rename a column
+>```sql
+>ALTER TABLE employee 
+>RENAME COLUMN full_name TO name;
+>```
+
+>[!note] Modify column definition
+>```sql
+>ALTER TABLE employee 
+>ALTER COLUMN email TYPE VARCHAR(200);
+>```
+
+>[!note] Delete a column
+>```sql
+>ALTER TABLE employee 
+>DROP COLUMN email;
+>```
+
+>[!note] Add a foreign key
+>```sql
+>ALTER TABLE employee 
+>ADD CONSTRAINT fk_emp_dept FOREIGN KEY (dept_id) REFERENCES department(dept_id) 
+>ON DELETE CASCADE;
+>```
+

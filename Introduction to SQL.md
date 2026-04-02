@@ -133,6 +133,8 @@ CREATE TABLE COMPANY.EMPLOYEE (
 | IN         | attribute value should match one of specified values | `{sql} grade VARCHAR(30) NOT NULL CHECK (role IN (1, 2, 3))`                                      |
 | DOMAIN     | constraints - reusable type with rules               | `{sql} CREATE DOMAIN positive_int AS INT CHECK (VALUE > 0);`<br>`{sql} temperature positive_int`  |
 ### ALTER - Modifying Existing Tables
+- **ALTER TABLE** - change structure of an existing table
+- ALTER TABLE modifies schema, not data.
 
 >[!note] Add new column
 >```sql
@@ -170,4 +172,68 @@ CREATE TABLE COMPANY.EMPLOYEE (
 >ADD CONSTRAINT fk_emp_dept FOREIGN KEY (dept_id) REFERENCES department(dept_id) 
 >ON DELETE CASCADE;
 >```
+
+### DROP - Removing Existing Tables
+- **DROP TABLE** - permanently remove the table and all its data
+- DROP TABLE cannot be undone (unless backups / transactions are used).
+
+#### Drop Table
+```sql
+DROP TABLE employee;
+```
+#### Drop table and remove dependent objects
+```sql
+DROP TABLE department CASCADE;
+```
+#### Drop table if exists (safe version)
+```sql
+DROP TABLE IF EXISTS employee;
+```
+#### Drop table only if dependent objects do not exist
+```sql
+DROP TABLE department RESTRICT;
+```
+
+### TRUNCATE - Emptying a Table
+- **TRUNCATE TABLE** - removes all rows from a table at once (without row-by-row deletion), keeping the table structure but emptying its data
+- Truncate is faster than DELETE without WHERE.
+```sql
+TRUNCATE TABLE employee;
+```
+
+### RENAME - Renaming a Table
+- **RENAME** - changes the name of a database without changing its data or structure
+```sql
+ALTER TABLE employee RENAME TO staff;
+```
+## DML - Data Manipulation Language
+**Insert one row:**
+```sql
+INSERT INTO employee (full_name, dept_id)
+VALUES ('John Smith', 2);
+```
+
+**Insert multiple rows:**
+```sql
+INSERT INTO employee (full_name, dept_id)
+VALUES ('Jane Johnson', 1),
+       ('Mark Lee', 1);
+```
+
+**Insert from a query:**
+```sql
+INSERT INTO employee (full_name, dept_id)
+SELECT name, dept_id
+FROM candidates
+WHERE approved = true;
+```
+
+**Get inserted rows back:**
+```sql
+INSERT INTO employee (full_name, dept_id)
+VALUES ('John Doe', 3)
+RETURNING emp_id, full_name;
+```
+
+>[!quote] If you omit a NOT NULL column (without a DEFAULT), the insert fails.
 

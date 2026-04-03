@@ -3274,6 +3274,7 @@ DEFAULT
 DOMAIN
 Drop
 Deleting
+Durability
 Lecturer
 Link
 Line
@@ -12419,6 +12420,7 @@ INSERT
 Including
 Inserting
 Improved
+Interleaved
 Telegram
 Theorem
 Text
@@ -15247,6 +15249,7 @@ THEN
 Thomas
 Trigger
 Transactions
+TRANSACTION
 nomemm
 need
 necessary
@@ -18088,6 +18091,7 @@ normalization
 nouns
 noun
 named
+nonrecoverable
 to
 the
 topics
@@ -20870,6 +20874,7 @@ truly
 triggering
 trigger
 triggers
+theoretically
 Course
 Curves
 Continuation
@@ -23931,6 +23936,9 @@ COUNT
 Calculations
 CALL
 COMMIT
+Committed
+Conflicting
+Conflict
 Sections
 Surfaces
 Spaces
@@ -27039,6 +27047,11 @@ Scanning
 SCHEMA
 SET
 Sorting
+START
+Schedules
+Serializability
+Serializable
+SAVEPOINT
 Algebra
 AGLA
 Assignments
@@ -29973,6 +29986,10 @@ Automatically
 Allow
 ALTER
 Anna
+ACID
+Atomicity
+Active
+Aborted
 and
 algebra
 any
@@ -33040,6 +33057,8 @@ administrative
 automate
 archive
 attached
+alone
+auto
 Plane
 Problem
 Prove
@@ -35860,6 +35879,7 @@ PRIMARY
 Procedure
 Performing
 Procedural
+Partially
 Quadratic
 Qn
 QL
@@ -41482,6 +41502,7 @@ Berkley
 BSD
 Build
 Business
+BEGIN
 Material
 MORE
 Mathematical
@@ -48267,6 +48288,9 @@ produced
 pagination
 procedural
 precompiled
+preserved
+permanent
+permitted
 Read
 Relations
 RY
@@ -51543,6 +51567,9 @@ RESTRICT
 Reusability
 ROLLBACK
 Reduce
+Recoverability
+Recoverable
+Repeatable
 of
 one
 others
@@ -69665,6 +69692,7 @@ domains
 dependence
 dataset
 dept
+durability
 independency
 in
 info
@@ -76722,6 +76750,7 @@ Foreign
 Finds
 Filtering
 Feature
+Failed
 vectors
 vector
 variable
@@ -79474,6 +79503,8 @@ verb
 violation
 vendor
 validated
+violated
+visibility
 for
 file
 form
@@ -85388,6 +85419,12 @@ synchronizing
 starts
 symbols
 salary
+slices
+succeed
+survive
+schedules
+sees
+snapshot
 exist
 excalidraw
 everything
@@ -88576,6 +88613,7 @@ enforce
 eliminated
 emptying
 emp
+ends
 have
 hQ
 hfRF
@@ -94890,6 +94928,14 @@ container
 catalog
 clause
 combine
+committed
+crashes
+conflict
+criterion
+commits
+conflicting
+commited
+checkpoints
 Necessity
 Nikolay
 Natural
@@ -97604,6 +97650,8 @@ Nuts
 NACKs
 NULL
 Normalization
+Need
+NoSQL
 Given
 Graphs
 Gg
@@ -103564,6 +103612,7 @@ belongs
 business
 breaking
 backups
+begins
 EXCALIDRAW
 Excalidraw
 Elements
@@ -109903,6 +109952,7 @@ Original
 OSPF
 Overlapping
 ONLY
+Once
 menu
 more
 mA
@@ -113549,6 +113599,7 @@ matching
 merged
 multivalued
 maintainability
+multiuser
 You
 YC
 YR
@@ -119633,6 +119684,7 @@ west
 whenever
 wire
 weak
+wrong
 under
 up
 unclear
@@ -122767,6 +122819,7 @@ unwanted
 unless
 undone
 updated
+undo
 represented
 ru
 rows
@@ -125861,6 +125914,10 @@ relevant
 reusable
 routine
 reused
+rolled
+roll
+recoverable
+rolling
 Zorich
 ZM
 ZB
@@ -138291,6 +138348,7 @@ Hypertext
 Hides
 Hide
 HAVING
+Highest
 XKo
 Xg
 XWo

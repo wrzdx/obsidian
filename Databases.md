@@ -8,3 +8,4 @@
 - [From ERD to Relational Model](From%20ERD%20to%20Relational%20Model.md)
 - [Introduction to SQL](Introduction%20to%20SQL.md)
 - [Advanced SQL](Advanced%20SQL.md)
+- [Database Normalization](Database%20Normalization.md)

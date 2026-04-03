@@ -57187,6 +57187,7 @@ locking
 lattice
 losing
 longevity
+lossless
 geometria
 gN
 gQ
@@ -97503,6 +97504,7 @@ National
 Nuts
 NACKs
 NULL
+Normalization
 Given
 Graphs
 Gg
@@ -100715,6 +100717,7 @@ Gathering
 Grade
 Generalization
 GRANT
+Guidelines
 basis
 be
 bd

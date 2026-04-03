@@ -3270,6 +3270,10 @@ Disjoint
 Derivation
 DateOfBirth
 DROP
+DEFAULT
+DOMAIN
+Drop
+Deleting
 Lecturer
 Link
 Line
@@ -5944,6 +5948,8 @@ Likely
 Lookup
 Location
 Lattice
+Limiting
+LIKE
 Vladimir
 Vector
 VIEW
@@ -12411,6 +12417,8 @@ Integrity
 Insert
 INSERT
 Including
+Inserting
+Improved
 Telegram
 Theorem
 Text
@@ -15233,6 +15241,12 @@ TRUNCATE
 TCL
 Transaction
 Triggers
+TABLE
+Truncate
+THEN
+Thomas
+Trigger
+Transactions
 nomemm
 need
 necessary
@@ -20852,6 +20866,10 @@ textAlign
 totally
 translating
 tokens
+truly
+triggering
+trigger
+triggers
 Course
 Curves
 Continuation
@@ -23907,6 +23925,12 @@ CREATE
 Controls
 COMPANY
 Correctly
+CHECK
+CASCADE
+COUNT
+Calculations
+CALL
+COMMIT
 Sections
 Surfaces
 Spaces
@@ -27012,6 +27036,9 @@ SQLcompatible
 SELECT
 Steps
 Scanning
+SCHEMA
+SET
+Sorting
 Algebra
 AGLA
 Assignments
@@ -29945,6 +29972,7 @@ Attribute
 Automatically
 Allow
 ALTER
+Anna
 and
 algebra
 any
@@ -33004,6 +33032,14 @@ avoids
 authorized
 applicable
 activities
+assign
+automatic
+aggregate
+atomically
+administrative
+automate
+archive
+attached
 Plane
 Problem
 Prove
@@ -35820,6 +35856,10 @@ Projection
 Productivity
 Parsing
 Procedures
+PRIMARY
+Procedure
+Performing
+Procedural
 Quadratic
 Qn
 QL
@@ -45088,6 +45128,12 @@ Merge
 Manipulation
 MERGE
 Minimize
+Modifying
+Merging
+MATCHED
+Match
+Michail
+Must
 pdf
 previous
 prove
@@ -48216,6 +48262,11 @@ privileges
 privilege
 parser
 pgSQL
+permanently
+produced
+pagination
+procedural
+precompiled
 Read
 Relations
 RY
@@ -51485,6 +51536,13 @@ Reject
 Rejects
 RENAME
 REVOKE
+Removing
+Renaming
+Return
+RESTRICT
+Reusability
+ROLLBACK
+Reduce
 of
 one
 others
@@ -54365,6 +54423,7 @@ opposite
 observations
 overlap
 owned
+omit
 lecture
 lineynaya
 linear
@@ -60179,6 +60238,7 @@ guarantee
 guarantees
 guaranteed
 granted
+giving
 Umnov
 Uniqueness
 Uf
@@ -63356,6 +63416,8 @@ Unreliable
 UPPERCASE
 Updates
 UPDATE
+UNIQUE
+Updating
 Watch
 We
 What
@@ -66390,6 +66452,9 @@ Webpage
 Wisdom
 Weak
 WORKS
+WHERE
+WHEN
+Wildcard
 dependency
 dependent
 document
@@ -69598,6 +69663,8 @@ duplicates
 deletion
 domains
 dependence
+dataset
+dept
 independency
 in
 info
@@ -73522,6 +73589,11 @@ inherited
 insertion
 insert
 included
+inserted
+inserting
+insensitive
+inside
+inventory
 For
 Functions
 Frolov
@@ -76648,6 +76720,8 @@ Focuses
 Foot
 Foreign
 Finds
+Filtering
+Feature
 vectors
 vector
 variable
@@ -82163,6 +82237,8 @@ facts
 facing
 formats
 foreign
+fails
+fires
 scalars
 sufficient
 settings
@@ -85307,6 +85383,11 @@ setting
 standardized
 savepoint
 scanner
+spacifying
+synchronizing
+starts
+symbols
+salary
 exist
 excalidraw
 everything
@@ -88493,6 +88574,8 @@ enroll
 extends
 enforce
 eliminated
+emptying
+emp
 have
 hQ
 hfRF
@@ -91478,6 +91561,7 @@ hotmail
 hostname
 handshaking
 hierarchies
+history
 combination
 can
 command
@@ -100733,6 +100817,7 @@ Grade
 Generalization
 GRANT
 Guidelines
+GROUP
 basis
 be
 bd
@@ -103478,6 +103563,7 @@ broad
 belongs
 business
 breaking
+backups
 EXCALIDRAW
 Excalidraw
 Elements
@@ -106719,6 +106805,10 @@ Employees
 Engineers
 Employee
 Explicit
+Emptying
+Exclude
+Emily
+Executes
 OPTIONS
 Operations
 Obtain
@@ -109812,6 +109902,7 @@ Outlook
 Original
 OSPF
 Overlapping
+ONLY
 menu
 more
 mA
@@ -113457,6 +113548,7 @@ multiplied
 matching
 merged
 multivalued
+maintainability
 You
 YC
 YR
@@ -122673,6 +122765,8 @@ uniqueness
 unnecessary
 unwanted
 unless
+undone
+updated
 represented
 ru
 rows
@@ -125764,6 +125858,9 @@ rename
 rare
 rollback
 relevant
+reusable
+routine
+reused
 Zorich
 ZM
 ZB
@@ -138193,6 +138290,7 @@ HEAD
 Hypertext
 Hides
 Hide
+HAVING
 XKo
 Xg
 XWo
@@ -150578,6 +150676,7 @@ knowledge
 knows
 keys
 keywords
+kept
 yn
 yhR
 yg

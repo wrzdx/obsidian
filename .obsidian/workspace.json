@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de17f05c9b69d452",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Databases"
-            }
-          },
-          {
-            "id": "a0e601b62c40bcdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Databases"
-            }
-          },
-          {
             "id": "c726d3edadee248a",
             "type": "leaf",
             "state": {
@@ -53,67 +23,22 @@
             }
           },
           {
-            "id": "cac38edee7a8b1c3",
+            "id": "1a97712a9a0571e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stored Procedures, Functions, Triggers and PL pgSQL.md",
+                "file": "Concurrency Control & Transactions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Stored Procedures, Functions, Triggers and PL pgSQL"
-            }
-          },
-          {
-            "id": "b28ae6d0b3f49034",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTTP and FTP protocols.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTP and FTP protocols"
-            }
-          },
-          {
-            "id": "e388042d7f75076f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to SQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction to SQL"
-            }
-          },
-          {
-            "id": "7d38d0e97de55f82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Relational Model & Relational Algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Relational Model & Relational Algebra"
+              "title": "Concurrency Control & Transactions"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stored Procedures, Functions, Triggers and PL pgSQL.md",
+                "file": "Concurrency Control & Transactions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stored Procedures, Functions, Triggers and PL pgSQL"
+              "title": "Backlinks for Concurrency Control & Transactions"
             }
           }
         ],
@@ -213,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stored Procedures, Functions, Triggers and PL pgSQL.md",
+                "file": "Concurrency Control & Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Stored Procedures, Functions, Triggers and PL pgSQL"
+              "title": "Outgoing links from Concurrency Control & Transactions"
             }
           }
         ]
@@ -337,12 +262,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "cac38edee7a8b1c3",
+  "active": "1a97712a9a0571e8",
   "lastOpenFiles": [
     "Databases.md",
+    "Concurrency Control & Transactions.md",
     "Stored Procedures, Functions, Triggers and PL pgSQL.md",
-    "Query Processing & Optimization.md",
+    "Relational Model & Relational Algebra.md",
+    "Introduction to SQL.md",
     "HTTP and FTP protocols.md",
+    "Query Processing & Optimization.md",
     "Internal representation of the query.md",
     "Database Normalization.md",
     "Advanced SQL.md",
@@ -359,11 +287,9 @@
     "TCP and UDP Protocols.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Data Encapsulation.md",
-    "Introduction to SQL.md",
     "Library/Pasted image 20260402052235.png",
     "Entity-Relationship Model.md",
     "Enchanced Entity-Relationship Model.md",
-    "Relational Model & Relational Algebra.md",
     "Library/Pasted image 20260401170547.png",
     "Library/Pasted image 20260401170000.png",
     "Library/Pasted image 20260401165812.png",
@@ -374,7 +300,6 @@
     "UML (Unified Modeling Language). Knowledge Representation (KR).md",
     "Distributed and Network Programming.md",
     "Socket Programming in C.md",
-    "Summary of Application-layer Protocols.md",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

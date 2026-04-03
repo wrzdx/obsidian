@@ -11,3 +11,4 @@
 - [Database Normalization](Database%20Normalization.md)
 - [Query Processing & Optimization](Query%20Processing%20&%20Optimization.md)
 - [Stored Procedures, Functions, Triggers and PL pgSQL](Stored%20Procedures,%20Functions,%20Triggers%20and%20PL%20pgSQL.md)
+- [Concurrency Control & Transactions](Concurrency%20Control%20&%20Transactions.md)

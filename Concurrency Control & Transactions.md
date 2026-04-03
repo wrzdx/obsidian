@@ -52,3 +52,42 @@ Schedule is the order in which operations from multiple transactions are execute
 >1. They belong to different transactions.
 >2. They access the same item.
 >3. At least one of the operations is a write operation.
+
+#### Types of Schedules Based on Recoverability
+Once a transaction T is committed, it should never be necessary to roll back T. 
+This ensures that the durability property is not violated. 
+
+The schedules that theoretically meet this criterion are called *recoverable schedules*. 
+
+A schedule where a committed transaction may have to be rolled back during recovery is called *nonrecoverable schedule* and hence should not be permitted by the DBMS.
+
+>[!note] Recoverable Schedule
+>A schedule S is recoverable if no transaction T in S commits until all transactions T’ that have written some item X that T reads have committed.
+
+
+#### Types of Schedules Based on Serializability
+**Serial Schedule**:
+- Transactions are executed one after another, with no overlap.
+
+**Non-Serial Schedule**:
+- Operations of multiple transactions are interleaved.
+
+>[!note] Conflict-Serializable Schedule
+>A non-serial schedule that produces the same result as some serial schedule, based on the order of conflicting operations. 
+>If conflicts are ordered correctly, the schedule is safe.
+
+### PostgreSQL
+By default, PostgreSQL runs in auto-commit mode: Each SQL statement is its own transaction that is commited automatically.
+
+```sql
+BEGIN;
+// set of statements
+[COMMIT | ROLLBACK];
+```
+
+>[!note] SAVEPOINT
+>A SAVEPOINT in PostgreSQL is a mechanism that allows you to create intermediate checkpoints inside a transaction.
+>Instead of rolling back the entire transaction when something goes wrong, you can roll back only to a specific point.
+>```sql
+>
+>```

@@ -40,3 +40,18 @@ Indexes in SQL are special database structures that *speed up data retrieval* by
 
 They act like a lookup system and play an important role in improving query performance and database efficiency.
 
+#### Primary Indexes
+A **primary index** is an ordered file whose records are of fixed length with two fields, and it acts like an access structure to efficiently search for and access the data records in a data file.
+
+The first field is of the same data type as the ordering key field (primary key) of the data file, and the second field is a pointer to a disk block (a block address).
+#### Clustering Indexes
+Clustering index — это индекс для отсортированного, но неуникального поля, где каждая запись указывает на начало группы одинаковых значений
+
+#### Secondary Indexes
+Почти такой же как primary key, но только на других полях
+
+### EXPLAIN & ANALYZE
+- **EXPLAIN**: shows the execution plan that PostgreSQL intends to use, but does *not actually execute the query*.
+- **EXPLAIN ANALYZE**: shows the execution plan and actually *executes the query*.
+- **ANALYZE**: is not related to query execution plans directly. It *updates database statistics* used by the optimizer.
+## 

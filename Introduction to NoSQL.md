@@ -58,4 +58,147 @@ NoSQL is not a replacement for SQL in all cases; it is an alternative family of 
 ### Categories
 - **Key-Value Stores:** 
 	- data as (key, value) 
-	- extremely fast lookup by key example use: caching, session storage
+	- extremely fast lookup by key 
+	- example use: caching, session storage
+- **Document Databases:**
+	- JSON/BSON-like documents 
+	- nested and semi-structured data 
+	- example use: user profiles, product catalogs
+- **Wide-Column Stores:**
+	- distributed tables with flexible columns 
+	- optimized for huge write/read throughput 
+	- example use: telemetry, event storage
+- **Graph Databases:**
+	- nodes, edges, properties 
+	- optimized for relationship-heavy traversal 
+	- example use: fraud detection, social graphs
+#### Key–Value Stores
+**Basic model:** unique key identifies an arbitrary value 
+
+**Operations** are usually simple: 
+- *PUT(key, value)* 
+- *GET(key)* 
+- *DELETE(key)* 
+
+````col
+```col-md
+flexGrow=1
+===
+
+>[!success] Strength
+>- very high performance 
+>- simple partitioning by key
+>- excellent for caching and transient state 
+
+```
+```col-md
+flexGrow=1
+===
+
+>[!failure] Weaknesses 
+>- poor support for complex queries 
+>- no relationship modeling
+>- querying by value fields is limited or impossible
+
+```
+````
+
+>[!summary] 
+> If access is almost always by primary identifier, key-value is often enough.
+>
+
+#### Document Databases
+**Data model:** Data is stored as self-contained documents 
+
+````col
+```col-md
+flexGrow=1
+===
+
+>[!success] Strength
+>- natural mapping to application objects 
+>- nested structures reduce joins
+>- flexible evolution of fields 
+>- indexing on document attributes
+
+```
+```col-md
+flexGrow=1
+===
+
+>[!failure] Weaknesses 
+>- duplication is common 
+>- joins are often limited or less efficient than in RDBMS
+>- poor design can create update anomalies
+
+```
+````
+
+>[!summary] 
+> Document databases often shift complexity from joins to applicationaware document design
+
+#### Wide-Column Stores
+**Data model:** row key, column families, sparse columns, distributed partitions 
+
+- A wide-column store can be interpreted as a two-dimensional key–value store
+
+````col
+```col-md
+flexGrow=1
+===
+
+>[!success] Strength
+>- enormous write volumes 
+>- append-heavy workloads 
+>- predictable queries on partition key
+
+```
+```col-md
+flexGrow=1
+===
+
+>[!failure] Weaknesses 
+>- weak support for ad hoc joins
+>- denormalization is expected
+>- poor partition-key design causes hotspots
+
+```
+````
+
+>[!summary] 
+> In wide-column systems, schema is often query-driven rather than entity-driven
+
+
+
+#### Graph Databases
+**Data model:** 
+- nodes = entities 
+- edges = relationships 
+- properties = attributes
+
+````col
+```col-md
+flexGrow=1
+===
+
+>[!success] Strength
+>- enormous write volumes 
+>- append-heavy workloads 
+>- predictable queries on partition key
+
+```
+```col-md
+flexGrow=1
+===
+
+>[!failure] Weaknesses 
+>- weak support for ad hoc joins
+>- denormalization is expected
+>- poor partition-key design causes hotspots
+
+```
+````
+
+>[!summary] 
+> In wide-column systems, schema is often query-driven rather than entity-driven
+

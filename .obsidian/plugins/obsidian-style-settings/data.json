@@ -1,3 +1,5 @@
 {
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-avocado-topaz"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-dracula",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
+  "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-frosted-glass"
 }

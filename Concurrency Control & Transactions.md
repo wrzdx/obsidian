@@ -89,5 +89,38 @@ BEGIN;
 >A SAVEPOINT in PostgreSQL is a mechanism that allows you to create intermediate checkpoints inside a transaction.
 >Instead of rolling back the entire transaction when something goes wrong, you can roll back only to a specific point.
 >```sql
+>BEGIN; 
 >
+>UPDATE accounts SET balance = balance - 100 WHERE id = 1; 
+>
+>SAVEPOINT sp1; 
+>
+>UPDATE accounts 
+>SET balance = balance + 100 
+>WHERE id = 2; 
+>
+>ROLLBACK TO sp1; 
+>
+>COMMIT
 >```
+
+#### Isolation
+Isolation defines how transactions interact with each other. It controls visibility of changes between concurrent transactions.
+
+**Read Committed (Default)** 
+- A transaction sees only committed data 
+- Each query sees the latest committed version
+
+**Repeatable Read**
+- All queries see the same snapshot of data 
+- Data does not change during the transaction
+
+**Serializable**
+- Highest isolation level 
+- Execution behaves like transactions run one by one
+
+```sql
+BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+```
+```
+```

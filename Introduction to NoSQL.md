@@ -182,9 +182,11 @@ flexGrow=1
 ===
 
 >[!success] Strength
->- enormous write volumes 
->- append-heavy workloads 
->- predictable queries on partition key
+>- shortest path 
+>- recommendation 
+>- dependency networks
+>- social connections 
+>- fraud ring detection
 
 ```
 ```col-md
@@ -192,13 +194,10 @@ flexGrow=1
 ===
 
 >[!failure] Weaknesses 
->- weak support for ad hoc joins
->- denormalization is expected
->- poor partition-key design causes hotspots
+>- not ideal for simple tabular data
+>- can be harder to scale horizontally
+>- performance depends heavily on query type
 
 ```
 ````
-
->[!summary] 
-> In wide-column systems, schema is often query-driven rather than entity-driven
 

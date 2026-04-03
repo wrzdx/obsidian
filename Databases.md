@@ -9,3 +9,4 @@
 - [Introduction to SQL](Introduction%20to%20SQL.md)
 - [Advanced SQL](Advanced%20SQL.md)
 - [Database Normalization](Database%20Normalization.md)
+- [Query Processing & Optimization](Query%20Processing%20&%20Optimization.md)

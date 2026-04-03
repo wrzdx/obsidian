@@ -35,4 +35,9 @@ If K is a key of R, then K functionally determines all attributes in R.
 	- Relation should be in Second Normal Form (2NF).
 	- Each non-prime attribute must depend solely on each candidate key.
 	- No non-prime attribute functionally depends of other non-prime attribute.
-- Boyce–Codd Normal Form
+- **Boyce–Codd Normal Form (BCNF)**:
+	- Relation should be in Third Normal Form (3NF)
+	- Every non-trivial functional dependency in a table must be a dependency on a superkey.
+- **4NF**:
+	- Relation should be in Boyce–Codd Normal Form (BCNF).
+	- For every one of its non-trivial multivalued dependencies X ->> Y, X is a superkey.

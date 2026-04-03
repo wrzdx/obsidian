@@ -122,5 +122,6 @@ Isolation defines how transactions interact with each other. It controls visibil
 ```sql
 BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ;
 ```
-```
+```sql
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 ```

@@ -54,4 +54,7 @@ Clustering index — это индекс для отсортированного
 - **EXPLAIN**: shows the execution plan that PostgreSQL intends to use, but does *not actually execute the query*.
 - **EXPLAIN ANALYZE**: shows the execution plan and actually *executes the query*.
 - **ANALYZE**: is not related to query execution plans directly. It *updates database statistics* used by the optimizer.
-## 
+## How to Optimize SQL Queries?
+1) Write efficient queries and *retrieve only the data you need*. Avoid using SELECT * and instead specify only the required columns.
+2) *Different RDBMS* have optimizations that are specific to them. Familiarizing yourself with the features and optimizations peculiar to your chosen database system will form the foundation of your SQL optimization process.
+3) Look out for *unwanted indexes*, as this will affect the performance of your application when you run SQL queries that use the INSERT or UPDATE command.

@@ -15232,6 +15232,7 @@ Theta
 TRUNCATE
 TCL
 Transaction
+Triggers
 nomemm
 need
 necessary
@@ -35818,6 +35819,7 @@ Prevent
 Projection
 Productivity
 Parsing
+Procedures
 Quadratic
 Qn
 QL
@@ -48213,6 +48215,7 @@ portability
 privileges
 privilege
 parser
+pgSQL
 Read
 Relations
 RY

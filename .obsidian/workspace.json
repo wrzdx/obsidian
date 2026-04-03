@@ -43,13 +43,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Query Processing & Optimization.md",
+                "file": "Databases.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Query Processing & Optimization"
+              "title": "Databases"
+            }
+          },
+          {
+            "id": "cac38edee7a8b1c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stored Procedures, Functions, Triggers and PL pgSQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Stored Procedures, Functions, Triggers and PL pgSQL"
             }
           },
           {
@@ -98,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -172,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Query Processing & Optimization.md",
+                "file": "Stored Procedures, Functions, Triggers and PL pgSQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Query Processing & Optimization"
+              "title": "Backlinks for Stored Procedures, Functions, Triggers and PL pgSQL"
             }
           }
         ],
@@ -198,12 +213,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Query Processing & Optimization.md",
+                "file": "Stored Procedures, Functions, Triggers and PL pgSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Query Processing & Optimization"
+              "title": "Outgoing links from Stored Procedures, Functions, Triggers and PL pgSQL"
             }
           }
         ]
@@ -322,12 +337,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "c726d3edadee248a",
+  "active": "cac38edee7a8b1c3",
   "lastOpenFiles": [
+    "Databases.md",
+    "Stored Procedures, Functions, Triggers and PL pgSQL.md",
+    "Query Processing & Optimization.md",
     "HTTP and FTP protocols.md",
     "Internal representation of the query.md",
-    "Query Processing & Optimization.md",
-    "Databases.md",
     "Database Normalization.md",
     "Advanced SQL.md",
     "Library/Pasted image 20260403050919.png",
@@ -359,7 +375,6 @@
     "Distributed and Network Programming.md",
     "Socket Programming in C.md",
     "Summary of Application-layer Protocols.md",
-    "DNS.md",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

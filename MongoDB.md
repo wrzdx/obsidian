@@ -92,12 +92,48 @@ db.posts.findOne()
 
 **Querying documents**
 ```python
-b.students.find({ year: 2 })
+db.students.find({ year: 2 })
 db.students.find({ year: { $gte: 2 } })
-db.students.find({ "address.city"
-:
-"Kazan" })
-db.students.find({ skills:
-"Python" })
+db.students.find({ "address.city":"Kazan" })
+db.students.find({ skills:"Python" })
 db.students.find({ $or: [ { year: 1 }, { year: 2 } ] })
 ```
+
+## Update
+```python
+db.posts.updateOne( { title: "Post Title 1" }, { $set: { likes: 2 } } )
+```
+
+**Update + Upsert**: Update the document, but if not found insert it
+```python
+db.posts.updateOne(
+    {title: "Post Title 5"},
+    {
+        $set: {
+            title: "Post Title 5",
+            body: "Body of post.",
+            category: "Event",
+            tags: ["news", "events"],
+            date: Date(),
+        }
+    },
+    {upsert: true},
+)
+
+```
+
+**$set** – change field value
+**$push** – append to array
+**$inc** – increment numeric field
+
+## Delete
+**Delete One**: delete the first document that matches the query provided
+```python
+db.posts.deleteOne({ title: "Post Title 5" })
+```
+
+**Delete Many**: delete all documents that match the query provided
+```python
+db.posts.deleteMany({ category: "Technology" })
+```
+

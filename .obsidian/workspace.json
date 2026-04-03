@@ -67,8 +67,7 @@
               "title": "Concurrency Control & Transactions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MongoDB.md",
+                "file": "Databases.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MongoDB"
+              "title": "Backlinks for Databases"
             }
           }
         ],
@@ -168,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MongoDB.md",
+                "file": "Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MongoDB"
+              "title": "Outgoing links from Databases"
             }
           }
         ]
@@ -292,10 +291,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "401832860933dcb9",
+  "active": "c726d3edadee248a",
   "lastOpenFiles": [
-    "Databases.md",
     "MongoDB.md",
+    "Databases.md",
     "Introduction to NoSQL.md",
     "Concurrency Control & Transactions.md",
     "Stored Procedures, Functions, Triggers and PL pgSQL.md",

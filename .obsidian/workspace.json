@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases.md",
+                "file": "Regression.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Databases"
+              "title": "Regression"
             }
           },
           {
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases.md",
+                "file": "Regression.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Databases"
+              "title": "Backlinks for Regression"
             }
           }
         ],
@@ -167,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases.md",
+                "file": "Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Databases"
+              "title": "Outgoing links from Regression"
             }
           }
         ]
@@ -293,8 +293,15 @@
   },
   "active": "c726d3edadee248a",
   "lastOpenFiles": [
-    "MongoDB.md",
+    "Library/Pasted image 20260404042314.png",
+    "Library/Pasted image 20260404042302.png",
+    "Library/Pasted image 20260404042155.png",
+    "Introduction to Machine Learning.md",
+    "Foundations of Machine Learning.md",
+    "Regression.md",
+    "Innopolis 2st year.md",
     "Databases.md",
+    "MongoDB.md",
     "Introduction to NoSQL.md",
     "Concurrency Control & Transactions.md",
     "Stored Procedures, Functions, Triggers and PL pgSQL.md",
@@ -314,21 +321,14 @@
     "From ERD to Relational Model.md",
     "Network Characteristics Scale, Metrics.md",
     "Basic Networks concepts.md",
-    "Innopolis 2st year.md",
     "TCP and UDP Protocols.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Data Encapsulation.md",
     "Library/Pasted image 20260402052235.png",
-    "Entity-Relationship Model.md",
-    "Enchanced Entity-Relationship Model.md",
     "Library/Pasted image 20260401170547.png",
     "Library/Pasted image 20260401170000.png",
     "Library/Pasted image 20260401165812.png",
     "Library/Pasted image 20260401164851.png",
-    "Library/Pasted image 20260401164551.png",
-    "Library/Pasted image 20260401164229.png",
-    "Database Modeling.md",
-    "UML (Unified Modeling Language). Knowledge Representation (KR).md",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

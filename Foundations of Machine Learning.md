@@ -1,5 +1,5 @@
 ## What is Machine Learning?
-- Computer programs that improve their performance at some task through experience
+- Computer programs that improve their *performance* at some task through *experience*
 
 ## Experience
 Data

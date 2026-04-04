@@ -20875,6 +20875,7 @@ triggering
 trigger
 triggers
 theoretically
+targets
 Course
 Curves
 Continuation
@@ -29990,6 +29991,7 @@ ACID
 Atomicity
 Active
 Aborted
+Assessing
 and
 algebra
 any
@@ -35878,6 +35880,7 @@ Procedure
 Performing
 Procedural
 Partially
+Putting
 Quadratic
 Qn
 QL
@@ -38704,6 +38707,7 @@ Queue
 QUIT
 Query
 Querying
+Quality
 Basis
 Body
 Basic
@@ -48288,6 +48292,7 @@ precompiled
 preserved
 permanent
 permitted
+predictors
 Read
 Relations
 RY
@@ -54448,6 +54453,7 @@ observations
 overlap
 owned
 omit
+overfitting
 lecture
 lineynaya
 linear
@@ -73619,6 +73625,7 @@ inserting
 insensitive
 inside
 inventory
+inferring
 For
 Functions
 Frolov
@@ -97649,6 +97656,7 @@ NULL
 Normalization
 Need
 NoSQL
+Needs
 Given
 Graphs
 Gg
@@ -106855,6 +106863,7 @@ Emptying
 Exclude
 Emily
 Executes
+Experience
 OPTIONS
 Operations
 Obtain
@@ -113597,6 +113606,7 @@ merged
 multivalued
 maintainability
 multiuser
+malwares
 You
 YC
 YR
@@ -125915,6 +125925,7 @@ rolled
 roll
 recoverable
 rolling
+ratio
 Zorich
 ZM
 ZB

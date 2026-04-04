@@ -50,5 +50,9 @@ $$\mathcal{L}(w_{0}, w_{1}) = \frac{1}{n}\sum^{n}_{i=1} (y_{i} - (w_{0}+ w_{1}x_
 2) Set them to 0
 3) And solve for $w_0$ and $w_{1}$
 $$\mathcal{L}(w_{0}, w_{1}) = \frac{1}{n}\sum^{n}_{i=1} (w_{1}^{2}x_{i}^{2} + 2w_{1}x_{i}(w_{0}-y_{i}) + w_{0}^{2}- 2w_{0}y_{i} + y_{i}^{2})$$
+
 Partial Derivatives
-$$\frac{\partial\mathcal{L}}{\partial w_{0}}=2w_{0}+2w_{1} \frac{1}{n}(\sum) $$
+$$\displaylines{\frac{\partial\mathcal{L}}{\partial w_{0}}=2w_{0}+2w_{1} \frac{1}{n}\left(\sum_{i=1}^{n}x_{i}\right) - 2\frac{1}{n}\left(\sum_{i=1}^{n}y_{i}\right) \\
+\frac{\partial\mathcal{L}}{\partial w_{1}} = 2w_{1} \frac{1}{n}\left(\sum_{i=1}^{n}x_{i}^{2}\right) + 2 \frac{1}{n}\left(\sum_{i=1}^{n}x_{i}(w_{0} - y_{i})\right)}$$
+Set them to zero, simplify and solve
+$$\displaylines{w_{0}=\overline{y} - w_{1}\overline{x} \\ w_{1}= \frac{\overline{xy} - \overline{x} \ \overline{y}}{\overline{x^{2}}- (\overline{x})^{2}}}$$

@@ -29,3 +29,12 @@ $$y = w_{0} + w_{1}x_{1} + w_{2}x_{2} + \dots + w_{n}x_{n}$$
 - Thus we are restricting ourselves to a hypothesis space of linear functions
 
 ## Mean Squared Error (MSE)
+$$\displaylines{
+f(x_{i}) = w_{0}+ w_{1}x_{1}\\
+MSE = \mathcal{L}(w_{0}, w_{1}) = \frac{1}{n}\sum^{n}_{i=1} (y_{i} - f(x_{i}))^{2}
+}$$
+We need to find the value of parameters that minimize this cost or *loss function*.
+$$\underset{w_{0}, w_{1}}{argmin}\ \mathcal{L}(w_{0},w_{1})$$
+*argmin* – shorthand for “find the argument that minimizes …”
+
+## Derivative

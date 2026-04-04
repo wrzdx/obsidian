@@ -3275,6 +3275,8 @@ DOMAIN
 Drop
 Deleting
 Durability
+Derivative
+Derivatives
 Lecturer
 Link
 Line
@@ -20876,6 +20878,7 @@ trigger
 triggers
 theoretically
 targets
+tuning
 Course
 Curves
 Continuation
@@ -27053,6 +27056,7 @@ Schedules
 Serializability
 Serializable
 SAVEPOINT
+Squared
 Algebra
 AGLA
 Assignments
@@ -33059,6 +33063,8 @@ archive
 attached
 alone
 auto
+argmin
+argument
 Plane
 Problem
 Prove
@@ -41505,6 +41511,7 @@ BSD
 Build
 Business
 BEGIN
+Bad
 Material
 MORE
 Mathematical
@@ -54454,6 +54461,8 @@ overlap
 owned
 omit
 overfitting
+ourselves
+outliers
 lecture
 lineynaya
 linear
@@ -60269,6 +60278,7 @@ guarantees
 guaranteed
 granted
 giving
+gradient
 Umnov
 Uniqueness
 Uf
@@ -63448,6 +63458,7 @@ Updates
 UPDATE
 UNIQUE
 Updating
+Underfitting
 Watch
 We
 What
@@ -85429,6 +85440,7 @@ survive
 schedules
 sees
 snapshot
+shorthand
 exist
 excalidraw
 everything
@@ -91604,6 +91616,7 @@ hostname
 handshaking
 hierarchies
 history
+hyperparameter
 combination
 can
 command
@@ -100871,6 +100884,8 @@ Generalization
 GRANT
 Guidelines
 GROUP
+Good
+Goods
 basis
 be
 bd
@@ -109959,6 +109974,7 @@ OSPF
 Overlapping
 ONLY
 Once
+Overfitting
 menu
 more
 mA
@@ -113607,6 +113623,8 @@ multivalued
 maintainability
 multiuser
 malwares
+minimizes
+minimum
 You
 YC
 YR
@@ -125926,6 +125944,7 @@ roll
 recoverable
 rolling
 ratio
+restricting
 Zorich
 ZM
 ZB
@@ -135608,6 +135627,7 @@ qcZ
 queries
 query
 querying
+quantitative
 HB
 HE
 HK
@@ -138357,6 +138377,7 @@ Hides
 Hide
 HAVING
 Highest
+Huber
 XKo
 Xg
 XWo

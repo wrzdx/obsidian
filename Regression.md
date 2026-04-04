@@ -56,3 +56,22 @@ $$\displaylines{\frac{\partial\mathcal{L}}{\partial w_{0}}=2w_{0}+2w_{1} \frac{1
 \frac{\partial\mathcal{L}}{\partial w_{1}} = 2w_{1} \frac{1}{n}\left(\sum_{i=1}^{n}x_{i}^{2}\right) + 2 \frac{1}{n}\left(\sum_{i=1}^{n}x_{i}(w_{0} - y_{i})\right)}$$
 Set them to zero, simplify and solve
 $$\displaylines{w_{0}=\overline{y} - w_{1}\overline{x} \\ w_{1}= \frac{\overline{xy} - \overline{x} \ \overline{y}}{\overline{x^{2}}- (\overline{x})^{2}}}$$
+## Polynomial Regression
+$$y = w_{0} + w_{1}x + w_{2}x^{2} + \dots + w_{d}x^{d}$$
+*The model is still linear in parameters*
+
+## MSE vs MAE
+**MAE**
+- Good: when there could be outliers in the data
+- Bad: because its derivative is the same everywhere
+
+**MSE**
+- Bad: when there are outliers in the data
+- Good: gradient is large for large loss and decreases as loss approaches 0
+
+- Good: when there could be outliers in the data
+- Bad: because its derivative is the same everywhere
+
+**Huber Loss**
+- Goods of both *MSE* and *MAE*
+- But has extra hyperparameter that needs tuning

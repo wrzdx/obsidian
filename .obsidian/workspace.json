@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Regression"
+              "title": "Introduction to Machine Learning"
+            }
+          },
+          {
+            "id": "dd1f37ef272eeb68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Descent.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Gradient Descent"
             }
           },
           {
@@ -67,7 +82,8 @@
               "title": "Concurrency Control & Transactions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Regression"
+              "title": "Backlinks for Gradient Descent"
             }
           }
         ],
@@ -167,12 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Regression"
+              "title": "Outgoing links from Gradient Descent"
             }
           }
         ]
@@ -291,17 +307,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "c726d3edadee248a",
+  "active": "dd1f37ef272eeb68",
   "lastOpenFiles": [
+    "Introduction to Machine Learning.md",
+    "Gradient Descent.md",
+    "Regression.md",
     "Library/Pasted image 20260404042531.png",
     "Library/Pasted image 20260404042519.png",
     "Library/Pasted image 20260404042454.png",
     "Library/Pasted image 20260404042314.png",
     "Library/Pasted image 20260404042302.png",
     "Library/Pasted image 20260404042155.png",
-    "Introduction to Machine Learning.md",
     "Foundations of Machine Learning.md",
-    "Regression.md",
     "Innopolis 2st year.md",
     "Databases.md",
     "MongoDB.md",
@@ -328,7 +345,6 @@
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Data Encapsulation.md",
     "Library/Pasted image 20260402052235.png",
-    "Library/Pasted image 20260401170547.png",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

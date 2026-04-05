@@ -129,8 +129,24 @@
               "icon": "links-going-out",
               "title": "Outgoing links from Линейные модели"
             }
+          },
+          {
+            "id": "e7a551ce9606235a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Линейные модели.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Линейные модели"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -143,7 +159,6 @@
       {
         "id": "762a57a3118be348",
         "type": "tabs",
-        "dimension": 53.883495145631066,
         "children": [
           {
             "id": "58dfc85ffeb72816",
@@ -204,28 +219,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "8230a8f50f8d4fd9",
-        "type": "tabs",
-        "dimension": 46.116504854368934,
-        "children": [
-          {
-            "id": "e7a551ce9606235a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Networks.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Networks"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",

@@ -9,3 +9,4 @@ $$\displaylines{w_{0} = w_{0} - \alpha \frac{1}{n} \sum^{n}_{i=1}(\hat{y_{i}} - 
 
 For multiple predictor:
 $$w_{j} = w_{j} - \alpha \frac{1}{n} \sum^{n}_{i=1}(\hat{y_{i}} - y_{i})x_{i}^{j}$$
+

@@ -28,13 +28,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Gradient Descent"
+              "title": "Introduction to Machine Learning"
+            }
+          },
+          {
+            "id": "f9edc83e9bc48b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classification.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Classification"
             }
           },
           {
@@ -98,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Classification.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gradient Descent"
+              "title": "Backlinks for Classification"
             }
           }
         ],
@@ -198,12 +213,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Gradient Descent"
+              "title": "Outgoing links from Classification"
             }
           }
         ]
@@ -322,11 +337,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "dd1f37ef272eeb68",
+  "active": "f9edc83e9bc48b5f",
   "lastOpenFiles": [
-    "Regression.md",
-    "Gradient Descent.md",
     "Introduction to Machine Learning.md",
+    "Classification.md",
+    "Gradient Descent.md",
+    "Regression.md",
     "Library/Pasted image 20260404042531.png",
     "Library/Pasted image 20260404042519.png",
     "Library/Pasted image 20260404042454.png",
@@ -358,7 +374,6 @@
     "Basic Networks concepts.md",
     "TCP and UDP Protocols.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
-    "Data Encapsulation.md",
     "Library/Pasted image 20260402052235.png",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",

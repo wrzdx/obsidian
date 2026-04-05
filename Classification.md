@@ -16,3 +16,12 @@ where:
 $$\mathcal{L} = - \frac{1}{n}\sum_{i=1}^{n}(y_{i}\cdot log(\sigma(z_{i})) + (1-y)\cdot log(1- \sigma(z_{i})))$$
 $$\frac{d(\sigma(z))}{dz} = \sigma(z)(1-\sigma(z))$$
 $$\frac{\partial\mathcal{L}}{\partial w_{j}} =  \frac{1}{n}\sum_{i=1}^{n}(p(x^{i}) - y^{i})x_{j}^{i}$$
+## Metrics
+- Accuracy
+$$Acc= 1- \frac{\text{number of missclassified examples}}{\text{number of samples}}$$
+- Precision
+$$Precision = \frac{\text{True Positives}}{\text{True Positives + False Positives}}$$
+- Recall
+$$Recall = \frac{\text{True Positives}}{\text{True Positives + False Negatives}}$$
+- F1 Score
+$$F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}$$

@@ -27059,6 +27059,7 @@ Serializable
 SAVEPOINT
 Squared
 Sigmoid
+Score
 Algebra
 AGLA
 Assignments
@@ -29998,6 +29999,7 @@ Atomicity
 Active
 Aborted
 Assessing
+Accuracy
 and
 algebra
 any
@@ -35889,6 +35891,7 @@ Performing
 Procedural
 Partially
 Putting
+Precision
 Quadratic
 Qn
 QL
@@ -51581,6 +51584,7 @@ Reduce
 Recoverability
 Recoverable
 Repeatable
+Recall
 of
 one
 others
@@ -57301,6 +57305,7 @@ lattice
 losing
 longevity
 lossless
+logarithm
 geometria
 gN
 gQ

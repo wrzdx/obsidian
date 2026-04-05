@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c726d3edadee248a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Machine Learning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction to Machine Learning"
-            }
-          },
-          {
-            "id": "dd1f37ef272eeb68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Machine Learning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction to Machine Learning"
-            }
-          },
-          {
             "id": "d16e2e857f50d62b",
             "type": "leaf",
             "state": {
@@ -51,84 +21,8 @@
               "icon": "lucide-file",
               "title": "Линейные модели"
             }
-          },
-          {
-            "id": "f9edc83e9bc48b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classification.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Classification"
-            }
-          },
-          {
-            "id": "15c0f698bdbb2a8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Regression"
-            }
-          },
-          {
-            "id": "401832860933dcb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MongoDB.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "MongoDB"
-            }
-          },
-          {
-            "id": "33675f45f1735e30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to NoSQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction to NoSQL"
-            }
-          },
-          {
-            "id": "1a97712a9a0571e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concurrency Control & Transactions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Concurrency Control & Transactions"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -355,10 +248,13 @@
   },
   "active": "d16e2e857f50d62b",
   "lastOpenFiles": [
-    "Introduction to Machine Learning.md",
-    "Линейные модели.md",
-    "Classification.md",
+    "Concurrency Control & Transactions.md",
+    "Introduction to NoSQL.md",
+    "MongoDB.md",
     "Regression.md",
+    "Линейные модели.md",
+    "Introduction to Machine Learning.md",
+    "Classification.md",
     "Library/Pasted image 20260405093059.png",
     "Gradient Descent.md",
     "Library/Pasted image 20260404042531.png",
@@ -370,9 +266,6 @@
     "Foundations of Machine Learning.md",
     "Innopolis 2st year.md",
     "Databases.md",
-    "MongoDB.md",
-    "Introduction to NoSQL.md",
-    "Concurrency Control & Transactions.md",
     "Stored Procedures, Functions, Triggers and PL pgSQL.md",
     "Relational Model & Relational Algebra.md",
     "Introduction to SQL.md",

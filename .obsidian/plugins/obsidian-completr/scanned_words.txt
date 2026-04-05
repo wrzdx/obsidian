@@ -3277,6 +3277,9 @@ Deleting
 Durability
 Derivative
 Derivatives
+Document
+Documents
+Dummy
 Lecturer
 Link
 Line
@@ -5953,6 +5956,7 @@ Location
 Lattice
 Limiting
 LIKE
+Limitations
 Vladimir
 Vector
 VIEW
@@ -15252,6 +15256,7 @@ Thomas
 Trigger
 Transactions
 TRANSACTION
+Traditional
 nomemm
 need
 necessary
@@ -18094,6 +18099,8 @@ nouns
 noun
 named
 nonrecoverable
+naturally
+numeric
 to
 the
 topics
@@ -20879,6 +20886,10 @@ triggers
 theoretically
 targets
 tuning
+tolerance
+telemetry
+transient
+tabular
 Course
 Curves
 Continuation
@@ -23944,6 +23955,9 @@ Committed
 Conflicting
 Conflict
 Convert
+Categories
+Collection
+Categorical
 Sections
 Surfaces
 Spaces
@@ -27060,6 +27074,7 @@ SAVEPOINT
 Squared
 Sigmoid
 Score
+Strength
 Algebra
 AGLA
 Assignments
@@ -33069,6 +33084,10 @@ alone
 auto
 argmin
 argument
+availability
+alternative
+anomalies
+applicationaware
 Plane
 Problem
 Prove
@@ -41517,6 +41536,7 @@ Build
 Business
 BEGIN
 Bad
+BSON
 Material
 MORE
 Mathematical
@@ -48305,6 +48325,13 @@ preserved
 permanent
 permitted
 predictors
+practical
+predefined
+partitions
+prioritize
+profiles
+partitioning
+poor
 Read
 Relations
 RY
@@ -51585,6 +51612,8 @@ Recoverability
 Recoverable
 Repeatable
 Recall
+RDBMS
+Rigid
 of
 one
 others
@@ -54469,6 +54498,7 @@ omit
 overfitting
 ourselves
 outliers
+offs
 lecture
 lineynaya
 linear
@@ -57306,6 +57336,7 @@ losing
 longevity
 lossless
 logarithm
+lag
 geometria
 gN
 gQ
@@ -60286,6 +60317,10 @@ guaranteed
 granted
 giving
 gradient
+globally
+geographic
+graphs
+grouped
 Umnov
 Uniqueness
 Uf
@@ -63466,6 +63501,7 @@ UPDATE
 UNIQUE
 Updating
 Underfitting
+Upsert
 Watch
 We
 What
@@ -66503,6 +66539,7 @@ WORKS
 WHERE
 WHEN
 Wildcard
+Weaknesses
 dependency
 dependent
 document
@@ -69715,6 +69752,8 @@ dataset
 dept
 durability
 determining
+duplication
+denormalization
 independency
 in
 info
@@ -73646,6 +73685,8 @@ inside
 inventory
 inferring
 iteratively
+ideal
+internally
 For
 Functions
 Frolov
@@ -76775,6 +76816,7 @@ Finds
 Filtering
 Feature
 Failed
+Flexibility
 vectors
 vector
 variable
@@ -79529,6 +79571,8 @@ vendor
 validated
 violated
 visibility
+vertical
+volumes
 for
 file
 form
@@ -82294,6 +82338,8 @@ formats
 foreign
 fails
 fires
+fraud
+families
 scalars
 sufficient
 settings
@@ -85450,6 +85496,13 @@ schedules
 sees
 snapshot
 shorthand
+scaling
+sharding
+strength
+scalability
+social
+self
+shortest
 exist
 excalidraw
 everything
@@ -88639,6 +88692,10 @@ eliminated
 emptying
 emp
 ends
+extremely
+excellent
+enormous
+engineering
 have
 hQ
 hfRF
@@ -91626,6 +91683,12 @@ handshaking
 hierarchies
 history
 hyperparameter
+heavy
+heavier
+horizontal
+hotspots
+horizontally
+heavily
 combination
 can
 command
@@ -94962,6 +95025,7 @@ commits
 conflicting
 commited
 checkpoints
+catalogs
 Necessity
 Nikolay
 Natural
@@ -103643,6 +103707,8 @@ business
 breaking
 backups
 begins
+bottlenecks
+bias
 EXCALIDRAW
 Excalidraw
 Elements
@@ -106890,6 +106956,7 @@ Emily
 Executes
 Experience
 Entropy
+Environments
 OPTIONS
 Operations
 Obtain
@@ -109986,6 +110053,7 @@ Overlapping
 ONLY
 Once
 Overfitting
+Ordinal
 menu
 more
 mA
@@ -113636,6 +113704,10 @@ multiuser
 malwares
 minimizes
 minimum
+mainly
+models
+mapping
+matches
 You
 YC
 YR
@@ -119721,6 +119793,8 @@ whenever
 wire
 weak
 wrong
+workloads
+wide
 under
 up
 unclear
@@ -125957,6 +126031,11 @@ rolling
 ratio
 restricting
 regression
+rapidly
+replacement
+rigid
+recommendation
+rapid
 Zorich
 ZM
 ZB
@@ -138390,6 +138469,7 @@ Hide
 HAVING
 Highest
 Huber
+Horizontal
 XKo
 Xg
 XWo

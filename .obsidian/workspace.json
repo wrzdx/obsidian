@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Regression"
+              "title": "Backlinks for Gradient Descent"
             }
           }
         ],
@@ -198,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Regression"
+              "title": "Outgoing links from Gradient Descent"
             }
           }
         ]
@@ -322,11 +322,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "15c0f698bdbb2a8d",
+  "active": "dd1f37ef272eeb68",
   "lastOpenFiles": [
+    "Regression.md",
     "Gradient Descent.md",
     "Introduction to Machine Learning.md",
-    "Regression.md",
     "Library/Pasted image 20260404042531.png",
     "Library/Pasted image 20260404042519.png",
     "Library/Pasted image 20260404042454.png",

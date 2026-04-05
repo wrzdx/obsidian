@@ -23943,6 +23943,7 @@ COMMIT
 Committed
 Conflicting
 Conflict
+Convert
 Sections
 Surfaces
 Spaces
@@ -27057,6 +27058,7 @@ Serializability
 Serializable
 SAVEPOINT
 Squared
+Sigmoid
 Algebra
 AGLA
 Assignments
@@ -69707,6 +69709,7 @@ dependence
 dataset
 dept
 durability
+determining
 independency
 in
 info
@@ -106881,6 +106884,7 @@ Exclude
 Emily
 Executes
 Experience
+Entropy
 OPTIONS
 Operations
 Obtain
@@ -125947,6 +125951,7 @@ recoverable
 rolling
 ratio
 restricting
+regression
 Zorich
 ZM
 ZB

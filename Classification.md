@@ -5,3 +5,12 @@ $$\displaylines{w = \begin{bmatrix}w_{0}\\ w_{1} \\ \vdots \\ w_{n} \end{bmatrix
 $$\sigma (z) = \frac{1}{1+e^{-z}}$$
 ![|500](Pasted%20image%2020260405093059.png)
 
+**Cross Entropy**
+$$H(t, p) = - \sum t(i) \cdot log(p(i))$$
+Binary Case:
+$$\mathcal{L} = - (y \cdot log(p) + (1-y)\cdot log(1-p))$$
+where:
+- $y$ – either 1 or 0
+- $p$ – predicted probability
+- $log$ – natural logarithm
+$$\mathcal{L} = - \frac{1}{n}\sum_{i=1}^{n}y_{i}\cdot log(\sigma(z_{i})) + (1-y)\cdot log(1- \sigma(z_{i}))$$

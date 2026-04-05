@@ -13,4 +13,6 @@ where:
 - $y$ – either 1 or 0
 - $p$ – predicted probability
 - $log$ – natural logarithm
-$$\mathcal{L} = - \frac{1}{n}\sum_{i=1}^{n}y_{i}\cdot log(\sigma(z_{i})) + (1-y)\cdot log(1- \sigma(z_{i}))$$
+$$\mathcal{L} = - \frac{1}{n}\sum_{i=1}^{n}(y_{i}\cdot log(\sigma(z_{i})) + (1-y)\cdot log(1- \sigma(z_{i})))$$
+$$\frac{d(\sigma(z))}{dz} = \sigma(z)(1-\sigma(z))$$
+$$\frac{\partial\mathcal{L}}{\partial w_{j}} =  \frac{1}{n}\sum_{i=1}^{n}(p(x^{i}) - y^{i})x_{j}^{i}$$

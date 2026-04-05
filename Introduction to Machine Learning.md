@@ -3,3 +3,6 @@
 - [Regression](Regression.md)
 - [Gradient Descent](Gradient%20Descent.md)
 - [Classification](Classification.md)
+
+**Yandex Handbook**:
+- [Линейные модели](Линейные%20модели.md)

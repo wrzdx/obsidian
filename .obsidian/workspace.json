@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Naive Bayes.md",
+                "file": "Classification.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Naive Bayes"
+              "title": "Backlinks for Classification"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Naive Bayes.md",
+                "file": "Classification.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Naive Bayes"
+              "title": "Outline of Classification"
             }
           }
         ],
@@ -270,10 +270,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "7b2308a32b8a386b",
+  "active": "3126fbf9d5997cd3",
   "lastOpenFiles": [
-    "Introduction to Machine Learning.md",
     "Naive Bayes.md",
+    "Introduction to Machine Learning.md",
     "Classification.md",
     "Линейные модели.md",
     "Library/Pasted image 20260405163903.png",

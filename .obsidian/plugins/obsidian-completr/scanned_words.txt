@@ -5957,6 +5957,8 @@ Lattice
 Limiting
 LIKE
 Limitations
+Lasso
+Logistic
 Vladimir
 Vector
 VIEW
@@ -27075,6 +27077,9 @@ Squared
 Sigmoid
 Score
 Strength
+SGD
+SVM
+Softmax
 Algebra
 AGLA
 Assignments
@@ -35911,6 +35916,7 @@ Procedural
 Partially
 Putting
 Precision
+Perceptron
 Quadratic
 Qn
 QL
@@ -45188,6 +45194,7 @@ MATCHED
 Match
 Michail
 Must
+MAPE
 pdf
 previous
 prove
@@ -51614,6 +51621,7 @@ Repeatable
 Recall
 RDBMS
 Rigid
+Ridge
 of
 one
 others
@@ -110054,6 +110062,7 @@ ONLY
 Once
 Overfitting
 Ordinal
+OvA
 menu
 more
 mA
@@ -116723,6 +116732,7 @@ YIaF
 YrfT
 YRvWF
 Youtube
+Yandex
 with
 where
 way
@@ -138470,6 +138480,8 @@ HAVING
 Highest
 Huber
 Horizontal
+Handbook
+Hinge
 XKo
 Xg
 XWo

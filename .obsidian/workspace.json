@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classification.md",
+                "file": "Human AI Interaction Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Classification"
+              "title": "Human AI Interaction Design"
             }
           }
         ],
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classification.md",
+                "file": "Human AI Interaction Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Classification"
+              "title": "Backlinks for Human AI Interaction Design"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classification.md",
+                "file": "Human AI Interaction Design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Classification"
+              "title": "Outline of Human AI Interaction Design"
             }
           }
         ],
@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -272,9 +273,9 @@
   },
   "active": "3126fbf9d5997cd3",
   "lastOpenFiles": [
+    "Classification.md",
     "Naive Bayes.md",
     "Introduction to Machine Learning.md",
-    "Classification.md",
     "Линейные модели.md",
     "Library/Pasted image 20260405163903.png",
     "Concurrency Control & Transactions.md",

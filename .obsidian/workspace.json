@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Почему стоит ввести записи.md",
+                "file": "Motivation Letter for 1519 scholarship..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Почему стоит ввести записи"
+              "title": "Motivation Letter for 1519 scholarship."
             }
           },
           {
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Почему стоит ввести записи.md",
+                "file": "Motivation Letter for 1519 scholarship..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Почему стоит ввести записи"
+              "title": "Backlinks for Motivation Letter for 1519 scholarship."
             }
           }
         ],
@@ -182,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Почему стоит ввести записи.md",
+                "file": "Motivation Letter for 1519 scholarship..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Почему стоит ввести записи"
+              "title": "Outline of Motivation Letter for 1519 scholarship."
             }
           }
         ],
@@ -287,6 +287,7 @@
   },
   "active": "5b59f4ce81cf57be",
   "lastOpenFiles": [
+    "Почему стоит ввести записи.md",
     "Personal.md",
     "10.04.26 Мысли.md",
     "Other documents.md",
@@ -294,7 +295,6 @@
     "Innopolis University.md",
     "Home/Home.md",
     "Naive Bayes.md",
-    "Почему стоит ввести записи.md",
     "Books and Courses.md",
     "Projects.md",
     "Innopolis 2st year.md",

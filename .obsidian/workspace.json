@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Любовь, чак-чак и роботы.md",
+                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Любовь, чак-чак и роботы"
+              "title": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Любовь, чак-чак и роботы.md",
+                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,10 +167,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Любовь, чак-чак и роботы"
+              "title": "Backlinks for OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -196,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Любовь, чак-чак и роботы.md",
+                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Любовь, чак-чак и роботы"
+              "title": "Outline of OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
             }
           }
         ],
@@ -301,42 +302,42 @@
   },
   "active": "3fa1cde7636d1527",
   "lastOpenFiles": [
-    "Library/photo_2023-09-01_11-42-10.jpg",
-    "Любовь, чак-чак и роботы.md",
-    "Other documents.md",
+    "Networks.md",
+    "Innopolis 2st year.md",
+    "Socket Programming in C.md",
+    "DNS.md",
+    "Web Cookies and Caching.md",
+    "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
+    "Introduction to Machine Learning.md",
+    "Regression.md",
+    "Gradient Descent.md",
+    "Foundations of Machine Learning.md",
     "CV 1519.md",
-    "Motivation Letter for 1519 scholarship..md",
-    "Почему стоит ввести записи.md",
-    "Personal.md",
-    "10.04.26 Мысли.md",
     "Home/Root.md",
     "Innopolis University.md",
-    "Home/Home.md",
-    "Naive Bayes.md",
-    "Books and Courses.md",
-    "Projects.md",
-    "Innopolis 2st year.md",
-    "Introduction to Machine Learning.md",
-    "Human AI Interaction Design.md",
-    "Classification.md",
+    "Probability ans Statistics.md",
+    "Modern Operating Systems.md",
+    "Algorithms to solve DE.md",
     "Линейные модели.md",
+    "Network Characteristics Scale, Metrics.md",
+    "DHCP and NAT Linked-State and Distance-Vector routing algorithms.md",
+    "Basic Networks concepts.md",
+    "Introduction.md",
+    "История операционных систем.md",
+    "Концепции операционных систем.md",
+    "Что такое ОС.md",
+    "Processes and Threads.md",
+    "Innopolis 1st yeat - Spring Semester.md",
+    "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/Pasted image 20260405163903.png",
-    "Concurrency Control & Transactions.md",
-    "Introduction to NoSQL.md",
-    "MongoDB.md",
-    "Regression.md",
     "Library/Pasted image 20260405093059.png",
-    "Gradient Descent.md",
     "Library/Pasted image 20260404042531.png",
     "Library/Pasted image 20260404042519.png",
     "Library/Pasted image 20260404042454.png",
     "Library/Pasted image 20260404042314.png",
     "Library/Pasted image 20260404042302.png",
     "Library/Pasted image 20260404042155.png",
-    "Foundations of Machine Learning.md",
-    "Databases.md",
     "Library/Pasted image 20260403050919.png",
-    "Library/Pasted image 20260403050844.png",
     "ChatGPT_MD/agents",
     "ChatGPT_MD",
     "Без названия.base",

@@ -82,8 +82,7 @@
               "title": "Human AI Interaction Design"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
+                "file": "Любовь, чак-чак и роботы.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
+              "title": "Backlinks for Любовь, чак-чак и роботы"
             }
           }
         ],
@@ -197,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
+                "file": "Любовь, чак-чак и роботы.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
+              "title": "Outline of Любовь, чак-чак и роботы"
             }
           }
         ],
@@ -300,8 +299,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "3fa1cde7636d1527",
+  "active": "d16e2e857f50d62b",
   "lastOpenFiles": [
+    "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Networks.md",
     "Innopolis 2st year.md",
     "Socket Programming in C.md",
@@ -327,7 +327,6 @@
     "Концепции операционных систем.md",
     "Что такое ОС.md",
     "Processes and Threads.md",
-    "Innopolis 1st yeat - Spring Semester.md",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/Pasted image 20260405163903.png",
     "Library/Pasted image 20260405093059.png",

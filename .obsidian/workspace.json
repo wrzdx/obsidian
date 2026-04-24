@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "Foundations of Machine Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Regression"
+              "title": "Foundations of Machine Learning"
             }
           },
           {
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "Foundations of Machine Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Regression"
+              "title": "Backlinks for Foundations of Machine Learning"
             }
           }
         ],
@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression.md",
+                "file": "Foundations of Machine Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Regression"
+              "title": "Outline of Foundations of Machine Learning"
             }
           }
         ],
@@ -302,6 +302,7 @@
   "active": "d16e2e857f50d62b",
   "lastOpenFiles": [
     "Introduction to Machine Learning.md",
+    "Regression.md",
     "Foundations of Machine Learning.md",
     "Любовь, чак-чак и роботы.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
@@ -311,7 +312,6 @@
     "DNS.md",
     "Web Cookies and Caching.md",
     "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
-    "Regression.md",
     "Gradient Descent.md",
     "CV 1519.md",
     "Home/Root.md",

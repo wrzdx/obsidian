@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundations of Machine Learning.md",
+                "file": "Regression.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Foundations of Machine Learning"
+              "title": "Regression"
             }
           },
           {
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundations of Machine Learning.md",
+                "file": "Regression.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Foundations of Machine Learning"
+              "title": "Backlinks for Regression"
             }
           }
         ],
@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Foundations of Machine Learning.md",
+                "file": "Regression.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Foundations of Machine Learning"
+              "title": "Outline of Regression"
             }
           }
         ],
@@ -302,6 +302,7 @@
   "active": "d16e2e857f50d62b",
   "lastOpenFiles": [
     "Introduction to Machine Learning.md",
+    "Foundations of Machine Learning.md",
     "Любовь, чак-чак и роботы.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Networks.md",
@@ -312,7 +313,6 @@
     "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
     "Regression.md",
     "Gradient Descent.md",
-    "Foundations of Machine Learning.md",
     "CV 1519.md",
     "Home/Root.md",
     "Innopolis University.md",

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundations of Machine Learning.md",
+                "file": "Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Foundations of Machine Learning"
+              "title": "Introduction to Machine Learning"
             }
           },
           {
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundations of Machine Learning.md",
+                "file": "Introduction to Machine Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Foundations of Machine Learning"
+              "title": "Backlinks for Introduction to Machine Learning"
             }
           }
         ],
@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Foundations of Machine Learning.md",
+                "file": "Introduction to Machine Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Foundations of Machine Learning"
+              "title": "Outline of Introduction to Machine Learning"
             }
           }
         ],
@@ -301,9 +301,11 @@
   },
   "active": "d16e2e857f50d62b",
   "lastOpenFiles": [
+    "Classification.md",
     "Introduction to Machine Learning.md",
-    "Regression.md",
+    "Naive Bayes.md",
     "Foundations of Machine Learning.md",
+    "Regression.md",
     "Любовь, чак-чак и роботы.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Networks.md",
@@ -325,8 +327,6 @@
     "Basic Networks concepts.md",
     "Introduction.md",
     "История операционных систем.md",
-    "Концепции операционных систем.md",
-    "Что такое ОС.md",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/Pasted image 20260405163903.png",
     "Library/Pasted image 20260405093059.png",

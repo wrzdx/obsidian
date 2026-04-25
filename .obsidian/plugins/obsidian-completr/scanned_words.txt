@@ -51688,6 +51688,7 @@ RDBMS
 Rigid
 Ridge
 Receive
+Regularization
 of
 one
 others

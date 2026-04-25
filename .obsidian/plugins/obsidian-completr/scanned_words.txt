@@ -3282,6 +3282,7 @@ Documents
 Dummy
 DfSV
 DXMrI
+Disadvantages
 Lecturer
 Link
 Line
@@ -5968,6 +5969,8 @@ LLN
 Lxb
 LOW
 LeBl
+Likelihood
+Laplace
 Vladimir
 Vector
 VIEW
@@ -12444,6 +12447,7 @@ Interleaved
 InnoBootCamp
 IVZe
 IUvj
+Impact
 Telegram
 Theorem
 Text
@@ -15277,6 +15281,7 @@ Traditional
 Tdk
 Tku
 TMc
+Trees
 nomemm
 need
 necessary
@@ -18127,6 +18132,8 @@ nXKQ
 nSlm
 netinet
 netdb
+nearest
+neighbor
 to
 the
 topics
@@ -20921,6 +20928,7 @@ tBtk
 teMv
 tLXTb
 tAl
+thumb
 Course
 Curves
 Continuation
@@ -23992,6 +24000,7 @@ Categorical
 CGEUKb
 Cxi
 Classifier
+Computational
 Sections
 Surfaces
 Spaces
@@ -27117,6 +27126,7 @@ SmAVpT
 STuG
 Stages
 Send
+Small
 Algebra
 AGLA
 Assignments
@@ -30063,6 +30073,7 @@ AiH
 Akcd
 Assign
 Accept
+Among
 and
 algebra
 any
@@ -33140,6 +33151,8 @@ alC
 aGdW
 arpa
 accept
+artificially
+averaging
 Plane
 Problem
 Prove
@@ -41600,6 +41613,8 @@ BEGIN
 Bad
 BSON
 Bayes
+Ball
+Balancing
 Material
 MORE
 Mathematical
@@ -48404,6 +48419,11 @@ photo
 pGYi
 pcZ
 predictor
+predictive
+probabilities
+precision
+performed
+paterns
 Read
 Relations
 RY
@@ -54576,6 +54596,8 @@ outliers
 offs
 oBd
 ounw
+online
+overfit
 lecture
 lineynaya
 linear
@@ -57418,6 +57440,10 @@ lHVH
 lYRh
 lRQ
 listen
+lose
+logistic
+labels
+lasso
 geometria
 gN
 gQ
@@ -60407,6 +60433,7 @@ gOj
 gxr
 gEZb
 goAn
+grained
 Umnov
 Uniqueness
 Uf
@@ -73789,6 +73816,7 @@ idrn
 illI
 ihX
 inet
+irrelevant
 For
 Functions
 Frolov
@@ -82452,6 +82480,7 @@ fyx
 frK
 fTPy
 fds
+fine
 scalars
 sufficient
 settings
@@ -85616,6 +85645,8 @@ social
 self
 shortest
 sqIm
+smoothing
+stable
 exist
 excalidraw
 everything
@@ -95153,6 +95184,9 @@ cAlRu
 cdX
 cVbV
 connect
+classifier
+computations
+capturing
 Necessity
 Nikolay
 Natural
@@ -107108,6 +107142,7 @@ EEVcB
 EAi
 EfX
 Establish
+Euclidean
 OPTIONS
 Operations
 Obtain
@@ -119956,6 +119991,7 @@ wide
 wXXB
 wXk
 wCn
+weights
 under
 up
 unclear
@@ -123094,6 +123130,9 @@ undo
 uvCb
 uYj
 unIK
+unable
+unseen
+underfit
 represented
 ru
 rows
@@ -126200,6 +126239,7 @@ replacement
 rigid
 recommendation
 rapid
+ridge
 Zorich
 ZM
 ZB
@@ -132967,6 +133007,7 @@ KeP
 KRR
 KmM
 KqCj
+KNN
 qt
 qL
 qY

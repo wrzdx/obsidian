@@ -4,6 +4,7 @@
 - [Gradient Descent](Gradient%20Descent.md)
 - [Classification](Classification.md)
 - [Naive Bayes Classifier](Naive%20Bayes%20Classifier.md)
+- [Nearest Neighbor Methods](Nearest%20Neighbor%20Methods.md)
 
 **Yandex Handbook**:
 - [Линейные модели](Линейные%20модели.md)

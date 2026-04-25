@@ -16,3 +16,6 @@ $$p(x_{new}| c) = p((x_{1}, ..., x_{p})_{new}|c) = \prod_{i=1}^{p}p(x_{1}|c)$$
 - When assumption of independence holds, a Naive Bayes classifier performs better compare to other models like logistic regression and you need less training data.
 - Allows online learning
 
+**Disadvantages**
+- If a predictor was not observed in training data set, then model will assign a 0 (zero) probability and will be unable to make a prediction. This is often known as “Zero Frequency”.
+- **Solution:** To solve this, we can use the smoothing technique. One of the simplest smoothing techniques is called Laplace estimation – we artificially introduce 1 sample for all unseen data.

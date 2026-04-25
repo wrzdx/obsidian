@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Machine Learning.md",
+                "file": "Naive Bayes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Machine Learning"
+              "title": "Naive Bayes"
             }
           },
           {
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Machine Learning.md",
+                "file": "Naive Bayes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction to Machine Learning"
+              "title": "Backlinks for Naive Bayes"
             }
           }
         ],
@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Machine Learning.md",
+                "file": "Naive Bayes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction to Machine Learning"
+              "title": "Outline of Naive Bayes"
             }
           }
         ],
@@ -301,8 +301,8 @@
   },
   "active": "d16e2e857f50d62b",
   "lastOpenFiles": [
-    "Classification.md",
     "Introduction to Machine Learning.md",
+    "Classification.md",
     "Naive Bayes.md",
     "Foundations of Machine Learning.md",
     "Regression.md",

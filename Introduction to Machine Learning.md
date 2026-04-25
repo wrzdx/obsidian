@@ -3,7 +3,7 @@
 - [Regression](Regression.md)
 - [Gradient Descent](Gradient%20Descent.md)
 - [Classification](Classification.md)
-- [Naive Bayes](Naive%20Bayes.md)
+- [Naive Bayes Classifier](Naive%20Bayes%20Classifier.md)
 
 **Yandex Handbook**:
 - [Линейные модели](Линейные%20модели.md)

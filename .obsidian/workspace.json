@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regularization.md",
+                "file": "Naive Bayes Classifier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Regularization"
+              "title": "Naive Bayes Classifier"
             }
           },
           {
@@ -187,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regularization.md",
+                "file": "Naive Bayes Classifier.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Regularization"
+              "title": "Backlinks for Naive Bayes Classifier"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regularization.md",
+                "file": "Naive Bayes Classifier.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Regularization"
+              "title": "Outline of Naive Bayes Classifier"
             }
           }
         ],
@@ -333,8 +333,8 @@
   },
   "active": "9bd322b0db1be944",
   "lastOpenFiles": [
-    "Introduction to Machine Learning.md",
     "Regularization.md",
+    "Introduction to Machine Learning.md",
     "Nearest Neighbor Methods.md",
     "Classification.md",
     "Линейные модели.md",

@@ -140,4 +140,36 @@
 - Application – access to network resources
 - Presentation – translation, encryption, compression
 - Session – manage sessions
-- Transport – end-to-end connection, 
+- Transport – end-to-end message delivery, error recovery
+- Network – to move packets from source to destination, provide internetworking
+- Data Link – organize bits to frames, provide node-to-node delivery
+- Physical – bits transmission, provide mechanical and electrical specifications
+
+# TCP/IP Protocol Suite
+- Developed prior to the OSI model
+- 5 layers – also known Internet model
+- The three topmost layers in the OSI model are represented in TCP/IP by a single layer – application layer
+- TCP/IP is a hierarchical protocol – the upper-level protocol is supported by one or more lower-level protocols
+- E.g.: @ TL – TCP, UDP; @NL - IP
+
+
+**Layers:**
+- Application Layer – HTTP, SMTP, FTP
+- Transport layer – TCP, UDP, SCTP
+- Network layer – IP
+- Data link layer – Ethernet, Wi-Fi
+- Physical layer – Twisted pair, optical fibers, satellite
+
+# Cloud Services
+- Cloud computing is a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction (National Institute of Standards and Technology)
+- This cloud model promotes availability and is composed of five essential characteristics, three service models, and four deployment models.
+- Cloud computing is Internet-based computing, whereby shared resources, software, and information are provided to computers and other devices on demand, like the electricity grid. Cloud computing is a style of computing in which dynamically scalable and often virtualized resources are provided as a service over the Internet. (Wikipedia)
+- Cloud is a type of parallel and distributed system consisting of a collection of interconnected and virtualized computers that are dynamically provisioned and presented as one or more unified computing resources based on service-level agreements established through negotiation between the service provider and consumers.(Buyya)
+
+## Service Models Overview
+- **Infrastructure as a Service (IaaS)** - build a new house?
+	- You can rent some virtualized infrastructure and build up your own IT system among those resources, which may be fully controlled.
+- **Platform as a Service (PaaS)** - buy an empty house?
+	- You can directly develop your IT system through one cloud platform, and do not care about any lower level resource management.
+- **Software as a Service (SaaS)** - Similar to live in a hotel?
+	- You can directly use some existed IT system solutions, which were provided by some cloud application service provider, without knowing any detail technique about how these service was achieved.

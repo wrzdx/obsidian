@@ -22,3 +22,4 @@
 
 - [Data Communication and Networks](Data%20Communication%20and%20Networks.md)
 - [OSI Model and Cloud Services](OSI%20Model%20and%20Cloud%20Services.md)
+- [Physical Layer and Media](Physical%20Layer%20and%20Media.md)

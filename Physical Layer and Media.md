@@ -12,5 +12,9 @@ Periodic analog signals can be classified as simple or composite. A simple perio
 
 **Bandwidth** – the difference between the highest and the lowest frequencies contained in that signal.
 
-
+**Number of bits per level** $=\lceil \log_{2}L \rceil$
+**attenuation or gain in decibels (dB)** $= 10 \log_{10} (\frac{P_{2}}{P_{1}})$ 
+- $P_1$​ = original power (input signal)
+- $P_{2}$​ = resulting power (after transmission)
+**milliwatts**$=10^{\frac{dB}{10}}$
 # Switching and Multiplexing

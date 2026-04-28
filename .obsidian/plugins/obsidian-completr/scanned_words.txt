@@ -24037,6 +24037,7 @@ Concerned
 Computers
 CIRCUIT
 Channels
+Conceptually
 Sections
 Surfaces
 Spaces
@@ -27174,6 +27175,7 @@ SaaS
 Similar
 Signals
 SWITCHED
+Synchronous
 Algebra
 AGLA
 Assignments
@@ -54689,6 +54691,7 @@ overfit
 okay
 optic
 optical
+optics
 lecture
 lineynaya
 linear
@@ -66763,6 +66766,7 @@ WGZ
 Wbay
 Workflow
 Wikipedia
+Wavelength
 dependency
 dependent
 document
@@ -82630,6 +82634,7 @@ frontend
 fault
 fibers
 frequencies
+fiber
 scalars
 sufficient
 settings
@@ -85816,6 +85821,7 @@ suddenly
 switched
 separated
 strips
+slot
 exist
 excalidraw
 everything
@@ -101328,6 +101334,7 @@ GExz
 Gps
 GEVl
 Goog
+Guard
 basis
 be
 bd
@@ -114112,6 +114119,7 @@ manageable
 multimedia
 mgmt
 milliwatts
+multiplexer
 You
 YC
 YR

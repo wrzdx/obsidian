@@ -3288,6 +3288,8 @@ Discussion
 Direction
 Dialog
 Decryption
+Duplex
+Dedicated
 Lecturer
 Link
 Line
@@ -5978,6 +5980,7 @@ Likelihood
 Laplace
 Luna
 Layers
+Like
 Vladimir
 Vector
 VIEW
@@ -8859,6 +8862,7 @@ Validators
 Vote
 Validate
 Votes
+Variation
 Ivanov
 Introduction
 Independence
@@ -15299,6 +15303,8 @@ Tku
 TMc
 Trees
 Twisted
+Timeliness
+Term
 nomemm
 need
 necessary
@@ -20956,6 +20962,12 @@ thresholds
 transmition
 treats
 topmost
+timely
+travels
+television
+talkie
+telephone
+topologies
 Course
 Curves
 Continuation
@@ -27176,6 +27188,7 @@ Similar
 Signals
 SWITCHED
 Synchronous
+Simplex
 Algebra
 AGLA
 Assignments
@@ -33219,6 +33232,7 @@ assure
 agreements
 analog
 attenuation
+arrival
 Plane
 Problem
 Prove
@@ -36048,6 +36062,7 @@ PIw
 Possible
 PaaS
 Periodic
+Privately
 Quadratic
 Qn
 QL
@@ -45345,6 +45360,9 @@ MPUO
 MQgw
 Merkle
 Milo
+Multipoint
+Most
+Mbps
 pdf
 previous
 prove
@@ -48508,6 +48526,11 @@ persisted
 passes
 provisioned
 promotes
+picture
+phone
+persons
+protecting
+public
 Read
 Relations
 RY
@@ -51799,6 +51822,7 @@ Ralph
 Responsible
 Responsibilities
 Receiver
+Represent
 of
 one
 others
@@ -57546,6 +57570,9 @@ layered
 layers
 lost
 lowest
+loudspeaker
+laid
+leased
 geometria
 gN
 gQ
@@ -60537,6 +60564,8 @@ gEZb
 goAn
 grained
 government
+govern
+geographical
 Umnov
 Uniqueness
 Uf
@@ -69999,6 +70028,7 @@ deployment
 discrete
 decomposed
 decibels
+damage
 independency
 in
 info
@@ -79857,6 +79887,7 @@ validators
 verifying
 verified
 virtualized
+videoconferencing
 for
 file
 form
@@ -85822,6 +85853,8 @@ switched
 separated
 strips
 slot
+station
+street
 exist
 excalidraw
 everything
@@ -95389,6 +95422,13 @@ configurable
 composed
 continous
 communications
+cable
+communicated
+coaxial
+central
+campus
+city
+conference
 Necessity
 Nikolay
 Natural
@@ -104094,6 +104134,7 @@ bind
 blockchain
 builds
 bands
+broadcasting
 EXCALIDRAW
 Excalidraw
 Elements
@@ -107355,6 +107396,7 @@ Everything
 Evidence
 Ensures
 Enables
+Effectiveness
 OPTIONS
 Operations
 Obtain
@@ -110457,6 +110499,7 @@ OerU
 Observed
 Oscar
 Oversee
+Operates
 menu
 more
 mA
@@ -114120,6 +114163,10 @@ multimedia
 mgmt
 milliwatts
 multiplexer
+manner
+mobile
+monit
+maxis
 You
 YC
 YR
@@ -120218,6 +120265,9 @@ workflow
 whole
 whereby
 wave
+workstation
+walkie
+wholly
 under
 up
 unclear
@@ -123362,6 +123412,8 @@ underfit
 usable
 unified
 unused
+unidirectional
+unauthorized
 represented
 ru
 rows
@@ -138942,6 +138994,8 @@ HLzy
 HBl
 HyM
 HDGBf
+Half
+Hybrid
 XKo
 Xg
 XWo
@@ -151346,6 +151400,8 @@ kURI
 kPa
 kPh
 knowing
+keyboard
+kilometer
 yn
 yhR
 yg
@@ -159939,6 +159995,7 @@ JOIN
 JjUqg
 JMlV
 JKJr
+Jitter
 öz
 ös
 öf

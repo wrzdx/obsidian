@@ -41,3 +41,4 @@ Periodic analog signals can be classified as simple or composite. A simple perio
 
 #### Synchronous TDM
 - Synchronous means that the multiplexer allocates exactly the same time slot to each device at all times, whether or not device has anything to transmit
+ 

@@ -11,7 +11,7 @@ $$\mathcal{L} = \frac{1}{n} \sum_{i=1}^{n}(y_{i} - w^{T}x_{i})^{2} + \lambda \su
 
 
 ## L1 Regularization
-$$\mathcal{L} = \frac{1}{n} \sum_{i=1}^{n}(y_{i} - w^{T}x_{i})^{2} + \lambda \sum_{j=1}^{p}w_{j}$$
+$$\mathcal{L} = \frac{1}{n} \sum_{i=1}^{n}(y_{i} - w^{T}x_{i})^{2} + \lambda \sum_{j=1}^{p}|w_{j}|$$
 - $\lambda \geq 0$ is a tuning parameter
 - L1 called *lasso* regression
 - for irrelevant input weights likely will be 0

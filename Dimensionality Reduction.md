@@ -35,8 +35,25 @@ $$\displaylines{\sigma^{2} = \frac{1}{n}\sum_{i=1}^{n}(x_{i}')^{2} = \frac{1}{n}
 To maximize variance we can only try to maximize $C$ since
 $$w^{T}w = 1$$
 So, our optimization problem is
+Find $w$ that maximize the following 
+$$\mathcal{L} = w^{T}Cw - \lambda (w^{T}w - 1 )$$
+Solve
+$$\displaylines{\frac{\partial L}{\partial w} = 2Cw - \lambda 2w = 0 \Rightarrow \\
+\Rightarrow Cw = \lambda w
+}$$
 
+$C$ doesn’t change direction, only scales, so $w$ is *eigenvector* of $C$ and $\lambda$ is *eigenvalue*, and also we confirm that each $w_{i}$ eigenvector of $C$ is also orthogonal to others.
+ 
+But $C$ is $p\times p$ matrix, so it has $p$ eigenvectors, but we need the most appropriate $d$ vectors.
 
+We had 
+$$\cases{\displaylines{\sigma ^ {2}= w^{T}Cw \\ w^{T}w = 1}} \Rightarrow \sigma ^{2}w^{T}w = w^{T}Cw \Rightarrow \sigma ^{2}w = Cw$$
 
+Thus,
+$$\sigma ^{2}w = \lambda w = Cw$$
 
+We can conclude that the most appropriate $d$ vectors – with the most variance – are vectors with the largest $\lambda$ eigenvalues.
 
+>[!summary] Algorithm
+>1) Transform the data to have zero mean by subtracting $\mu_{x}$ from each point
+>2) Compute the sample covariance matrix $C$

@@ -8,82 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85d6cd3e4132c842",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networks.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Networks"
-            }
-          },
-          {
-            "id": "5b1ce6e04bff4684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Communication and Networks.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Communication and Networks"
-            }
-          },
-          {
-            "id": "82f73f723df31a46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSI Model and Cloud Services.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "OSI Model and Cloud Services"
-            }
-          },
-          {
-            "id": "6c2f25fcb44e3590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regularization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Regularization"
-            }
-          },
-          {
             "id": "3845fb3f24e0a183",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Merkle Tree Diagram.md",
+                "file": "Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Merkle Tree Diagram"
+              "title": "Introduction to Machine Learning"
+            }
+          },
+          {
+            "id": "0b7ebf22a2e01eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimensionality Reduction.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Dimensionality Reduction"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Naive Bayes Classifier.md",
+                "file": "Dimensionality Reduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,11 +122,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Naive Bayes Classifier"
+              "title": "Backlinks for Dimensionality Reduction"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "8e68b3348704f47e",
@@ -197,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSI Model and Cloud Services.md",
+                "file": "Dimensionality Reduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OSI Model and Cloud Services"
+              "title": "Outline of Dimensionality Reduction"
             }
           }
         ],
@@ -211,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -301,11 +255,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "3845fb3f24e0a183",
+  "active": "0b7ebf22a2e01eee",
   "lastOpenFiles": [
+    "Introduction to Machine Learning.md",
+    "Dimensionality Reduction.md",
     "Regularization.md",
     "Merkle Tree Diagram.md",
-    "Introduction to Machine Learning.md",
     "Physical Layer and Media.md",
     "OSI Model and Cloud Services.md",
     "Data Communication and Networks.md",
@@ -328,7 +283,6 @@
     "DNS.md",
     "Web Cookies and Caching.md",
     "Client-Server and Peer-to-Peer Applications. Networks Calculus.md",
-    "CV 1519.md",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/Pasted image 20260405163903.png",
     "Library/Pasted image 20260405093059.png",

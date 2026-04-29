@@ -57,3 +57,7 @@ We can conclude that the most appropriate $d$ vectors – with the most variance
 >[!summary] Algorithm
 >1) Transform the data to have zero mean by subtracting $\mu_{x}$ from each point
 >2) Compute the sample covariance matrix $C$
+>3) Find $p$ (eigenvector, eigenvalue) pairs of $C$
+>4) Find the eigenvectors corresponding to $d$ highest eigenvalues $w_{1}, w_{2}, \cdots, w_{d}$
+>5) Compute $X'$ as $X' = XW$, where $W = [w_{1},w_{2},\cdots, w_{d}]$
+

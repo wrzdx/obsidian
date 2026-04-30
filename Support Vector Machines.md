@@ -5,8 +5,6 @@
 >- If $w_{0} = 0$, the hyperplane *goes through the origin*
 >- The vector $w= (w_{1}, w_{2}, ..., w_{p})$ is called the *normal vector* – it points in direction orthogonal to the surface of the hyperplane.
 
-
-## Separating hyperplane
 If we have separating hyperplane
 
 $$w_{0} + w_{1}x_{1} + w_{2}x_{2} + \cdots w_{p}x_{p}=0$$
@@ -58,4 +56,22 @@ But we have constraint
 $$y_{i}(w_{0} + w_{1}x_{1} + ... + w_{p}x_{p})\geq 1$$
 
 But, it’s easier to solve the following (*equivalent*) optimization problem
-$$\displaylines{\underset{w}{argmin} \frac{1}{2}\|w\|^{2} \\ \text{subject to } y_{i}(w_{0} + w_{1}x_{1} + \cdots w_{p}x_{p} \geq 1}$$
+$$\displaylines{\underset{w}{\text{argmin}} \frac{1}{2}\|w\|^{2} \\ \text{subject to } y_{i}(w_{0} + w_{1}x_{1} + \cdots w_{p}x_{p} \geq 1 \text{ for all } i}$$
+Thus
+$$\underset{w}{\text{argmin}}\ \frac{1}{2}\|w\|^{2} - \sum_{i=1}^{n}\alpha_{i}(y_{i}(w^{T}x_{i}+w_{0}) - 1)$$
+
+**Issues:**
+
+- Sensitive to noise
+- classify only linear relations
+
+### Soft Margin SVM
+- to reduce sensitivity we should allow points to lie one the wrong side of the plane
+- thus we need to *relax* the constraints
+
+$$\displaylines{y_{i}(w_{0} + w_{1}x_{1} + ... + w_{p}x_{p})\geq 1 - \xi_{i} \text{ for all } i \\ \text{where } \xi_{i} \geq 0}$$
+
+**Slack variable**
+- The slack variable $\xi_{i}$ tell us where the $i$-th observation is located, relative to the hyperplane and relative to the margin
+- If $\xi_{i} = 0$ then the sample is on the *correct side* of the margin
+- If $\xi_{i} > 0$ then the sample is on the wrong side of the  

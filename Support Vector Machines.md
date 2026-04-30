@@ -73,5 +73,13 @@ $$\displaylines{y_{i}(w_{0} + w_{1}x_{1} + ... + w_{p}x_{p})\geq 1 - \xi_{i} \te
 
 **Slack variable**
 - The slack variable $\xi_{i}$ tell us where the $i$-th observation is located, relative to the hyperplane and relative to the margin
-- If $\xi_{i} = 0$ then the sample is on the *correct side* of the margin
-- If $\xi_{i} > 0$ then the sample is on the wrong side of the  
+- If $\xi_{i} = 0$ then the sample is on the *correct side of the margin*
+- If $\xi_{i} > 0$ then the sample is on the *wrong side of the margin* 
+- If $\xi_{i} > 1$ then the sample is on the *wrong side of the hyperplane*
+
+Objective is
+$$\displaylines{\underset{w}{\text{argmin}}\ \frac{1}{2}\|w\|^{2} + C \sum_{i=1}^{n}\xi_{i} \\
+\text{subject to } \xi_{i}\geq 0, y_{i}(w_{0} + w_{1}x_{1} + \cdots + w_{p}x_{p})\geq 1 - \xi_{i} \text{ for all }i}$$
+
+### Kernel SVM
+- To get better result in non-linear relationships, we can project data to a high-dimensional space and apply linear SVM there

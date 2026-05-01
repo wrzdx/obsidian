@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classification.md",
+                "file": "Naive Bayes Classifier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Classification"
+              "title": "Naive Bayes Classifier"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classification.md",
+                "file": "Naive Bayes Classifier.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Classification"
+              "title": "Backlinks for Naive Bayes Classifier"
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classification.md",
+                "file": "Naive Bayes Classifier.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Classification"
+              "title": "Outline of Naive Bayes Classifier"
             }
           }
         ],
@@ -243,6 +243,7 @@
   "active": "0b7ebf22a2e01eee",
   "lastOpenFiles": [
     "Introduction to Machine Learning.md",
+    "Classification.md",
     "Gradient Descent.md",
     "Regression.md",
     "Foundations of Machine Learning.md",
@@ -264,7 +265,6 @@
     "Home/Root.md",
     "Naive Bayes Classifier.md",
     "Nearest Neighbor Methods.md",
-    "Classification.md",
     "Линейные модели.md",
     "Любовь, чак-чак и роботы.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",

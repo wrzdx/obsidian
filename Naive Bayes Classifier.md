@@ -9,7 +9,7 @@ $$p(y_{new}=c|x_{new}) = \frac{p(x_{new}|c)p(c)}{\sum_{c'=1}^{C}p(x_{new}| c')p(
 **Likelihood:**
 $$p(x_{new}| c) = p((x_{1}, ..., x_{p})_{new}|c) = \prod_{i=1}^{p}p(x_{1}|c)$$
 - if we assume $x_{i}$ is independent 
-- But every $p(x_{i})$ is between 0 and 1 the result will be very small number and we could lose precision, so we calculate log of product instead of just log
+- But every $p(x_{i})$ is between 0 and 1 the result will be very small number and we could lose precision, so we calculate log of product instead of just product
 
 **Advantages**
 - It is easy and fast to predict class of test data set. It also perform well in multi class prediction

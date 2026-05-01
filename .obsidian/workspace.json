@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regularization.md",
+                "file": "Gradient Descent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Regularization"
+              "title": "Gradient Descent"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regularization.md",
+                "file": "Gradient Descent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Regularization"
+              "title": "Backlinks for Gradient Descent"
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regularization.md",
+                "file": "Gradient Descent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Regularization"
+              "title": "Outline of Gradient Descent"
             }
           }
         ],
@@ -243,18 +243,18 @@
   "active": "0b7ebf22a2e01eee",
   "lastOpenFiles": [
     "Introduction to Machine Learning.md",
-    "Regularization.md",
+    "Regression.md",
+    "Foundations of Machine Learning.md",
     "Nearest Neighbor Methods.md",
+    "Support Vector Machines.md",
+    "Dimensionality Reduction.md",
+    "Regularization.md",
     "Naive Bayes Classifier.md",
     "Classification.md",
     "Gradient Descent.md",
-    "Regression.md",
-    "Foundations of Machine Learning.md",
-    "Support Vector Machines.md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",
-    "Dimensionality Reduction.md",
     "Merkle Tree Diagram.md",
     "Physical Layer and Media.md",
     "OSI Model and Cloud Services.md",

@@ -3291,6 +3291,8 @@ Decryption
 Duplex
 Dedicated
 Dimensionality
+Dimensional
+Decision
 Lecturer
 Link
 Line
@@ -15306,6 +15308,7 @@ Trees
 Twisted
 Timeliness
 Term
+Transform
 nomemm
 need
 necessary
@@ -20969,6 +20972,7 @@ television
 talkie
 telephone
 topologies
+tell
 Course
 Curves
 Continuation
@@ -24053,6 +24057,7 @@ Channels
 Conceptually
 Computed
 Caption
+Curse
 Sections
 Surfaces
 Spaces
@@ -27192,6 +27197,9 @@ Signals
 SWITCHED
 Synchronous
 Simplex
+Separating
+Sensitive
+Slack
 Algebra
 AGLA
 Assignments
@@ -36067,6 +36075,7 @@ PaaS
 Periodic
 Privately
 Proves
+PCA
 Quadratic
 Qn
 QL
@@ -41707,6 +41716,7 @@ Blockchain
 Bitcoin
 Bits
 Buyya
+Boundary
 Material
 MORE
 Mathematical
@@ -48535,6 +48545,9 @@ phone
 persons
 protecting
 public
+predictions
+projecting
+projected
 Read
 Relations
 RY
@@ -79895,6 +79908,8 @@ verifying
 verified
 virtualized
 videoconferencing
+visualize
+variance
 for
 file
 form
@@ -85862,6 +85877,9 @@ strips
 slot
 station
 street
+scales
+sensitivity
+slack
 exist
 excalidraw
 everything
@@ -89068,6 +89086,10 @@ establishment
 enabling
 established
 existed
+eigenvector
+eigenvalue
+eigenvectors
+eigenvalues
 have
 hQ
 hfRF
@@ -92067,6 +92089,9 @@ house
 hotel
 hands
 hertz
+hyper
+hyperplane
+hyperplanes
 combination
 can
 command
@@ -95437,6 +95462,12 @@ campus
 city
 conference
 confirmed
+correlation
+confirm
+covariance
+closest
+cares
+classify
 Necessity
 Nikolay
 Natural
@@ -110508,6 +110539,7 @@ Observed
 Oscar
 Oversee
 Operates
+Objective
 menu
 more
 mA
@@ -126547,6 +126579,9 @@ reverse
 released
 rent
 reconstruct
+recall
+relax
+relative
 Zorich
 ZM
 ZB
@@ -139005,6 +139040,7 @@ HyM
 HDGBf
 Half
 Hybrid
+Hyperplane
 XKo
 Xg
 XWo

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
-                "mode": "preview",
+                "file": "Classification.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Regression"
+              "title": "Classification"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "Classification.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Regression"
+              "title": "Backlinks for Classification"
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression.md",
+                "file": "Classification.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Regression"
+              "title": "Outline of Classification"
             }
           }
         ],
@@ -243,6 +243,8 @@
   "active": "0b7ebf22a2e01eee",
   "lastOpenFiles": [
     "Introduction to Machine Learning.md",
+    "Gradient Descent.md",
+    "Regression.md",
     "Foundations of Machine Learning.md",
     "Support Vector Machines.md",
     "Library/Pasted image 20260429140947.png",
@@ -264,8 +266,6 @@
     "Nearest Neighbor Methods.md",
     "Classification.md",
     "Линейные модели.md",
-    "Gradient Descent.md",
-    "Regression.md",
     "Любовь, чак-чак и роботы.md",
     "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
     "Socket Programming in C.md",

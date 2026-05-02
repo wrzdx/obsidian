@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Theory of sequences and their limits..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Gradient Descent"
+              "title": "Theory of sequences and their limits."
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Theory of sequences and their limits..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gradient Descent"
+              "title": "Backlinks for Theory of sequences and their limits."
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Theory of sequences and their limits..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gradient Descent"
+              "title": "Outline of Theory of sequences and their limits."
             }
           }
         ],
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -242,34 +241,35 @@
   },
   "active": "0b7ebf22a2e01eee",
   "lastOpenFiles": [
+    "Theory of limits and continuity.md",
+    "Mathematical Analysis I.md",
+    "Introduction to Mathan.md",
+    "Basics of naive Set Theory..md",
+    "Number Systems. Axiomatic approaches..md",
+    "Relations, Functions, Operations.md",
+    "Innopolis 1st year - Fall Semester.md",
+    "Analytical Geometry and Linear Algebra I.md",
+    "Vector Algebra.md",
+    "Change of Basis. Matrix Inverses..md",
+    "The Dot product and its properties..md",
+    "Introduction. Vector Spaces. Linear Independence. Basis..md",
+    "Innopolis University.md",
+    "Innopolis 1st yeat - Spring Semester.md",
+    "Data Structures and Algorithms.md",
+    "Lecture 1. Course introduction. Algorithm analysis..md",
+    "Innopolis 2st year.md",
+    "Probability ans Statistics.md",
+    "Probability and Statistics. Week 2.md",
+    "Введение в курс. Описательная статистика. Разбор задач..md",
     "Introduction to Machine Learning.md",
+    "Gradient Descent.md",
     "Regression.md",
     "Foundations of Machine Learning.md",
     "Nearest Neighbor Methods.md",
     "Support Vector Machines.md",
-    "Dimensionality Reduction.md",
-    "Regularization.md",
-    "Naive Bayes Classifier.md",
-    "Classification.md",
-    "Gradient Descent.md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",
-    "Merkle Tree Diagram.md",
-    "Physical Layer and Media.md",
-    "OSI Model and Cloud Services.md",
-    "Data Communication and Networks.md",
-    "Networks.md",
-    "Blockchain-Based Voting System.md",
-    "Intro to AI. Assignment 1. A_Star. Backtracking. Lord Of Rings..md",
-    "Innopolis 2st year.md",
-    "Innopolis University.md",
-    "Home/Root.md",
-    "Линейные модели.md",
-    "Любовь, чак-чак и роботы.md",
-    "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
-    "Socket Programming in C.md",
-    "DNS.md",
     "Library/photo_2023-09-01_11-42-10.jpg",
     "Library/Pasted image 20260405163903.png",
     "Library/Pasted image 20260405093059.png",

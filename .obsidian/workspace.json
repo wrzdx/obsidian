@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory of sequences and their limits..md",
+                "file": "Real functions and their limits at a point..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Theory of sequences and their limits."
+              "title": "Real functions and their limits at a point."
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory of sequences and their limits..md",
+                "file": "Real functions and their limits at a point..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Theory of sequences and their limits."
+              "title": "Backlinks for Real functions and their limits at a point."
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory of sequences and their limits..md",
+                "file": "Real functions and their limits at a point..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Theory of sequences and their limits."
+              "title": "Outline of Real functions and their limits at a point."
             }
           }
         ],
@@ -242,6 +242,7 @@
   "active": "0b7ebf22a2e01eee",
   "lastOpenFiles": [
     "Theory of limits and continuity.md",
+    "Theory of sequences and their limits..md",
     "Mathematical Analysis I.md",
     "Introduction to Mathan.md",
     "Basics of naive Set Theory..md",
@@ -266,7 +267,6 @@
     "Regression.md",
     "Foundations of Machine Learning.md",
     "Nearest Neighbor Methods.md",
-    "Support Vector Machines.md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",

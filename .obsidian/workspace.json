@@ -8,52 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b7ebf22a2e01eee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distributed and Network Programming.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Distributed and Network Programming"
-            }
-          },
-          {
             "id": "c788609a81713220",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A distributed system is….md",
-                "mode": "source",
+                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A distributed system is…"
-            }
-          },
-          {
-            "id": "ac92468d176fd67f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "UML (Unified Modeling Language). Knowledge Representation (KR)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A distributed system is….md",
+                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for A distributed system is…"
+              "title": "Backlinks for UML (Unified Modeling Language). Knowledge Representation (KR)"
             }
           }
         ],
@@ -167,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A distributed system is….md",
+                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of A distributed system is…"
+              "title": "Outline of UML (Unified Modeling Language). Knowledge Representation (KR)"
             }
           }
         ],
@@ -181,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -272,8 +242,12 @@
   },
   "active": "c788609a81713220",
   "lastOpenFiles": [
-    "Distributed and Network Programming.md",
+    "Databases.md",
+    "Enchanced Entity-Relationship Model.md",
+    "Entity-Relationship Model.md",
+    "Database Modeling.md",
     "A distributed system is….md",
+    "Distributed and Network Programming.md",
     "Introduction.md",
     "Innopolis 2st year.md",
     "Innopolis University.md",
@@ -294,10 +268,6 @@
     "Innopolis 1st yeat - Spring Semester.md",
     "Data Structures and Algorithms.md",
     "Lecture 1. Course introduction. Algorithm analysis..md",
-    "Probability ans Statistics.md",
-    "Probability and Statistics. Week 2.md",
-    "Введение в курс. Описательная статистика. Разбор задач..md",
-    "Introduction to Machine Learning.md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",

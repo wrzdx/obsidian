@@ -104,7 +104,7 @@ flexGrow=1
 ===
 > [!example] 
 > `STUDENT(id, email, name)`
-> **Candidate keys:**
+> **Primary keys:**
 > {id}, {email}
 ```
 ````

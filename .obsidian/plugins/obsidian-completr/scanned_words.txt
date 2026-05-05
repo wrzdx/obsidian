@@ -3294,6 +3294,7 @@ Dimensionality
 Dimensional
 Decision
 Dependency
+Dependencies
 Lecturer
 Link
 Line
@@ -24071,6 +24072,7 @@ Caption
 Curse
 Communications
 Coordination
+Codd
 Sections
 Surfaces
 Spaces
@@ -27215,6 +27217,7 @@ Sensitive
 Slack
 Steen
 SETI
+Subqueries
 Algebra
 AGLA
 Assignments
@@ -41742,6 +41745,8 @@ Bits
 Buyya
 Boundary
 Better
+Boyce
+BCNF
 Material
 MORE
 Mathematical
@@ -70082,6 +70087,7 @@ damage
 desktops
 degradation
 determinism
+dependencies
 independency
 in
 info
@@ -82730,6 +82736,7 @@ frequencies
 fiber
 functioning
 fail
+functionally
 scalars
 sufficient
 settings
@@ -85927,6 +85934,8 @@ shouldn
 structural
 specification
 semantic
+subquery
+solely
 exist
 excalidraw
 everything
@@ -107496,6 +107505,8 @@ Evidence
 Ensures
 Enables
 Effectiveness
+EXISTS
+Eliminate
 OPTIONS
 Operations
 Obtain

@@ -3295,6 +3295,7 @@ Dimensional
 Decision
 Dependency
 Dependencies
+DISTINCT
 Lecturer
 Link
 Line
@@ -12475,6 +12476,7 @@ Institute
 Infrastructure
 IaaS
 Improves
+Indexes
 Telegram
 Theorem
 Text
@@ -24073,6 +24075,7 @@ Curse
 Communications
 Coordination
 Codd
+Clustering
 Sections
 Surfaces
 Spaces
@@ -27218,6 +27221,7 @@ Slack
 Steen
 SETI
 Subqueries
+Secondary
 Algebra
 AGLA
 Assignments
@@ -30169,6 +30173,8 @@ Analog
 Availability
 Association
 Aggregation
+ANALYZE
+Avoid
 and
 algebra
 any
@@ -48579,6 +48585,7 @@ predictions
 projecting
 projected
 player
+peculiar
 Read
 Relations
 RY
@@ -54767,6 +54774,9 @@ optic
 optical
 optics
 ontology
+ordering
+optimizer
+optimizations
 lecture
 lineynaya
 linear
@@ -60620,6 +60630,7 @@ government
 govern
 geographical
 graceful
+generator
 Umnov
 Uniqueness
 Uf
@@ -74043,6 +74054,8 @@ inherits
 interrelated
 infer
 inference
+introduces
+intends
 For
 Functions
 Frolov
@@ -77176,6 +77189,7 @@ Flexibility
 Fsj
 Framing
 FTAM
+Familiarizing
 vectors
 vector
 variable
@@ -85936,6 +85950,11 @@ specification
 semantic
 subquery
 solely
+soring
+sorting
+scanning
+search
+statistics
 exist
 excalidraw
 everything
@@ -107507,6 +107526,7 @@ Enables
 Effectiveness
 EXISTS
 Eliminate
+EXPLAIN
 OPTIONS
 Operations
 Obtain
@@ -110615,6 +110635,7 @@ OrderService
 Ontology
 Origin
 Ontologies
+ORDER
 menu
 more
 mA
@@ -154391,6 +154412,7 @@ yQFL
 yield
 yandex
 yNp
+yourself
 xx
 xP
 xWY

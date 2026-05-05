@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Normalization.md",
-                "mode": "preview",
+                "file": "Introduction to NoSQL.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database Normalization"
+              "title": "Introduction to NoSQL"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Normalization.md",
+                "file": "Introduction to NoSQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Normalization"
+              "title": "Backlinks for Introduction to NoSQL"
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database Normalization.md",
+                "file": "Introduction to NoSQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Normalization"
+              "title": "Outline of Introduction to NoSQL"
             }
           }
         ],
@@ -243,6 +243,10 @@
   "active": "c788609a81713220",
   "lastOpenFiles": [
     "Databases.md",
+    "Concurrency Control & Transactions.md",
+    "Stored Procedures, Functions, Triggers and PL pgSQL.md",
+    "Query Processing & Optimization.md",
+    "Database Normalization.md",
     "Advanced SQL.md",
     "Introduction to SQL.md",
     "From ERD to Relational Model.md",
@@ -264,10 +268,6 @@
     "Introduction to Mathan.md",
     "Basics of naive Set Theory..md",
     "Number Systems. Axiomatic approaches..md",
-    "Relations, Functions, Operations.md",
-    "Analytical Geometry and Linear Algebra I.md",
-    "Vector Algebra.md",
-    "Change of Basis. Matrix Inverses..md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",

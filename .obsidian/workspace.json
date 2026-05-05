@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
+                "file": "Introduction to SQL.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "UML (Unified Modeling Language). Knowledge Representation (KR)"
+              "title": "Introduction to SQL"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
+                "file": "Introduction to SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UML (Unified Modeling Language). Knowledge Representation (KR)"
+              "title": "Backlinks for Introduction to SQL"
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UML (Unified Modeling Language). Knowledge Representation (KR).md",
+                "file": "Introduction to SQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UML (Unified Modeling Language). Knowledge Representation (KR)"
+              "title": "Outline of Introduction to SQL"
             }
           }
         ],
@@ -243,6 +243,9 @@
   "active": "c788609a81713220",
   "lastOpenFiles": [
     "Databases.md",
+    "From ERD to Relational Model.md",
+    "Relational Model & Relational Algebra.md",
+    "UML (Unified Modeling Language). Knowledge Representation (KR).md",
     "Enchanced Entity-Relationship Model.md",
     "Entity-Relationship Model.md",
     "Database Modeling.md",
@@ -265,9 +268,6 @@
     "Change of Basis. Matrix Inverses..md",
     "The Dot product and its properties..md",
     "Introduction. Vector Spaces. Linear Independence. Basis..md",
-    "Innopolis 1st yeat - Spring Semester.md",
-    "Data Structures and Algorithms.md",
-    "Lecture 1. Course introduction. Algorithm analysis..md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",

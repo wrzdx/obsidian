@@ -16,3 +16,4 @@
 - [MongoDB](MongoDB.md)
 - [Distributed Databases](Distributed%20Databases.md)
 - [Graph Databases Neo4j](Graph%20Databases%20Neo4j.md)
+- [Cloud Databases](Cloud%20Databases.md)

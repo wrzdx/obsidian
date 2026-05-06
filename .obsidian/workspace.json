@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to NoSQL.md",
-                "mode": "source",
+                "file": "MongoDB.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to NoSQL"
+              "title": "MongoDB"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to NoSQL.md",
+                "file": "MongoDB.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction to NoSQL"
+              "title": "Backlinks for MongoDB"
             }
           }
         ],
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to NoSQL.md",
+                "file": "MongoDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction to NoSQL"
+              "title": "Outline of MongoDB"
             }
           }
         ],
@@ -243,6 +243,7 @@
   "active": "c788609a81713220",
   "lastOpenFiles": [
     "Databases.md",
+    "Introduction to NoSQL.md",
     "Concurrency Control & Transactions.md",
     "Stored Procedures, Functions, Triggers and PL pgSQL.md",
     "Query Processing & Optimization.md",
@@ -267,7 +268,6 @@
     "Theory of sequences and their limits..md",
     "Introduction to Mathan.md",
     "Basics of naive Set Theory..md",
-    "Number Systems. Axiomatic approaches..md",
     "Library/Pasted image 20260429140947.png",
     "Library/Pasted image 20260429140915.png",
     "Library/Pasted image 20260429140221.png",

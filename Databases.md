@@ -14,3 +14,5 @@
 - [Concurrency Control & Transactions](Concurrency%20Control%20&%20Transactions.md)
 - [Introduction to NoSQL](Introduction%20to%20NoSQL.md)
 - [MongoDB](MongoDB.md)
+- [Distributed Databases](Distributed%20Databases.md)
+- [Graph Databases Neo4j](Graph%20Databases%20Neo4j.md)

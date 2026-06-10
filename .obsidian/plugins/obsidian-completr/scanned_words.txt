@@ -6441,6 +6441,8 @@ DSYR
 DtAK
 DMbu
 Dtbg
+Divergent
+Dyes
 Lecturer
 Link
 Line
@@ -37364,6 +37366,10 @@ nivX
 nevqv
 nChs
 nUjV
+nfcorpus
+nDCG
+normalization
+normalizes
 to
 the
 topics
@@ -62284,6 +62290,7 @@ AFQi
 ASuUL
 AfvK
 Aebn
+ADHD
 and
 algebra
 any
@@ -74587,6 +74594,7 @@ Pwzpk
 PLMpDm
 Packard
 PTTu
+PLAIN
 Quadratic
 Qn
 QL
@@ -80742,6 +80750,7 @@ QVLt
 QWhb
 Qru
 QxYxo
+Query
 Basis
 Body
 Basic
@@ -86672,6 +86681,7 @@ BxSV
 ByAz
 BRYQ
 Bveu
+BEIR
 Material
 MORE
 Mathematical
@@ -99602,6 +99612,8 @@ pVEor
 pdmdd
 pNVM
 pHHC
+places
+promotes
 Read
 Relations
 RY
@@ -105965,6 +105977,7 @@ RZkW
 RNHZ
 RBmH
 RXaJ
+Ranker
 of
 one
 others
@@ -112137,6 +112150,7 @@ oyEEe
 oKEE
 oJRs
 oRCpaR
+occurrences
 lecture
 lineynaya
 linear
@@ -118207,6 +118221,7 @@ leXV
 lrGY
 lwtpt
 lBkk
+label
 geometria
 gN
 gQ
@@ -143354,6 +143369,9 @@ dmnd
 dabU
 dDXf
 dpPL
+differs
+dyes
+documents
 independency
 in
 info
@@ -150158,6 +150176,7 @@ iBJd
 ixVL
 iwDF
 iqae
+informative
 For
 Functions
 Frolov
@@ -156480,6 +156499,7 @@ FibH
 FjIHC
 FUxK
 FCtg
+Food
 vectors
 vector
 variable
@@ -175017,6 +175037,8 @@ sXhF
 scLd
 sNBr
 skkks
+saturation
+scores
 exist
 excalidraw
 everything
@@ -181329,6 +181351,9 @@ eeoM
 epQbr
 eKECyq
 ecEG
+evaluated
+emphasis
+explains
 have
 hQ
 hfRF
@@ -256862,6 +256887,11 @@ rqLv
 rHUr
 rLeI
 rQF
+ranking
+relevance
+ranks
+repeated
+relevant
 Zorich
 ZM
 ZB
@@ -276101,6 +276131,7 @@ qJft
 qwue
 qmWY
 qUgW
+query
 HB
 HE
 HK

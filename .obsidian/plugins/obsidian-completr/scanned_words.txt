@@ -6443,6 +6443,7 @@ DMbu
 Dtbg
 Divergent
 Dyes
+Discount
 Lecturer
 Link
 Line
@@ -31247,6 +31248,7 @@ TjKH
 TGsw
 TnEm
 TByG
+Tokenization
 nomemm
 need
 necessary
@@ -49794,6 +49796,7 @@ Coosnf
 Ckwa
 Cppee
 Company
+Choices
 Sections
 Surfaces
 Spaces
@@ -56074,6 +56077,7 @@ Scom
 SkeKK
 SsRY
 Sljy
+Scoring
 Algebra
 AGLA
 Assignments
@@ -99614,6 +99618,7 @@ pNVM
 pHHC
 places
 promotes
+punctuation
 Read
 Relations
 RY
@@ -118222,6 +118227,7 @@ lrGY
 lwtpt
 lBkk
 label
+lowercase
 geometria
 gN
 gQ
@@ -162503,6 +162509,7 @@ vBFR
 vued
 vNUGN
 vQPI
+variant
 for
 file
 form
@@ -175039,6 +175046,8 @@ sNBr
 skkks
 saturation
 scores
+strip
+split
 exist
 excalidraw
 everything
@@ -218978,6 +218987,7 @@ EnEc
 ENda
 ELdgFj
 ENHZ
+Evaluation
 OPTIONS
 Operations
 Obtain
@@ -231986,6 +231996,7 @@ mrQOO
 mNua
 mFveZ
 mopB
+metric
 You
 YC
 YR
@@ -244330,6 +244341,9 @@ wxcR
 wwqk
 wZcF
 wtpt
+whitespace
+weighted
+weights
 under
 up
 unclear

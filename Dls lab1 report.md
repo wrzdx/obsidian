@@ -15,8 +15,8 @@
 
 | Ranker | Mean nDCG@10 |
 | ------ | -----------: |
-| TF-IDF |       0.2673 |
-| BM25   |       0.2819 |
+| TF-IDF |       0.2619 |
+| BM25   |       0.2789 |
 
 BM25 achieves a higher mean nDCG@10 than TF-IDF on the evaluated query set.
 

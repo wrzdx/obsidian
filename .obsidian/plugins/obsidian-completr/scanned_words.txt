@@ -56097,6 +56097,7 @@ Small
 Stemming
 Stopword
 Significance
+Similarity
 Algebra
 AGLA
 Assignments
@@ -93301,6 +93302,7 @@ MOadi
 Mspr
 MlGv
 MiRg
+Measures
 pdf
 previous
 prove

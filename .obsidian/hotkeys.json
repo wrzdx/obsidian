@@ -205,5 +205,12 @@
       "key": "B"
     }
   ],
-  "obsidian-completr:completr-insert-selected-suggestion": []
+  "obsidian-completr:completr-insert-selected-suggestion": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ]
 }

@@ -1,0 +1,138 @@
+## Networks classification
+
+| Network Criteria                           | Examples                                                                                                                                                                          |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Scale                                      | **PAN:** Personal Area Network<br>**LAN:** Local Area Network<br>**MAN:** Metropolitan Area Network<br>**WAN:** Wide Area Network<br>![](Pasted%20image%2020260329143541.png)<br> |
+| Transmission Medium                        | Optical, Coaxial, Radiowaves, Infrared<br><br>![\|400](Pasted%20image%2020260329145648.png)<br>                                                                                   |
+| Protocols/Technologies supported           | LAN: **Ethernet** <br>MAN: **Distributed Queue Dual Bus** <br>WAN: **Cable Modem**, **Digital Subscriber** or **Leased Line** <br>BAN, PAN: **Bluetooth**, **Wi-Fi**              |
+| Network Topology<br>(physical and logical) | Bus, Ring, Star, Tree, Hierarchical, Mesh                                                                                                                                         |
+| Performance Metrics                        | **Bandwidth** (bits/sec) – max. transfer rate; <br>**Throughput** (bits/sec) – actual/average transfer rate; <br>**Packet Loss**, **Error bit rate**                              |
+| Proprietary Type                           | **Open systems:** OSI-compliant, standard protocols; <br>**Proprietary systems:** private technologies and protocols                                                              |
+
+| Cryteria    | LAN            | MAN               | WAN                  |
+| :---------- | :------------- | :---------------- | :------------------- |
+| Technology  | Ethernet, WiFi | DQDB, ATM         | Leased Line, Dial-Up |
+| Range       | Up to 2km      | 5-50km            | Above 50km           |
+| Speed       | Very High      | Average           | Low                  |
+| Ownership   | Private        | Private or Public | Private or Public    |
+| Maintenance | Easy           | Difficult         | Very Difficult       |
+
+### Physical Network Topology
+A physical interconnection layout between network nodes (routers, switches, etc.)
+
+![](Pasted%20image%2020260329150714.png)
+
+- The most *fast* and *reliable*, but *expensive* as well – **Full Mesh**.
+
+Assumption of *bidirectional communication* channels is NOT always valid (e.g. due to admin configs)
+
+
+### Logical Topology:
+Actual data flow between nodes
+
+````col
+```col-md
+flexGrow=1
+===
+**Physical Topology:**
+![](Pasted%20image%2020260329151308.png)
+```
+
+```col-md
+flexGrow=1
+===
+**Logical Topology:**
+![](Pasted%20image%2020260329151321.png)
+```
+````
+
+
+## Internet
+### Organization Principles
+![|600](Pasted%20image%2020260329153250.png)
+
+**Local or Regional Internet Service Provider (ISP)**
+- Example: Tattelecom
+- Provides an Internet connection to local communities or small regions
+- Services: IP address allocation, domain name registration, web hosting, etc.
+- Owns MAN or WAN networks
+
+**Content Provider Network**
+- Servers network of a content provider (e.g. Youtube.com, Google.com)
+- Numerous user requests are handled by different servers
+- Needed for handling simultaneous requests with acceptable quality (delays)
+- Can be either local or geographically distributed network
+
+**Enterprise Network**
+- Midsize or large enterprise IT infrastructure
+- Local Area Network (LAN)
+
+**Mobile Network**
+- A large-scale wireless network
+- Radio waves transmission medium
+- Multiple radio base stations over a large area
+- Mobile hosts dynamically reconnect between stations
+
+**National or Global Internet Service Providers (ISP)**
+- Some Russian national ISPs: Rostelecom, MTS, Relkom (Demos)
+	- Demos – the first ISP in Russia (1989) owning *“.su”* domain
+	- Provide an Internet connection across a country
+	- Services:
+		- IP address allocation to local providers or end users;
+		- domain name registration;
+		- web hosting, etc.
+	- Operate with WAN network infrastructure (the Internet “*backbone*”)
+
+**The Internet – the network of networks**
+- Interconnects the hardware infrastructure of multiple ISPs
+
+- A “*Nuts and Bolts*” view of the Internet – Its entire hardware infrastructure:
+	- Servers and Clients
+	- Routers, switches, and similar
+	- Communication links of all types
+
+- A “*Services*” view of the Internet – Data transfer facilities to network applications:
+	- Video streaming, web browsing, file distribution, and other facilities
+	- No deep understanding of the Internet organization is needed for developing simple network applications
+
+### The Internet Standards
+- **Request For Comments (RFC)** – informally is “the proposal for standards”
+	- Development proposals from interested parties
+	- Not all RFCs are standards
+
+- **Internet Engineering Task Force (IETF**) maintains technical standards (e.g. IP protocol)
+
+- **The Internet Corporation for Assigned Names and Numbers (ICANN)** allocates IP addresses around the Globe
+
+## OSI Reference Model
+- **Open Systems Interconnection (OSI)** Layered Reference Model
+
+Analogy: OSI to Physical Letter Delivery
+
+| OSI Layer    | Paper Letter Sending Analogy                                    |
+| ------------ | --------------------------------------------------------------- |
+| Application  | Letter content                                                  |
+| Presentation | Letter content language, destination address language           |
+| Session      | Post office visit, letter type choice, signatures and payment   |
+| Transport    | Overall letter delivery process (e.g. avoidance of letter loss) |
+| Network      | Letter Delivery route                                           |
+| Data Link    | Letter transportation between adjucent points                   |
+| Physical     | Physical letter paper                                           |
+
+### Application Layer
+Protocols define:
+- Exchanged messages format
+- Communication stages e.g. welcoming, acknowledgements, closure
+- Message types, e.g. webpage request and response
+- Other
+
+| Application Layer Protocol                      | Purpose                       |
+| ----------------------------------------------- | ----------------------------- |
+| **DHCP**: Dynamic Host Configuration Protocol   | IP addresses assignment       |
+| **DNS**: Domain Name System                     | URL resolution protocol       |
+| **HTTP**: Hyper Text Transfer Protocol          | Web pages acces               |
+| **FTP**: File Transfer Protocol                 | Files download/upload (large) |
+| **SMTP**: Simple Mail Transport Protocol        | Emails sending                |
+| **POP:** Post Office Protocol                   | Emails reading                |
+| **IMAP**: Internet Message Access Protocol      | Emails reading                |
+| **MIME**: Multipurpose Internet Mail Extensions | Email attachments support     |

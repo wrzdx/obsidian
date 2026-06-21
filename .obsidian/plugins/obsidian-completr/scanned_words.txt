@@ -6448,6 +6448,8 @@ Deeper
 Dataset
 Documents
 Discussion
+Dense
+Drift
 Lecturer
 Link
 Line
@@ -12466,6 +12468,12 @@ LOVe
 LkRZf
 Lxvr
 Leqj
+Lexical
+Long
+Luhn
+Lewis
+Leakage
+Label
 Vladimir
 Vector
 VIEW
@@ -25165,6 +25173,8 @@ INmB
 IyWW
 IsraaN
 Information
+Informational
+Iceberg
 Telegram
 Theorem
 Text
@@ -31255,6 +31265,10 @@ TGsw
 TnEm
 TByG
 Tokenization
+TikTok
+Tail
+Transactional
+Training
 nomemm
 need
 necessary
@@ -49810,6 +49824,8 @@ Company
 Choices
 Corpus
 Cosine
+Covariate
+Concept
 Sections
 Surfaces
 Spaces
@@ -56098,6 +56114,13 @@ Stemming
 Stopword
 Significance
 Similarity
+Synonymy
+Spärck
+SBERT
+Sculley
+Serving
+Skew
+Simpson
 Algebra
 AGLA
 Assignments
@@ -74624,6 +74647,9 @@ PLAIN
 Professional
 Porter
 Paired
+Pull
+Polysemy
+Precision
 Quadratic
 Qn
 QL
@@ -86713,6 +86739,10 @@ Bveu
 BEIR
 Best
 Baseline
+Broder
+BERT
+Budget
+Bias
 Material
 MORE
 Mathematical
@@ -93303,6 +93333,7 @@ Mspr
 MlGv
 MiRg
 Measures
+Mikolov
 pdf
 previous
 prove
@@ -99649,6 +99680,7 @@ promotes
 punctuation
 performed
 produced
+precision
 Read
 Relations
 RY
@@ -106015,6 +106047,11 @@ RXaJ
 Ranker
 Removal
 Retrieval
+Relevance
+Recommendation
+Recall
+Robertson
+Ranking
 of
 one
 others
@@ -156550,6 +156587,7 @@ FjIHC
 FUxK
 FCtg
 Food
+Furnas
 vectors
 vector
 variable
@@ -200262,6 +200300,9 @@ NeCQ
 NJHJ
 NHkC
 NktpI
+Need
+Netflix
+Navigational
 Given
 Graphs
 Gg
@@ -206621,6 +206662,9 @@ GuqT
 GYWZe
 GcFTZg
 GXJB
+Gremlin
+GBDT
+Goodhart
 basis
 be
 bd
@@ -219058,6 +219102,7 @@ Evaluation
 Experiments
 Experimental
 Evaluated
+Encoder
 OPTIONS
 Operations
 Obtain
@@ -225333,6 +225378,7 @@ OojQ
 Ogeqaz
 OBqI
 Overall
+Offline
 menu
 more
 mA
@@ -238262,6 +238308,7 @@ YxlQ
 YYYn
 YiZV
 YQVk
+YouTube
 with
 where
 way
@@ -256989,6 +257036,8 @@ remained
 reduced
 removal
 reliable
+recall
+retriever
 Zorich
 ZM
 ZB
@@ -263496,6 +263545,7 @@ ZOah
 ZgyV
 ZEIC
 ZgRNka
+Zipf
 Kniga
 KP
 KMJ
@@ -325731,6 +325781,7 @@ JYrq
 JClu
 JcCEIq
 JCZc
+Jones
 öz
 ös
 öf

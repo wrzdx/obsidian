@@ -6444,6 +6444,10 @@ Dtbg
 Divergent
 Dyes
 Discount
+Deeper
+Dataset
+Documents
+Discussion
 Lecturer
 Link
 Line
@@ -18477,6 +18481,7 @@ VgbL
 Vou
 VVIo
 VSHK
+Vocabulary
 Ivanov
 Introduction
 Independence
@@ -37372,6 +37377,8 @@ nfcorpus
 nDCG
 normalization
 normalizes
+ndcg
+noticeably
 to
 the
 topics
@@ -43516,6 +43523,9 @@ teZI
 tZXul
 tNM
 trsdm
+tokenization
+tokenizer
+tests
 Course
 Curves
 Continuation
@@ -49797,6 +49807,8 @@ Ckwa
 Cppee
 Company
 Choices
+Corpus
+Cosine
 Sections
 Surfaces
 Spaces
@@ -56078,6 +56090,12 @@ SkeKK
 SsRY
 Sljy
 Scoring
+Setup
+Statistic
+Small
+Stemming
+Stopword
+Significance
 Algebra
 AGLA
 Assignments
@@ -68531,6 +68549,8 @@ ailw
 aSyM
 atj
 acspMSFT
+across
+against
 Plane
 Problem
 Prove
@@ -74599,6 +74619,9 @@ PLMpDm
 Packard
 PTTu
 PLAIN
+Professional
+Porter
+Paired
 Quadratic
 Qn
 QL
@@ -86686,6 +86709,8 @@ ByAz
 BRYQ
 Bveu
 BEIR
+Best
+Baseline
 Material
 MORE
 Mathematical
@@ -99619,6 +99644,8 @@ pHHC
 places
 promotes
 punctuation
+performed
+produced
 Read
 Relations
 RY
@@ -105983,6 +106010,7 @@ RNHZ
 RBmH
 RXaJ
 Ranker
+Removal
 of
 one
 others
@@ -112156,6 +112184,9 @@ oKEE
 oJRs
 oRCpaR
 occurrences
+outputs
+outperform
+observed
 lecture
 lineynaya
 linear
@@ -118228,6 +118259,8 @@ lwtpt
 lBkk
 label
 lowercase
+logarithmic
+lexical
 geometria
 gN
 gQ
@@ -124492,6 +124525,7 @@ glDy
 gUKu
 gyyk
 glGc
+graded
 Umnov
 Uniqueness
 Uf
@@ -130770,6 +130804,7 @@ UlWi
 UjTtQ
 UMQGi
 UbTH
+Users
 Watch
 We
 What
@@ -137033,6 +137068,8 @@ WtZv
 WlKZ
 Wbw
 WXva
+Whitespace
+Wilcoxon
 dependency
 dependent
 document
@@ -143378,6 +143415,8 @@ dpPL
 differs
 dyes
 documents
+discount
+dataset
 independency
 in
 info
@@ -150183,6 +150222,7 @@ ixVL
 iwDF
 iqae
 informative
+influence
 For
 Functions
 Frolov
@@ -162510,6 +162550,8 @@ vued
 vNUGN
 vQPI
 variant
+vocabulary
+variants
 for
 file
 form
@@ -175048,6 +175090,16 @@ saturation
 scores
 strip
 split
+statistics
+scratch
+similarity
+sweep
+stemming
+strongest
+strategies
+statistically
+shows
+significance
 exist
 excalidraw
 everything
@@ -181363,6 +181415,10 @@ ecEG
 evaluated
 emphasis
 explains
+experiments
+evaluation
+extremes
+effectiveness
 have
 hQ
 hfRF
@@ -194150,6 +194206,10 @@ czlf
 ccwv
 chux
 cWVc
+cosine
+cause
+confidence
+caused
 Necessity
 Nikolay
 Natural
@@ -212591,6 +212651,9 @@ brNT
 bpAaak
 bAXbg
 bkpt
+boxplot
+best
+beneficial
 EXCALIDRAW
 Excalidraw
 Elements
@@ -218988,6 +219051,9 @@ ENda
 ELdgFj
 ENHZ
 Evaluation
+Experiments
+Experimental
+Evaluated
 OPTIONS
 Operations
 Obtain
@@ -225262,6 +225328,7 @@ ODpx
 OojQ
 Ogeqaz
 OBqI
+Overall
 menu
 more
 mA
@@ -231997,6 +232064,9 @@ mNua
 mFveZ
 mopB
 metric
+metrics
+merged
+morphological
 You
 YC
 YR
@@ -244344,6 +244414,8 @@ wtpt
 whitespace
 weighted
 weights
+were
+weakest
 under
 up
 unclear
@@ -250666,6 +250738,7 @@ uUsm
 uJlr
 ujEc
 uehC
+unlikely
 represented
 ru
 rows
@@ -256906,6 +256979,12 @@ relevance
 ranks
 repeated
 relevant
+rankers
+retrieval
+remained
+reduced
+removal
+reliable
 Zorich
 ZM
 ZB

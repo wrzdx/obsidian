@@ -18490,6 +18490,7 @@ Vou
 VVIo
 VSHK
 Vocabulary
+Variable
 Ivanov
 Introduction
 Independence
@@ -25175,6 +25176,7 @@ IsraaN
 Information
 Informational
 Iceberg
+Indexing
 Telegram
 Theorem
 Text
@@ -49824,6 +49826,11 @@ Corpus
 Cosine
 Covariate
 Concept
+Classical
+CombSUM
+CombMNZ
+Cormack
+Clarke
 Sections
 Surfaces
 Spaces
@@ -56117,6 +56124,10 @@ Sculley
 Serving
 Skew
 Simpson
+SPIMI
+Sort
+Skip
+Salton
 Algebra
 AGLA
 Assignments
@@ -74644,6 +74655,8 @@ Paired
 Pull
 Polysemy
 Precision
+Postings
+Proximity
 Quadratic
 Qn
 QL
@@ -86737,6 +86750,12 @@ Broder
 BERT
 Budget
 Bias
+BSBI
+Blocked
+Byte
+BlockMax
+Borda
+Büttcher
 Material
 MORE
 Mathematical
@@ -93327,6 +93346,8 @@ MlGv
 MiRg
 Measures
 Mikolov
+Merge
+Match
 pdf
 previous
 prove
@@ -99674,6 +99695,7 @@ punctuation
 performed
 produced
 precision
+pass
 Read
 Relations
 RY
@@ -106045,6 +106067,7 @@ Recommendation
 Recall
 Robertson
 Ranking
+Reciprocal
 of
 one
 others
@@ -137104,6 +137127,10 @@ Wbw
 WXva
 Whitespace
 Wilcoxon
+Words
+Wong
+WAND
+Weak
 dependency
 dependent
 document
@@ -175129,6 +175156,8 @@ strategies
 statistically
 shows
 significance
+search
+shot
 exist
 excalidraw
 everything
@@ -225364,6 +225393,7 @@ Ogeqaz
 OBqI
 Overall
 Offline
+Okapi
 menu
 more
 mA
@@ -238294,6 +238324,7 @@ YYYn
 YiZV
 YQVk
 YouTube
+Yang
 with
 where
 way

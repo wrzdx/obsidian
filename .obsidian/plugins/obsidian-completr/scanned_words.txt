@@ -6450,6 +6450,8 @@ Documents
 Discussion
 Dense
 Drift
+Discounted
+Dimensionality
 Lecturer
 Link
 Line
@@ -25177,6 +25179,10 @@ Information
 Informational
 Iceberg
 Indexing
+IDCG
+Ideal
+Interleaving
+Intro
 Telegram
 Theorem
 Text
@@ -31271,6 +31277,7 @@ TikTok
 Tail
 Transactional
 Training
+Token
 nomemm
 need
 necessary
@@ -56128,6 +56135,7 @@ SPIMI
 Sort
 Skip
 Salton
+SentencePiece
 Algebra
 AGLA
 Assignments
@@ -74657,6 +74665,9 @@ Polysemy
 Precision
 Postings
 Proximity
+Pair
+Pinecone
+Pooling
 Quadratic
 Qn
 QL
@@ -80813,6 +80824,8 @@ QWhb
 Qru
 QxYxo
 Query
+Qdrant
+Qrels
 Basis
 Body
 Basic
@@ -86756,6 +86769,7 @@ Byte
 BlockMax
 Borda
 Büttcher
+Biased
 Material
 MORE
 Mathematical
@@ -93348,6 +93362,8 @@ Measures
 Mikolov
 Merge
 Match
+Masked
+Modeling
 pdf
 previous
 prove
@@ -124583,6 +124599,7 @@ gUKu
 gyyk
 glGc
 graded
+ground
 Umnov
 Uniqueness
 Uf
@@ -130862,6 +130879,7 @@ UjTtQ
 UMQGi
 UbTH
 Users
+Unigram
 Watch
 We
 What
@@ -137131,6 +137149,7 @@ Words
 Wong
 WAND
 Weak
+WordPiece
 dependency
 dependent
 document
@@ -156608,6 +156627,7 @@ FUxK
 FCtg
 Food
 Furnas
+FAISS
 vectors
 vector
 variable
@@ -175158,6 +175178,8 @@ shows
 significance
 search
 shot
+subwords
+subword
 exist
 excalidraw
 everything
@@ -200317,6 +200339,9 @@ NktpI
 Need
 Netflix
 Navigational
+NFKC
+NFKD
+Normalized
 Given
 Graphs
 Gg
@@ -212716,6 +212741,7 @@ bkpt
 boxplot
 best
 beneficial
+bpref
 EXCALIDRAW
 Excalidraw
 Elements
@@ -219117,6 +219143,8 @@ Experiments
 Experimental
 Evaluated
 Encoder
+Expected
+Embeddings
 OPTIONS
 Operations
 Obtain
@@ -325798,6 +325826,7 @@ JClu
 JcCEIq
 JCZc
 Jones
+Judgments
 öz
 ös
 öf

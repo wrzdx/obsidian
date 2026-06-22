@@ -8,3 +8,4 @@
 - [Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion](Classical%20IR%20(TF-IDF,%20BM25,%20inverted%20index)%20·%20Full-text%20Ranking%20&%20Rank%20Fusion.md)
 - [Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)](Ranking%20Metrics%20(Recall@k,%20Precision@k,%20MRR,%20MAP,%20nDCG).md)
 - [Intro to DL for Search · Word Embeddings · Dimensionality Reduction](Intro%20to%20DL%20for%20Search%20·%20Word%20Embeddings%20·%20Dimensionality%20Reduction.md)
+- [Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention](Dense%20&%20Contextual%20Embeddings%20·%20Contrastive%20Learning%20·%20Transformers%20&%20Attention.md)

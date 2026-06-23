@@ -199,7 +199,8 @@
               "title": "Обратные ссылки для Любовь, чак-чак и роботы"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e68b3348704f47e",
@@ -223,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "57e2b10c14e61662",
@@ -315,7 +315,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5303d7e82d232eb",
+  "active": "d0989b295985b2c1",
   "lastOpenFiles": [
     "Deep Learning for Search.md",
     "Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention.md",

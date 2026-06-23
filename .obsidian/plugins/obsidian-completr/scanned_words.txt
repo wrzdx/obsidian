@@ -6452,6 +6452,10 @@ Dense
 Drift
 Discounted
 Dimensionality
+DeepWalk
+Distributed
+DistilBERT
+DNABERT
 Lecturer
 Link
 Line
@@ -12476,6 +12480,8 @@ Luhn
 Lewis
 Leakage
 Label
+Longformer
+LayerNorm
 Vladimir
 Vector
 VIEW
@@ -18493,6 +18499,8 @@ VVIo
 VSHK
 Vocabulary
 Variable
+Voita
+Vision
 Ivanov
 Introduction
 Independence
@@ -25183,6 +25191,9 @@ IDCG
 Ideal
 Interleaving
 Intro
+Item
+InfoNCE
+Isola
 Telegram
 Theorem
 Text
@@ -31279,6 +31290,7 @@ Transactional
 Training
 Token
 Transformers
+Transformer
 nomemm
 need
 necessary
@@ -49841,6 +49853,11 @@ Cormack
 Clarke
 Contextual
 Contrastive
+CBOW
+Caliskan
+CLIP
+Clark
+ColPali
 Sections
 Surfaces
 Spaces
@@ -56139,6 +56156,12 @@ Sort
 Skip
 Salton
 SentencePiece
+Softmax
+Sampling
+SGNS
+Stochastic
+Scaled
+SRAM
 Algebra
 AGLA
 Assignments
@@ -62357,6 +62380,7 @@ AfvK
 Aebn
 ADHD
 Attention
+ALiBi
 and
 algebra
 any
@@ -68593,6 +68617,7 @@ atj
 acspMSFT
 across
 against
+airplane
 Plane
 Problem
 Prove
@@ -74672,6 +74697,12 @@ Proximity
 Pair
 Pinecone
 Pooling
+Pennington
+Prod
+ProtBERT
+Performer
+Post
+Pipelines
 Quadratic
 Qn
 QL
@@ -86774,6 +86805,12 @@ BlockMax
 Borda
 Büttcher
 Biased
+Bojanowski
+Bolukbasi
+BLAST
+Blend
+BigBird
+BatchNorm
 Material
 MORE
 Mathematical
@@ -93368,6 +93405,7 @@ Merge
 Match
 Masked
 Modeling
+Matryoshka
 pdf
 previous
 prove
@@ -99716,6 +99754,7 @@ performed
 produced
 precision
 pass
+python
 Read
 Relations
 RY
@@ -106088,6 +106127,9 @@ Recall
 Robertson
 Ranking
 Reciprocal
+RoPE
+Residual
+Reranking
 of
 one
 others
@@ -124604,6 +124646,7 @@ gyyk
 glGc
 graded
 ground
+gram
 Umnov
 Uniqueness
 Uf
@@ -130884,6 +130927,7 @@ UMQGi
 UbTH
 Users
 Unigram
+Uniformity
 Watch
 We
 What
@@ -137154,6 +137198,8 @@ Wong
 WAND
 Weak
 WordPiece
+Whitening
+Wang
 dependency
 dependent
 document
@@ -156632,6 +156678,8 @@ FCtg
 Food
 Furnas
 FAISS
+FastText
+FlashAttention
 vectors
 vector
 variable
@@ -175184,6 +175232,8 @@ search
 shot
 subwords
 subword
+seed
+skip
 exist
 excalidraw
 everything
@@ -181501,6 +181551,7 @@ experiments
 evaluation
 extremes
 effectiveness
+encoders
 have
 hQ
 hfRF
@@ -194292,6 +194343,9 @@ cosine
 cause
 confidence
 caused
+cold
+commerce
+crowding
 Necessity
 Nikolay
 Natural
@@ -200346,6 +200400,8 @@ Navigational
 NFKC
 NFKD
 Normalized
+Negative
+Neighbor
 Given
 Graphs
 Gg
@@ -206708,6 +206764,8 @@ GXJB
 Gremlin
 GBDT
 Goodhart
+GloVe
+Geva
 basis
 be
 bd
@@ -212746,6 +212804,7 @@ boxplot
 best
 beneficial
 bpref
+bank
 EXCALIDRAW
 Excalidraw
 Elements
@@ -219149,6 +219208,8 @@ Evaluated
 Encoder
 Expected
 Embeddings
+Embedding
+Enformer
 OPTIONS
 Operations
 Obtain
@@ -232164,6 +232225,7 @@ metric
 metrics
 merged
 morphological
+money
 You
 YC
 YR
@@ -257086,6 +257148,7 @@ removal
 reliable
 recall
 retriever
+river
 Zorich
 ZM
 ZB
@@ -270086,6 +270149,7 @@ Kldtr
 KCWp
 KCFr
 KGrq
+Kusupati
 qt
 qL
 qY
@@ -294825,6 +294889,7 @@ jZZIb
 jjjhN
 jHj
 jWfq
+jaguar
 zM
 zd
 zH
@@ -307412,6 +307477,7 @@ kdYZ
 kSQ
 ktuGl
 kLtKk
+kitten
 yn
 yhR
 yg

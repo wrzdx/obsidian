@@ -23,13 +23,28 @@
             }
           },
           {
+            "id": "500bd0a3c0b6e7ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DLS Assignment 2 Report.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "DLS Assignment 2 Report"
+            }
+          },
+          {
             "id": "eead0286195a970e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DLS Lab2 Report.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -347,10 +362,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eead0286195a970e",
+  "active": "500bd0a3c0b6e7ee",
   "lastOpenFiles": [
-    "Deep Learning for Search.md",
     "DLS Lab2 Report.md",
+    "DLS Assignment 2 Report.md",
+    "Deep Learning for Search.md",
+    "Library/Pasted image 20260623124733.png",
     "Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank.md",
     "Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines.md",
     "Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention.md",
@@ -373,8 +390,6 @@
     "Relational Model & Relational Algebra.md",
     "Regularization.md",
     "Regression.md",
-    "Query Processing & Optimization.md",
-    "Physical Layer and Media.md",
     "Library/Studyboarding.png",
     "Library/Scene 1.png",
     "Library/Pasted image 20260429140947.png",
@@ -384,7 +399,6 @@
     "Library/Pasted image 20260405093059.png",
     "Library/Pasted image 20260404042531.png",
     "Library/Pasted image 20260404042519.png",
-    "Library/Pasted image 20260404042454.png",
     "Library/IMG_7058.mov",
     "Library/IMG_7054[1].mov",
     "Library/IMG_7054.mov",

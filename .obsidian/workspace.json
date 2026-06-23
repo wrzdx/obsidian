@@ -127,8 +127,7 @@
               "title": "Search & Information Retrieval · ML System Design"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -332,10 +331,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc9979ed269a5e27",
+  "active": "9a6732dabb4b162e",
   "lastOpenFiles": [
-    "Deep Learning for Search.md",
     "Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank.md",
+    "Deep Learning for Search.md",
     "Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines.md",
     "Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention.md",
     "Search & Information Retrieval · ML System Design.md",

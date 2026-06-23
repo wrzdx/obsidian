@@ -6456,6 +6456,7 @@ DeepWalk
 Distributed
 DistilBERT
 DNABERT
+Document
 Lecturer
 Link
 Line
@@ -12482,6 +12483,12 @@ Leakage
 Label
 Longformer
 LayerNorm
+Lucene
+LambdaRank
+Listwise
+ListMLE
+LambdaMART
+LightGBM
 Vladimir
 Vector
 VIEW
@@ -56165,6 +56172,9 @@ Stochastic
 Scaled
 SRAM
 SPLADE
+Sparse
+Sparsity
+Score
 Algebra
 AGLA
 Assignments
@@ -74706,6 +74716,9 @@ ProtBERT
 Performer
 Post
 Pipelines
+Pointwise
+Pairwise
+Production
 Quadratic
 Qn
 QL
@@ -93409,6 +93422,7 @@ Match
 Masked
 Modeling
 Matryoshka
+MaxSim
 pdf
 previous
 prove
@@ -99758,6 +99772,7 @@ produced
 precision
 pass
 python
+pgvector
 Read
 Relations
 RY
@@ -106133,6 +106148,7 @@ Reciprocal
 RoPE
 Residual
 Reranking
+RankNet
 of
 one
 others
@@ -143550,6 +143566,7 @@ dyes
 documents
 discount
 dataset
+developer
 independency
 in
 info
@@ -156683,6 +156700,8 @@ Furnas
 FAISS
 FastText
 FlashAttention
+Formal
+FLOPS
 vectors
 vector
 variable
@@ -168806,6 +168825,7 @@ fkVu
 fxSX
 fwRYm
 fLoF
+float
 scalars
 sufficient
 settings
@@ -200405,6 +200425,7 @@ NFKD
 Normalized
 Negative
 Neighbor
+NDCG
 Given
 Graphs
 Gg
@@ -206769,6 +206790,7 @@ GBDT
 Goodhart
 GloVe
 Geva
+Grand
 basis
 be
 bd
@@ -219213,6 +219235,9 @@ Expected
 Embeddings
 Embedding
 Enformer
+Expansion
+Elasticsearch
+Enterprise
 OPTIONS
 Operations
 Obtain
@@ -263660,6 +263685,7 @@ ZgyV
 ZEIC
 ZgRNka
 Zipf
+Zaharia
 Kniga
 KP
 KMJ
@@ -270153,6 +270179,7 @@ KCWp
 KCFr
 KGrq
 Kusupati
+Khattab
 qt
 qL
 qY
@@ -288633,6 +288660,7 @@ XICC
 XtDLQ
 XODr
 XXYg
+XGBoost
 jE
 jx
 jf

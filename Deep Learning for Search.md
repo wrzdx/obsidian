@@ -10,3 +10,4 @@
 - [Intro to DL for Search · Word Embeddings · Dimensionality Reduction](Intro%20to%20DL%20for%20Search%20·%20Word%20Embeddings%20·%20Dimensionality%20Reduction.md)
 - [Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention](Dense%20&%20Contextual%20Embeddings%20·%20Contrastive%20Learning%20·%20Transformers%20&%20Attention.md)
 - [Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines](Bi-encoders%20(DPR,%20SBERT)%20·%20Cross-encoders%20&%20Reranking%20·%20Multi-stage%20Pipelines.md)
+- [Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank](Late%20Interaction%20(ColBERT)%20·%20SPLADE%20·%20Hybrid%20·%20Learning%20to%20Rank.md)

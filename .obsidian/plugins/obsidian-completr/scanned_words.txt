@@ -25194,6 +25194,7 @@ Intro
 Item
 InfoNCE
 Isola
+Interaction
 Telegram
 Theorem
 Text
@@ -49858,6 +49859,7 @@ Caliskan
 CLIP
 Clark
 ColPali
+ColBERT
 Sections
 Surfaces
 Spaces
@@ -56162,6 +56164,7 @@ SGNS
 Stochastic
 Scaled
 SRAM
+SPLADE
 Algebra
 AGLA
 Assignments
@@ -282443,6 +282446,7 @@ HLino
 Hewlett
 HgrdC
 HialK
+Hybrid
 XKo
 Xg
 XWo

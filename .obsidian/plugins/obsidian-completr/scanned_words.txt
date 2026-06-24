@@ -6459,6 +6459,7 @@ DNABERT
 Document
 Diminishing
 Deep
+DocLength
 Lecturer
 Link
 Line
@@ -49880,6 +49881,7 @@ ColBERT
 Cost
 Case
 Corresponding
+Convex
 Sections
 Surfaces
 Spaces
@@ -56195,6 +56197,8 @@ Sweep
 Saturates
 Scope
 Split
+Sentence
+Strategy
 Algebra
 AGLA
 Assignments
@@ -62415,6 +62419,9 @@ ADHD
 Attention
 ALiBi
 AFTER
+Alpha
+Ablation
+Among
 and
 algebra
 any
@@ -68656,6 +68663,7 @@ answers
 assets
 aggregated
 acts
+ablation
 Plane
 Problem
 Prove
@@ -93459,6 +93467,7 @@ Modeling
 Matryoshka
 MaxSim
 Model
+Metric
 pdf
 previous
 prove
@@ -99821,6 +99830,7 @@ phthalates
 penalizes
 pushing
 prioritizes
+paired
 Read
 Relations
 RY
@@ -106198,6 +106208,8 @@ Residual
 Reranking
 RankNet
 Returns
+Removed
+Removing
 of
 one
 others
@@ -112376,6 +112388,7 @@ outperform
 observed
 overlaps
 overfitting
+outperformed
 lecture
 lineynaya
 linear
@@ -118453,6 +118466,8 @@ lexical
 load
 lifts
 learned
+late
+little
 geometria
 gN
 gQ
@@ -143637,6 +143652,7 @@ deep
 displacing
 distribution
 distributions
+drop
 independency
 in
 info
@@ -150447,6 +150463,9 @@ independently
 intense
 intent
 inadvertently
+improvements
+insufficient
+importance
 For
 Functions
 Frolov
@@ -175344,6 +175363,10 @@ spot
 secondary
 scaling
 seen
+signals
+sparse
+statistic
+stronger
 exist
 excalidraw
 everything
@@ -181665,6 +181688,8 @@ encoders
 endocrine
 exhausted
 extreme
+encoder
+evidence
 have
 hQ
 hfRF
@@ -194474,6 +194499,12 @@ confirming
 contributor
 capabilities
 combiner
+calibration
+contributes
+complementary
+comparison
+contributed
+combined
 Necessity
 Nikolay
 Natural
@@ -225627,6 +225658,7 @@ Offline
 Okapi
 Overfitting
 Observation
+Only
 menu
 more
 mA
@@ -232369,6 +232401,7 @@ money
 marginal
 mentions
 mild
+models
 You
 YC
 YR
@@ -257299,6 +257332,9 @@ recognizes
 remaining
 regularisation
 rely
+ranked
+removed
+rejected
 Zorich
 ZM
 ZB

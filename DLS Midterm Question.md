@@ -122,3 +122,56 @@ attention O(n^2) : ~2x fertility -> ~4x train compute
 
 - **State Zipf's and Heaps' laws and what each implies for an IR system.**
   Zipf's law: a term's frequency is roughly inversely proportional to its rank (frequency proportional to 1/rank), so a handful of head terms dominate and a long tail of rare terms remains — this is why idf weighting and stopword handling matter, since common words carry little discriminating signal. Heaps' law: vocabulary size grows sub-linearly (about V proportional to n^beta, beta around 0.5) with corpus size n, so you keep seeing new terms no matter how large the corpus gets — which is precisely why a fixed whole-word vocabulary fails on OOV and why sub-word tokenization is needed.
+
+- **Compute the cosine similarity of a=(1,2,2) and b=(2,0,1) by hand (dot, norms, divide); then say why text uses cosine rather than Euclidean.**
+  cos = (a . b)/(||a|| ||b||): the dot is 1\*2 + 2\*0 + 2\*1 = 4, the norms are sqrt(1+4+4)=3 and sqrt(4+0+1)=sqrt(5)~2.236, so cos = 4/(3\*sqrt(5)) = 4/6.708 ~ 0.596, an angle of about 53 degrees ("moderately similar"). Text uses cosine because it is length-invariant: it measures only the direction (the topic mix), so a long document is not scored as more relevant just for repeating words, which is exactly the artifact raw dot product or Euclidean distance on raw counts would introduce.
+
+```
+a = (1, 2, 2)   b = (2, 0, 1)
+dot   a.b = 1*2 + 2*0 + 2*1 = 2 + 0 + 2 = 4
+norm  ||a|| = sqrt(1^2+2^2+2^2) = sqrt(9)  = 3
+norm  ||b|| = sqrt(2^2+0^2+1^2) = sqrt(5)  ~ 2.236
+cos = 4 / (3 * 2.236) = 4 / 6.708 ~ 0.596
+angle = arccos(0.596) ~ 53.4 deg  -> moderately similar
+```
+
+- **Two vectors share a direction but differ in magnitude: u=(1,1) vs v=(10,10). Compute cosine and Euclidean by hand and say what each measure concludes.**
+  Cosine is exactly 1.0: the dot is 20 and the norm-product is sqrt(2)\*sqrt(200) = sqrt(400) = 20, so 20/20 = 1 — identical, because they point the same way. Euclidean distance is large: sqrt((1-10)^2 + (1-10)^2) = sqrt(162) ~ 12.73 — far apart, because magnitudes differ tenfold. For text we usually want the angle (the topic), not the length, so cosine treats these as the same document at different verbosity while Euclidean wrongly penalises the longer one; the two agree only on L2-normalized vectors.
+
+```
+u = (1, 1)   v = (10, 10)   (same direction)
+dot   u.v = 1*10 + 1*10 = 20
+||u|| = sqrt(1+1) = sqrt(2) ~ 1.414
+||v|| = sqrt(100+100) = sqrt(200) = 10*sqrt(2) ~ 14.14
+cos = 20 / (sqrt(2) * 10*sqrt(2)) = 20 / (10*2) = 20/20 = 1.0   -> identical
+euclid ||u-v|| = sqrt((1-10)^2 + (1-10)^2) = sqrt(81+81) = sqrt(162) ~ 12.73  -> far
+```
+
+- **Compute the Jaccard similarity and Jaccard distance of two short token sets by hand.**
+  Jaccard similarity is J(A,B) = |A intersect B| / |A union B|, the fraction of the combined vocabulary the two sets share. For A = {the, quick, brown, fox} and B = {the, lazy, brown, dog}, the intersection is {the, brown} (size 2) and the union is {the, quick, brown, fox, lazy, dog} (size 6), so J = 2/6 = 1/3 ~ 0.333, and the Jaccard distance 1 - J = 2/3 ~ 0.667 (a true metric). Jaccard is the natural measure for sets/bags — shingled documents, categorical features, user-item interactions — and MinHash estimates it at web scale because the probability two sketches collide equals exactly J.
+
+```
+A = { the, quick, brown, fox }   B = { the, lazy, brown, dog }
+A intersect B = { the, brown }                 -> |.| = 2
+A union B     = { the, quick, brown, fox, lazy, dog } -> |.| = 6
+J(A,B) = 2 / 6 = 1/3 ~ 0.333
+Jaccard distance = 1 - J = 1 - 0.333 = 2/3 ~ 0.667  (a true metric)
+```
+
+- **Dot product vs cosine and MIPS: why normalize, and when does maximum-inner-product search disagree with cosine?**
+  The dot product a.b = ||a|| ||b|| cos(theta) is cosine without the normalization, so it rewards both direction and magnitude and its range is the whole line (it is not a metric). You normalize (use cosine) when length is an artifact rather than signal — e.g. raw TF-IDF, where a long document scores high just for being long. But trained dual encoders (DPR) deliberately learn meaningful norms, pushing confident, information-rich passages to larger magnitude, so MIPS (argmax a.b) intentionally rewards that length and disagrees with cosine: two candidates with the same direction but different norms tie under cosine yet MIPS strictly prefers the larger-norm one. So normalize when magnitude is noise, score by dot when the model was trained to put signal in the length.
+
+```
+a . b = sum_i a_i b_i = ||a|| ||b|| cos(theta)   (cosine WITHOUT normalization)
+worked: u=(2,-3), v=(4,2) -> 2*4 + (-3)*2 = 8 - 6 = 2
+MIPS != cosine example:  q=(1,0)  a=(1,0)  b=(3,0)
+  cos(q,a)=1   cos(q,b)=1            -> cosine TIES (same direction)
+  q.a = 1      q.b = 3               -> MIPS prefers b (bigger norm = learned signal)
+rule: normalize when length is artifact (raw TF-IDF); dot when norms are trained signal (DPR)
+```
+
+- **The curse of dimensionality: what are distance concentration, hubness, and anisotropy, and how do they hurt nearest-neighbour search?**
+  Distance concentration: in high dimensions the ratio of the farthest to the nearest pairwise distance approaches 1, so all points look about equally far and there is no contrast to rank by. Hubness: a few points become "hubs" that appear in a disproportionate number of other points' nearest-neighbour lists, distorting retrieval. Anisotropy: learned embeddings crowd into a narrow cone rather than filling the space, so cosines are all high and undiscriminative. Together they erode the signal nearest-neighbour search relies on, which is why we whiten / contrastively train embeddings and use ANN structures rather than trusting raw high-dimensional distances.
+
+## L3
+

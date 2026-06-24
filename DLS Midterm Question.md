@@ -499,4 +499,175 @@ Bonferroni: test each at α/m = 0.05/20 = 0.0025
 better still: confirm the winner on a FRESH query set or an online A/B test
 ```
 
+- **One-hot vectors by hand: build them for a 3-word vocabulary {cat, dog, airplane}. Show every distinct pair has dot product 0 (orthogonal) and the SAME L2 distance — so the representation has no notion of meaning.**
+  Each word is its own axis, so distinct words share no nonzero dimension: every pairwise dot product is 0 and cos = 0, and every pair sits at the same Euclidean distance √2. cat is exactly as far from dog as from airplane — there is no geometry of meaning. This is the lexical gap that motivates dense embeddings: a string matcher (one-hot / BM25) treats couch and sofa as orthogonal too.
+
+```
+V = {cat, dog, airplane},  |V| = 3
+cat      = [1, 0, 0]
+dog      = [0, 1, 0]
+airplane = [0, 0, 1]
+
+dot products (overlap):
+  cat·dog      = 1·0 + 0·1 + 0·0 = 0
+  cat·airplane = 1·0 + 0·0 + 0·1 = 0
+  dog·airplane = 0                = 0
+cos = dot / (‖·‖‖·‖) = 0 / (1·1) = 0   for every distinct pair
+
+L2 distance ‖a − b‖:
+  cat − dog      = [1,−1, 0] → √(1+1+0) = √2 ≈ 1.414
+  cat − airplane = [1, 0,−1] → √(1+0+1) = √2 ≈ 1.414
+  dog − airplane = [0, 1,−1] → √2
+
+⇒ all off-diagonal dots = 0, all pair-distances = √2 (equidistant)
+⇒ no «near in meaning»; |V| words need |V| orthogonal axes
+```
+
+- **word2vec skip-gram objective, written mathematically: maximize Σ log P(context | centre) with P a softmax over |V|. Why is the full softmax intractable, and write the negative-sampling loss that replaces it.**
+  Skip-gram slides a window and predicts context words from the centre: maximize the log-likelihood Σ log P(c | w), with P(c|w) = softmax of the dot score uᵀc·vw over the whole vocabulary. The denominator sums exp(uᵀc′·vw) over ALL |V|≈10⁶ words on every single update — O(|V|) per step, intractable. Negative sampling replaces the multi-class softmax with a binary logistic test: push the true pair up (σ→1) and a handful of k random «negative» contexts down (σ→0), drawn from Pn ∝ freq^(3/4). Cost drops from O(|V|) to O(k), about five orders of magnitude.
+
+```
+each word has TWO vectors: centre v_w, context u_c
+
+objective (maximise log-likelihood over corpus):
+  max Σ_w Σ_(−m≤j≤m, j≠0) log P(w_(t+j) | w_t)
+
+softmax over the whole vocabulary:
+              exp(u_c · v_w)
+  P(c|w) = ─────────────────────────
+            Σ_(c′∈V) exp(u_c′ · v_w)      ← sums over ALL |V| words
+
+cost: denominator = |V| ≈ 10⁶ dot products PER update → O(|V|) → intractable
+
+negative-sampling loss (per (w,c) pair, k negatives c_i ∼ Pn):
+  L = − log σ(u_c · v_w)  −  Σ_(i=1)^(k) log σ(−u_(c_i) · v_w)
+      └ pull true pair up ┘  └ push k random negatives down ┘
+  σ(z) = 1/(1+e^(−z)),   Pn(w) ∝ freq(w)^(3/4),   k = 5…20
+  cost: O(k) per step  (≪ O(|V|))
+```
+
+- **Verify king − man + woman ≈ queen with toy 2-D vectors: compute r = king − man + woman, then cosine of r against each candidate and show queen wins. (Lecture GloVe-50d: cos(king−man+woman, queen) = 0.861.)**
+  Subtract the «male» direction and add the «female» direction, then ask which real word is nearest to the result by cosine. With these toy vectors r = \[1,5]; queen has cosine 0.9995 — the clear winner — while man (the subtracted word) collapses to 0.428. The analogy reduces to vector arithmetic plus a nearest-neighbour cosine search (excluding the input words). On the lecture's real 50-d GloVe vectors the same recipe gives queen at cos = 0.861, ahead of prince/throne ≈ 0.76.
+
+```
+toy 2-D vectors:
+  king  = [4, 3]   man   = [4, 1]   woman = [1, 3]
+  queen = [1, 6]   throne= [3, 3]
+
+r = king − man + woman
+  = [4−4+1,  3−1+3] = [1, 5]
+
+cos(a,b) = (a·b)/(‖a‖‖b‖):
+  cos(r, queen)  = (1·1+5·6)/(√26·√37) = 31/31.01 = 0.9995  ← max
+  cos(r, throne) = (1·3+5·3)/(√26·√18)  = 18/21.63 = 0.832
+  cos(r, king)   = (4+15)/(√26·√25)     = 19/25.50 = 0.745
+  cos(r, man)    = (4+5)/(√26·√17)      =  9/21.02 = 0.428
+
+argmax cosine (excluding king, man, woman) = queen
+lecture (GloVe-50d):  cos(king−man+woman, queen) = 0.861  > prince,throne ≈ 0.76
+```
+
+- **PCA by hand: centre the data → covariance C = (1/n)XᵀX → eigen-decompose C u = λ u → project onto top-2 eigenvectors. State variance explained = (λ₁+λ₂)/Σλ. The lecture reaches PC1 19.6% + PC2 18.1% = 37.7%.**
+  PCA is a causal chain: centre X (subtract the mean so the origin sits at the cloud centre); form the covariance C = (1/n)XᵀX; diagonalise — the eigenvectors uₖ of C are the principal axes and each eigenvalue λₖ is the variance along that axis; project z = Udᵀx onto the top-d eigenvectors. The fraction of variance kept by each axis is λₖ/Σⱼλⱼ. On the lecture's word vectors the top two axes keep only 19.6% + 18.1% = 37.7% — so a 2-D scatter discards roughly 62% of the variance, which is why low-dim plots distort.
+
+```
+0. centre:  X ← X − μ          (origin at the cloud centre)
+1. covariance:  C = (1/n) XᵀX  (symmetric, d×d)
+2. eigen:  C uₖ = λₖ uₖ        (uₖ = principal axes, λₖ = variance on axis k)
+3. project:  z = Udᵀ x         (Ud = top-d eigenvectors)
+4. variance kept by top-d:  (λ₁+…+λd) / Σⱼ λⱼ
+
+tiny example — eigenvalues  λ = [4.0, 3.0, 1.5, 1.0, 0.5]:
+  Σλ = 4.0+3.0+1.5+1.0+0.5 = 10.0
+  PC1 = λ₁/Σλ = 4.0/10.0 = 40.0%
+  PC2 = λ₂/Σλ = 3.0/10.0 = 30.0%
+  top-2 keep (4.0+3.0)/10.0 = 70.0%
+
+lecture (word vectors):  PC1 19.6% + PC2 18.1% = 37.7%
+  ⇒ a 2-D scatter discards ≈ 62.3% of the variance
+```
+
+- **PCA vs t-SNE: what does each preserve, and why can a t-SNE map mislead about global distances and cluster sizes?**
+  PCA is a linear projection onto max-variance axes: it preserves global variance and straight-line distances, but a few axes may keep little total variance (37.7% in the lecture). t-SNE is nonlinear and optimizes a probabilistic match of LOCAL neighbourhoods, so it groups true neighbours beautifully — but cluster sizes, the gaps between clusters, and between-cluster distances on a t-SNE plot are artifacts of the perplexity and optimization, not real geometry. Read t-SNE for «who is near whom», never for «how far» or «how big».
+
+- **Why is a static word embedding insufficient for «bank» (river vs money)? How does it connect to the implicit-PMI view of word2vec, and what does L6 fix?**
+  A static embedding stores exactly one vector per word type, learned by averaging over every context it ever appeared in — so the two senses of «bank» are collapsed into a single blurred point sitting between «river» and «money». (Levy & Goldberg showed skip-gram with negative sampling is implicitly factorizing a shifted PMI matrix, so word2vec and GloVe land in the same geometry — both still one-vector-per-word.) Contextual models (L6) recompute a token's vector from its actual neighbours via attention, so «river bank» and «money bank» get different vectors.
+
+- **CBOW vs skip-gram: which direction does each predict, and which is better for rare words and small corpora?**
+  CBOW (continuous bag-of-words) predicts the CENTRE word from the (averaged) context — context → centre; it is faster and smooths over the context, which helps frequent words. Skip-gram predicts each CONTEXT word from the centre — centre → context; it generates one training pair per context word, giving rare words far more gradient signal and better representations on small corpora, at higher compute cost. Both share the same two-vectors-per-word setup and are trained with negative sampling.
+
+- **GloVe objective: write the weighted least-squares loss on log co-occurrence and explain why it lands in the same geometry as word2vec (count vs predict).**
+  GloVe builds a global co-occurrence matrix X (Xᵢⱼ = how often word i appears near word j) and fits vectors so the dot product plus biases approximates the LOG count: wᵢᵀ w̃ⱼ + bᵢ + b̃ⱼ ≈ log Xᵢⱼ. The loss is a weighted least squares L = Σᵢⱼ f(Xᵢⱼ)·(wᵢᵀw̃ⱼ + bᵢ + b̃ⱼ − log Xᵢⱼ)², where the weighting f(x) caps the influence of very frequent pairs and zeroes Xᵢⱼ = 0. word2vec (predict, local windows) and GloVe (count, global matrix) end up in the same geometry because skip-gram with negative sampling implicitly factorizes a shifted-PMI matrix — predict and count are two faces of one coin.
+
+```
+X_ij = co-occurrence count (word i near word j, whole corpus)
+
+fit:   w_i · w̃_j + b_i + b̃_j  ≈  log X_ij
+
+weighted least-squares loss:
+  L = Σ_(i,j)  f(X_ij) · ( w_i·w̃_j + b_i + b̃_j − log X_ij )²
+
+weighting f(x) (caps frequent pairs, f(0)=0):
+  f(x) = (x / x_max)^α   if x < x_max,  else 1     (α = 3/4, x_max = 10)
+
+Levy & Goldberg (2014): skip-gram+NS implicitly factorises shifted PMI
+  ⇒ count (GloVe) and predict (word2vec) → same geometry
+```
+
+
+## L6
+
+- **Polysemy: why can't a static vector (L5) split the two senses of «bank», and concretely how does self-attention give «river bank» and «money bank» different vectors?**
+  A static vector is one point per word type, identical in every sentence, so both senses of «bank» are forced into a single averaged location. Self-attention recomputes each token's representation as a weighted sum of the value vectors of all tokens in THIS sentence — the weights coming from query·key matches. So «bank» next to «river» attends heavily to «river» and pulls in river-ish content; «bank» next to «money» attends to «money» instead. Same input embedding for «bank», two different output vectors — meaning is now context-dependent.
+
+- **Compute scaled dot-product attention softmax(QKᵀ/√dₖ)V on the lecture's toy Q,K,V (3 tokens the/cat/sat, dₖ=4). Do the full cat row: scores → /√dₖ → softmax → ·V, reaching out = [0.579, 1.996, 0.91, 0.425].**
+  For each query row: dot it with every key (QKᵀ), divide by √dₖ = √4 = 2 to keep score variance from growing with dₖ, apply a row-wise softmax to get attention weights that sum to 1, then take the weighted sum of the value rows. For cat: scores \[0,4,2] → /2 = \[0,2,1] → softmax \[0.09, 0.665, 0.245] (cat heeds mostly itself), → output \[0.579, 1.996, 0.91, 0.425] — cat's new, context-aware vector. The output is always a convex mixture of the value vectors.
+
+```
+tokens the, cat, sat.   d_k = 4  ⇒  √d_k = 2
+  Q:  the = [1,0,1,0]   cat = [0,2,0,1]   sat = [1,1,0,0]
+  K:  the = [1,0,1,0]   cat = [0,1,0,2]   sat = [2,1,0,0]
+  V:  the = [1,0,0,2]   cat = [0,3,1,0]   sat = [2,0,1,1]
+
+cat query  Q_cat = [0,2,0,1]
+scores = Q_cat · Kᵀ  (dot with each key row):
+  · K_the = 0·1+2·0+0·1+1·0 = 0
+  · K_cat = 0·0+2·1+0·0+1·2 = 4
+  · K_sat = 0·2+2·1+0·0+1·0 = 2
+  scores = [0, 4, 2]
+
+scale /√d_k:  [0,4,2]/2 = [0, 2, 1]
+
+softmax([0,2,1]):
+  exp = [e^0, e^2, e^1] = [1.000, 7.389, 2.718],  Σ = 11.107
+  weights = [0.090, 0.665, 0.245]   (Σ = 1, cat mostly heeds itself)
+
+output = weights · V  (weighted sum of value rows):
+  dim0: 0.090·1 + 0.665·0 + 0.245·2 = 0.579
+  dim1: 0.090·0 + 0.665·3 + 0.245·0 = 1.996
+  dim2: 0.090·0 + 0.665·1 + 0.245·1 = 0.910
+  dim3: 0.090·2 + 0.665·0 + 0.245·1 = 0.425
+  out_cat = [0.579, 1.996, 0.910, 0.425]
+```
+
+- **Why divide by √dₖ in attention? Give the variance argument and show numerically what happens to softmax([0,4,2]) vs softmax([0,2,1]).**
+  If query and key entries are independent with unit variance, the dot product qᵀk = Σ qᵢkᵢ has variance dₖ, so scores grow like √dₖ in scale. Large scores push softmax toward a near one-hot distribution where almost all gradient vanishes (the saturated regime), so training stalls. Dividing by √dₖ rescales the score variance back to ≈1 regardless of dₖ. Numerically the unscaled scores \[0,4,2] give a peaky \[0.016, 0.867, 0.117] while the scaled \[0,2,1] give the gentler, trainable \[0.09, 0.665, 0.245].
+
+```
+q, k entries iid, mean 0, var 1:
+  qᵀk = Σ_(i=1)^(d_k) qᵢ kᵢ  ⇒  Var(qᵀk) = d_k     (scale ∝ √d_k)
+  scale by 1/√d_k  ⇒  Var = 1   (stable, independent of d_k)
+
+unscaled  softmax([0,4,2]):
+  exp = [1, 54.60, 7.389], Σ = 62.99
+  = [0.016, 0.867, 0.117]      ← peaky, near one-hot, tiny gradient
+
+scaled /√4=2  softmax([0,2,1]):
+  exp = [1, 7.389, 2.718], Σ = 11.107
+  = [0.090, 0.665, 0.245]      ← gentler, gradient flows
+```
+
+- **Assemble the Transformer encoder block (multi-head attention → Add&Norm → FFN → Add&Norm). Why residuals, why LayerNorm, and what does the position-wise FFN add?**
+  A block is: x → MHA(x), add the residual x and LayerNorm; then → FFN, add the residual and LayerNorm again. Residual connections give the gradient an identity short-cut so very deep stacks still train (no vanishing). LayerNorm normalizes each token vector to mean 0 / variance 1 (then scale+shift), keeping activations at a stable scale across depth. Attention only MIXES tokens linearly (a weighted average of values) — the position-wise FFN (a 2-layer MLP applied to each token independently, usually d → 4d → d with a nonlinearity) adds the per-token nonlinear transformation that lets the model actually compute, not just average.
+
 - 

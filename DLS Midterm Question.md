@@ -452,3 +452,51 @@ IPS: weight click by 1/P(examine | rank).
 
 interleaving: merge A,B into one list; click → credit to the source ranker
 ```
+
+
+- **Compute F1 from Precision and Recall the harmonic-mean way, and show why it differs from the arithmetic mean. Use a retrieval with 3 relevant in the top-5 and 6 relevant overall.**
+  P = (#relevant in top-k)/k = 3/5 = 0.6; R = (#relevant in top-k)/(total relevant) = 3/6 = 0.5. F1 = 2PR/(P+R) = 2·0.6·0.5/(0.6+0.5) = 0.6/1.1 ≈ 0.545. The harmonic mean (0.545) sits below the arithmetic mean (0.55) and, crucially, is dominated by the smaller of the two — so a system that maxes one and tanks the other is punished. As a sanity check, with P=0.6, R=0.4 you get F1 = 2·0.24/1.0 = 0.48 < arithmetic mean 0.5; the gap grows as P and R diverge, which is exactly why F1 refuses to reward imbalance.
+
+```
+top-5: 3 relevant retrieved;  total relevant = 6
+P = 3/5 = 0.6        R = 3/6 = 0.5
+
+F1 = 2PR/(P+R) = 2·(0.6·0.5)/(0.6+0.5) = 2·0.30/1.1 = 0.60/1.1 = 0.5455
+arithmetic mean = (0.6+0.5)/2 = 0.55      → F1 < AM
+
+imbalance check: P=0.6, R=0.4
+  F1 = 2·0.24/1.0 = 0.48   < AM = 0.50   (harmonic mean leans to the smaller)
+```
+
+- **Cohen’s κ: explain why raw agreement is misleading and compute κ for two annotators who judge 100 docs as relevant/non — both-relevant 40, both-non 30, disagree 15+15.**
+  Raw agreement counts the chance overlap two annotators get just from their label rates, so a κ correction subtracts it: κ = (pₒ − pₑ)/(1 − pₑ). Here observed agreement pₒ = (40+30)/100 = 0.70. Each annotator labelled 55/100 relevant, so chance agreement pₑ = 0.55·0.55 + 0.45·0.45 = 0.3025 + 0.2025 = 0.505. Then κ = (0.70 − 0.505)/(1 − 0.505) = 0.195/0.495 ≈ 0.394 — only “fair” agreement on the Landis–Koch scale (0.21–0.40 = fair) despite a 70% raw match, because much of that match is expected by chance. Low κ means the qrels are noisy and cap the resolution of any metric built on them.
+
+```
+confusion (100 docs):  both-rel=40  both-non=30  A-rel/B-non=15  A-non/B-rel=15
+
+po = (40 + 30)/100 = 0.70                 (observed agreement)
+marginals: A rel = (40+15)/100 = 0.55 ;  B rel = (40+15)/100 = 0.55
+           A non = 0.45 ;  B non = 0.45
+pe = P(both rel by chance) + P(both non by chance)
+   = 0.55·0.55 + 0.45·0.45 = 0.3025 + 0.2025 = 0.505
+
+kappa = (po − pe)/(1 − pe) = (0.70 − 0.505)/(1 − 0.505)
+      = 0.195 / 0.495 = 0.394   (Landis–Koch 0.21–0.40 = "fair"; >0.6 substantial)
+```
+
+- Why does testing many systems inflate false positives, and how does the Bonferroni correction fix it? Quantify both for 20 tests at α=0.05.
+  At α=0.05 each individual test has a 5% chance of a false positive even when no system is truly better. Run m independent tests and the chance of at least one false alarm is 1 − (1−α)^m; for m=20 that is 1 − 0.95²⁰ ≈ 0.64 — you expect about one bogus “winner.” Cherry-picking the single variant that hit p<0.05 is therefore shipping noise. Bonferroni controls the family-wise error rate by testing each hypothesis at the stricter threshold α/m = 0.05/20 = 0.0025, so the overall false-positive rate stays ≤ 0.05. (Benjamini–Hochberg is a more powerful alternative that controls the false-discovery rate; the cleanest defence is to confirm the winner on a fresh query set or an online A/B test.)
+
+```
+m = 20 tests,  α = 0.05
+
+P(≥1 false positive, uncorrected) = 1 − (1−α)^m
+  = 1 − 0.95^20 = 1 − 0.3585 = 0.6415   (~1 expected false "winner")
+
+Bonferroni: test each at α/m = 0.05/20 = 0.0025
+  → family-wise error rate held ≤ 0.05
+
+better still: confirm the winner on a FRESH query set or an online A/B test
+```
+
+- 

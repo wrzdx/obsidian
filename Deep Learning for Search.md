@@ -1,3 +1,6 @@
+**Exams**:
+- [DLS Midterm Question](DLS%20Midterm%20Question.md)
+
 **Assignments**:
 - [DLS Assignment 1 Report](DLS%20Assignment%201%20Report.md)
 - [DLS Lab1 Report](DLS%20Lab1%20Report.md)

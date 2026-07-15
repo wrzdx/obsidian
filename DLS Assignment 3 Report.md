@@ -97,22 +97,22 @@ For *info_not_found*, a result is treated as an abstention when its highest retr
 
 ## 4. Chunking experiment
 
-| Method | Size | Overlap | Chunks | Fact recall floor |
-|---|---:|---:|---:|---:|
-| Fixed | 128 | 0 | 2,444 | 0.3238 |
-| Recursive | 128 | 0 | 2,878 | 0.3782 |
-| Fixed | 128 | 32 | 3,089 | 0.3541 |
-| Recursive | 128 | 32 | 3,814 | **0.3836** |
-| Fixed | 256 | 0 | 1,304 | 0.2435 |
-| Recursive | 256 | 0 | 1,410 | 0.2533 |
-| Fixed | 256 | 32 | 1,428 | 0.2525 |
-| Recursive | 256 | 32 | 1,585 | 0.2703 |
-| Fixed | 512 | 0 | 738 | 0.1918 |
-| Recursive | 512 | 0 | 773 | 0.1918 |
-| Fixed | 512 | 32 | 761 | 0.1909 |
-| Recursive | 512 | 32 | 788 | 0.1820 |
+| Method    | Size | Overlap | Chunks | Fact recall floor |
+| --------- | ---: | ------: | -----: | ----------------: |
+| Fixed     |  128 |       0 |  2,444 |            0.3238 |
+| Recursive |  128 |       0 |  2,878 |            0.3782 |
+| Fixed     |  128 |      32 |  3,089 |            0.3541 |
+| Recursive |  128 |      32 |  3,814 |        **0.3836** |
+| Fixed     |  256 |       0 |  1,304 |            0.2435 |
+| Recursive |  256 |       0 |  1,410 |            0.2533 |
+| Fixed     |  256 |      32 |  1,428 |            0.2525 |
+| Recursive |  256 |      32 |  1,585 |            0.2703 |
+| Fixed     |  512 |       0 |    738 |            0.1918 |
+| Recursive |  512 |       0 |    773 |            0.1918 |
+| Fixed     |  512 |      32 |    761 |            0.1909 |
+| Recursive |  512 |      32 |    788 |            0.1820 |
 
-![Chunking method, size and overlap comparison](file:///c%3A/Users/Professional/Desktop/Projects/dls/labs/outputs/assignment3/assignment3_chunking.png)
+![Chunking method, size and overlap comparison|center|700](file:///c%3A/Users/Professional/Desktop/Projects/dls/labs/outputs/assignment3/assignment3_chunking.png)
 
 For a document of $L$ words, the number of fixed-size chunks is
 
@@ -140,7 +140,7 @@ The table contains macro means over answerable categories with document ground t
 | HyDE        |     0.7126 |     0.6581 |     0.4303 |       0.5752 |       0.2226 |
 | RAG Fusion  |     0.7450 |     0.7077 |     0.4789 |       0.6317 |       0.2246 |
 
-![Retrieval method comparison|800](file:///c%3A/Users/Professional/Desktop/Projects/dls/labs/outputs/assignment3/assignment3_methods.png)
+![Retrieval method comparison|center|700](file:///c%3A/Users/Professional/Desktop/Projects/dls/labs/outputs/assignment3/assignment3_methods.png)
 
 BM25 was the strongest method on every document-level metric. Multi-query gave the highest context recall, but the difference from plain dense retrieval was small and its context precision was lower. HyDE performed worst among the dense variants.
 

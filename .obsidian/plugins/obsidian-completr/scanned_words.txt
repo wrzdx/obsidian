@@ -6463,6 +6463,10 @@ DocLength
 Describe
 Dividing
 Developer
+Defense
+Drawdown
+DataFrame
+Distillation
 Lecturer
 Link
 Line
@@ -12501,6 +12505,7 @@ LOCAL
 Levy
 Large
 Larger
+Loss
 Vladimir
 Vector
 VIEW
@@ -25216,6 +25221,8 @@ Isola
 Interaction
 Increasing
 Items
+IndexFlatIP
+Inner
 Telegram
 Theorem
 Text
@@ -31318,6 +31325,8 @@ Together
 Testing
 THIS
 Trade
+TextBiEncoder
+Triplet
 nomemm
 need
 necessary
@@ -43645,6 +43654,8 @@ trainable
 tied
 tried
 tested
+teacher
+triplet
 Course
 Curves
 Continuation
@@ -49961,6 +49972,13 @@ Chunks
 Category
 Chunk
 Cutoff
+CRAG
+CurveEncoder
+Conv
+CrossEncoderJudge
+Curve
+CUDA
+Captain
 Sections
 Surfaces
 Spaces
@@ -56287,6 +56305,10 @@ Slices
 Smaller
 Scanning
 Seed
+Speech
+Sharpe
+SentenceTransformers
+Sharpr
 Algebra
 AGLA
 Assignments
@@ -62516,6 +62538,9 @@ Assemble
 Abstention
 Audit
 Approximate
+Alliance
+Agentic
+Automatic
 and
 algebra
 any
@@ -68805,6 +68830,7 @@ automatic
 alone
 audit
 analysed
+accumulation
 Plane
 Problem
 Prove
@@ -87023,6 +87049,7 @@ Benjamini
 Backend
 Bench
 Bytes
+BeautifulSoup
 Material
 MORE
 Mathematical
@@ -93627,6 +93654,8 @@ MIPS
 MIXES
 MiniLM
 Many
+Multimodal
+Mixed
 pdf
 previous
 prove
@@ -100047,6 +100076,7 @@ parents
 proposed
 prints
 produces
+pickle
 Read
 Relations
 RY
@@ -106432,6 +106462,8 @@ Roaring
 Recursive
 Redwood
 Reproducibility
+Ratio
+ReLU
 of
 one
 others
@@ -125023,6 +125055,7 @@ gentler
 gold
 gave
 gaming
+gradients
 Umnov
 Uniqueness
 Uf
@@ -143982,6 +144015,9 @@ deduplicated
 deciding
 decided
 deterministically
+decay
+drawdown
+drift
 independency
 in
 info
@@ -157151,6 +157187,7 @@ Fertility
 Fused
 Fixed
 Fraction
+Facebook
 vectors
 vector
 variable
@@ -163166,6 +163203,7 @@ variance
 verdict
 vanishes
 vanishing
+volatility
 for
 file
 form
@@ -175849,6 +175887,9 @@ separately
 streaming
 strong
 script
+sharpe
+sigma
+supervision
 exist
 excalidraw
 everything
@@ -182200,6 +182241,10 @@ effect
 exposed
 embeds
 excluded
+equity
+empir
+entropy
+exploding
 have
 hQ
 hfRF
@@ -188541,6 +188586,7 @@ harmonic
 heeds
 hypothetical
 honest
+heterogeneous
 combination
 can
 command
@@ -195109,6 +195155,7 @@ checked
 came
 crossing
 comparisons
+clipping
 Necessity
 Nikolay
 Natural
@@ -207538,6 +207585,8 @@ Grand
 Generalising
 Goldberg
 Gold
+Gradient
+Ground
 basis
 be
 bd
@@ -213608,6 +213657,7 @@ blurred
 biases
 bridging
 broke
+batch
 EXCALIDRAW
 Excalidraw
 Elements
@@ -220022,6 +220072,7 @@ Euclidean
 Evaluate
 EnterpriseRAG
 Exact
+Extraction
 OPTIONS
 Operations
 Obtain
@@ -233086,6 +233137,7 @@ macro
 moved
 measurements
 mattered
+marco
 You
 YC
 YR
@@ -245456,6 +245508,8 @@ woman
 whom
 worst
 writes
+warmup
+weak
 under
 up
 unclear
@@ -271113,6 +271167,7 @@ KGrq
 Kusupati
 Khattab
 Koch
+Knowledge
 qt
 qL
 qY
@@ -283418,6 +283473,8 @@ Hubness
 Here
 Hochberg
 HyDE
+HuggingFace
+HNSW
 XKo
 Xg
 XWo
@@ -326887,6 +326944,7 @@ Jones
 Judgments
 Judge
 Jaccard
+JSONL
 öz
 ös
 öf

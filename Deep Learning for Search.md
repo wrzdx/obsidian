@@ -8,6 +8,7 @@
 - [DLS Assignment 2 Report](DLS%20Assignment%202%20Report.md)
 - [DLS Lab3 Report](DLS%20Lab3%20Report.md)
 - [DLS Assignment 3 Report](DLS%20Assignment%203%20Report.md)
+- [DLS Project Defense Speech](DLS%20Project%20Defense%20Speech.md)
 
 **Lessons**:
 - [Search & Information Retrieval · ML System Design](Search%20&%20Information%20Retrieval%20·%20ML%20System%20Design.md)

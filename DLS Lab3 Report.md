@@ -17,10 +17,11 @@ flexGrow=1
 ===
 ## IVF recall/work
 
-The dashed line marks the selected knee at `nprobe=16`.
+
 
 ![C:\Users\Professional\Desktop\Projects\dls\labs\outputs\lab3\lab3_ivf_sweep.png](file:///c%3A/Users/Professional/Desktop/Projects/dls/labs/outputs/lab3/lab3_ivf_sweep.png)
 
+The dashed line marks the selected knee at `nprobe=16`.
 ```
 ```col-md
 flexGrow=1

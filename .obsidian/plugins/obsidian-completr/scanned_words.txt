@@ -144019,6 +144019,7 @@ deterministically
 decay
 drawdown
 drift
+dashed
 independency
 in
 info
@@ -150854,6 +150855,7 @@ implicitly
 inserted
 included
 identifiers
+inertia
 For
 Functions
 Frolov
@@ -175891,6 +175893,7 @@ script
 sharpe
 sigma
 supervision
+summed
 exist
 excalidraw
 everything
@@ -195157,6 +195160,7 @@ came
 crossing
 comparisons
 clipping
+codebook
 Necessity
 Nikolay
 Natural
@@ -233139,6 +233143,7 @@ moved
 measurements
 mattered
 marco
+monotonically
 You
 YC
 YR

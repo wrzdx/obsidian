@@ -17,6 +17,8 @@ flexGrow=1
 ===
 ## IVF recall/work
 
+The dashed line marks the selected knee at `nprobe=16`.
+
 ![C:\Users\Professional\Desktop\Projects\dls\labs\outputs\lab3\lab3_ivf_sweep.png](file:///c%3A/Users/Professional/Desktop/Projects/dls/labs/outputs/lab3/lab3_ivf_sweep.png)
 
 ```
@@ -32,5 +34,8 @@ flexGrow=1
 
 ## Analysis
 
-Increasing `nprobe` gives a smooth recall/work trade-off: recall@10 rises from 0.5100 at `nprobe=1` to 0.9467 at `nprobe=16`, while only 23.31% of the vectors are scored. Scanning every list recovers exact search, so `nprobe=16` is the useful knee. The observed boundary miss occurs because a true neighbour lies in cell 63 while the query probes adjacent cell 10; probing more cells removes this coarse-quantization error. For PQ, larger `m` and `k` reduce quantization error at the cost of longer codes: `(4,16)` uses 2 bytes/vector but reaches only 0.3900 recall, whereas `(16,256)` reaches 0.9500 with 16 bytes/vector. The selected `(8,256)` setting is a middle point at 8 bytes/vector and 0.8933 recall after reranking. IVF-PQ combines both approximations and therefore loses slightly more recall (0.8767), but it evaluates only 23.31% of the corpus and compresses stored vectors by 192×. Exact reranking recovers many ADC ordering errors, improving the plain PQ result from 0.4100 to 0.8933.
+Increasing `nprobe` gives a smooth recall/work trade-off: recall@10 rises from 0.5100 at `nprobe=1` to 0.9467 at `nprobe=16`, while only 23.31% of the vectors are scored. Scanning every list recovers exact search, so `nprobe=16` is the useful knee. The observed boundary miss occurs because a true neighbour lies in cell 63 while the query probes adjacent cell 10; probing more cells removes this coarse-quantization error. For PQ, larger `m` and `k` reduce quantization error at the cost of longer codes: `(4,16)` uses 2 bytes/vector but reaches only 0.3900 recall, whereas `(16,256)` reaches 0.9500 with 16 bytes/vector. For the selected `(8,256)` model, summed codebook inertia falls monotonically from 2132.93 to 1483.94 (30.43%). This setting is a middle point at 8 bytes/vector and 0.8933 recall after reranking. IVF-PQ combines both approximations and therefore loses slightly more recall (0.8767), but it evaluates only 23.31% of the corpus and compresses stored vectors by 192×. Exact reranking recovers many ADC ordering errors, improving the plain PQ result from 0.4100 to 0.8933.
+
+
+
 

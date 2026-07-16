@@ -64,7 +64,7 @@ $$
 
 ## 3. Metrics
 
-Chunks are mapped to their parent documents before document-level evaluation. Repeated parents are removed at their first occurrence. Relevance is binary, so nDCG uses gains $2^{rel}-1\in\{0,1\}$.
+The retrieval unit is a chunk. A chunk has binary relevance when its parent is in `expected_doc_ids`, so nDCG uses gains $2^{rel}-1\in\{0,1\}$. Recall counts distinct gold parent documents reached by the top ten chunks. For context precision, repeated parent documents are collapsed at their first occurrence as required by the assignment.
 
 $$
 \operatorname{MRR@K}=\frac{1}{|Q|}\sum_{q\in Q}\frac{1}{\operatorname{rank}_q},

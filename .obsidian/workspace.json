@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DLS Lab3 Report.md",
-                "mode": "preview",
+                "file": "DLS Assignment 3 Report.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DLS Lab3 Report"
+              "title": "DLS Assignment 3 Report"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DLS Lab3 Report.md",
+                "file": "DLS Assignment 3 Report.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для DLS Lab3 Report"
+              "title": "Обратные ссылки для DLS Assignment 3 Report"
             }
           }
         ],
@@ -122,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DLS Lab3 Report.md",
+                "file": "DLS Assignment 3 Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из DLS Lab3 Report"
+              "title": "Исходящие ссылки из DLS Assignment 3 Report"
             }
           }
         ]
@@ -225,12 +225,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7b762a9a7c20324",
+  "active": "3d9b4906c9b9a4da",
   "lastOpenFiles": [
-    "DLS Project Defense Speech.md",
     "Deep Learning for Search.md",
-    "DLS Assignment 3 Report.md",
     "DLS Lab3 Report.md",
+    "DLS Project Defense Speech.md",
+    "DLS Assignment 3 Report.md",
     "DLS Midterm Question.md",
     "Cover Letter.md",
     "Без названия.md",

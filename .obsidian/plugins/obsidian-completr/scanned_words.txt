@@ -12506,6 +12506,7 @@ Levy
 Large
 Larger
 Loss
+Longer
 Vladimir
 Vector
 VIEW
@@ -25223,6 +25224,7 @@ Increasing
 Items
 IndexFlatIP
 Inner
+Invalid
 Telegram
 Theorem
 Text
@@ -37470,6 +37472,7 @@ nonlinearity
 neutral
 names
 negatives
+numerical
 to
 the
 topics
@@ -43657,6 +43660,8 @@ tried
 tested
 teacher
 triplet
+topically
+temperature
 Course
 Curves
 Continuation
@@ -49980,6 +49985,7 @@ CrossEncoderJudge
 Curve
 CUDA
 Captain
+Consequently
 Sections
 Surfaces
 Spaces
@@ -56310,6 +56316,7 @@ Speech
 Sharpe
 SentenceTransformers
 Sharpr
+Swap
 Algebra
 AGLA
 Assignments
@@ -62542,6 +62549,7 @@ Approximate
 Alliance
 Agentic
 Automatic
+Across
 and
 algebra
 any
@@ -68832,6 +68840,13 @@ alone
 audit
 analysed
 accumulation
+absent
+although
+aggregate
+annotated
+abstains
+alternatives
+attack
 Plane
 Problem
 Prove
@@ -93657,6 +93672,7 @@ MiniLM
 Many
 Multimodal
 Mixed
+Measurement
 pdf
 previous
 prove
@@ -100078,6 +100094,13 @@ proposed
 prints
 produces
 pickle
+present
+promote
+produce
+practical
+prompt
+prompts
+prevented
 Read
 Relations
 RY
@@ -106465,6 +106488,7 @@ Redwood
 Reproducibility
 Ratio
 ReLU
+Repeated
 of
 one
 others
@@ -112660,6 +112684,8 @@ overconfidence
 optimizing
 ordering
 overconfident
+optimistic
+orderings
 lecture
 lineynaya
 linear
@@ -118762,6 +118788,8 @@ lands
 layer
 labs
 loses
+lift
+lowers
 geometria
 gN
 gQ
@@ -125057,6 +125085,7 @@ gold
 gave
 gaming
 gradients
+grounding
 Umnov
 Uniqueness
 Uf
@@ -131338,6 +131367,7 @@ UbTH
 Users
 Unigram
 Uniformity
+Under
 Watch
 We
 What
@@ -144020,6 +144050,13 @@ decay
 drawdown
 drift
 dashed
+dropped
+diluting
+dash
+dominates
+distributed
+discarded
+dilute
 independency
 in
 info
@@ -150856,6 +150893,12 @@ inserted
 included
 identifiers
 inertia
+insufficiently
+irrelevant
+intra
+ignore
+intended
+invite
 For
 Functions
 Frolov
@@ -163207,6 +163250,7 @@ verdict
 vanishes
 vanishing
 volatility
+visible
 for
 file
 form
@@ -169365,6 +169409,10 @@ floor
 favour
 frozen
 flexGrow
+filler
+follow
+failures
+fixes
 scalars
 sufficient
 settings
@@ -175894,6 +175942,10 @@ sharpe
 sigma
 supervision
 summed
+submission
+substantially
+sacrifices
+separate
 exist
 excalidraw
 everything
@@ -182249,6 +182301,13 @@ equity
 empir
 entropy
 exploding
+extra
+exploits
+establish
+examining
+exposes
+exceeds
+entered
 have
 hQ
 hfRF
@@ -188591,6 +188650,9 @@ heeds
 hypothetical
 honest
 heterogeneous
+handled
+heatmaps
+hardest
 combination
 can
 command
@@ -195161,6 +195223,15 @@ crossing
 comparisons
 clipping
 codebook
+committed
+conflicting
+constrained
+correctness
+contender
+confirmatory
+component
+claim
+conceal
 Necessity
 Nikolay
 Natural
@@ -213663,6 +213734,9 @@ biases
 bridging
 broke
 batch
+benefit
+broad
+behaviours
 EXCALIDRAW
 Excalidraw
 Elements
@@ -220078,6 +220152,7 @@ Evaluate
 EnterpriseRAG
 Exact
 Extraction
+Empirical
 OPTIONS
 Operations
 Obtain
@@ -226359,6 +226434,7 @@ Overfitting
 Observation
 Only
 Overlap
+Optimizing
 menu
 more
 mA
@@ -233144,6 +233220,8 @@ measurements
 mattered
 marco
 monotonically
+monotonic
+miscellaneous
 You
 YC
 YR
@@ -245516,6 +245594,7 @@ worst
 writes
 warmup
 weak
+wording
 under
 up
 unclear
@@ -251850,6 +251929,12 @@ update
 unscaled
 unanswerable
 unreliable
+usefulness
+uncorrected
+unpadded
+usable
+unusually
+unaudited
 represented
 ru
 rows
@@ -258169,6 +258254,16 @@ requires
 rubric
 rebuilds
 recombined
+referenced
+receives
+recover
+recovering
+retrieving
+returns
+robustness
+requested
+reachability
+repairs
 Zorich
 ZM
 ZB

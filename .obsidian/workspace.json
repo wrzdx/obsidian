@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning for Search.md",
+                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Deep Learning for Search"
+              "title": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning for Search.md",
+                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Deep Learning for Search"
+              "title": "Обратные ссылки для OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
             }
           }
         ],
@@ -122,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning for Search.md",
+                "file": "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Deep Learning for Search"
+              "title": "Исходящие ссылки из OSI and TCP Reference Models. Introduction to Transport Layer Protocols"
             }
           }
         ]
@@ -227,8 +227,16 @@
   },
   "active": "3d9b4906c9b9a4da",
   "lastOpenFiles": [
-    "DLS Assignment 3 Report.md",
+    "Networks.md",
+    "Data Encapsulation.md",
+    "TCP Congestion Control Network Layer.md",
+    "Socket Programming in C.md",
+    "TCP and UDP Protocols.md",
+    "OSI and TCP Reference Models. Introduction to Transport Layer Protocols.md",
+    "Network Characteristics Scale, Metrics.md",
+    "Basic Networks concepts.md",
     "Deep Learning for Search.md",
+    "DLS Assignment 3 Report.md",
     "DLS Lab3 Report.md",
     "DLS Project Defense Speech.md",
     "DLS Midterm Question.md",
@@ -247,14 +255,6 @@
     "Intro to DL for Search · Word Embeddings · Dimensionality Reduction.md",
     "NLP · Tokenization · Measures of Similarity.md",
     "Линейные модели.md",
-    "Web Cookies and Caching.md",
-    "Vector Databases.md",
-    "UML (Unified Modeling Language). Knowledge Representation (KR).md",
-    "TCP and UDP Protocols.md",
-    "TCP Congestion Control Network Layer.md",
-    "Support Vector Machines.md",
-    "Summary of Application-layer Protocols.md",
-    "Stored Procedures, Functions, Triggers and PL pgSQL.md",
     "Library/Studyboarding.png",
     "Library/Scene 1.png",
     "Library/Pasted image 20260429140947.png",

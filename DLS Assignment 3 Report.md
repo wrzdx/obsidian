@@ -1,8 +1,7 @@
 # Assignment 3 — RAG Retrieval and Evaluation
 
-> [!summary]
-> **Dataset:** EnterpriseRAG-Bench · **Questions:** 200 · **Documents:** 3,050 · **Main index:** 14,886 chunks  
-> **Encoder:** `all-MiniLM-L6-v2` · **Seed:** 20260605 · **Cutoff:** $K=10$
+ **Dataset:** EnterpriseRAG-Bench · **Questions:** 200 · **Documents:** 3,050 · **Main index:** 14,886 chunks  
+ **Encoder:** `all-MiniLM-L6-v2` · **Seed:** 20260605 · **Cutoff:** $K=10$
 
 ## 1. Experimental setup
 
@@ -96,28 +95,28 @@ For `info_not_found`, document and fact metrics are undefined. Abstention is rep
 
 ## 4. Chunking and the recall floor
 
-| Method | Size | Overlap | Chunks | Fact recall floor |
-|---|---:|---:|---:|---:|
-| Fixed | 128 | 0 | 2,444 | 0.3238 |
-| Fixed | 128 | 32 | 3,089 | 0.3541 |
-| Fixed | 128 | 64 | 4,367 | 0.3889 |
-| Recursive | 128 | 0 | 2,878 | 0.3782 |
-| Recursive | 128 | 32 | 3,814 | 0.3836 |
-| Recursive | 128 | 64 | 5,521 | **0.4193** |
-| Fixed | 256 | 0 | 1,304 | 0.2435 |
-| Fixed | 256 | 32 | 1,428 | 0.2525 |
-| Fixed | 256 | 64 | 1,579 | 0.2632 |
-| Recursive | 256 | 0 | 1,410 | 0.2533 |
-| Recursive | 256 | 32 | 1,585 | **0.2703** |
-| Recursive | 256 | 64 | 1,778 | 0.2774 |
-| Fixed | 512 | 0 | 738 | 0.1918 |
-| Fixed | 512 | 32 | 761 | 0.1909 |
-| Fixed | 512 | 64 | 776 | 0.1855 |
-| Recursive | 512 | 0 | 773 | 0.1918 |
-| Recursive | 512 | 32 | 788 | 0.1820 |
-| Recursive | 512 | 64 | 813 | 0.1909 |
+| Method    | Size | Overlap | Chunks | Fact recall floor |
+| --------- | ---: | ------: | -----: | ----------------: |
+| Fixed     |  128 |       0 |  2,444 |            0.3238 |
+| Fixed     |  128 |      32 |  3,089 |            0.3541 |
+| Fixed     |  128 |      64 |  4,367 |            0.3889 |
+| Recursive |  128 |       0 |  2,878 |            0.3782 |
+| Recursive |  128 |      32 |  3,814 |            0.3836 |
+| Recursive |  128 |      64 |  5,521 |        **0.4193** |
+| Fixed     |  256 |       0 |  1,304 |            0.2435 |
+| Fixed     |  256 |      32 |  1,428 |            0.2525 |
+| Fixed     |  256 |      64 |  1,579 |            0.2632 |
+| Recursive |  256 |       0 |  1,410 |            0.2533 |
+| Recursive |  256 |      32 |  1,585 |        **0.2703** |
+| Recursive |  256 |      64 |  1,778 |            0.2774 |
+| Fixed     |  512 |       0 |    738 |            0.1918 |
+| Fixed     |  512 |      32 |    761 |            0.1909 |
+| Fixed     |  512 |      64 |    776 |            0.1855 |
+| Recursive |  512 |       0 |    773 |            0.1918 |
+| Recursive |  512 |      32 |    788 |            0.1820 |
+| Recursive |  512 |      64 |    813 |            0.1909 |
 
-![[assignment3_chunking.png]]
+![[assignment3_chunking.png|center|700]]
 
 For a document of $L$ words, fixed-size chunk count is
 
@@ -145,7 +144,7 @@ The table gives macro means over the eight answerable categories that have docum
 | HyDE | 0.7092 | 0.6568 | 0.4312 | 0.5686 | 0.2153 |
 | RAG Fusion | 0.7211 | 0.6873 | 0.4645 | 0.6053 | 0.2147 |
 
-![[assignment3_methods.png]]
+![[assignment3_methods.png|center|700]]
 
 Relative to plain dense retrieval, multi-query changes Recall@10 by $+0.0014$ and context recall by $+0.0144$, but decreases MRR by $-0.0309$, nDCG by $-0.0123$, and context precision by $-0.0283$. The extra variants recover a few facts but also promote irrelevant enterprise documents. RAG Fusion and HyDE do not produce a lift on the macro document metrics.
 
@@ -157,19 +156,19 @@ The vocabulary gap explains this result. Many questions already contain exact pr
 
 Each cell below is **context precision / context recall**. A dash means that context precision is undefined because `expected_doc_ids` is empty. The accompanying heatmaps show the same values without hiding category variation.
 
-| Question type | BM25 | Plain | Multi-query | HyDE | RAG Fusion |
-|---|---:|---:|---:|---:|---:|
-| basic | .922 / .275 | .710 / .340 | .690 / .340 | .681 / .339 | .707 / .357 |
-| completeness | .652 / .413 | .399 / .345 | .444 / .394 | .392 / .432 | .363 / .361 |
-| conflicting_info | .933 / .095 | .618 / .076 | .609 / .085 | .579 / .071 | .627 / .085 |
-| constrained | .952 / .254 | .938 / .279 | .900 / .282 | .871 / .282 | .904 / .279 |
-| intra_document_reasoning | 1.000 / .079 | .583 / .133 | .576 / .133 | .538 / .079 | .538 / .121 |
-| miscellaneous | 1.000 / .170 | .975 / .183 | .842 / .183 | .663 / .183 | .710 / .183 |
-| project_related | .876 / .311 | .730 / .315 | .746 / .320 | .668 / .271 | .696 / .297 |
-| semantic | .618 / .124 | .356 / .056 | .277 / .106 | .158 / .065 | .298 / .035 |
-| high_level | — / .150 | — / .507 | — / .465 | — / **.590** | — / .412 |
+| Question type            |         BM25 |       Plain | Multi-query |         HyDE |  RAG Fusion |
+| ------------------------ | -----------: | ----------: | ----------: | -----------: | ----------: |
+| basic                    |  .922 / .275 | .710 / .340 | .690 / .340 |  .681 / .339 | .707 / .357 |
+| completeness             |  .652 / .413 | .399 / .345 | .444 / .394 |  .392 / .432 | .363 / .361 |
+| conflicting_info         |  .933 / .095 | .618 / .076 | .609 / .085 |  .579 / .071 | .627 / .085 |
+| constrained              |  .952 / .254 | .938 / .279 | .900 / .282 |  .871 / .282 | .904 / .279 |
+| intra_document_reasoning | 1.000 / .079 | .583 / .133 | .576 / .133 |  .538 / .079 | .538 / .121 |
+| miscellaneous            | 1.000 / .170 | .975 / .183 | .842 / .183 |  .663 / .183 | .710 / .183 |
+| project_related          |  .876 / .311 | .730 / .315 | .746 / .320 |  .668 / .271 | .696 / .297 |
+| semantic                 |  .618 / .124 | .356 / .056 | .277 / .106 |  .158 / .065 | .298 / .035 |
+| high_level               |     — / .150 |    — / .507 |    — / .465 | — / **.590** |    — / .412 |
 
-![[assignment3_categories.png]]
+![[assignment3_categories.png|center|800]]
 
 The aggregate result hides two different behaviours. BM25 dominates document precision, especially on identifiers and exact terminology. Dense methods can retrieve answer-like evidence without recovering the annotated parent document: this is most visible for `high_level`, where HyDE reaches context recall 0.590. `completeness` remains the hardest category for retrieving all facts because the answer is distributed across multiple pieces of evidence.
 
@@ -183,7 +182,7 @@ The aggregate result hides two different behaviours. BM25 dominates document pre
 | HyDE | 0.000 | 0.630 | 0.000 | 0.517 |
 | RAG Fusion | 0.000 | 0.631 | 0.000 | 0.537 |
 
-![[assignment3_abstention.png]]
+![[assignment3_abstention.png|center|700]]
 
 At $\tau=0.35$, no method abstains on the `basic` control. BM25 abstains on 6 of 20 unanswerable questions, while every dense or rewrite-based method returns a confident result for all 20. The cosine gap between answerable and unanswerable questions is real but insufficiently calibrated at this threshold.
 
@@ -249,6 +248,3 @@ Quality is first limited by chunk reachability: the selected chunking exposes on
 BM25 remains the strongest document retriever for this enterprise subset because exact names and identifiers carry unusually high signal. Multi-query provides a small context-recall gain over plain dense retrieval but sacrifices ranking precision; HyDE is useful mainly on `high_level` questions. Dense similarity is also poorly calibrated for abstention.
 
 Document retrieval, fact coverage, abstention, and judge behaviour therefore need separate evaluation. Optimizing one combined score would conceal where an error entered the pipeline and would invite overfitting to an unaudited judge.
-
-> [!note] Reproducibility
-> Run `python assignment3.py`. The single program fixes seed 20260605, rebuilds the subset and corpus deterministically, prints the tables, and writes the JSON results and plots. Add `--run-judge --judge-url http://HOST:PORT` for an OpenAI-compatible local 7B/8B judge.

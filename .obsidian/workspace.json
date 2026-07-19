@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DLS Assignment 3 Report.md",
+                "file": "Deep Learning for Search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DLS Assignment 3 Report"
+              "title": "Deep Learning for Search"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DLS Assignment 3 Report.md",
+                "file": "Deep Learning for Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для DLS Assignment 3 Report"
+              "title": "Обратные ссылки для Deep Learning for Search"
             }
           }
         ],
@@ -122,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DLS Assignment 3 Report.md",
+                "file": "Deep Learning for Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из DLS Assignment 3 Report"
+              "title": "Исходящие ссылки из Deep Learning for Search"
             }
           }
         ]
@@ -227,10 +227,10 @@
   },
   "active": "3d9b4906c9b9a4da",
   "lastOpenFiles": [
+    "DLS Assignment 3 Report.md",
     "Deep Learning for Search.md",
     "DLS Lab3 Report.md",
     "DLS Project Defense Speech.md",
-    "DLS Assignment 3 Report.md",
     "DLS Midterm Question.md",
     "Cover Letter.md",
     "Без названия.md",

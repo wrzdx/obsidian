@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "showInlineTitle": true,
   "attachmentFolderPath": "Library",
   "alwaysUpdateLinks": true,
@@ -19,5 +19,7 @@
     "margin": "0",
     "downscalePercent": 70
   },
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Входящие"
 }

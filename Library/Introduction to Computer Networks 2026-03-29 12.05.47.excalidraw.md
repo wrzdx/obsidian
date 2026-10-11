@@ -21,9 +21,9 @@ Destination host ^1qcZ0saC
 Host ^cGwNveU1
 
 ## Embedded Files
-05e7b1971f663aa391a17310756caff86b9c567c: [[Pasted Image 20260329122258_840.png]]
+05e7b1971f663aa391a17310756caff86b9c567c: [[Library/Pasted Image 20260329122258_840.png]]
 
-5745e7d182e2d1f1abec60c2f93f45913511d395: [[Pasted Image 20260329122342_856.png]]
+5745e7d182e2d1f1abec60c2f93f45913511d395: [[Library/Pasted Image 20260329122342_856.png]]
 
 %%
 ## Drawing

@@ -25,44 +25,12 @@
       "key": "*"
     }
   ],
-  "homepage:open-homepage": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
   "file-explorer:new-file": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "N"
-    }
-  ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "n"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
-  "obsidian-better-internal-link-inserter:use-selected-word-as-alias": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "K"
     }
   ],
   "obsidian-excalidraw-plugin:insert-link-to-element": [],
@@ -163,15 +131,6 @@
       "key": "="
     }
   ],
-  "find-and-replace-in-selection:find-and-replace-in-selection": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
   "obsidian-find-and-replace-in-selection:find-and-replace-in-selection": [
     {
       "modifiers": [
@@ -192,10 +151,6 @@
       "key": "E"
     }
   ],
-  "hotkeysplus-obsidian:toggle-block-quote": [],
-  "hotkeysplus-obsidian:toggle-bullet-number": [],
-  "hotkeysplus-obsidian:toggle-embed": [],
-  "hotkeysplus-obsidian:better-toggle-todo": [],
   "insert-template": [
     {
       "modifiers": [

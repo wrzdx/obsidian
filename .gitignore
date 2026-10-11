@@ -1,0 +1,7 @@
+
+# Device-specific Obsidian state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+.DS_Store
+Thumbs.db

@@ -1,486 +1,54 @@
 {
-  "nodes": [
-    {
-      "id": "992232fa69ce4d04",
-      "type": "group",
-      "x": 0,
-      "y": 0,
-      "width": 1390,
-      "height": 1690,
-      "label": "Учёба · ближайшая опора",
-      "color": "2"
-    },
-    {
-      "id": "7e02b9eb1f8a41ee",
-      "type": "group",
-      "x": 50,
-      "y": 260,
-      "width": 625,
-      "height": 470,
-      "label": "Information Retrieval · 14 октября",
-      "color": "2"
-    },
-    {
-      "id": "d25a0e80daa44b96",
-      "type": "group",
-      "x": 715,
-      "y": 260,
-      "width": 625,
-      "height": 470,
-      "label": "Reinforcement Learning · 14 октября",
-      "color": "2"
-    },
-    {
-      "id": "15508cf0d90e46a7",
-      "type": "group",
-      "x": 50,
-      "y": 770,
-      "width": 625,
-      "height": 410,
-      "label": "Industrial Development / SRE",
-      "color": "2"
-    },
-    {
-      "id": "68ae7f9b4cbc4b28",
-      "type": "group",
-      "x": 715,
-      "y": 770,
-      "width": 625,
-      "height": 410,
-      "label": "PMLDL",
-      "color": "2"
-    },
-    {
-      "id": "9a8adf22bd3b406c",
-      "type": "group",
-      "x": 50,
-      "y": 1220,
-      "width": 625,
-      "height": 410,
-      "label": "Computer Vision",
-      "color": "2"
-    },
-    {
-      "id": "ad12807bbb5c4ef9",
-      "type": "group",
-      "x": 715,
-      "y": 1220,
-      "width": 625,
-      "height": 410,
-      "label": "Контроль семестра",
-      "color": "2"
-    },
-    {
-      "id": "c21aa7c266a74e64",
-      "type": "group",
-      "x": 2050,
-      "y": 40,
-      "width": 1320,
-      "height": 800,
-      "label": "Nero и CachyOS · практические задачи",
-      "color": "4"
-    },
-    {
-      "id": "36a5a63546fa4845",
-      "type": "group",
-      "x": 2090,
-      "y": 300,
-      "width": 600,
-      "height": 440,
-      "label": "Рабочая среда",
-      "color": "4"
-    },
-    {
-      "id": "e8cdcef24ad84aba",
-      "type": "group",
-      "x": 2730,
-      "y": 300,
-      "width": 600,
-      "height": 440,
-      "label": "Мессенджер · после срочных сдач",
-      "color": "4"
-    },
-    {
-      "id": "39ee953b6ed24848",
-      "type": "group",
-      "x": 2050,
-      "y": 1040,
-      "width": 1320,
-      "height": 800,
-      "label": "Стажировка, Китай и дальнейшее обучение",
-      "color": "6"
-    },
-    {
-      "id": "b4d0dc68974249da",
-      "type": "group",
-      "x": 2090,
-      "y": 1300,
-      "width": 600,
-      "height": 440,
-      "label": "Яндекс Go для бизнеса",
-      "color": "6"
-    },
-    {
-      "id": "13b6826c3f7c494d",
-      "type": "group",
-      "x": 2730,
-      "y": 1300,
-      "width": 600,
-      "height": 440,
-      "label": "Международная ветка",
-      "color": "6"
-    },
-    {
-      "id": "b0e8d969db2d47d5",
-      "type": "group",
-      "x": 0,
-      "y": 1910,
-      "width": 1390,
-      "height": 420,
-      "label": "Тело, быт и удовольствие",
-      "color": "3"
-    },
-    {
-      "id": "8d680febc5bc4b5f",
-      "type": "text",
-      "x": 1460,
-      "y": 1210,
-      "width": 520,
-      "height": 340,
-      "text": "# Твои ветки\n\nВыбери **одну задачу** и один рабочий блок.\n\n**4 направления · 23 задачи**\n\nКонтекст на **11 октября 2026**. Время — оценка одного блока. Статусы старых сдач неизвестны.",
-      "color": "5"
-    },
-    {
-      "id": "d938574d5bf5494b",
-      "type": "text",
-      "x": 55,
-      "y": 45,
-      "width": 1280,
-      "height": 155,
-      "text": "## Учёба\n\nIR · RL · SRE · PMLDL · CV · контроль семестра\n\nУ IR и RL на исходной карте отмечено **14 октября**.",
-      "color": "2"
-    },
-    {
-      "id": "940b6003ff6e48d5",
-      "type": "text",
-      "x": 2085,
-      "y": 80,
-      "width": 1250,
-      "height": 155,
-      "text": "## Nero и CachyOS\n\nЗапуск и учебная среда — самостоятельные блоки. Развитие мессенджера — **после срочных сдач**.",
-      "color": "4"
-    },
-    {
-      "id": "7f4270f93d254d04",
-      "type": "text",
-      "x": 2085,
-      "y": 1080,
-      "width": 1250,
-      "height": 155,
-      "text": "## Стажировка, Китай и обучение\n\nЯндекс Go для бизнеса · обмен в Китай · английский и магистратура",
-      "color": "6"
-    },
-    {
-      "id": "83eae865e821452e",
-      "type": "text",
-      "x": 50,
-      "y": 1950,
-      "width": 1290,
-      "height": 115,
-      "text": "## Тело, быт и удовольствие\n\nЗдесь длительности в исходной карте не указаны.",
-      "color": "3"
-    },
-    {
-      "id": "b8b96a313438444a",
-      "type": "text",
-      "x": 80,
-      "y": 310,
-      "width": 565,
-      "height": 270,
-      "text": "### Мидтерм\n\n**45–60 мин**\n\n**Первый шаг:** открыть слайды Quality assessment. Выписать определения precision и recall, затем решить 3 маленьких примера без подсказок.\n\n**Результат:** одна тема повторена, непонятные места записаны.\n\n**Срок:** 14 октября; список тем сверить с последним объявлением.",
-      "color": "2"
-    },
-    {
-      "id": "297bab5e696f4fa0",
-      "type": "text",
-      "x": 80,
-      "y": 610,
-      "width": 565,
-      "height": 110,
-      "text": "### Объяснить A1\n\n**30 мин**",
-      "color": "2"
-    },
-    {
-      "id": "2a74aec3583b4c4b",
-      "type": "text",
-      "x": 745,
-      "y": 320,
-      "width": 565,
-      "height": 145,
-      "text": "### Proposal TQC\n\n**30–45 мин**",
-      "color": "2"
-    },
-    {
-      "id": "b21a1cd9090a4d9c",
-      "type": "text",
-      "x": 745,
-      "y": 500,
-      "width": 565,
-      "height": 145,
-      "text": "### Разобрать маленький MDP\n\n**30 мин**",
-      "color": "2"
-    },
-    {
-      "id": "4e052aecf8564489",
-      "type": "text",
-      "x": 80,
-      "y": 825,
-      "width": 565,
-      "height": 145,
-      "text": "### Логирование Nero\n\n**45–60 мин**",
-      "color": "2"
-    },
-    {
-      "id": "d024365bc7cf4ed2",
-      "type": "text",
-      "x": 80,
-      "y": 1005,
-      "width": 565,
-      "height": 145,
-      "text": "### Проверить Kubernetes\n\n**20–30 мин**",
-      "color": "2"
-    },
-    {
-      "id": "d7001159819847b5",
-      "type": "text",
-      "x": 745,
-      "y": 825,
-      "width": 565,
-      "height": 145,
-      "text": "### Kaggle и баллы\n\n**20–30 мин**",
-      "color": "2"
-    },
-    {
-      "id": "8ad8d5fd5332443f",
-      "type": "text",
-      "x": 745,
-      "y": 1005,
-      "width": 565,
-      "height": 145,
-      "text": "### Понять свой notebook\n\n**45 мин**",
-      "color": "2"
-    },
-    {
-      "id": "602cffbf46f64acf",
-      "type": "text",
-      "x": 80,
-      "y": 1275,
-      "width": 565,
-      "height": 145,
-      "text": "### Своя часть проекта\n\n**20–30 мин**",
-      "color": "2"
-    },
-    {
-      "id": "b27d11241bf441ac",
-      "type": "text",
-      "x": 80,
-      "y": 1455,
-      "width": 565,
-      "height": 145,
-      "text": "### Фильтры на картинке\n\n**45 мин**",
-      "color": "2"
-    },
-    {
-      "id": "997166fe69d54915",
-      "type": "text",
-      "x": 745,
-      "y": 1275,
-      "width": 565,
-      "height": 145,
-      "text": "### Сверить сдачи и оценки\n\n**20 мин**",
-      "color": "2"
-    },
-    {
-      "id": "910d80ab2807413c",
-      "type": "text",
-      "x": 745,
-      "y": 1455,
-      "width": 565,
-      "height": 145,
-      "text": "### Учёба после переезда\n\n**20 мин**",
-      "color": "2"
-    },
-    {
-      "id": "64ba189e8b144959",
-      "type": "text",
-      "x": 2120,
-      "y": 355,
-      "width": 540,
-      "height": 145,
-      "text": "### Запустить Nero здесь\n\n**30–45 мин**",
-      "color": "4"
-    },
-    {
-      "id": "e09cff180b1d4392",
-      "type": "text",
-      "x": 2120,
-      "y": 540,
-      "width": 540,
-      "height": 145,
-      "text": "### Открыть учебный notebook\n\n**20–30 мин**",
-      "color": "4"
-    },
-    {
-      "id": "5cd6fb5f099b45cd",
-      "type": "text",
-      "x": 2760,
-      "y": 355,
-      "width": 540,
-      "height": 145,
-      "text": "### Один экран фронтенда\n\n**60–90 мин**",
-      "color": "4"
-    },
-    {
-      "id": "e240bc3a8a1645e2",
-      "type": "text",
-      "x": 2760,
-      "y": 540,
-      "width": 540,
-      "height": 145,
-      "text": "### Rate limit / масштабирование\n\n**30 мин**",
-      "color": "4"
-    },
-    {
-      "id": "7f4c35c33fb94d0a",
-      "type": "text",
-      "x": 2120,
-      "y": 1355,
-      "width": 540,
-      "height": 145,
-      "text": "### Выход и переезд\n\n**20 мин**",
-      "color": "6"
-    },
-    {
-      "id": "44fcca2a453e4370",
-      "type": "text",
-      "x": 2120,
-      "y": 1540,
-      "width": 540,
-      "height": 145,
-      "text": "### Go без алгогринда\n\n**30–45 мин**",
-      "color": "6"
-    },
-    {
-      "id": "c8058f019ca94cab",
-      "type": "text",
-      "x": 2760,
-      "y": 1355,
-      "width": 540,
-      "height": 145,
-      "text": "### Обмен в Китай\n\n**15–20 мин**",
-      "color": "6"
-    },
-    {
-      "id": "b2451142c638433c",
-      "type": "text",
-      "x": 2760,
-      "y": 1540,
-      "width": 540,
-      "height": 145,
-      "text": "### Английский / магистратура\n\n**30 мин**",
-      "color": "6"
-    },
-    {
-      "id": "1b9c896e4a91411b",
-      "type": "text",
-      "x": 50,
-      "y": 2120,
-      "width": 395,
-      "height": 155,
-      "text": "### Спорт-часы и зал\n\n**Время не указано**",
-      "color": "3"
-    },
-    {
-      "id": "72ec0aa771f84a64",
-      "type": "text",
-      "x": 485,
-      "y": 2120,
-      "width": 395,
-      "height": 155,
-      "text": "### Еда и продукты\n\n**Время не указано**",
-      "color": "3"
-    },
-    {
-      "id": "6f40d42b30114035",
-      "type": "text",
-      "x": 920,
-      "y": 2120,
-      "width": 395,
-      "height": 155,
-      "text": "### Гитара, рисунок, близкие\n\n**Время не указано**",
-      "color": "3"
-    },
-    {
-      "id": "86792489a0a84a0e",
-      "type": "file",
-      "x": 1460,
-      "y": 1790,
-      "width": 520,
-      "height": 480,
-      "file": "Входящие/Task map — все ветки и задачи 2026-10-12.md",
-      "color": "5"
-    }
-  ],
-  "edges": [
-    {
-      "id": "f7cf161a6c904cd5",
-      "fromNode": "8d680febc5bc4b5f",
-      "fromSide": "left",
-      "fromEnd": "none",
-      "toNode": "d938574d5bf5494b",
-      "toSide": "right",
-      "toEnd": "none",
-      "color": "2"
-    },
-    {
-      "id": "6f189d905bdf488b",
-      "fromNode": "8d680febc5bc4b5f",
-      "fromSide": "right",
-      "fromEnd": "none",
-      "toNode": "940b6003ff6e48d5",
-      "toSide": "left",
-      "toEnd": "none",
-      "color": "4"
-    },
-    {
-      "id": "4082b7976b9b4555",
-      "fromNode": "8d680febc5bc4b5f",
-      "fromSide": "right",
-      "fromEnd": "none",
-      "toNode": "7f4270f93d254d04",
-      "toSide": "left",
-      "toEnd": "none",
-      "color": "6"
-    },
-    {
-      "id": "4dcd46f264f44322",
-      "fromNode": "8d680febc5bc4b5f",
-      "fromSide": "left",
-      "fromEnd": "none",
-      "toNode": "83eae865e821452e",
-      "toSide": "right",
-      "toEnd": "none",
-      "color": "3"
-    },
-    {
-      "id": "9eeee75c2b114df1",
-      "fromNode": "8d680febc5bc4b5f",
-      "fromSide": "bottom",
-      "fromEnd": "none",
-      "toNode": "86792489a0a84a0e",
-      "toSide": "top",
-      "toEnd": "none",
-      "color": "5"
-    }
-  ]
+	"nodes":[
+		{"id":"992232fa69ce4d04","type":"group","x":0,"y":0,"width":1390,"height":1690,"label":"Учёба · ближайшая опора","color":"2"},
+		{"id":"7e02b9eb1f8a41ee","type":"group","x":50,"y":260,"width":625,"height":470,"label":"Information Retrieval · 14 октября","color":"2"},
+		{"id":"d25a0e80daa44b96","type":"group","x":715,"y":260,"width":625,"height":470,"label":"Reinforcement Learning · 14 октября","color":"2"},
+		{"id":"15508cf0d90e46a7","type":"group","x":50,"y":770,"width":625,"height":410,"label":"Industrial Development / SRE","color":"2"},
+		{"id":"68ae7f9b4cbc4b28","type":"group","x":715,"y":770,"width":625,"height":410,"label":"PMLDL","color":"2"},
+		{"id":"9a8adf22bd3b406c","type":"group","x":50,"y":1220,"width":625,"height":410,"label":"Computer Vision","color":"2"},
+		{"id":"ad12807bbb5c4ef9","type":"group","x":715,"y":1220,"width":625,"height":410,"label":"Контроль семестра","color":"2"},
+		{"id":"c21aa7c266a74e64","type":"group","x":2050,"y":40,"width":1320,"height":800,"label":"Nero и CachyOS · практические задачи","color":"4"},
+		{"id":"36a5a63546fa4845","type":"group","x":2090,"y":300,"width":600,"height":440,"label":"Рабочая среда","color":"4"},
+		{"id":"e8cdcef24ad84aba","type":"group","x":2730,"y":300,"width":600,"height":440,"label":"Мессенджер · после срочных сдач","color":"4"},
+		{"id":"39ee953b6ed24848","type":"group","x":2050,"y":1040,"width":1320,"height":800,"label":"Стажировка, Китай и дальнейшее обучение","color":"6"},
+		{"id":"b4d0dc68974249da","type":"group","x":2090,"y":1300,"width":600,"height":440,"label":"Яндекс Go для бизнеса","color":"6"},
+		{"id":"13b6826c3f7c494d","type":"group","x":2730,"y":1300,"width":600,"height":440,"label":"Международная ветка","color":"6"},
+		{"id":"b0e8d969db2d47d5","type":"group","x":0,"y":1910,"width":1390,"height":420,"label":"Тело, быт и удовольствие","color":"3"},
+		{"id":"8d680febc5bc4b5f","type":"text","x":1460,"y":1210,"width":520,"height":340,"text":"# Твои ветки\n\nВыбери **одну задачу** и один рабочий блок.\n\n**4 направления · 23 задачи**\n\nКонтекст на **11 октября 2026**. Время — оценка одного блока. Статусы старых сдач неизвестны.","color":"5"},
+		{"id":"d938574d5bf5494b","type":"text","x":55,"y":45,"width":1280,"height":155,"text":"## Учёба\n\nIR · RL · SRE · PMLDL · CV · контроль семестра\n\nУ IR и RL на исходной карте отмечено **14 октября**.","color":"2"},
+		{"id":"940b6003ff6e48d5","type":"text","x":2085,"y":80,"width":1250,"height":155,"text":"## Nero и CachyOS\n\nЗапуск и учебная среда — самостоятельные блоки. Развитие мессенджера — **после срочных сдач**.","color":"4"},
+		{"id":"7f4270f93d254d04","type":"text","x":2085,"y":1080,"width":1250,"height":155,"text":"## Стажировка, Китай и обучение\n\nЯндекс Go для бизнеса · обмен в Китай · английский и магистратура","color":"6"},
+		{"id":"83eae865e821452e","type":"text","x":50,"y":1950,"width":1290,"height":115,"text":"## Тело, быт и удовольствие\n\nЗдесь длительности в исходной карте не указаны.","color":"3"},
+		{"id":"b8b96a313438444a","type":"text","x":80,"y":310,"width":565,"height":270,"text":"### Мидтерм\n\n**45–60 мин**\n\n**Первый шаг:** открыть слайды Quality assessment. Выписать определения precision и recall, затем решить 3 маленьких примера без подсказок.\n\n**Результат:** одна тема повторена, непонятные места записаны.\n\n**Срок:** 14 октября; список тем сверить с последним объявлением.","color":"2"},
+		{"id":"297bab5e696f4fa0","type":"text","x":80,"y":610,"width":565,"height":110,"text":"### Объяснить A1\n\n**30 мин**","color":"2"},
+		{"id":"2a74aec3583b4c4b","type":"text","x":745,"y":320,"width":565,"height":145,"text":"### Proposal TQC\n\n**30–45 мин**","color":"2"},
+		{"id":"b21a1cd9090a4d9c","type":"text","x":745,"y":500,"width":565,"height":145,"text":"### Разобрать маленький MDP\n\n**30 мин**","color":"2"},
+		{"id":"4e052aecf8564489","type":"text","x":80,"y":825,"width":565,"height":145,"text":"### Логирование Nero\n\n**45–60 мин**","color":"2"},
+		{"id":"d024365bc7cf4ed2","type":"text","x":80,"y":1005,"width":565,"height":145,"text":"### Проверить Kubernetes\n\n**20–30 мин**","color":"2"},
+		{"id":"d7001159819847b5","type":"text","x":745,"y":825,"width":565,"height":145,"text":"### Kaggle и баллы\n\n**20–30 мин**","color":"2"},
+		{"id":"8ad8d5fd5332443f","type":"text","x":745,"y":1005,"width":565,"height":145,"text":"### Понять свой notebook\n\n**45 мин**","color":"2"},
+		{"id":"602cffbf46f64acf","type":"text","x":80,"y":1275,"width":565,"height":145,"text":"### Своя часть проекта\n\n**20–30 мин**","color":"2"},
+		{"id":"b27d11241bf441ac","type":"text","x":80,"y":1455,"width":565,"height":145,"text":"### Фильтры на картинке\n\n**45 мин**","color":"2"},
+		{"id":"997166fe69d54915","type":"text","x":745,"y":1275,"width":565,"height":145,"text":"### Сверить сдачи и оценки\n\n**20 мин**","color":"2"},
+		{"id":"910d80ab2807413c","type":"text","x":745,"y":1455,"width":565,"height":145,"text":"### Учёба после переезда\n\n**20 мин**","color":"2"},
+		{"id":"64ba189e8b144959","type":"text","x":2120,"y":355,"width":540,"height":145,"text":"### Запустить Nero здесь\n\n**30–45 мин**","color":"4"},
+		{"id":"e09cff180b1d4392","type":"text","x":2120,"y":540,"width":540,"height":145,"text":"### Открыть учебный notebook\n\n**20–30 мин**","color":"4"},
+		{"id":"5cd6fb5f099b45cd","type":"text","x":2760,"y":355,"width":540,"height":145,"text":"### Один экран фронтенда\n\n**60–90 мин**","color":"4"},
+		{"id":"e240bc3a8a1645e2","type":"text","x":2760,"y":540,"width":540,"height":145,"text":"### Rate limit / масштабирование\n\n**30 мин**","color":"4"},
+		{"id":"7f4c35c33fb94d0a","type":"text","x":2120,"y":1355,"width":540,"height":145,"text":"### Выход и переезд\n\n**20 мин**","color":"6"},
+		{"id":"44fcca2a453e4370","type":"text","x":2120,"y":1540,"width":540,"height":145,"text":"### Go без алгогринда\n\n**30–45 мин**","color":"6"},
+		{"id":"c8058f019ca94cab","type":"text","x":2760,"y":1355,"width":540,"height":145,"text":"### Обмен в Китай\n\n**15–20 мин**","color":"6"},
+		{"id":"b2451142c638433c","type":"text","x":2760,"y":1540,"width":540,"height":145,"text":"### Английский / магистратура\n\n**30 мин**","color":"6"},
+		{"id":"1b9c896e4a91411b","type":"text","x":50,"y":2120,"width":395,"height":155,"text":"### Спорт-часы и зал\n\n**Время не указано**","color":"3"},
+		{"id":"72ec0aa771f84a64","type":"text","x":485,"y":2120,"width":395,"height":155,"text":"### Еда и продукты\n\n**Время не указано**","color":"3"},
+		{"id":"6f40d42b30114035","type":"text","x":920,"y":2120,"width":395,"height":155,"text":"### Гитара, рисунок, близкие\n\n**Время не указано**","color":"3"},
+		{"id":"86792489a0a84a0e","type":"file","x":1460,"y":1790,"width":520,"height":480,"file":"Входящие/Task map — все ветки и задачи 2026-10-12.md","color":"5"}
+	],
+	"edges":[
+		{"id":"f7cf161a6c904cd5","fromNode":"8d680febc5bc4b5f","fromSide":"left","fromEnd":"none","toNode":"d938574d5bf5494b","toSide":"right","toEnd":"none","color":"2"},
+		{"id":"6f189d905bdf488b","fromNode":"8d680febc5bc4b5f","fromSide":"right","fromEnd":"none","toNode":"940b6003ff6e48d5","toSide":"left","toEnd":"none","color":"4"},
+		{"id":"4082b7976b9b4555","fromNode":"8d680febc5bc4b5f","fromSide":"right","fromEnd":"none","toNode":"7f4270f93d254d04","toSide":"left","toEnd":"none","color":"6"},
+		{"id":"4dcd46f264f44322","fromNode":"8d680febc5bc4b5f","fromSide":"left","fromEnd":"none","toNode":"83eae865e821452e","toSide":"right","toEnd":"none","color":"3"},
+		{"id":"9eeee75c2b114df1","fromNode":"8d680febc5bc4b5f","fromSide":"bottom","fromEnd":"none","toNode":"86792489a0a84a0e","toSide":"top","toEnd":"none","color":"5"}
+	]
 }

@@ -83,3 +83,8 @@ int main() {
   return 1;
 }
 ```
+
+## Связанные материалы
+
+- [[Знания/The C language|The C language]] — Оглавление курса C.
+- [[Знания/Pointers. Arrays|Pointers. Arrays]] — Массивы и указатели в разобранных примерах.

@@ -56,3 +56,7 @@ This mechanism allows the voter to prove that the vote was included in a committ
 - without revealing the original voter ID
 - without exposing all other votes in the block
 - using only the vote hash, proof path, and Merkle root from the ledger
+
+## Связанные материалы
+
+- [[Проекты/Blockchain-Based Voting System|Blockchain-Based Voting System]] — Описание проекта, для которого построено это дерево.

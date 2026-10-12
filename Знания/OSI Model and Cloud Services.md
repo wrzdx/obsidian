@@ -173,3 +173,7 @@
 	- You can directly develop your IT system through one cloud platform, and do not care about any lower level resource management.
 - **Software as a Service (SaaS)** - Similar to live in a hotel?
 	- You can directly use some existed IT system solutions, which were provided by some cloud application service provider, without knowing any detail technique about how these service was achieved.
+
+## Связанные материалы
+
+- [[Знания/Physical Layer and Media|Physical Layer and Media]] — Подробности физического уровня и передачи сигналов.

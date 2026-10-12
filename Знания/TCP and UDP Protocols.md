@@ -57,3 +57,6 @@ Only **TCP**:
 - No real-time guarantees (a specific case of the above)
 - No allocated bandwidth guarantee
 
+## Связанные материалы
+
+- [[Знания/Socket Programming in C|Socket Programming in C]] — Практическая реализация обмена по TCP и UDP.

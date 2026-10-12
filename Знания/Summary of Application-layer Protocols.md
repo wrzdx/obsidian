@@ -17,3 +17,9 @@
 | **DNS**  | Translation of host names to IP addresses                       | Stateless                                                                | Non-persistent                                                                                             | 53                                      | UDP                |
 | **DHCP** | IP assignement and other configurations to network hosts        | Either stateful or stateless, subject to configuration                   | Typically non-persistent, but can be configured as persistent (e.g. to give the same IP whenever possible) | 67 – server side; <br>68 – client side  | UDP                |
 
+## Связанные материалы
+
+- [[Знания/HTTP and FTP protocols|HTTP and FTP protocols]] — Подробности HTTP и FTP из сводной таблицы.
+- [[Знания/Mail Protocol Suit. A Brief History of Electronic Mail|Mail Protocol Suit. A Brief History of Electronic Mail]] — Подробности SMTP, POP и IMAP.
+- [[Знания/DNS|DNS]] — Разрешение доменных имён.
+- [[Знания/TCP and UDP Protocols|TCP and UDP Protocols]] — Транспортные протоколы и порты приложений.

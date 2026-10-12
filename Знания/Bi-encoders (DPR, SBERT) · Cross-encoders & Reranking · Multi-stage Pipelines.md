@@ -127,3 +127,8 @@ $$RRF\_Score(d) = \sum_{m \in M} \frac{1}{k + R_m(d)}$$
 - **Cross-Encoder:** Одно общее дерево. Медленно. Подходит только для финальной сортировки горстки документов (Reranking). Векторы кэшировать нельзя, так как вход всегда уникален ($q+d$).
     
 - **RRF:** Метод объединения разных поисковых выдач по принципу «не важно, сколько очков набрал документ, важно, какое место он занял».
+
+## Связанные материалы
+
+- [[Знания/Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion|Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion]] — Лексический этап поискового каскада.
+- [[Знания/Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank|Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank]] — Продолжение: ColBERT, SPLADE и обучение ранжированию.

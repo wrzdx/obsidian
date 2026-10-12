@@ -642,3 +642,8 @@ Clicks ≠ Relevance
 
 Оптимизация CTR приводит к кликбейту.
 
+## Связанные материалы
+
+- [[Знания/NLP · Tokenization · Measures of Similarity|NLP · Tokenization · Measures of Similarity]] — Подготовка текста для поисковой системы.
+- [[Знания/Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion|Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion]] — Лексический поиск и индексирование.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Оценка качества поисковой выдачи.

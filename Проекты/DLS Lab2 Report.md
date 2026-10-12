@@ -41,3 +41,8 @@ The ranking pool depth $k$ determines the computational load (exactly $k$ Cross-
 1. **Pool Exhaustion:** Past $k > 50$, the Scout's candidate generator has already exhausted nearly all highly relevant documents. The remaining documents are background noise, meaning the Judge has no actual valuable assets left to pull to the top.
     
 2. **Model False Positives:** At extreme depths, the Judge is forced to score hundreds of low-relevance items. Because complex Cross-Encoders are highly sensitive to overlapping contextual sub-topics, they can generate false-positive scores for noisy documents, inadvertently pushing them into the Top-10 and displacing genuinely useful hits.
+
+## Связанные материалы
+
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — Теория каскада с bi-encoder и cross-encoder.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Метрика nDCG@10 для сравнения каскадов.

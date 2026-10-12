@@ -67,3 +67,7 @@ $u_{s}$ – server upload speed
  In general:
  $$\displaystyle{\Delta t^{Distr}_{CS} \geq MAX\{\frac{F}{u_{s}},\frac{F}{d_{min}}, \frac{NF}{u_{s}+u_{1}+\dots+u_{N}}\}}$$
 
+## Связанные материалы
+
+- [[Знания/A distributed system is…|A distributed system is…]] — Клиент-сервер и P2P в контексте распределённых систем.
+- [[Знания/Event-driven servers|Event-driven servers]] — Способ обслуживать параллельные запросы на сервере.

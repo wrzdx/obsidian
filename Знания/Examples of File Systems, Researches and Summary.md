@@ -112,3 +112,9 @@ MS-DOS не использует i-nodes. Вместо этого есть та�
     *   Разные подходы: MS-DOS (FAT) vs UNIX (I-nodes).
 
 Мы разобрали базу. Современные навороты вроде ext4 и NTFS будут в главах 10 и 11, но они стоят на плечах этих гигантов.
+
+## Связанные материалы
+
+- [[Знания/File Systems|File Systems]] — Оглавление раздела файловых систем.
+- [[Знания/File-System Implementation (Реализация Файловой Системы)|File-System Implementation (Реализация Файловой Системы)]] — Общие механизмы FAT, i-nodes и размещения блоков.
+- [[Знания/File-System Management and Optimization|File-System Management and Optimization]] — Надёжность и производительность файловых систем.

@@ -670,4 +670,14 @@ scaled /√4=2  softmax([0,2,1]):
 - **Assemble the Transformer encoder block (multi-head attention → Add&Norm → FFN → Add&Norm). Why residuals, why LayerNorm, and what does the position-wise FFN add?**
   A block is: x → MHA(x), add the residual x and LayerNorm; then → FFN, add the residual and LayerNorm again. Residual connections give the gradient an identity short-cut so very deep stacks still train (no vanishing). LayerNorm normalizes each token vector to mean 0 / variance 1 (then scale+shift), keeping activations at a stable scale across depth. Attention only MIXES tokens linearly (a weighted average of values) — the position-wise FFN (a 2-layer MLP applied to each token independently, usually d → 4d → d with a nonlinearity) adds the per-token nonlinear transformation that lets the model actually compute, not just average.
 
-- 
+-
+
+## Связанные материалы
+
+- [[Знания/Search & Information Retrieval · ML System Design|Search & Information Retrieval · ML System Design]] — Вопросы о поисковой системе и её архитектуре.
+- [[Знания/NLP · Tokenization · Measures of Similarity|NLP · Tokenization · Measures of Similarity]] — Вопросы о токенизации и близости.
+- [[Знания/Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion|Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion]] — Вопросы об инвертированном индексе, TF-IDF и BM25.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Вопросы о метриках качества.
+- [[Знания/Intro to DL for Search · Word Embeddings · Dimensionality Reduction|Intro to DL for Search · Word Embeddings · Dimensionality Reduction]] — Статические эмбеддинги и снижение размерности.
+- [[Знания/Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention|Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention]] — Контекстные эмбеддинги и attention.
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — Вопросы о retrieve → rank и энкодерах.

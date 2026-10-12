@@ -44,3 +44,8 @@ Query: **PLAIN-112 — Food Dyes and ADHD**
 ## Analysis
 
 BM25 differs from TF-IDF because it applies term-frequency saturation and document-length normalization. In the TF-IDF ranking, document MED-2618 is placed first even though its relevance label is 0. This document contains many repetitions of query terms such as “dyes”, which increases its score because TF-IDF grows linearly with term frequency. BM25 instead ranks MED-3380 first (relevance label 2). BM25 limits the impact of repeated term occurrences and normalizes scores using document length, reducing the advantage of longer documents. As a result, BM25 places greater emphasis on informative terms such as “ADHD” and promotes the more relevant document. This behavior explains why BM25 achieves a higher nDCG@10 score than TF-IDF for this query and a higher mean nDCG@10 overall.
+
+## Связанные материалы
+
+- [[Знания/Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion|Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion]] — Теория сравниваемых TF-IDF и BM25.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Определение использованной nDCG@10.

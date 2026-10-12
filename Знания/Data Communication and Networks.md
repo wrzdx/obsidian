@@ -74,3 +74,6 @@ A data communication system consists of 5 components:
 	- May utilize as public, leased or private communication equipment.
 	- Enterprise network – refer to WAN that wholly owned and used by a single company.
 
+## Связанные материалы
+
+- [[Знания/Physical Layer and Media|Physical Layer and Media]] — Физические среды передачи данных.

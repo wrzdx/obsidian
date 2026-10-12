@@ -65,3 +65,7 @@ Goal: satisfy client request without involving origin server
 - Browser sends all HTTP requests to cache 
 - If object in cache: then cache returns object 
 - else cache requests object from origin server, then returns object to client
+
+## Связанные материалы
+
+- [[Знания/HTTP and FTP protocols|HTTP and FTP protocols]] — Базовый конспект HTTP для cookies и кэширования.

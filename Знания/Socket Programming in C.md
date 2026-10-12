@@ -288,3 +288,8 @@ flexGrow=1
 
 ```
 ````
+
+## Связанные материалы
+
+- [[Знания/Synchronization and interprocess communication|Synchronization and interprocess communication]] — Общий конспект о межпроцессном взаимодействии, к которому относятся сокеты.
+- [[Знания/The C language|The C language]] — Конспекты языка, на котором написаны примеры.

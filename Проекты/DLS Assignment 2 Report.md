@@ -137,3 +137,9 @@ The null hypothesis was rejected (p < 0.05). Therefore, the improvement of Lambd
 ## Conclusion
 
 Hybrid retrieval consistently outperformed individual retrieval systems. Dense retrieval contributed the strongest signal, while sparse retrieval provided complementary evidence. Among fusion approaches, normalized score fusion achieved the best retrieval performance. LambdaRank successfully combined retrieval features into a stronger ranking model and produced statistically significant improvements over the BM25 baseline.
+
+## Связанные материалы
+
+- [[Знания/Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank|Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank]] — ColBERT, SPLADE, hybrid fusion и Learning to Rank в эксперименте.
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — Dense bi-encoder и reranking кандидатов.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Определения метрик оценки.

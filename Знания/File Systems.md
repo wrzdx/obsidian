@@ -2,7 +2,7 @@
 - [Directories (Директории)](Directories%20%28%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B8%29.md)
 - [File-System Implementation (Реализация Файловой Системы)](File-System%20Implementation%20%28%D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%29.md)
 - [File-System Management and Optimization](File-System%20Management%20and%20Optimization.md)
-- [Examples of File Systems, Researches and Summary](Examples%20of%20File%20Systems%2C%20Researches%20and%20Summary.md)
+- [[Знания/Examples of File Systems, Researches and Summary|Examples of File Systems, Researches and Summary]]
 
 
 # Problems:

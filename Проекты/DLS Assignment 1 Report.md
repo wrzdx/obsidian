@@ -91,3 +91,10 @@ The improvement obtained by Porter stemming is statistically significant accordi
 ### 6. Discussion
 
 The experiments show that BM25 remains the strongest individual lexical ranking model on NF Corpus. The parameter sweep demonstrates that both term-frequency saturation and document-length normalization influence retrieval quality. The tokenization study shows that document representation is also important, as stemming noticeably improved performance. Finally, the significance tests indicate that the improvement obtained through stemming is statistically reliable. Overall, the results suggest that retrieval quality depends not only on the ranking formula itself but also on how terms are represented and weighted within the retrieval system.
+
+## Связанные материалы
+
+- [[Проекты/DLS Lab1 Report|DLS Lab1 Report]] — Связанный эксперимент с TF-IDF и BM25 на nfcorpus.
+- [[Знания/Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion|Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion]] — BM25, TF-IDF и RRF в эксперименте.
+- [[Знания/NLP · Tokenization · Measures of Similarity|NLP · Tokenization · Measures of Similarity]] — В отчёте отдельно изучается токенизация.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Определения nDCG, MAP и MRR.

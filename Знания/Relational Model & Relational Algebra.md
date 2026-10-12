@@ -249,3 +249,8 @@ $$R \cap S$$
 >[!note] Derivation
 >$$R \cap S = R - (R - S)$$
 
+## Связанные материалы
+
+- [[Знания/Базы данных|Базы данных]] — Оглавление курса баз данных.
+- [[Знания/From ERD to Relational Model|From ERD to Relational Model]] — Получение реляционной схемы из ER-модели.
+- [[Знания/Query Processing & Optimization|Query Processing & Optimization]] — Использование реляционной алгебры при обработке запросов.

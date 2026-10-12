@@ -80,3 +80,8 @@ void main() {
 	pf(1);// call to f!	
 }
 ```
+
+## Связанные материалы
+
+- [[Знания/The C language|The C language]] — Оглавление курса C.
+- [[Знания/Pointers. Arrays|Pointers. Arrays]] — Продолжение темы указателей и их применения к массивам.

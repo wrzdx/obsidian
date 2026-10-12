@@ -158,4 +158,7 @@ flexGrow=1
 ```
 ````
 
+## Связанные материалы
 
+- [[Знания/Web Cookies and Caching|Web Cookies and Caching]] — Продолжение HTTP: cookies, persistent connections и cache.
+- [[Знания/Client-Server and Peer-to-Peer Applications. Networks Calculus|Client-Server and Peer-to-Peer Applications. Networks Calculus]] — Архитектура взаимодействия клиента и сервера.

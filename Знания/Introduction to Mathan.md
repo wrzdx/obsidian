@@ -12,7 +12,7 @@ tags:
 
 - [Basics of naive Set Theory.](Basics%20of%20naive%20Set%20Theory.md)
 - [Natural Numbers](Natural%20Numbers.md)
-- [Relations, Functions, Operations](Relations%2C%20Functions%2C%20Operations.md)
+- [[Знания/Relations, Functions, Operations|Relations, Functions, Operations]]
 - [Number Systems. Axiomatic approaches.](Number%20Systems.%20Axiomatic%20approaches.md)
 
 **Some notes:**

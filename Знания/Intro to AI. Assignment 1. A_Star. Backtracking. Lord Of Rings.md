@@ -67,3 +67,6 @@ An interesting outcome worth highlighting is that while backtracking demonstrate
 > *(0, 6)* is safe, and he can switch the ring further.
 > ![450](../Library/Pasted%20image%2020251106082612.png)
 
+## Связанные материалы
+
+- [[Library/EvgeniiKhovalyg.pdf|EvgeniiKhovalyg]] — PDF того же отчёта: A*, backtracking, кольцо, PEAS и статистика испытаний.

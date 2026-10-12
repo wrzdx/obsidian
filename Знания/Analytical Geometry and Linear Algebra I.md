@@ -20,3 +20,8 @@ tags:
 - [Midterm 2 - AGLA](Midterm%202%20-%20AGLA.md)
 - [Pre-Final AGLA 2024](Pre-Final%20AGLA%202024.md)
 
+## Связанные материалы
+
+- [[Library/Math/Analytical Geometry_ 2D and 3D - P. R. Vittal.pdf|Analytical Geometry_ 2D and 3D - P. R. Vittal]] — Учебник по аналитической геометрии 2D и 3D.
+- [[Library/Math/Konev eng.pdf|Konev eng]] — Учебник по линейной и векторной алгебре и аналитической геометрии.
+- [[Library/Math/Linear Algebra and Applications.pdf|Linear Algebra and Applications]] — Учебник Gilbert Strang по линейной алгебре.

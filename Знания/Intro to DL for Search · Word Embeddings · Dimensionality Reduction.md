@@ -161,3 +161,8 @@ $$\vec{v}_{\text{king}} - \vec{v}_{\text{man}} + \vec{v}_{\text{woman}} \approx 
 * Аналогично страдают слова *Apple* (фрукт / корпорация), *Python* (змея / язык программирования).
 
 **Вывод:** Чтобы полностью победить Гремлина, вектор слова должен динамически меняться в зависимости от контекста предложения. Это открывает дорогу к концепту **контекстных эмбеддингов** (BERT, Трансформеры), которые рассматриваются в Глава 06.
+
+## Связанные материалы
+
+- [[Знания/Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention|Dense & Contextual Embeddings · Contrastive Learning · Transformers & Attention]] — Продолжение темы полисемии: контекстные эмбеддинги.
+- [[Знания/Dimensionality Reduction|Dimensionality Reduction]] — PCA и t-SNE также разбираются в конспекте машинного обучения.

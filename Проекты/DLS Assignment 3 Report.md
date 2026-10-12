@@ -248,3 +248,10 @@ Quality is first limited by chunk reachability: the selected chunking exposes on
 BM25 remains the strongest document retriever for this enterprise subset because exact names and identifiers carry unusually high signal. Multi-query provides a small context-recall gain over plain dense retrieval but sacrifices ranking precision; HyDE is useful mainly on `high_level` questions. Dense similarity is also poorly calibrated for abstention.
 
 Document retrieval, fact coverage, abstention, and judge behaviour therefore need separate evaluation. Optimizing one combined score would conceal where an error entered the pipeline and would invite overfitting to an unaudited judge.
+
+## Связанные материалы
+
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — Dense retrieval и каскад поиска для RAG.
+- [[Знания/Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion|Classical IR (TF-IDF, BM25, inverted index) · Full-text Ranking & Rank Fusion]] — Лексическая ветка BM25.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Recall и метрики ранжирования в оценке retrieval.
+- [[Проекты/DLS Lab3 Report|DLS Lab3 Report]] — Связанный эксперимент с dense-векторами на EnterpriseRAG-Bench.

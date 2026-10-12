@@ -127,3 +127,6 @@ BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ;
 SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 ```
 
+## Связанные материалы
+
+- [[Знания/Базы данных|Базы данных]] — Оглавление курса баз данных.

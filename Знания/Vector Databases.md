@@ -32,3 +32,8 @@ Embeddings are made by an *embedding model*, a trained neural network that takes
 - Recommendation systems
 - Fraud detection or anomaly matching in feature space
 
+## Связанные материалы
+
+- [[Знания/Intro to DL for Search · Word Embeddings · Dimensionality Reduction|Intro to DL for Search · Word Embeddings · Dimensionality Reduction]] — Получение эмбеддингов для хранения в векторной базе.
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — Би-энкодеры для поиска по векторам.
+- [[Знания/Nearest Neighbor Methods|Nearest Neighbor Methods]] — Поиск ближайших соседей лежит в основе поиска по векторам.

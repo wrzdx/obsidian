@@ -52,3 +52,8 @@ tags:
 - $2\times y +3$ where $y\in \mathbb{R}$ that depends on a *parameter* $y$, but not a function;
 - $\lambda y \in \mathbb{R}.\ (2\times y + 3)$ is a (nameless) function with variable $y$ on real numbers that maps every real value $r\in R$ to real number $(2\times r +3)\in \mathbb{R}$;
 - $f = \lambda y \in \mathbb{R}.\ (2\times y + 3)$ is equality between two functions (anonymous function $\lambda y \in \mathbb{R}.\ (2\times y +3$) has got name $f$.
+
+## Связанные материалы
+
+- [[Знания/Introduction to Mathan|Introduction to Mathan]] — Раздел математического анализа, в котором находится конспект.
+- [[Знания/Basics of naive Set Theory|Basics of naive Set Theory]] — Множества и декартовы произведения, на которых задаются отношения.

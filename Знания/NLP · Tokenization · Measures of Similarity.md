@@ -167,3 +167,8 @@ $$\cos\theta = \frac{a \cdot b}{||a|| ||b||} = \frac{\sum_i a_i b_i}{\sqrt{\sum_
 $$||x - y||^2 = 2(1 - \cos\theta)$$
 
 > ✨ **Практический хак поисковых движков:** Реальные векторные базы данных (Pinecone, FAISS, Qdrant) сначала **$L_2$-нормируют** эмбеддинги (выталкивают их на единичную сферу), а затем считают простое **скалярное произведение** (Dot Product). Это дает ранжирование косинуса на молниеносной скорости умножения матриц.
+
+## Связанные материалы
+
+- [[Знания/Intro to DL for Search · Word Embeddings · Dimensionality Reduction|Intro to DL for Search · Word Embeddings · Dimensionality Reduction]] — Переход от токенов к смысловым векторам.
+- [[Знания/The Dot product and its properties|The Dot product and its properties]] — Математическая основа скалярного произведения и косинусной близости.

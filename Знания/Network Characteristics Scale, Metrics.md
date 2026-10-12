@@ -136,3 +136,7 @@ Protocols define:
 | **POP:** Post Office Protocol                   | Emails reading                |
 | **IMAP**: Internet Message Access Protocol      | Emails reading                |
 | **MIME**: Multipurpose Internet Mail Extensions | Email attachments support     |
+
+## Связанные материалы
+
+- [[Знания/OSI and TCP Reference Models. Introduction to Transport Layer Protocols|OSI and TCP Reference Models. Introduction to Transport Layer Protocols]] — Подробное сравнение моделей OSI и TCP/IP.

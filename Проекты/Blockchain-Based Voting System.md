@@ -245,3 +245,8 @@ Possible improvements:
 ## Conclusion
 
 This project demonstrates a complete blockchain-based voting workflow for an academic setting. Votes are submitted through a web interface, validated by distributed nodes, committed into hash-linked blocks, and verified later using Merkle proofs. The result is a coherent example of how blockchain principles can be used to support integrity, transparency, and privacy in a voting application.
+
+## Связанные материалы
+
+- [[Проекты/Merkle Tree Diagram|Merkle Tree Diagram]] — Схема Merkle proofs, используемых в системе голосования.
+- [[Знания/A distributed system is…|A distributed system is…]] — Несколько узлов валидируют и реплицируют ledger.

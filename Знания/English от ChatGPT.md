@@ -112,3 +112,7 @@
 ---
 
 > 💡 **Совет**: Отмечайте свои достижения и прогресс в каждом спринте, чтобы поддерживать мотивацию!
+
+## Связанные материалы
+
+- [[Library/English/American_English_File_2_-_Student_39_s_Book.pdf|American_English_File_2_-_Student_39_s_Book]] — Учебник American English File 2 для практики английского.

@@ -308,3 +308,10 @@ GBM — стандартная модель для финансовых врем
 - Использовать ColBERT или晚期交互 для лучшего текстового поиска.
 - Обучить CRAG-агент с LLM для более умной обработки ограничений.
 - Добавить real-time feedback loop: если пользователь кликает на результат — обновляем веса.
+
+## Связанные материалы
+
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — TextBiEncoder и многостадийный pipeline проекта.
+- [[Знания/Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank|Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank]] — RRF и LambdaMART в поисковом pipeline.
+- [[Знания/Vector Databases|Vector Databases]] — Плотные индексы и FAISS в проекте.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Метрики качества экспериментального pipeline.

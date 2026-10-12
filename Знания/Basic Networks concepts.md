@@ -191,3 +191,8 @@ Route data packets across a network, boost signal intensity, etc.
 ![](../Library/Pasted%20image%2020260329124707.png)
 
 - Different data packets may take different routes, for the same pair of hosts, possibly within a same session
+
+## Связанные материалы
+
+- [[Знания/Data Communication and Networks|Data Communication and Networks]] — Другой конспект о компонентах связи и топологии.
+- [[Знания/Network Characteristics Scale, Metrics|Network Characteristics Scale, Metrics]] — Классификация, топология и характеристики сетей.

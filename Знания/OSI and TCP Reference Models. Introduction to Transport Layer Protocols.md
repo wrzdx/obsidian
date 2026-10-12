@@ -75,3 +75,9 @@ flexGrow=1
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Application <br>Examples  | • Web page download; <br>• Large file download; <br>• Emails exchange                                                | • Real-time streaming video and audio applications; <br>• DNS query resolution                                                                  |
 | Brief <br>Characteristics | • Connection-oriented communication; <br>• Reliable, in-order delivery; <br>• Congestion control; <br>• Flow control | • Connectionless communication; <br>• Unreliable, unordered delivery; <br>• No guarantee on a successful delivery; <br>• “Best-effort” services |
+
+## Связанные материалы
+
+- [[Знания/OSI Model and Cloud Services|OSI Model and Cloud Services]] — Другой конспект о тех же уровнях OSI и TCP/IP.
+- [[Знания/Data Encapsulation|Data Encapsulation]] — Иллюстрации инкапсуляции данных по уровням.
+- [[Знания/TCP and UDP Protocols|TCP and UDP Protocols]] — Подробности транспортного уровня TCP и UDP.

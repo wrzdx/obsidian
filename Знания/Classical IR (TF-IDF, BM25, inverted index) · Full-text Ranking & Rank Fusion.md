@@ -154,3 +154,9 @@ $$RRF(d) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
 
 * Где $M$ — множество ранкеров, $r_m(d)$ — ранг (место) документа $d$ в списке ранкера $m$.
 * **Константа $k \approx 60$** — сглаживающий параметр. Он мягко дисконтирует вклад по мере спуска (на 1 месте вклад $\frac{1}{61}$, на втором $\frac{1}{62}$), не позволяя случайному первому месту у одного из ранкеров полностью узурпировать финальный топ.
+
+## Связанные материалы
+
+- [[Знания/NLP · Tokenization · Measures of Similarity|NLP · Tokenization · Measures of Similarity]] — Токенизация перед построением инвертированного индекса.
+- [[Знания/Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)|Ranking Metrics (Recall@k, Precision@k, MRR, MAP, nDCG)]] — Метрики сравнения TF-IDF и BM25.
+- [[Знания/Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank|Late Interaction (ColBERT) · SPLADE · Hybrid · Learning to Rank]] — Продолжение темы слияния ранжирований: гибридный поиск и LTR.

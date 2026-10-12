@@ -219,3 +219,7 @@ $$\text{output} = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V$$
         
 
 Вывод: Любой орган чувств можно токенизировать, вложить в вектор, применить самовнимание и получить пространство, где близость означает связанность[cite: 2]. Лексический гремлин полисемии и синонимии окончательно пойман в клетку[cite: 2].
+
+## Связанные материалы
+
+- [[Знания/Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines|Bi-encoders (DPR, SBERT) · Cross-encoders & Reranking · Multi-stage Pipelines]] — Использование контекстных моделей в поисковых энкодерах.
